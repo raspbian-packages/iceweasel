@@ -4372,7 +4372,11 @@ pref("dom.mapped_arraybuffer.enabled", false);
 
 // The tables used for Safebrowsing phishing and malware checks.
 pref("urlclassifier.malwareTable", "goog-malware-shavar,test-malware-simple");
+#ifdef MOZ_OFFICIAL_BRANDING
 pref("urlclassifier.phishTable", "goog-phish-shavar,test-phish-simple");
+#else
+pref("urlclassifier.phishTable", "googpub-phish-shavar,test-phish-simple");
+#endif
 pref("urlclassifier.downloadBlockTable", "");
 pref("urlclassifier.downloadAllowTable", "");
 pref("urlclassifier.disallow_completions", "test-malware-simple,test-phish-simple,goog-downloadwhite-digest256,mozpub-track-digest256");
