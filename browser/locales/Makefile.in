@@ -88,6 +88,8 @@ SEARCHPLUGINS := $(foreach plugin,$(addsuffix .xml,$(SEARCHPLUGINS_NAMES)),$(or 
 SEARCHPLUGINS_FLAGS := --silence-missing-directive-warnings
 PP_TARGETS += SEARCHPLUGINS
 
+DEFINES += -DMOZ_APP_NAME=$(MOZ_APP_NAME)
+
 # Required for l10n.mk - defines a list of app sub dirs that should
 # be included in langpack xpis.
 ifdef MOZ_METRO
