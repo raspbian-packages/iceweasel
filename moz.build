@@ -73,4 +73,6 @@ if not CONFIG['JS_STANDALONE']:
 if not CONFIG['LIBXUL_SDK']:
     DIRS += ['debian/extra-stuff']
 
+CONFIGURE_SUBST_FILES += ['debian/installer/Makefile']
+
 include('build/templates.mozbuild')
