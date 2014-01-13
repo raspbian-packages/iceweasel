@@ -100,7 +100,7 @@ ifneq ($(OS_TARGET),Android)
 LIBC_TAG		= _glibc
 endif
 
-ifeq ($(OS_RELEASE),2.0)
+ifeq ($(KERNEL)-$(OS_RELEASE),linux-2.0)
 	OS_REL_CFLAGS	+= -DLINUX2_0
 	MKSHLIB		= $(CC) -shared -Wl,-soname -Wl,$(@:$(OBJDIR)/%.so=%.so) $(RPATH)
 	ifdef MAPFILE
@@ -130,14 +130,26 @@ ifeq ($(USE_PTHREADS),1)
 OS_PTHREAD = -lpthread 
 endif
 
-OS_CFLAGS		= $(DSO_CFLAGS) $(OS_REL_CFLAGS) $(ARCHFLAG) -Wall -Werror-implicit-function-declaration -Wno-switch -pipe -ffunction-sections -fdata-sections -DLINUX -Dlinux -DHAVE_STRERROR
+# See bug 537829, in particular comment 23.
+# Place -ansi and *_SOURCE before $(DSO_CFLAGS) so DSO_CFLAGS can override
+# -ansi on platforms like Android where the system headers are C99 and do
+# not build with -ansi.
+STANDARDS_CFLAGS	= -D_POSIX_SOURCE -D_BSD_SOURCE -D_XOPEN_SOURCE
+OS_CFLAGS		= $(STANDARDS_CFLAGS) $(DSO_CFLAGS) $(OS_REL_CFLAGS) $(ARCHFLAG) -Wall -Werror-implicit-function-declaration -Wno-switch -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR
+ifeq ($(KERNEL),linux)
+OS_CFLAGS		+= -DLINUX -Dlinux
+endif
 OS_LIBS			= $(OS_PTHREAD) -ldl -lc
 
 ifdef USE_PTHREADS
 	DEFINES		+= -D_REENTRANT
 endif
 
-ARCH			= linux
+ifeq ($(KERNEL),linux)
+	ARCH		= linux
+else
+	ARCH		= gnu
+endif
 
 DSO_CFLAGS		= -fPIC
 DSO_LDOPTS		= -shared $(ARCHFLAG) -Wl,--gc-sections
@@ -154,7 +166,7 @@ ifdef _SBOX_DIR
 LDFLAGS			+= -Wl,-rpath-link,/usr/lib:/lib
 endif
 
-# INCLUDES += -I/usr/include -Y/usr/include/linux
+# INCLUDES += -I/usr/include
 G++INCLUDES		= -I/usr/include/g++
 
 #
@@ -189,7 +201,9 @@ RPATH = -Wl,-rpath,'$$ORIGIN:/opt/sun/private/lib'
 endif
 endif
 
+ifeq ($(KERNEL), linux)
 OS_REL_CFLAGS   += -DLINUX2_1
+endif
 MKSHLIB         = $(CC) $(DSO_LDOPTS) -Wl,-soname -Wl,$(@:$(OBJDIR)/%.so=%.so) $(RPATH)
 
 ifdef MAPFILE
