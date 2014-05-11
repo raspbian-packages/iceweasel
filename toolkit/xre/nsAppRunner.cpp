@@ -4094,7 +4094,7 @@ XREMain::XRE_mainRun()
         if (gDoProfileReset) {
           // Automatically migrate from the current application if we just
           // reset the profile.
-          aKey = MOZ_APP_NAME;
+          aKey = "firefox";
         }
         pm->Migrate(&mDirProvider, aKey);
       }
