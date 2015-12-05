@@ -666,7 +666,8 @@ function isUsableAddon(aAddon) {
     return false;
   }
 
-  if (aAddon._installLocation.name != KEY_APP_SYSTEM_DEFAULTS && mustSign(aAddon.type)) {
+  if (aAddon._installLocation.scope != AddonManager.SCOPE_SYSTEM &&
+      aAddon._installLocation.name != KEY_APP_SYSTEM_DEFAULTS && mustSign(aAddon.type)) {
     if (aAddon.signedState <= AddonManager.SIGNEDSTATE_MISSING)
       return false;
     if (aAddon.foreignInstall && aAddon.signedState < AddonManager.SIGNEDSTATE_SIGNED)
