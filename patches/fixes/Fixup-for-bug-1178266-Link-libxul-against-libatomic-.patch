@@ -1,0 +1,21 @@
+From: Mike Hommey <mh@glandium.org>
+Date: Mon, 5 Oct 2015 07:28:34 +0900
+Subject: Fixup for bug 1178266 - Link libxul against libatomic when necessary
+
+---
+ toolkit/library/moz.build | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/toolkit/library/moz.build b/toolkit/library/moz.build
+index 642b587..03d81c4 100644
+--- a/toolkit/library/moz.build
++++ b/toolkit/library/moz.build
+@@ -55,6 +55,8 @@ def Libxul(name):
+     if not CONFIG['JS_SHARED_LIBRARY']:
+         LIBRARY_DEFINES['STATIC_EXPORTABLE_JS_API'] = True
+ 
++    if CONFIG['MOZ_NEEDS_LIBATOMIC']:
++        OS_LIBS += ['atomic']
+ 
+ Libxul('xul')
+ 

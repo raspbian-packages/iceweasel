@@ -1,0 +1,44 @@
+# Branding Makefile
+#  - jars chrome artwork
+
+DEPTH = ../../..
+topsrcdir = @top_srcdir@
+srcdir = @srcdir@
+VPATH = @srcdir@
+
+include $(DEPTH)/config/autoconf.mk
+
+UNOFFICIAL_BRANDING_FILES = \
+	identity-icons-brand.svg \
+	silhouette-40.svg \
+	$(NULL)
+
+libs:: about-logo.png about-logo@2x.png about-wordmark.svg about.png icon16.png icon48.png icon64.png $(UNOFFICIAL_BRANDING_FILES)
+GARBAGE += $(CHROME_DEPS)
+
+include $(topsrcdir)/config/rules.mk
+
+about.png: %.png: ../iceweasel_logo.png %-base.png
+	composite -compose src-over -gravity center -geometry +0-26 $^ - | \
+	convert - -define png:exclude-chunk=time +set date:create +set date:modify $@
+
+about-logo.png: ../iceweasel_icon.svg
+	rsvg-convert -w 210 -h 210 -o $@ $<
+
+about-logo@2x.png: ../iceweasel_icon.svg
+	rsvg-convert -w 420 -h 420 -o $@ $<
+
+about-wordmark.svg: wordmark.xsl ../iceweasel_logo.svg
+	xsltproc -o $@ $^
+
+icon64.png: ../default64.png
+icon48.png: ../default48.png
+icon16.png: ../default16.png
+icon%.png:
+	cp -f $^ $@
+
+../%.png:
+	$(MAKE) -C .. $(notdir $@)
+
+$(UNOFFICIAL_BRANDING_FILES): %: $(topsrcdir)/browser/branding/unofficial/content/%
+	cp -f $^ $@
