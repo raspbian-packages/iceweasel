@@ -1,0 +1,76 @@
+usr/lib/@browser@/platform.ini
+
+usr/lib/@browser@/libxul.so
+usr/lib/@browser@/dependentlibs.list
+
+usr/lib/@browser@/plugin-container
+
+usr/lib/@browser@/components/*.manifest
+usr/lib/@browser@/components/libmozgnome.so
+
+usr/lib/@browser@/chrome.manifest
+usr/lib/@browser@/omni.ja
+
+%if LESS_SYSTEM_LIBS
+usr/lib/@browser@/libfreebl3.chk
+usr/lib/@browser@/libfreebl3.so
+usr/lib/@browser@/libmozsqlite3.so
+usr/lib/@browser@/libnspr4.so
+usr/lib/@browser@/libnss3.so
+usr/lib/@browser@/libnssckbi.so
+usr/lib/@browser@/libnssdbm3.so
+usr/lib/@browser@/libnssutil3.so
+usr/lib/@browser@/libnssdbm3.chk
+usr/lib/@browser@/libplc4.so
+usr/lib/@browser@/libplds4.so
+usr/lib/@browser@/libsmime3.so
+usr/lib/@browser@/libsoftokn3.chk
+usr/lib/@browser@/libsoftokn3.so
+usr/lib/@browser@/libssl3.so
+%endif
+
+%if SHORT_SOURCE_CHANNEL == central
+usr/lib/@browser@/libreplace_jemalloc.so
+%endif
+
+%if GTK3
+usr/lib/@browser@/libmozgtk.so
+usr/lib/@browser@/gtk2/libmozgtk.so
+%endif
+usr/lib/@browser@/liblgpllibs.so
+
+usr/lib/@browser@/defaults/pref/channel-prefs.js
+
+usr/lib/@browser@/@browser@ usr/lib/@browser@
+usr/lib/@browser@/browser/components usr/lib/@browser@/browser
+
+usr/lib/@browser@/browser/defaults/preferences usr/share/@browser@/browser/defaults
+usr/lib/@browser@/browser/icons usr/share/@browser@/browser
+usr/lib/@browser@/browser/chrome usr/share/@browser@/browser
+
+usr/lib/@browser@/application.ini usr/lib/@browser@
+usr/lib/@browser@/browser/blocklist.xml usr/lib/@browser@/browser
+usr/lib/@browser@/browser/omni.ja usr/lib/@browser@/browser
+
+usr/lib/@browser@/browser/defaults/profile etc/@browser@/
+
+debian/@browser@.desktop usr/share/applications
+debian/@browser@.xpm usr/share/pixmaps
+
+build-browser/dist/bin/browser/icons/mozicon128.png usr/share/@browser@/browser/icons/
+
+debian/@browser@.js etc/@browser@/pref
+debian/vendor.js usr/share/@browser@/browser/defaults/preferences
+
+debian/debsearch.xml etc/@browser@/searchplugins/common
+
+usr/lib/@browser@/browser/extensions/\{972ce4c6-7e08-4474-a285-3208198ce6fd\} usr/lib/@browser@/browser/extensions
+
+%if browser != OFFICIAL_NAME
+debian/firefox usr/bin
+%endif
+
+usr/lib/@browser@/browser/chrome.manifest
+
+usr/lib/@browser@/webapprt-stub
+usr/lib/@browser@/webapprt usr/share/@browser@

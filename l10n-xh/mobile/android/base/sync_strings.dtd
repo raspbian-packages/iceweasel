@@ -1,0 +1,272 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- Don't localize these. They're here until they have
+     a better place to live. -->
+
+<!ENTITY syncBrand.fullName.label "Ungqamaniso lweFirefox">
+<!ENTITY syncBrand.shortName.label "Ungqamaniso">
+<!-- Main titles. -->
+
+<!ENTITY sync.app.name.label "I-&syncBrand.fullName.label;">
+<!ENTITY sync.title.connect.label "Nxibelelana kwi-&syncBrand.shortName.label;">
+<!ENTITY sync.title.adddevice.label "Yongeza i-&syncBrand.fullName.label; Account">
+<!ENTITY sync.title.pair.label "Hambisa ngambini iSixhobo">
+<!-- J-PAKE Key Screen -->
+
+<!ENTITY sync.subtitle.connect.label "Ukusenza sisebenze isixhobo sakho esitsha, khetha “Useto &syncBrand.shortName.label;” kwisixhobo.">
+<!ENTITY sync.subtitle.header2.label "Ngenisa le khowudi kwesinye isixhobo sakho">
+<!ENTITY sync.subtitle.connectlocation2.label "Khetha “&sync.title.pair.label;” kwicandelo le-&syncBrand.shortName.label; lendlela yokhetho yesinye isixhobo sakho se-Firefox.">
+<!ENTITY sync.subtitle.pair.label "Ukuvuselela, khetha “Hambisa ngambini isixhobo” kwesinye isixhobo sakho.">
+<!ENTITY sync.pin.default.label "...\n...\n...\n">
+<!ENTITY sync.pin.oneline.label "...">
+<!ENTITY sync.link.show.label "Ndibonise ukuba kanjani na.">
+<!ENTITY sync.link.advancedsetup.label "Useto oluphezulu…">
+<!ENTITY sync.link.nodevice.label "Andinaso isixhobo kum…">
+<!-- J-PAKE Waiting Screen -->
+
+<!ENTITY sync.jpake.subtitle.waiting.label "Ilindele esinye isixhobo…">
+<!-- Account Login Screen -->
+
+<!ENTITY sync.subtitle.account.label "Ngenisa inkcazelo yeakhawunti yakho ye-&syncBrand.fullName.label;">
+<!ENTITY sync.input.username.label "Igama Leakhawunti">
+<!ENTITY sync.input.password.label "Ipasiwedi">
+<!ENTITY sync.input.key.label "IQhosha lokuFumana">
+<!ENTITY sync.checkbox.server.label "Sebenzisa iseva yekhastom">
+<!ENTITY sync.input.server.label "Iseva URL">
+<!-- Setup Fail -->
+
+<!ENTITY sync.title.fail.label "Ayinakuseta i-&syncBrand.shortName.label;">
+<!ENTITY sync.subtitle.fail.label "I-&syncBrand.fullName.label; ayikwazanga ukunxibelela kwiseva. Ungathanda ukuzama kwakhona?">
+<!ENTITY sync.button.tryagain.label "Zama kwakhona">
+<!ENTITY sync.button.manual.label "Useto lweManyuwali">
+<!ENTITY sync.subtitle.nointernet.label "Alufumaneki unxibelelwano lweintanethi.">
+<!ENTITY sync.subtitle.failaccount.label "Uyilo lweakhawunti kwisixhobo sakho aluphumelelanga.">
+<!ENTITY sync.subtitle.failmultiple.label "Ingaba une-Firefox engaphaya kwenye efakelweyo? Ngokunje, i-&syncBrand.fullName.label; ixhasa kuphela ufakelo lwe-Firefox enye ngexesha. Nceda ukhuphe ufakelo lwezinye iimeko usebenzise i-&syncBrand.shortName.label;.">
+<!-- Setup Success -->
+
+<!ENTITY sync.title.success.label "Useto lugqityiwe">
+<!ENTITY sync.subtitle.success.label1 "Iingcombolo zakho ziyakhutshelwa ngoku ngemva. Ungaya kwiisetingi ukulawula iakhawunti yakho okanye uqalise ukubhrawuza kwi-&brandShortName;.">
+<!ENTITY sync.settings.label "Iisetingi">
+<!ENTITY sync.subtitle.manage.label1 "I-akhawunti yakho ye-&syncBrand.fullName.label; sele isetiwe. Ungaya kwiiSetingi ukulawula iakhawunti yakho, okanye ukulontsha i-&brandShortName;.">
+<!-- Pair Device -->
+
+<!ENTITY sync.pair.tryagain.label "Nceda uzame kwakhona.">
+<!ENTITY sync.pair.connectlocation.label "Ukuvuselela isixhobo sakho esitsha, khetha “Seta i-&syncBrand.shortName.label;” kwisixhobo, uze ukhethe “Ndinayo iAkhawunti.”">
+<!-- Firefox SyncAdapter Settings Screen -->
+
+<!ENTITY sync.settings.options.label "Iindlela zokhetho">
+<!ENTITY sync.summary.pair.label "Dibanisa esinye isixhobo kwiakhawunti yakho ye-&syncBrand.shortName.label;">
+<!-- Configure Engines -->
+
+<!ENTITY sync.configure.engines.title.label "Into emayingqanyaniswe">
+<!ENTITY sync.configure.engines.sync.my.title.label "Ngqamanisa .... yakho">
+<!ENTITY sync.configure.engines.title.bookmarks "Izalathisi eziphawulayo">
+<!ENTITY sync.configure.engines.title.passwords2 "Izinto zokungena ekhompyutheni">
+<!ENTITY sync.configure.engines.title.history "Imbali">
+<!ENTITY sync.configure.engines.title.tabs "Iithebhu">
+<!-- Common text -->
+
+<!ENTITY sync.button.cancel.label "Rhoxisa">
+<!ENTITY sync.button.connect.label "Nxibelelanisa">
+<!ENTITY sync.button.ok.label "Kulungile">
+<!-- Account strings -->
+
+<!ENTITY sync.account.label "&syncBrand.fullName.label; (kwaliwe)">
+<!-- Localization note (sync.default.client.name): Default string of the "Device
+     name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
+     will be replaced by the name of the Firefox release channel and &formatS2
+     by the model name of the Android device. Examples look like "Aurora on
+     GT-I1950" and "Fennec on MI 2S". -->
+
+<!ENTITY sync.default.client.name "&formatS1; kwi &formatS2;">
+<!-- Bookmark folder strings -->
+
+<!ENTITY bookmarks.folder.menu.label "Imenyu yezalathisi eziphawulayo">
+<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.tags.label "Iithegi">
+<!ENTITY bookmarks.folder.toolbar.label "Isixwexwe Sezixhobo Zezalathisi Eziphawulayo">
+<!ENTITY bookmarks.folder.unfiled.label "IZalathisi eziphawulayo ezingalungiswanga">
+<!ENTITY bookmarks.folder.desktop.label "IZalathisi eziphawulayo zedesktop">
+<!ENTITY bookmarks.folder.mobile.label "IZalathisi eziphawulayo zemobhayile">
+<!ENTITY bookmarks.folder.readinglist.label "ULuhlu lokufunda">
+<!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
+<!ENTITY bookmarks.folder.pinned.label "Okuqhotyoshelweyo">
+<!-- Notification strings -->
+
+<!ENTITY sync.notification.oneaccount.label "Inye kuphela iakhawunti ye-&syncBrand.fullName.label; exhasiweyo.">
+<!ENTITY sync.notification.configure.saved "Ukhetho lwakho lugciniwe.">
+<!-- Incorrect settings and changing credentials. -->
+
+<!ENTITY sync.invalidcreds.label "Igama leakhawunti okanye ipasiwedi engeyiyo.">
+<!ENTITY sync.invalidserver.label "Nceda ungenise iseva URL esebenzayo">
+<!ENTITY sync.verifying.label "Iyaqinisekisa…">
+<!ENTITY sync.new.recoverykey.status.incorrect "IQhosha lokuFumana alichanekanga. Nceda uzame kwakhona.">
+<!-- Send tab to device. -->
+
+<!ENTITY sync.title.send.tab.label "Thumela iThebhu kwiZixhobo">
+<!ENTITY sync.button.send.label "Thumela">
+<!ENTITY sync.button.set.up.sync.label "Seta i-&syncBrand.shortName.label;">
+<!ENTITY sync.title.redirect.to.set.up.sync.label "Seta i-&syncBrand.shortName.label; ukuthumela iithebhu">
+<!ENTITY sync.text.redirect.to.set.up.sync.label "Seta i-&syncBrand.fullName.label; kwisixhobo sakho ukuthumela iithebhu kwezinye izixhobo.">
+<!ENTITY sync.text.tab.sent.label "Ithebhu yakho ithunyelwe!">
+<!ENTITY sync.text.tab.not.sent.label "Kubekho ingxaki ekuthumeleni ithebhu yakho.">
+<!-- Firefox Account strings. -->
+
+
+<!ENTITY fxaccount_full_label "Iiakhawunti zeFirefox">
+
+<!ENTITY fxaccount_custom_server_account_title "Ukusebenzisa iakhawunti kwiseva">
+<!ENTITY fxaccount_custom_server_sync_title "Ukugcina ingcombolo yongqamaniso kwiseva">
+<!-- Localization note: these are shown in all screens that query the
+     user for an email address and password. Hide and show are button
+     labels. -->
+
+<!ENTITY fxaccount_email_hint "I-imeyili">
+<!ENTITY fxaccount_password_hint "Ipasiwedi">
+<!ENTITY fxaccount_password_hide "Fihla">
+<!ENTITY fxaccount_password_show "Bonisa">
+<!-- Localization note: these are shown in screens after the user has
+     created or signed in to an account, and take the user back to
+     Firefox. -->
+
+<!ENTITY fxaccount_back_to_browsing "Buyela ekubhrawuzeni">
+<!-- Localization note: the following two strings are interpolated
+     into fxaccount_create_account_policy_text2; see note for that
+     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+
+<!ENTITY fxaccount_policy_linktos "Imiqathango yenkonzo">
+<!ENTITY fxaccount_policy_linkprivacy "Isaziso sabucala">
+
+<!ENTITY fxaccount_getting_started_welcome_to_sync "Wamkelekile kwi-&syncBrand.shortName.label;">
+<!ENTITY fxaccount_getting_started_description2 "Sayina ungene ukuze ungqamanise iithebhu, iibhukhmakhi, iilogini nokunye kwakho.">
+<!ENTITY fxaccount_getting_started_get_started "Qalisa">
+<!ENTITY fxaccount_getting_started_old_firefox "Usebenzisa uhlelo oludadlala lwe-&syncBrand.shortName.label;?">
+<!-- Localization note: the Firefox below should not change with the
+     particular version of Firefox installed (Release, Beta, Aurora,
+     etc).  The account remains a "Firefox Account". -->
+
+<!ENTITY fxaccount_create_account_header2 "Yila iakhawunti yeFirefox">
+<!ENTITY fxaccount_create_account_password_length_restriction "Ubuncinane ifanele ibe noonobumba abasi-8">
+<!ENTITY fxaccount_create_account_day_of_birth "Usuku">
+<!ENTITY fxaccount_create_account_month_of_birth "Inyanga">
+<!ENTITY fxaccount_create_account_year_of_birth "Unyaka wokuzalwa">
+<!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
+<!ENTITY fxaccount_create_account_policy_text2 "Ngokudlulela phambili, ndiyavumelana ne&formatS1; kunye no&formatS2; zeenkonzo zeklawudi yeFirefox.">
+<!ENTITY fxaccount_create_account_button "Okulandelayo">
+<!ENTITY fxaccount_create_account_choose_what_to_sync "Khetha into oza kuyingqamanisa">
+<!ENTITY fxaccount_create_account_sign_in_instead "Ingaba sele une-akhawunti? Ngena">
+<!ENTITY fxaccount_create_account_1990_or_earlier "Ngowe-1990 okanye ngaphambilana">
+<!ENTITY fxaccount_create_account_unknown_error "Ayikwazanga ukwenza i-akhawunti">
+
+<!ENTITY fxaccount_account_create_not_allowed "Ayikwazi ukwenza i-akhawunti">
+<!ENTITY fxaccount_account_create_not_allowed_you_must_meet_certain_age_requirements "Ufanele ube nobudala obuthile ukuze wenze i-akhawunti.">
+<!ENTITY fxaccount_account_create_not_allowed_learn_more "Funda okungakumbi">
+
+<!ENTITY fxaccount_confirm_account_header "Qinisekisa i-akhawunti yakho">
+<!-- Localization note: &formatS; is the Firefox Account's email address. -->
+<!ENTITY fxaccount_confirm_account_verification_link "Uthunyelelwe ikhonkco lokuqinisekisa kwi-&formatS;">
+<!ENTITY fxaccount_confirm_account_resend_email "Phinda uthumele i-imeyili">
+<!ENTITY fxaccount_confirm_account_change_email "Uyilibele idilesi ye imeyile?">
+<!ENTITY fxaccount_confirm_account_verification_link_sent2 "I-imeyili yokuqinisekisa ithunyelwe">
+<!ENTITY fxaccount_confirm_account_verification_link_not_sent2 "Ayikwazanga ukukuthumelela i-imeyili yokuqinisekisa">
+<!ENTITY fxaccount_resend_unlock_code_button_label "Phinda uthumele iimeyile ezitshixiweyo">
+<!ENTITY fxaccount_unlock_code_sent "I-akhawunti etshixiweyo yemeyile ithunyelwe">
+<!ENTITY fxaccount_unlock_code_not_sent "Ayithumelekanga i-akhawunti yemeyile etshixeweyo">
+
+<!ENTITY fxaccount_sign_in_sub_header "Ngena">
+<!ENTITY fxaccount_sign_in_button_label "Ngena">
+<!ENTITY fxaccount_sign_in_forgot_password "Ulibele ipasiwedi?">
+<!ENTITY fxaccount_sign_in_create_account_instead "Yenza i-akhawunti">
+<!ENTITY fxaccount_sign_in_unknown_error "Awukwazanga ukungena">
+
+<!ENTITY fxaccount_account_verified_sub_header "I-akhawunti iqinisekisiwe">
+<!ENTITY fxaccount_account_verified_description2 "Iingcombolo zakho ziza kuqalisa ukungqamaniswa ngokukhawuleza.">
+
+<!ENTITY fxaccount_migration_finished_header "Uphuhliso lugqityiwe">
+
+<!ENTITY fxaccount_update_credentials_header "Ngena">
+<!ENTITY fxaccount_update_credentials_button_label "Ngena">
+<!ENTITY fxaccount_update_credentials_unknown_error "Awukwazanga ukungena">
+
+<!ENTITY fxaccount_finish_migrating_header "Sayina ungene ukugqibezela uphuhliso">
+<!ENTITY fxaccount_finish_migrating_button_label "Ugqibile ukuphuhlisa">
+<!ENTITY fxaccount_finish_migrating_description "Uphuhliso lungathumela iinkcukacha ezininzi. Kungcono ukuba kwinethiwokhi eno-WiFi.">
+
+<!ENTITY fxaccount_status_header2 "I-akhawunti yeFirefox">
+<!ENTITY fxaccount_status_signed_in_as "Ungene njenge">
+<!ENTITY fxaccount_status_manage_account "Lawula iakhawunti">
+<!ENTITY fxaccount_status_auth_server "Iseva yeakhawunti">
+<!ENTITY fxaccount_status_sync_now "Ngqamanisa ngoku">
+<!ENTITY fxaccount_status_syncing2 "Iyangqamanisa...">
+<!ENTITY fxaccount_status_device_name "Igama lesixhobo">
+<!ENTITY fxaccount_status_sync_server "Iseva yongqamaniso">
+<!ENTITY fxaccount_status_sync "&syncBrand.shortName.label;">
+<!ENTITY fxaccount_status_sync_enabled "I-&syncBrand.shortName.label;: iyasebenza">
+<!ENTITY fxaccount_status_needs_verification2 "I-akhawunti yakho idinga ukuqinisekiswa. Cofa ukuze uphinde uthunyelelwe i-imeyili yokuqinisekisa.">
+<!ENTITY fxaccount_status_needs_credentials "Ayikwazi ukunxibelelana. Cofa ukuze ungene.">
+<!ENTITY fxaccount_status_needs_upgrade "Kufuneka uhlaziye i-&brandShortName; ukuze ungene.">
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled "I-&syncBrand.shortName.label; ifakelwe kodwa ayingqamani ngokuzenzekelayo. Sebenzisa njengeqhosha i-“Auto-sync data” kwi-Android Settings &gt; Usetyenziso lweengcombolo.">
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 "I-&syncBrand.shortName.label; ifakelwe kodwa ayingqamani ngokuzenzekelayo. Sebenzisa njengeqhosha i-“Auto-sync data” kwi-Android Settings &gt; Usetyenziso lweengcombolo.">
+<!ENTITY fxaccount_status_needs_finish_migrating "Cofa ukusayina ungene kwi-akhawunti yakho entsha ka-Firefox.">
+<!ENTITY fxaccount_status_bookmarks "Iibhukhmakhi">
+<!ENTITY fxaccount_status_history "Imbali">
+<!ENTITY fxaccount_status_passwords2 "IiLogini">
+<!ENTITY fxaccount_status_tabs "Vula iithebhu">
+<!ENTITY fxaccount_status_legal "Isemthethweni" >
+<!-- Localization note: when tapped, the following two strings link to
+     external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_status_linktos "Imiqathango yenkonzo">
+<!ENTITY fxaccount_status_linkprivacy "Isaziso sabucala">
+<!ENTITY fxaccount_status_more "Yongeza&ellipsis;">
+<!ENTITY fxaccount_remove_account "Disconnect&ellipsis;">
+
+<!ENTITY fxaccount_remove_account_dialog_title "Susa i-Akhawunti ye-Firefox?">
+<!ENTITY fxaccount_remove_account_dialog_message "I-&brandShortName; izakuyeka ukusynka ne-akhawunti yakho, kodwa ayizokucima ukubhrawuza kwakho">
+<!-- Localization note: format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_remove_account_toast "I-Akhawunti yeFirefox &formatS; isusiwe.">
+
+<!ENTITY fxaccount_enable_debug_mode "Vula IMowudi Yokususa Ibhagi">
+<!-- Localization note: this is the name shown by the Android system
+     itself for a Firefox Account. Don't localize this. -->
+
+<!ENTITY fxaccount_account_type_label "IFirefox">
+<!-- Localization note: these are shown by the Android system itself,
+     when the user navigates to the Android > Accounts > {Firefox
+     Account} Screen. The link takes the user to the Firefox Account
+     status activity, which lets them manage their Firefox
+     Account. -->
+
+<!ENTITY fxaccount_options_title "&syncBrand.shortName.label; Okukhethayo">
+<!ENTITY fxaccount_options_configure_title "Lungiselela i-&syncBrand.shortName.label;">
+<!-- Localization note: these error messages are shown after a request
+     has been made to the remote server, and an error of some type has
+     been returned. -->
+
+<!ENTITY fxaccount_remote_error_UPGRADE_REQUIRED "Udinga ukuhlaziya iFirefox">
+<!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
+
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_CREATE_AN_ACCOUNT_THAT_ALREADY_EXISTS_2 "Sele ikhona i-akhawunti. &formatS1;">
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST "I-imeyili okanye ipasiwedi engeyiyo">
+<!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD "I-imeyili okanye ipasiwedi engeyiyo">
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT "I-akhawunti ayiqinisekiswanga">
+<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS "Iseva ixakekile, phinda uzame kwakhona ngokukhawuleza">
+<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD "Iseva ixakekile, phinda uzame kwakhona ngokukhawuleza">
+<!ENTITY fxaccount_remote_error_UNKNOWN_ERROR "Bekukho ingxaki">
+<!ENTITY fxaccount_remote_error_COULD_NOT_CONNECT "Ayikwazi ukunxibelelana nenethiweki">
+<!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED "I-akhawunti itshixiwe. &formatS1;">
+
+<!ENTITY fxaccount_sync_sign_in_error_notification_title2 "I-&syncBrand.shortName.label; ayinxityelelaniswanga">
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_sign_in_error_notification_text2 "Cofa ukuze ungene njenge-&formatS;">
+
+<!ENTITY fxaccount_sync_finish_migrating_notification_title "Ugqibile ukuphuhlisa &syncBrand.shortName.label;?">
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_finish_migrating_notification_text "Cofa ukuze ungene njenge-&formatS;">

@@ -1,0 +1,1134 @@
+Source: iceweasel
+Section: web
+Priority: optional
+Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
+Uploaders: Mike Hommey <glandium@debian.org>
+Build-Depends: autotools-dev,
+               debhelper (>= 7.2.3),
+               autoconf2.13,
+               libx11-dev,
+               libxt-dev,
+               libgtk2.0-dev (>= 2.10),
+               libglib2.0-dev (>= 2.16.0),
+               libstartup-notification0-dev,
+               libgnomevfs2-dev,
+               libgnome2-dev,
+               libgnomeui-dev,
+               libjpeg-dev,
+               zlib1g-dev,
+               libbz2-dev,
+               libreadline-dev | libreadline5-dev,
+               python2.7,
+               python-minimal (>= 2.6.6-13~),
+               python-ply,
+               dpkg-dev (>= 1.16.1.1~),
+               libnspr4-dev (>= 2:4.10.10~),
+               libnss3-dev (>= 2:3.20.1~),
+               libsqlite3-dev (>= 3.9.1),
+               libvpx-dev (>= 1.3.0),
+               libhunspell-dev (>= 1.2),
+               libdbus-glib-1-dev,
+               libasound2-dev [linux-any],
+               libiw-dev [linux-any],
+               libnotify-dev,
+               libffi-dev,
+               libevent-dev (>= 1.4.1),
+               mesa-common-dev,
+               libgstreamer1.0-dev,
+               libgstreamer-plugins-base1.0-dev,
+               libpulse-dev,
+               yasm (>= 1.1),
+               zip,
+               unzip,
+               locales,
+               xvfb,
+               xfonts-base,
+               xauth,
+               ttf-bitstream-vera,
+               fonts-freefont-ttf | ttf-freefont,
+               fonts-dejima-mincho | ttf-dejima-mincho,
+               imagemagick,
+               librsvg2-bin,
+               xsltproc,
+               iso-codes
+Build-Conflicts: graphicsmagick-imagemagick-compat,
+                 liboss4-salsa-dev,
+                 libhildonmime-dev,
+                 libosso-dev
+Standards-Version: 3.9.7.0
+Vcs-Git: git://anonscm.debian.org/pkg-mozilla/iceweasel.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-mozilla/iceweasel.git
+
+Package: iceweasel
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         fontconfig,
+         procps,
+         debianutils (>= 1.16),
+         libsqlite3-0 (>= 3.7.12-1~)
+Suggests: fonts-stix | otf-stix,
+          fonts-lmodern,
+          mozplugger,
+          libgssapi-krb5-2 | libkrb53,
+          libgnomeui-0,
+          libcanberra0
+Recommends: gstreamer1.0-libav,
+            gstreamer1.0-plugins-good
+Conflicts: j2re1.4,
+           pango-graphite (<< 0.9.3)
+Breaks: xul-ext-torbutton
+Provides: www-browser,
+          gnome-www-browser
+Description: Web browser based on Firefox
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+
+Package: iceweasel-dbg
+Architecture: any
+Priority: extra
+Section: debug
+Depends: iceweasel (= ${binary:Version}),
+         libnss3-dbg | libnss3-1d-dbg,
+         libnspr4-dbg | libnspr4-0d-dbg,
+         ${misc:Depends}
+Description: Debugging symbols for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the debugging symbols for iceweasel.
+
+Package: iceweasel-dev
+Section: libdevel
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         python-ply,
+         libnss3-dev,
+         libnspr4-dev,
+         iceweasel (= ${binary:Version})
+Conflicts: xulrunner-dev,
+           firefox-dev
+Description: Development files for the Gecko engine library
+ This library provides an  API for XUL applications and Gecko embedders.
+ The Gecko engine is the core of the mozilla.org applications such as
+ Firefox, Thunderbird or SeaMonkey.
+ .
+ Gecko features include XPCOM, networking, DOM editing and transaction
+ support, XBL, XUL, SVG, XSLT, XML Extras (XMLHttpRequest and DOMParser),
+ Web Services (SOAP), accessibility support, IPC services, gtkmozembed, etc.
+ .
+ Install this package if you wish to embed the Gecko engine in your
+ program or want to develop XPCOM components.
+ .
+ This package also provides the Xulrunner Software Development Kit in the
+ same form as the one you may find on mozilla.org in /usr/lib/xulrunner/sdk.
+Homepage: http://wiki.mozilla.org/XUL:Lib_XUL
+
+Package: iceweasel-l10n-all
+Architecture: all
+Section: localization
+Depends: ${misc:Depends}, iceweasel-l10n-ach, iceweasel-l10n-af, iceweasel-l10n-an, iceweasel-l10n-ar, iceweasel-l10n-as, iceweasel-l10n-ast, iceweasel-l10n-az, iceweasel-l10n-be, iceweasel-l10n-bg, iceweasel-l10n-bn-bd, iceweasel-l10n-bn-in, iceweasel-l10n-br, iceweasel-l10n-bs, iceweasel-l10n-ca, iceweasel-l10n-cs, iceweasel-l10n-cy, iceweasel-l10n-da, iceweasel-l10n-de, iceweasel-l10n-dsb, iceweasel-l10n-el, iceweasel-l10n-en-gb, iceweasel-l10n-en-za, iceweasel-l10n-eo, iceweasel-l10n-es-ar, iceweasel-l10n-es-cl, iceweasel-l10n-es-es, iceweasel-l10n-es-mx, iceweasel-l10n-et, iceweasel-l10n-eu, iceweasel-l10n-fa, iceweasel-l10n-ff, iceweasel-l10n-fi, iceweasel-l10n-fr, iceweasel-l10n-fy-nl, iceweasel-l10n-ga-ie, iceweasel-l10n-gd, iceweasel-l10n-gl, iceweasel-l10n-gu-in, iceweasel-l10n-he, iceweasel-l10n-hi-in, iceweasel-l10n-hr, iceweasel-l10n-hsb, iceweasel-l10n-hu, iceweasel-l10n-hy-am, iceweasel-l10n-id, iceweasel-l10n-is, iceweasel-l10n-it, iceweasel-l10n-ja, iceweasel-l10n-kk, iceweasel-l10n-km, iceweasel-l10n-kn, iceweasel-l10n-ko, iceweasel-l10n-lij, iceweasel-l10n-lt, iceweasel-l10n-lv, iceweasel-l10n-mai, iceweasel-l10n-mk, iceweasel-l10n-ml, iceweasel-l10n-mr, iceweasel-l10n-ms, iceweasel-l10n-nb-no, iceweasel-l10n-nl, iceweasel-l10n-nn-no, iceweasel-l10n-or, iceweasel-l10n-pa-in, iceweasel-l10n-pl, iceweasel-l10n-pt-br, iceweasel-l10n-pt-pt, iceweasel-l10n-rm, iceweasel-l10n-ro, iceweasel-l10n-ru, iceweasel-l10n-si, iceweasel-l10n-sk, iceweasel-l10n-sl, iceweasel-l10n-son, iceweasel-l10n-sq, iceweasel-l10n-sr, iceweasel-l10n-sv-se, iceweasel-l10n-ta, iceweasel-l10n-te, iceweasel-l10n-th, iceweasel-l10n-tr, iceweasel-l10n-uk, iceweasel-l10n-uz, iceweasel-l10n-vi, iceweasel-l10n-xh, iceweasel-l10n-zh-cn, iceweasel-l10n-zh-tw
+Description: All language packages for Iceweasel (meta)
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This is a metapackage depending on all available localizations of Iceweasel.
+
+Package: iceweasel-l10n-ach
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Acoli language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Acoli.
+
+Package: iceweasel-l10n-af
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Afrikaans language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Afrikaans.
+
+Package: iceweasel-l10n-an
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Aragonese language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Aragonese.
+
+Package: iceweasel-l10n-ar
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Arabic language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Arabic.
+
+Package: iceweasel-l10n-as
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Assamese language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Assamese.
+
+Package: iceweasel-l10n-ast
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Asturian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Asturian.
+
+Package: iceweasel-l10n-az
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Azerbaijani language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Azerbaijani.
+
+Package: iceweasel-l10n-be
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Belarusian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Belarusian.
+
+Package: iceweasel-l10n-bg
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-bg
+Description: Bulgarian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Bulgarian.
+
+Package: iceweasel-l10n-bn-bd
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Bengali (Bangladesh) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Bengali (Bangladesh).
+
+Package: iceweasel-l10n-bn-in
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Bengali (India) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Bengali (India).
+
+Package: iceweasel-l10n-br
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Breton language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Breton.
+
+Package: iceweasel-l10n-bs
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Bosnian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Bosnian.
+
+Package: iceweasel-l10n-ca
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-ca
+Description: Catalan language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Catalan.
+
+Package: iceweasel-l10n-cs
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-cs-cz
+Description: Czech language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Czech.
+
+Package: iceweasel-l10n-cy
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Welsh language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Welsh.
+
+Package: iceweasel-l10n-da
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-da
+Description: Danish language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Danish.
+
+Package: iceweasel-l10n-de
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-de-de | myspell-de-at | myspell-de-ch
+Description: German language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in German.
+
+Package: iceweasel-l10n-dsb
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Lower Sorbian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Lower Sorbian.
+
+Package: iceweasel-l10n-el
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-el-gr
+Description: Modern Greek language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Modern Greek.
+
+Package: iceweasel-l10n-en-gb
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-en-gb | myspell-en-us
+Description: English (United Kingdom) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in English (United Kingdom).
+
+Package: iceweasel-l10n-en-za
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-en-gb | myspell-en-us
+Description: English (South Africa) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in English (South Africa).
+
+Package: iceweasel-l10n-eo
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-eo
+Description: Esperanto language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Esperanto.
+
+Package: iceweasel-l10n-es-ar
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-es
+Description: Spanish (Argentina) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Spanish (Argentina).
+
+Package: iceweasel-l10n-es-cl
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Spanish (Chile) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Spanish (Chile).
+
+Package: iceweasel-l10n-es-es
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-es
+Description: Spanish (Spain) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Spanish (Spain).
+
+Package: iceweasel-l10n-es-mx
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Spanish (Mexico) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Spanish (Mexico).
+
+Package: iceweasel-l10n-et
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-et
+Description: Estonian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Estonian.
+
+Package: iceweasel-l10n-eu
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Basque language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Basque.
+
+Package: iceweasel-l10n-fa
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Persian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Persian.
+
+Package: iceweasel-l10n-ff
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Fulah language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Fulah.
+
+Package: iceweasel-l10n-fi
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: xul-ext-mozvoikko
+Description: Finnish language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Finnish.
+
+Package: iceweasel-l10n-fr
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-fr | myspell-fr-gut
+Description: French language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in French.
+
+Package: iceweasel-l10n-fy-nl
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Western Frisian (Netherlands) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Western Frisian (Netherlands).
+
+Package: iceweasel-l10n-ga-ie
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Irish (Ireland) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Irish (Ireland).
+
+Package: iceweasel-l10n-gd
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Scottish Gaelic language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Scottish Gaelic.
+
+Package: iceweasel-l10n-gl
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Galician language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Galician.
+
+Package: iceweasel-l10n-gu-in
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Gujarati (India) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Gujarati (India).
+
+Package: iceweasel-l10n-he
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-he
+Description: Hebrew language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Hebrew.
+
+Package: iceweasel-l10n-hi-in
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Hindi (India) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Hindi (India).
+
+Package: iceweasel-l10n-hr
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Croatian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Croatian.
+
+Package: iceweasel-l10n-hsb
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Upper Sorbian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Upper Sorbian.
+
+Package: iceweasel-l10n-hu
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-hu
+Description: Hungarian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Hungarian.
+
+Package: iceweasel-l10n-hy-am
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Armenian (Armenia) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Armenian (Armenia).
+
+Package: iceweasel-l10n-id
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Indonesian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Indonesian.
+
+Package: iceweasel-l10n-is
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Icelandic language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Icelandic.
+
+Package: iceweasel-l10n-it
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-it
+Description: Italian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Italian.
+
+Package: iceweasel-l10n-ja
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Japanese language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Japanese.
+
+Package: iceweasel-l10n-kk
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Kazakh language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Kazakh.
+
+Package: iceweasel-l10n-km
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Central Khmer language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Central Khmer.
+
+Package: iceweasel-l10n-kn
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Kannada language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Kannada.
+
+Package: iceweasel-l10n-ko
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Korean language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Korean.
+
+Package: iceweasel-l10n-lij
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Ligurian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Ligurian.
+
+Package: iceweasel-l10n-lt
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-lt
+Description: Lithuanian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Lithuanian.
+
+Package: iceweasel-l10n-lv
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-lv
+Description: Latvian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Latvian.
+
+Package: iceweasel-l10n-mai
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Maithili language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Maithili.
+
+Package: iceweasel-l10n-mk
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Macedonian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Macedonian.
+
+Package: iceweasel-l10n-ml
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Malayalam language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Malayalam.
+
+Package: iceweasel-l10n-mr
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Marathi language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Marathi.
+
+Package: iceweasel-l10n-ms
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Malay language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Malay.
+
+Package: iceweasel-l10n-nb-no
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-nb
+Description: Norwegian Bokmål (Norway) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Norwegian Bokmål (Norway).
+
+Package: iceweasel-l10n-nl
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-nl
+Description: Dutch language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Dutch.
+
+Package: iceweasel-l10n-nn-no
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-nn
+Description: Norwegian Nynorsk (Norway) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Norwegian Nynorsk (Norway).
+
+Package: iceweasel-l10n-or
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Oriya language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Oriya.
+
+Package: iceweasel-l10n-pa-in
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Panjabi (India) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Panjabi (India).
+
+Package: iceweasel-l10n-pl
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-pl
+Description: Polish language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Polish.
+
+Package: iceweasel-l10n-pt-br
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-pt-br | myspell-pt
+Description: Portuguese (Brazil) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Portuguese (Brazil).
+
+Package: iceweasel-l10n-pt-pt
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-pt-pt | myspell-pt
+Description: Portuguese (Portugal) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Portuguese (Portugal).
+
+Package: iceweasel-l10n-rm
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Romansh language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Romansh.
+
+Package: iceweasel-l10n-ro
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Romanian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Romanian.
+
+Package: iceweasel-l10n-ru
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-ru
+Description: Russian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Russian.
+
+Package: iceweasel-l10n-si
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Sinhala language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Sinhala.
+
+Package: iceweasel-l10n-sk
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-sk
+Description: Slovak language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Slovak.
+
+Package: iceweasel-l10n-sl
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-sl
+Description: Slovenian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Slovenian.
+
+Package: iceweasel-l10n-son
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Songhai languages language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Songhai languages.
+
+Package: iceweasel-l10n-sq
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Albanian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Albanian.
+
+Package: iceweasel-l10n-sr
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Serbian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Serbian.
+
+Package: iceweasel-l10n-sv-se
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-sv-se
+Description: Swedish (Sweden) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Swedish (Sweden).
+
+Package: iceweasel-l10n-ta
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Tamil language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Tamil.
+
+Package: iceweasel-l10n-te
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Telugu language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Telugu.
+
+Package: iceweasel-l10n-th
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Thai language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Thai.
+
+Package: iceweasel-l10n-tr
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Turkish language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Turkish.
+
+Package: iceweasel-l10n-uk
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Recommends: myspell-uk
+Description: Ukrainian language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Ukrainian.
+
+Package: iceweasel-l10n-uz
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Uzbek language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Uzbek.
+
+Package: iceweasel-l10n-vi
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Vietnamese language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Vietnamese.
+
+Package: iceweasel-l10n-xh
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Xhosa language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Xhosa.
+
+Package: iceweasel-l10n-zh-cn
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Chinese (China) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Chinese (China).
+
+Package: iceweasel-l10n-zh-tw
+Architecture: all
+Section: localization
+Depends: ${misc:Depends},
+         iceweasel (>= ${source:Version}), iceweasel (<< ${source:Version}.1~)
+Description: Chinese (Taiwan) language package for Iceweasel
+ Iceweasel is Firefox, rebranded. It is a powerful, extensible web browser
+ with support for modern web application technologies.
+ .
+ This package contains the localization of Iceweasel in Chinese (Taiwan).

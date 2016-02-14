@@ -1,0 +1,13 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY privatebrowsingpage.title                  "ਪ੍ਰਾਈਵੇਟ ਬਰਾਊਜ਼ਿੰਗ">
+
+<!ENTITY privatebrowsingpage.issueDesc.private      "ਤੁਸੀਂ ਨਵੀਂ ਪ੍ਰਾਈਵੇਟ ਟੈਬ ਖੋਲ੍ਹ ਸਕਦੇ ਹੋ।">
+<!ENTITY privatebrowsingpage.issueDesc.normal       "ਤੁਸੀਂ ਪ੍ਰਾਈਵੇਟ ਟੈਬ ਵਿੱਚ ਨਹੀਂ ਹੋ।">
+
+<!ENTITY privatebrowsingpage.description            "ਪ੍ਰਾਈਵੇਟ ਟੈਬ ਵਿੱਚ, &brandShortName; ਕੋਈ ਵੀ ਬਰਾਊਜ਼ ਕਰਨ ਅਤੀਤ, ਖੋਜ ਅਤੀਤ, ਡਾਊਨਲੋਡ ਅਤੀਤ, ਵੈੱਬ ਫਾਰਮ ਅਤੀਤ, ਕੂਕੀਜ਼ ਜਾਂ ਆਰਜ਼ੀ ਇੰਟਰਨੈੱਟ ਫਾਇਲਾਂ ਨਹੀਂ ਰੱਖੇਗਾ। ਪਰ ਤੁਹਾਡੇ ਵਲੋਂ ਡਾਊਨਲੋਡ ਕੀਤੀਆਂ ਫਾਇਲਾਂ ਤੇ ਬਣਾਏ ਗਏ ਬੁੱਕਮਾਰਕ ਰੱਖੇਗਾ ਜਾਣਗੇ।">
+<!ENTITY privatebrowsingpage.description.private    "&privatebrowsingpage.issueDesc.private; &privatebrowsingpage.description;">
+
+<!ENTITY privatebrowsingpage.moreInfo               "ਜਦੋਂ ਕਿ ਇਹ ਜੰਤਰ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ ਕਰਨ ਅਤੀਤ ਨੂੰ ਰਿਕਾਰਡ ਨਹੀਂ ਕਰੇਗਾ, ਪਰ ਤੁਹਾਡਾ ਇੰਟਰਨੈੱਟ ਉਪਲੱਬਧ ਕਰਵਾਉਣ ਵਾਲਾ ਤੁਹਾਡੇ ਵਲੋਂ ਖੋਲ੍ਹੇ ਪੇਜ਼ਾਂ ਬਾਰੇ ਸੁਰਾਗ ਰੱਖ ਸਕਦਾ ਹੈ।">

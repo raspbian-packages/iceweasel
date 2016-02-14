@@ -1,0 +1,8 @@
+prefix=/usr
+sdkdir=/usr/lib/@browser@-devel-@GRE_VERSION@
+includedir=/usr/include/@browser@-@GRE_VERSION@
+
+Name: Mozilla Plug-In API
+Description: Mozilla Plug-In API
+Version: @GRE_MILESTONE@
+Cflags: -I${includedir} -DXP_UNIX

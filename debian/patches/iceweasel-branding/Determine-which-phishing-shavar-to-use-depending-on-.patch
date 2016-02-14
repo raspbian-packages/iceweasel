@@ -1,0 +1,37 @@
+From: Mike Hommey <mh@glandium.org>
+Date: Thu, 1 Apr 2010 15:34:59 +0200
+Subject: Determine which phishing shavar to use depending on
+ MOZ_OFFICIAL_BRANDING
+
+---
+ modules/libpref/init/all.js | 4 ++++
+ modules/libpref/moz.build   | 3 +++
+ 2 files changed, 7 insertions(+)
+
+diff --git a/modules/libpref/init/all.js b/modules/libpref/init/all.js
+index 1e67603..fad92ac 100644
+--- a/modules/libpref/init/all.js
++++ b/modules/libpref/init/all.js
+@@ -4799,7 +4799,11 @@ pref("dom.mapped_arraybuffer.enabled", false);
+ 
+ // The tables used for Safebrowsing phishing and malware checks.
+ pref("urlclassifier.malwareTable", "goog-malware-shavar,goog-unwanted-shavar,test-malware-simple,test-unwanted-simple");
++#ifdef MOZ_OFFICIAL_BRANDING
+ pref("urlclassifier.phishTable", "goog-phish-shavar,test-phish-simple");
++#else
++pref("urlclassifier.phishTable", "googpub-phish-shavar,test-phish-simple");
++#endif
+ pref("urlclassifier.downloadBlockTable", "");
+ pref("urlclassifier.downloadAllowTable", "");
+ pref("urlclassifier.disallow_completions", "test-malware-simple,test-phish-simple,test-unwanted-simple,test-track-simple,test-trackwhite-simple,goog-downloadwhite-digest256,mozstd-track-digest256,mozstd-trackwhite-digest256,mozfull-track-digest256");
+diff --git a/modules/libpref/moz.build b/modules/libpref/moz.build
+index 42efa9e..2306a96 100644
+--- a/modules/libpref/moz.build
++++ b/modules/libpref/moz.build
+@@ -45,3 +45,6 @@ DEFINES['MOZ_WIDGET_TOOLKIT'] = CONFIG['MOZ_WIDGET_TOOLKIT']
+ 
+ if CONFIG['GNU_CXX']:
+     CXXFLAGS += ['-Wshadow']
++
++if CONFIG['MOZ_OFFICIAL_BRANDING']:
++    DEFINES['MOZ_OFFICIAL_BRANDING'] = True

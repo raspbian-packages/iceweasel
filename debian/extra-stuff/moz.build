@@ -1,0 +1,1 @@
+EXTRA_COMPONENTS += ['addonsInfo.js', 'addonsInfo.manifest']

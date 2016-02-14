@@ -1,0 +1,35 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- Window title -->
+
+
+
+
+
+
+
+<!ENTITY ignoreButton.label "Елемеу">
+<!ENTITY ignoreButton.accessKey "Е">
+
+
+
+
+
+
+
+
+
+
+
+
+<!ENTITY editUserDictionaryButton.label "Түзету…">
+<!ENTITY editUserDictionaryButton.accessKey "Т">
+
+
+<!ENTITY closeButton.label "Жабу">
+<!ENTITY closeButton.accessKey "Ж">
+<!ENTITY sendButton.label "Жіберу">
+<!ENTITY sendButton.accessKey "Ж">
+<!ENTITY languagePopup.label "Тілі:">
+<!ENTITY languagePopup.accessKey "Т">

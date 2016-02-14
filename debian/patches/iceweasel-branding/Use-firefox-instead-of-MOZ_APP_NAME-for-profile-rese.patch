@@ -1,0 +1,35 @@
+From: Mike Hommey <mh@glandium.org>
+Date: Sun, 11 May 2014 15:08:37 +0900
+Subject: Use "firefox" instead of MOZ_APP_NAME for profile reset
+
+---
+ toolkit/modules/ResetProfile.jsm | 2 +-
+ toolkit/xre/nsAppRunner.cpp      | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/toolkit/modules/ResetProfile.jsm b/toolkit/modules/ResetProfile.jsm
+index 52c35c7..af2c0cf 100644
+--- a/toolkit/modules/ResetProfile.jsm
++++ b/toolkit/modules/ResetProfile.jsm
+@@ -11,7 +11,7 @@ const {classes: Cc, interfaces: Ci, utils: Cu, results: Cr} = Components;
+ Cu.import("resource://gre/modules/Services.jsm");
+ Cu.import("resource://gre/modules/AppConstants.jsm");
+ 
+-const MOZ_APP_NAME = AppConstants.MOZ_APP_NAME;
++const MOZ_APP_NAME = "firefox";
+ const MOZ_BUILD_APP = AppConstants.MOZ_BUILD_APP;
+ 
+ this.ResetProfile = {
+diff --git a/toolkit/xre/nsAppRunner.cpp b/toolkit/xre/nsAppRunner.cpp
+index df82a0e..b2120d4 100644
+--- a/toolkit/xre/nsAppRunner.cpp
++++ b/toolkit/xre/nsAppRunner.cpp
+@@ -4145,7 +4145,7 @@ XREMain::XRE_mainRun()
+         if (gDoProfileReset) {
+           // Automatically migrate from the current application if we just
+           // reset the profile.
+-          aKey = MOZ_APP_NAME;
++          aKey = "firefox";
+         }
+         pm->Migrate(&mDirProvider, aKey);
+       }

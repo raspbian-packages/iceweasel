@@ -1,0 +1,24 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+   
+<!ENTITY safeb.palm.accept.label "ਮੈਨੂੰ ਇੱਥੇ ਬਾਹਰ ਕੱਢੋ!">
+<!ENTITY safeb.palm.decline.label "ਇਹ ਚੇਤਾਵਨੀ ਅਣਡਿੱਠੀ">
+<!ENTITY safeb.palm.notforgery.label2 "ਇਹ ਵੈੱਬ ਧੋਖਾਧੜੀ ਨਹੀਂ ਹੈ…">
+<!ENTITY safeb.palm.reportPage.label "ਇਹ ਸਫ਼ੇ ਉੱਤੇ ਪਾਬੰਦੀ ਕਿਉਂ ਹੈ?">
+
+<!ENTITY safeb.blocked.malwarePage.title "ਰਿਪੋਰਟ ਕੀਤਾ ਗਿਆ ਹਮਲਾਵਰ ਸਫ਼ਾ!">
+<!-- Localization note (safeb.blocked.malware.shortDesc) - Please don't translate the contents of the <span id="malware_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
+<!ENTITY safeb.blocked.malwarePage.shortDesc "<span id='malware_sitename'/> ਉੱਤੇ ਇਹ ਵੈੱਬਸਾਈਟ ਨੂੰ ਹਮਲਾਵਰ ਸਫ਼ੇ ਵਜੋਂ ਰਿਪੋਰਟ ਕੀਤਾ ਗਿਆ ਹੈ ਅਤੇ ਤੁਹਾਡੀ ਸੁਰੱਖਿਆ ਪਸੰਦ ਮੁਤਾਬਕ ਇਸ ਉੱਤੇ ਪਾਬੰਦੀ ਲਗਾਈ ਗਈ ਹੈ।">
+<!ENTITY safeb.blocked.malwarePage.longDesc "<p>ਹਮਲਾਵਰ ਸਫ਼ਾ ਪ੍ਰੋਗਰਾਮ ਇੰਸਟਾਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦਾ ਹੈ, ਜੋ ਕਿ ਪ੍ਰਾਈਵੇਟ ਜਾਣਕਾਰੀ ਚੋਰੀ ਕਰ ਸਕਦੇ ਹਨ, ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਨੂੰ ਹੋਰਾਂ ਉੱਤੇ ਹਮਲਾ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੈ ਜਾਂ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਨੂੰ ਨੁਕਸਾਨ ਪਹੁੰਚਾ ਸਕਦੇ ਹਨ</p><p>ਕੁਝ ਹਮਲਾਵਰ ਸਫ਼ੇ ਜਾਣ-ਬੁੱਝ ਕੇ ਖ਼ਤਰਨਾਕ ਸਾਫਟਵੇਅਰ ਵੰਡਦੇ ਹਨ, ਜਦੋਂ ਕਈਆਂ ਨੂੰ ਉਹਨਾਂ ਦੇ ਮਾਲਕਾਂ ਦੀ ਜਾਣਕਾਰੀ ਜਾਂ ਪੁੱਛੇ ਬਿਨਾਂ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ</p>">
+
+
+<!ENTITY safeb.blocked.phishingPage.title2 "ਸ਼ੱਕੀ ਵੈੱਬ ਧੋਖਾਧੜੀ!">
+<!ENTITY safeb.blocked.phishingPage.shortDesc2 "ਇਸ ਸਫ਼ੇ ਉੱਤੇ ਦੇਣ ਨਾਲ ਕੋਈ ਵੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਦੇ ਨਤੀਜੇ ਵਜੋਂ ਪਛਾਣ ਚੋਰੀ ਹੋਣ ਜਾਂ ਹੋਰ ਕੋਈ ਗੜਬੜ ਹੋਣ ਦਾ ਖਤਰਾ ਹੈ।">
+<!ENTITY safeb.blocked.phishingPage.longDesc2 "<p>ਇਸ ਕਿਸਮ ਦੀਆਂ ਵੈੱਬ ਧੋਖਾਧੜੀਆਂ ਨੂੰ ਫਿਸ਼ਿੰਗ ਹਮਲਿਆਂ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਜ਼ਾਅਲੀ ਵੈੱਬ ਸਫ਼ੇ ਅਤੇ ਈਮੇਲ ਨੂੰ ਸ਼ੁਰੂਆਤੀ ਸਰੋਤਾਂ ਵਜੋਂ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ, ਜਿਹਨਾਂ ਉੱਤੇ ਤੁਸੀਂ ਭਰੋਸਾ ਕਰਦੇ ਹੈ।</p>">
+
+
+<!ENTITY safeb.blocked.unwantedPage.title "ਬੇਲੋੜੀ ਸਾਫਟਵੇਅਰ ਸਾਈਟ ਵਜੋਂ ਰਿਪੋਰਟ ਕੀਤੀ!">
+<!-- Localization note (safeb.blocked.unwanted.shortDesc) - Please don't translate the contents of the <span id="unwanted_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
+<!ENTITY safeb.blocked.unwantedPage.shortDesc "This web page at <span id='unwanted_sitename'/> has been reported to contain unwanted software and has been blocked based on your security preferences.">
+<!ENTITY safeb.blocked.unwantedPage.longDesc "Unwanted software pages try to install software that can be deceptive and affect your system in unexpected ways.">
