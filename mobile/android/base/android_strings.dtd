@@ -1,0 +1,754 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY  no_space_to_start_error "Ní féidir le &brandShortName; tosú mar nach bhfuil go leor spáis ann.">
+<!ENTITY  error_loading_file "Tharla earráid agus na comhaid atá riachtanach chun &brandShortName; a rith á luchtú.">
+
+<!ENTITY firstrun_panel_title_welcome "Fáilte">
+<!ENTITY  onboard_start_message3 "Brabhsáil le &brandShortName;">
+<!ENTITY  onboard_start_subtext3 "Cuir do bhrabhsálaí soghluaiste in oiriúint duit féin.">
+<!ENTITY  onboard_start_button_account "Logáil isteach in &brandShortName;">
+<!ENTITY  onboard_start_button_browser "Bí ag brabhsáil leat">
+<!ENTITY firstrun_button_next "Ar Aghaidh">
+
+<!ENTITY  onboard_start_restricted1 "Bí slán sábháilte agus bí i gceannas leis an leagan simplithe de &brandShortName;.">
+
+<!ENTITY firstrun_import_title "Iompórtáil">
+<!ENTITY firstrun_import_message "Fáilte go &brandShortName;">
+<!ENTITY firstrun_import_subtext "Iompórtáil leabharmharcanna agus stair ó bhrabhsálaí eile.">
+<!ENTITY firstrun_import_action "Aistrigh go &brandShortName;">
+<!ENTITY firstrun_import_dialog_button "Aistrigh">
+<!ENTITY firstrun_import_progress_title "Á nAistriú">
+<!-- Localization note: These are used as the titles of different pages on the home screen.
+     They are automatically converted to all caps by the Android platform. -->
+
+<!ENTITY  bookmarks_title "Leabharmharcanna">
+<!ENTITY  history_title "Stair">
+<!ENTITY  reading_list_title "Liosta Léitheoireachta">
+<!ENTITY  recent_tabs_title "Cluaisíní Is Déanaí">
+
+<!ENTITY  switch_to_tab "Téigh go cluaisín">
+
+<!ENTITY  crash_reporter_title "Tuairisceoir na gClistí &brandShortName;">
+<!ENTITY  crash_message2 "Tá &brandShortName; tar éis tuairteáil. Beidh do chuid cluaisíní liostáilte ar thúsleathanach &brandShortName; nuair a atosóidh tú é.">
+<!ENTITY  crash_send_report_message3 "Inis do &vendorShortName; faoin gcliseadh seo ionas go mbeidh siad in ann é a réiteach">
+<!ENTITY  crash_include_url2 "Cuir seoladh an leathanaigh ar a raibh mé san áireamh">
+<!ENTITY  crash_sorry "Ár leithscéal">
+<!ENTITY  crash_comment "Cuir nóta leis (tá nótaí infheicthe go poiblí)">
+<!ENTITY  crash_allow_contact2 "Tabhair cead do &vendorShortName; dul i dteagmháil liom maidir leis an tuairisc seo">
+<!ENTITY  crash_email "Do sheoladh ríomhphoist">
+<!ENTITY  crash_closing_alert "An bhfuil fonn ort imeacht gan tuairisc a sheoladh?">
+<!ENTITY  sending_crash_report "Tuairisc ar chliseadh á seoladh\u2026">
+<!ENTITY  crash_close_label "Dún">
+<!ENTITY  crash_restart_label "Atosaigh &brandShortName;">
+<!ENTITY  exit_label "Scoir">
+
+<!ENTITY  launcher_shortcuts_title "Feidhmchláir Ghréasáin &brandShortName;">
+<!ENTITY  launcher_shortcuts_empty "Níor aimsíodh aon fheidhmchláir Ghréasáin">
+
+<!ENTITY choose_file "Roghnaigh Comhad">
+
+<!ENTITY url_bar_default_text2 "Cuardaigh nó cuir seoladh isteach">
+
+<!ENTITY bookmark "Leabharmharc">
+<!ENTITY bookmark_remove "Bain leabharmharc">
+<!ENTITY bookmark_added "Leabharmharc cruthaithe">
+<!-- Localization note (bookmark_already_added) : This string is
+     used as a label in a toast. It is the verb "to bookmark", not
+     the noun "a bookmark". -->
+<!ENTITY bookmark_already_added "Leabharmharcáilte cheana">
+<!ENTITY bookmark_removed "Baineadh an leabharmharc">
+<!ENTITY bookmark_updated "Leabharmharc nuashonraithe">
+<!ENTITY bookmark_options "Roghanna">
+
+<!ENTITY history_today_section "Inniu">
+<!ENTITY history_yesterday_section "Inné">
+<!ENTITY history_week_section3 "Na 7 lá is déanaí">
+<!ENTITY history_this_month_section "An mhí seo">
+<!ENTITY history_older_section3 "Níos sine ná 6 mhí">
+
+<!ENTITY go "Ar Aghaidh">
+<!ENTITY search "Cuardaigh">
+<!ENTITY reload "Athluchtaigh">
+<!ENTITY forward "Ar Aghaidh">
+<!ENTITY menu "Roghchlár">
+<!ENTITY back "Siar">
+<!ENTITY stop "Stop">
+<!ENTITY site_security "Slándáil Suímh">
+<!ENTITY edit_mode_cancel "Cealaigh">
+
+<!ENTITY close_tab "Dún Cluaisín">
+<!ENTITY one_tab "Cluaisín amháin">
+<!-- Localization note (num_tabs2) : Number of tabs is always more than one.
+     We can't use android plural forms, sadly. See bug #753859. -->
+<!ENTITY num_tabs2 "&formatD; cluaisín">
+<!ENTITY new_tab_opened "Osclaíodh cluaisín nua">
+<!ENTITY new_private_tab_opened "Osclaíodh cluaisín nua príobháideach">
+<!-- Localization note (switch_button_message): This string should be as short
+     as possible because it's shown as a label in a toast.  Ideally, this string
+     is upper-case, to match Google and Android's convention. -->
+<!ENTITY switch_button_message "ATHRAIGH">
+<!-- Localization note (tab_title_prefix_is_playing_audio): This string is not
+     visible in the UI, but rather used as a text-to-speech content description
+     for sight-impaired a11y users. The content description is set on a tab
+     title in a list of open tabs when content in that tab is playing audio.
+     &formatS; will be replaced with the title of the tab, as received from the
+     web page. When audio is not playing in a tab, &formatS; will be used as
+     the content description. -->
+<!ENTITY tab_title_prefix_is_playing_audio "Fuaim á seinm – &formatS;">
+
+<!ENTITY settings "Socruithe">
+<!ENTITY settings_title "Socruithe">
+<!ENTITY pref_category_input_options "Roghanna ionchurtha">
+<!ENTITY pref_category_advanced "Ardroghanna">
+<!ENTITY pref_category_customize "Saincheap">
+<!ENTITY pref_category_customize_summary "Baile, cuardach, cluaisíní, iompórtáil">
+<!ENTITY pref_category_customize_alt_summary "Baile, cuardach, cluaisíní, oscail níos déanaí, iompórtáil">
+<!-- Localization note (pref_category_language) : This is the preferences
+     section in which the user picks the locale in which to display Firefox
+     UI. The locale includes both language and region concepts. -->
+
+<!ENTITY pref_category_language "Teanga">
+<!ENTITY pref_category_language_summary "Athraigh teanga do bhrabhsálaí">
+<!ENTITY pref_browser_locale "Teanga an bhrabhsálaí">
+<!-- Localization note (locale_system_default) : This string indicates that
+     Firefox will use the locale currently selected in Android's settings
+     to display browser chrome. -->
+
+<!ENTITY locale_system_default "Réamhshocrú an chórais">
+<!-- Localization note (overlay_share_label) : This is the label that appears
+     in Android's intent chooser when sending a link to Firefox to bookmark,
+     send to another device, or add to Reading List. -->
+
+<!ENTITY overlay_share_label "Cuir le &brandShortName; é">
+<!-- Localization note (overlay_share_bookmark_btn_label) : This string is
+     used in the share overlay menu to select an action. It is the verb
+     "to bookmark", not the noun "a bookmark". -->
+
+<!ENTITY overlay_share_bookmark_btn_label "Leabharmharc">
+<!ENTITY overlay_share_reading_list_btn_label "Cuir le do Liosta Léitheoireachta">
+<!ENTITY overlay_share_bookmark_btn_label_already "Leabharmharcáilte cheana">
+<!ENTITY overlay_share_reading_list_btn_label_already "I do Liosta Léitheoireachta cheana">
+<!ENTITY overlay_share_send_other "Seol chuig gléasanna eile">
+<!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
+     share overlay menu to represent the "Send Tab" action when the user
+     either has not set up Sync, or has no other devices to send a tab
+     to. -->
+
+<!ENTITY overlay_share_send_tab_btn_label "Seol chuig gléas eile">
+<!ENTITY overlay_share_no_url "Níor aimsíodh aon nasc sa chomhad comhroinnte">
+<!ENTITY overlay_share_select_device "Roghaigh gléas">
+<!-- Localization note (overlay_no_synced_devices) : Used when the menu option
+     to send a tab to a synced device is pressed and no other synced devices
+     are found. -->
+<!ENTITY overlay_no_synced_devices "Níor aimsíodh aon ghléasanna ceangailte le Cuntas Firefox">
+<!-- Localization note (menu_no_synced_devices): Used in a toast when the user
+     clicks on the button to send a tab to another device and there are no
+     other devices present. This label should briefly inform the user that they
+     need another connected device in order to use the feature. -->
+
+<!ENTITY menu_no_synced_devices "Seol an cluaisín seo chuig gléas ceangailte eile">
+
+<!ENTITY pref_category_search3 "Cuardaigh">
+<!ENTITY pref_category_search_summary "Saincheap na hinnill chuardaigh">
+<!ENTITY pref_category_display "Taispeáint">
+<!ENTITY pref_category_display_summary "Téacs, barra teidil, brabhsáil lánscáileáin">
+<!ENTITY pref_category_privacy_short "Príobháideachas">
+<!ENTITY pref_category_privacy_summary2 "Rialaigh focail fhaire, fianáin, rianú, sonraí">
+<!ENTITY pref_category_vendor "&vendorShortName;">
+<!ENTITY pref_category_vendor_summary "Maidir le &brandShortName;, ceisteanna coitianta, roghanna sonraí">
+<!ENTITY pref_category_datareporting "Roghanna sonraí">
+<!ENTITY pref_learn_more "Tuilleadh eolais">
+<!ENTITY pref_category_installed_search_engines "Innill chuardaigh suiteáilte">
+<!ENTITY pref_category_add_search_providers "Cuir innill chuardaigh leis">
+<!ENTITY pref_category_search_restore_defaults "Athchóirigh na hinnill chuardaigh">
+<!ENTITY pref_search_restore_defaults "Athchóirigh na réamhshocruithe">
+<!ENTITY pref_search_restore_defaults_summary "Athchóirigh na réamhshocruithe">
+<!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
+     advisory message on the customise search providers settings page explaining how to add new
+     search providers.
+     The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!ENTITY pref_search_hint "LEID: Is féidir aon suíomh Gréasáin a chur le do liosta de sholáthraithe cuardaigh trí fhadbhrú ar a réimse cuardaigh, ansin an deilbhín &formatI; a thapáil.">
+<!ENTITY pref_category_devtools "Uirlisí forbartha">
+<!ENTITY pref_developer_remotedebugging "Cian-dífhabhtú">
+<!ENTITY pref_developer_remotedebugging_usb "Dífhabhtú i gcéin trí USB">
+<!ENTITY pref_developer_remotedebugging_wifi "Dífhabhtú i gcéin trí Wi-Fi">
+<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Le dífhabhtú a dhéanamh thar Wi-Fi, ní mór aip a léann cóid QR a bheith ar do ghléas.">
+<!ENTITY pref_category_logins "Focail Fhaire">
+<!ENTITY pref_remember_signons2 "Meabhraigh focail fhaire">
+<!ENTITY pref_open_external_urls_privately_title "Oscail nascanna i mBrabhsáil Phríobháideach">
+<!ENTITY pref_open_external_urls_privately_summary "Do gach nasc seachtrach a osclaítear i &brandShortName;">
+<!ENTITY pref_manage_logins "Bainistigh focail fhaire">
+
+<!ENTITY pref_category_home "Baile">
+<!ENTITY pref_category_home_summary "Saincheap do leathanach baile">
+<!ENTITY pref_category_home_panels "Painéil">
+<!ENTITY home_add_panel_title "Cuir painéal nua leis">
+<!ENTITY home_add_panel_empty "Níor aimsíomar aon phainéil a d\u0027fhéadfá cur le do leathanach.">
+<!-- Localization note (home_add_panel_installed):
+     The &formatS; will be replaced with the name of the new panel the user just
+     selected to be added to the home page. -->
+<!ENTITY home_add_panel_installed "Cuireadh \u0027&formatS;\u0027 leis an leathanach baile">
+<!ENTITY pref_category_home_content_settings "Socruithe ábhair">
+<!ENTITY pref_home_updates "Nuashonruithe uathoibríocha">
+<!ENTITY pref_home_updates_enabled "Cumasaithe">
+<!ENTITY pref_home_updates_wifi "Thar Wi-Fi amháin">
+<!ENTITY pref_home_suggested_sites "Taispeáin suíomhanna molta">
+<!ENTITY pref_home_suggested_sites_summary "Taispeáin nascanna le suímh ar an leathanach baile a d\u0027fhéadfadh a bheith suim agat iontu">
+<!ENTITY pref_category_home_homepage "Leathanach Baile">
+<!ENTITY home_homepage_title "Roghnaigh Leathanach Baile">
+<!ENTITY home_homepage_use_current_tab "Úsáid an cluaisín oscailte">
+<!-- Localization note: These are shown in the left sidebar on tablets -->
+
+<!ENTITY pref_header_customize "Saincheap">
+<!ENTITY pref_header_display "Taispeáint">
+<!ENTITY pref_header_privacy_short "Príobháideachas">
+<!ENTITY pref_header_help "Cabhair">
+<!ENTITY pref_header_language "Teanga">
+<!ENTITY pref_header_vendor "&vendorShortName;">
+<!ENTITY pref_header_devtools "Uirlisí forbartha">
+
+<!ENTITY pref_cookies_menu "Fianáin">
+<!ENTITY pref_cookies_accept_all "Cumasaithe">
+<!ENTITY pref_cookies_not_accept_foreign "Cumasaithe, seachas tríú páirtí">
+<!ENTITY pref_cookies_disabled "Díchumasaithe">
+
+<!ENTITY pref_tap_to_load_images_title "Tapáil chun íomhánna a luchtú">
+<!ENTITY pref_tap_to_load_images_summary2 "Luchtaigh íomhánna trí bhrú fada amháin">
+
+<!ENTITY pref_tracking_protection_title "Cosaint ar lorg">
+<!ENTITY pref_tracking_protection_summary3 "Cumasaithe i mBrabhsáil Phríobháideach">
+<!ENTITY pref_donottrack_title "Ná lorgtar mé">
+<!ENTITY pref_donottrack_summary "Cuirfidh &brandShortName; in iúl do shuímh Ghréasáin gan tusa a lorg ar líne">
+
+<!ENTITY pref_tracking_protection_enabled "Cumasaithe">
+<!ENTITY pref_tracking_protection_enabled_pb "Cumasaithe i mBrabhsáil Phríobháideach">
+<!ENTITY pref_tracking_protection_disabled "Díchumasaithe">
+
+<!ENTITY tracking_protection_prompt_title "Anois le Cosaint ar Lorg">
+<!ENTITY tracking_protection_prompt_text "Cuir cosc ar eilimintí rianaithe sa chaoi nach mbeidh imní ort.">
+<!ENTITY tracking_protection_prompt_tip_text "Tuilleadh eolais sna Socruithe Príobháideachta">
+<!ENTITY tracking_protection_prompt_action_button "Tuigim!">
+
+<!ENTITY tab_queue_toast_message3 "Cluaisín sábháilte i &brandShortName;">
+<!ENTITY tab_queue_toast_action "Oscail anois">
+<!ENTITY tab_queue_prompt_title "Níos mó ná nasc amháin á n-oscailt?">
+<!ENTITY tab_queue_prompt_text4 "Sábháil iad go dtí an chéad uair eile a osclóidh tú &brandShortName;.">
+<!ENTITY tab_queue_prompt_tip_text2 "Is féidir leat an rogha seo a athrú ar ball sna Socruithe">
+<!ENTITY tab_queue_prompt_positive_action_button "Cumasaigh">
+<!ENTITY tab_queue_prompt_negative_action_button "Níl anois">
+<!ENTITY tab_queue_notification_title "&brandShortName;">
+<!-- Localization note (tab_queue_notification_text_plural2) : The
+     formatD is replaced with the number of tabs queued.  The
+     number of tabs queued is always more than one.  We can't use
+     Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY tab_queue_notification_text_plural2 "&formatD; cluaisín ar feitheamh">
+<!-- Localization note (tab_queue_notification_text_singular2) : This is the
+     text of a notification; we expect only one tab queued. -->
+<!ENTITY tab_queue_notification_text_singular2 "Cluaisín amháin ar feitheamh">
+
+<!ENTITY pref_char_encoding "Ionchódú carachtar">
+<!ENTITY pref_char_encoding_on "Taispeáin an roghchlár">
+<!ENTITY pref_char_encoding_off "Ná taispeáin an roghchlár">
+<!ENTITY pref_clear_private_data2 "Glan anois">
+<!ENTITY pref_clear_private_data_category "Glan sonraí príobháideacha">
+<!ENTITY pref_clear_on_exit_title2 "Glan ag am scortha">
+<!ENTITY pref_clear_on_exit_summary2 "Bánófar &brandShortName; do chuid sonraí pearsanta nuair a roghnóidh tú \u0022Scoir\u0022 ón bpríomhroghchlár">
+<!ENTITY pref_clear_on_exit_dialog_title "Roghnaigh na sonraí le glanadh">
+<!ENTITY pref_plugins "Forlíontáin">
+<!ENTITY pref_plugins_enabled "Cumasaithe">
+<!ENTITY pref_plugins_tap_to_play "Tapáil le seinm">
+<!ENTITY pref_plugins_disabled "Díchumasaithe">
+<!ENTITY pref_text_size "Méid téacs">
+<!ENTITY pref_restore "Cluaisíní">
+<!ENTITY pref_restore_always "Athchóirigh i gcónaí">
+<!ENTITY pref_restore_quit "Ná hathchóirigh tar éis scor ó &brandShortName;">
+<!ENTITY pref_font_size_tiny "An-bheag">
+<!ENTITY pref_font_size_small "Beag">
+<!ENTITY pref_font_size_medium "Measartha">
+<!ENTITY pref_font_size_large "Mór">
+<!ENTITY pref_font_size_xlarge "An-mhór">
+<!ENTITY pref_font_size_set "Socraigh">
+<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
+(or combination of characters) is used to decrease the preview font size; a larger version of the
+same character/combination is used to increase the preview font size. It should be a concise
+representation of the language it is used in that will help show the text in the preview will change
+size. -->
+<!ENTITY pref_font_size_adjust_char "W">
+<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
+    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+
+<!ENTITY pref_font_size_preview_text "Léim an madra rua tapa thar do ríomhaire, agus thug sé luas, solúbthacht, agus slándáil duit. Mar eagraíocht neamhbhrabúis, táimid in ann rudaí nuálacha a chruthú ar do shon, gan aon bhrú seachtrach. Ciallaíonn sé sin go mbainfidh tú níos mó taitneamh as an nGréasán.">
+
+<!ENTITY pref_media_autoplay_enabled "Ceadaigh uathsheinm">
+<!ENTITY pref_media_autoplay_enabled_summary "An bhfuil cead ag suímh Ghréasáin físeáin nó meáin eile a sheinm go huathoibríoch?">
+<!ENTITY pref_zoom_force_enabled "Cumasaigh súmáil i gcónaí">
+<!ENTITY pref_zoom_force_enabled_summary "Sáraigh sa chaoi go mbeidh tú in ann súmáil ar leathanach ar bith">
+<!ENTITY pref_voice_input "Ionchur labhartha">
+<!ENTITY pref_voice_input_summary "Ceadaigh deachtú sa mbarra teidil">
+<!ENTITY pref_qrcode_enabled "Léitheoir cód QR">
+<!ENTITY pref_qrcode_enabled_summary "Ceadaigh scanóir QR sa mbarra teidil">
+
+<!ENTITY pref_use_master_password "Úsáid príomhfhocal faire">
+<!ENTITY pref_sync "Sync">
+<!ENTITY pref_sync_summary2 "Sioncrónaigh do chuid cluaisíní, leabharmharcanna, focail fhaire, stair">
+<!ENTITY pref_search_suggestions "Taispeáin moltaí cuardaigh">
+<!ENTITY pref_history_search_suggestions "Taispeáin stair an chuardaigh">
+<!ENTITY pref_import_android "Iompórtáil ó Android">
+<!ENTITY pref_import_android_summary "Iompórtáil leabharmharcanna agus stair ón mbrabhsálaí dúchasach">
+<!ENTITY pref_private_data_history2 "Stair bhrabhsála">
+<!ENTITY pref_private_data_searchHistory "Stair chuardaigh">
+<!ENTITY pref_private_data_formdata2 "Stair na bhfoirmeacha">
+<!ENTITY pref_private_data_cookies2 "Fianáin agus seisiúin ghníomhacha">
+<!ENTITY pref_private_data_passwords2 "Focail fhaire a sábháladh">
+<!ENTITY pref_private_data_cache "Taisce">
+<!ENTITY pref_private_data_offlineApps "Sonraí suíomhanna as líne">
+<!ENTITY pref_private_data_siteSettings2 "Socruithe an tsuímh">
+<!ENTITY pref_private_data_downloadFiles2 "Íosluchtuithe">
+<!ENTITY pref_private_data_syncedTabs "Cluaisíní sioncrónaithe">
+
+
+<!ENTITY pref_about_firefox "Maidir le &brandShortName;">
+<!ENTITY pref_vendor_faqs "CCanna">
+<!ENTITY pref_vendor_feedback "Seol aiseolas">
+
+<!ENTITY pref_dialog_set_default "Réamhshocraigh">
+<!ENTITY pref_dialog_default "Réamhshocrú">
+<!ENTITY pref_dialog_remove "Bain">
+
+<!ENTITY pref_search_last_toast "Níl cead agat an t-inneall cuardaigh is déanaí a bhaint nó a dhíchumasú.">
+
+<!ENTITY pref_panels_show "Taispeáin">
+<!ENTITY pref_panels_hide "Folaigh">
+<!ENTITY pref_panels_reorder "Athraigh an t-ord">
+<!ENTITY pref_panels_move_up "Bog suas">
+<!ENTITY pref_panels_move_down "Bog síos">
+
+<!ENTITY datareporting_notification_title "Staitisticí agus sonraí ó &brandShortName;">
+<!ENTITY datareporting_notification_action_long "Roghnaigh cad a roinnfidh tú">
+<!ENTITY datareporting_notification_action "Roghnaigh cad a roinnfidh tú">
+<!ENTITY datareporting_notification_summary "Chun an táirge a fheabhsú, seolann &brandShortName; roinnt faisnéise chuig &vendorShortName;.">
+<!ENTITY datareporting_notification_summary_short "Chun an táirge a fheabhsú, seolann &brandShortName;…">
+<!ENTITY datareporting_notification_ticker_text "&datareporting_notification_title;: &datareporting_notification_action_long;">
+<!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary2,
+     reporting_telemetry_title, datareporting_telemetry_summary,
+     datareporting_crashreporter_summary) : These match the strings in
+     en-US/chrome/browser/preferences/advanced.dtd (healthReportSection.label,
+     healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
+     crashReporterDesc.label). -->
+
+<!ENTITY datareporting_fhr_title "Tuairisc Shláinte &brandShortName;">
+<!ENTITY datareporting_fhr_summary2 "…roinnt faisnéis maidir le sláinte do bhrabhsálaí chuig &vendorShortName;">
+<!ENTITY datareporting_abouthr_title "Féach ar mo Thuairisc Shláinte">
+<!ENTITY datareporting_telemetry_title "Teiliméadracht">
+<!ENTITY datareporting_telemetry_summary "Seolann sé faisnéis maidir le feidhmíocht, úsáid, crua-earraí, agus saincheapadh chuig &vendorShortName; chun cabhrú linn feabhas a chur ar &brandShortName;.">
+<!ENTITY datareporting_crashreporter_summary "Seolann &brandShortName; tuairiscí ar chlistí chuig &vendorShortName; chun cabhrú linn brabhsálaí níos cobhsaí níos sábháilte a fhorbairt">
+<!-- Localization note (datareporting_crashreporter_title_short) : This string matches
+     (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
+<!ENTITY datareporting_crashreporter_title_short "Tuairisceoir Tuairteála">
+<!ENTITY datareporting_wifi_title2 "Seirbhís Geoshuite &vendorShortName;">
+<!ENTITY datareporting_wifi_geolocation_summary4 "Cabhraigh le &vendorShortName; an domhan a mhapáil! Comhroinn neasláthair do ghléis trí Wi-Fi nó an líonra ceallach le feabhas a chur ar ár seirbhís gheoshuímh">
+<!-- Localization note (pref_update_autodownload2) : This should mention downloading
+     specifically, since the pref only prevents automatic downloads and not the
+     actual notification that an update is available. -->
+<!ENTITY pref_update_autodownload2 "Íosluchtaigh nuashonruithe go huathoibríoch">
+<!ENTITY pref_update_autodownload_wifi "Thar Wi-Fi amháin">
+<!ENTITY pref_update_autodownload_never "Riamh">
+<!ENTITY pref_update_autodownload_always "I gCónaí">
+<!-- Localization note (help_menu) : This string is used in the main menu-->
+
+<!ENTITY help_menu "Cabhair">
+
+<!ENTITY quit "Scoir">
+
+<!ENTITY addons "Breiseáin">
+<!ENTITY logins "Focail Fhaire">
+<!ENTITY downloads "Íosluchtuithe">
+<!ENTITY char_encoding "Ionchódú Carachtar">
+
+<!ENTITY share "Roinn">
+<!ENTITY share_title "Comhroinn trí">
+<!ENTITY share_image_failed "Ní féidir an íomhá seo a roinnt">
+<!ENTITY save_as_pdf "Sábháil mar PDF">
+<!ENTITY print "Priontáil">
+<!ENTITY find_in_page "Aimsigh sa Leathanach">
+<!ENTITY desktop_mode "Iarr Suíomh don Ríomhaire">
+<!ENTITY page "Leathanach">
+<!ENTITY tools "Uirlisí">
+<!ENTITY new_tab "Cluaisín Nua">
+<!ENTITY new_private_tab "Cluaisín Nua Príobháideach">
+<!ENTITY close_all_tabs "Dún Gach Cluaisín">
+<!ENTITY close_private_tabs "Dún Cluaisíní Príobháideacha">
+<!ENTITY tabs_normal "Cluaisíní">
+<!ENTITY tabs_private "Príobháideach">
+<!ENTITY tabs_synced "Sioncrónaithe">
+<!ENTITY set_image_fail "Ní féidir íomhá a shocrú">
+<!ENTITY set_image_path_fail "Níorbh fhéidir an íomhá a shábháil">
+<!ENTITY set_image_chooser_title "Socraigh Íomhá Mar">
+<!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+
+<!ENTITY find_text "Aimsigh sa Leathanach">
+<!ENTITY find_prev "Siar">
+<!ENTITY find_next "Ar Aghaidh">
+<!ENTITY find_close "Dún">
+<!-- Localization note (media_sending_to, media_play, media_pause, media_stop) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+
+<!ENTITY media_sending_to "Á sheoladh chuig an ngléas">
+<!ENTITY media_play "Seinn">
+<!ENTITY media_pause "Cuir ar Shos">
+<!ENTITY media_stop "Stop">
+
+<!ENTITY contextmenu_open_new_tab "Oscail i gCluaisín Nua">
+<!ENTITY contextmenu_open_private_tab "Oscail i gCluaisín Príobháideach">
+<!ENTITY contextmenu_remove "Bain">
+<!ENTITY contextmenu_add_to_launcher "Cuir leis an Scáileán Baile">
+<!ENTITY contextmenu_share "Roinn">
+<!ENTITY contextmenu_pasteandgo "Greamaigh agus Téigh">
+<!ENTITY contextmenu_paste "Greamaigh">
+<!ENTITY contextmenu_copyurl "Cóipeáil Seoladh">
+<!ENTITY contextmenu_edit_bookmark "Eagar">
+<!ENTITY contextmenu_subscribe "Liostáil leis an Leathanach">
+<!ENTITY contextmenu_site_settings "Cuir Socruithe an tSuímh in Eagar">
+<!ENTITY contextmenu_top_sites_edit "Eagar">
+<!ENTITY contextmenu_top_sites_pin "Feistigh an suíomh seo">
+<!ENTITY contextmenu_top_sites_unpin "Dífheistigh an suíomh seo">
+<!ENTITY contextmenu_add_search_engine "Cuir Inneall Cuardaigh Leis">
+<!ENTITY contextmenu_mark_read "Marcáil “Léite”">
+<!ENTITY contextmenu_mark_unread "Marcáil “Neamhléite”">
+<!-- Localization note (doorhanger_login_no_username): This string is used in the save-login doorhanger
+     where normally a username would be displayed. In this case, no username was found, and this placeholder
+     contains brackets to indicate this is not actually a username, but rather a placeholder -->
+
+<!ENTITY doorhanger_login_no_username "[Gan ainm úsáideora]">
+<!ENTITY doorhanger_login_edit_title "Cuir an focal faire in eagar">
+<!ENTITY doorhanger_login_edit_username_hint "Ainm an Úsáideora">
+<!ENTITY doorhanger_login_edit_password_hint "Focal Faire">
+<!ENTITY doorhanger_login_edit_toggle "Taispeáin an focal faire">
+<!ENTITY doorhanger_login_edit_toast_error "Níor sábháladh an focal faire">
+<!ENTITY doorhanger_login_select_message "Cóipeáil an focal faire ó &formatS;?">
+<!ENTITY doorhanger_login_select_toast_copy "Cóipeáladh an focal faire go dtí an ghearrthaisce">
+<!ENTITY doorhanger_login_select_toast_copy_error "Níorbh fhéidir an focal faire a chóipeáil">
+<!ENTITY doorhanger_login_select_action_text "Roghnaigh focal faire eile">
+<!ENTITY doorhanger_login_select_title "Cóipeáil an focal faire ó">
+
+<!ENTITY pref_titlebar_mode "Barra teidil">
+<!ENTITY pref_titlebar_mode_title "Taispeáin teideal an leathanaigh">
+<!ENTITY pref_titlebar_mode_url "Taispeáin seoladh an leathanaigh">
+<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
+     whether or not the magnifying glass is disabled. -->
+
+<!ENTITY pref_magnifying_glass_enabled "Méadaigh áiteanna beaga">
+<!ENTITY pref_magnifying_glass_enabled_summary "Méadaigh nascanna agus foirmeacha nuair a thapálann tú i ngar dóibh">
+<!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
+     whether or not the dynamic toolbar is enabled. -->
+
+<!ENTITY pref_scroll_title_bar2 "Brabhsáil lánscáileáin">
+<!ENTITY pref_scroll_title_bar_summary "Folaigh barra teidil &brandShortName; le linn scrollaithe síos ar leathanach">
+
+<!ENTITY pref_tab_queue_title2 "Oscail níos mó ná nasc amháin">
+<!ENTITY pref_tab_queue_summary3 "Sábháil iad go dtí an chéad uair eile a osclóidh tú &brandShortName;">
+<!-- Localization note (page_removed): This string appears in a toast message when
+     any page is removed frome about:home. This includes pages that are in history,
+     bookmarks, or reading list. -->
+
+<!ENTITY page_removed "Leathanach bainte">
+
+<!ENTITY bookmark_edit_title "Cuir Leabharmharc in Eagar">
+<!ENTITY bookmark_edit_name "Ainm">
+<!ENTITY bookmark_edit_location "Suíomh">
+<!ENTITY bookmark_edit_keyword "Lorgfhocal">
+<!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
+     dialog that appears after selecting the "Edit Site Settings" context menu item. -->
+
+<!ENTITY site_settings_title3       "Socruithe an tSuímh">
+<!ENTITY site_settings_cancel       "Cealaigh">
+<!ENTITY site_settings_clear        "Glan">
+<!ENTITY site_settings_no_settings  "Níl aon socruithe le glanadh.">
+<!-- Localization note (reading_list_added3) : Used in a toast, please keep as short
+     as possible. -->
+
+<!ENTITY reading_list_added3 "Cuireadh ar do Liosta Léitheoireachta">
+<!ENTITY reading_list_removed "Baineadh an leathanach de do Liosta Léitheoireachta">
+<!-- Localization note (reading_list_remove) : Used to remove the currently open page from
+     the user's reading list. The opposite of overlay_share_reading_list_btn_label. -->
+<!ENTITY reading_list_remove "Bain den Liosta Léitheoireachta">
+<!ENTITY reading_list_duplicate "Tá an leathanach seo i do liosta léitheoireachta cheana">
+<!-- Localization note (reading_list_time_minutes2) : This string is used in the "Reading List"
+     panel on the home page to give the user an estimate of how many minutes it will take to
+     read an article. The word "minute" should be abbreviated if possible. -->
+
+<!ENTITY reading_list_time_minutes2 "&formatD; nóim">
+<!ENTITY reading_list_time_over_an_hour "Níos mó ná uair an chloig">
+<!-- Localization note : These strings are used as alternate text for accessibility.
+     They are not visible in the UI. -->
+
+<!ENTITY page_action_dropmarker_description "Gníomhartha Sa Bhreis">
+
+<!ENTITY masterpassword_create_title "Cruthaigh Príomhfhocal Faire">
+<!ENTITY masterpassword_remove_title "Bánaigh an Príomhfhocal Faire">
+<!ENTITY masterpassword_password "Focal Faire">
+<!ENTITY masterpassword_confirm "Dearbhaigh an focal faire">
+
+<!ENTITY button_ok "OK">
+<!ENTITY button_cancel "Cealaigh">
+<!ENTITY button_yes "Tá">
+<!ENTITY button_no "Níl">
+<!ENTITY button_clear_data "Glan na sonraí">
+<!ENTITY button_set "Socraigh">
+<!ENTITY button_clear "Glan">
+<!ENTITY button_copy "Cóipeáil">
+
+<!ENTITY home_top_sites_title "Suímh Is Fearr">
+<!-- Localization note (home_top_sites_add): This string is used as placeholder
+     text underneath empty thumbnails in the Top Sites page on about:home. -->
+<!ENTITY home_top_sites_add "Cuir suíomh leis">
+<!-- Localization note (home_title): This string should be kept in sync
+     with the page title defined in aboutHome.dtd -->
+
+<!ENTITY home_title "Baile &brandShortName;">
+<!ENTITY home_history_title "Stair">
+<!ENTITY home_clear_history_button "Glan do stair bhrabhsála">
+<!ENTITY home_clear_history_confirm "An bhfuil tú cinnte gur mhaith leat do stair bhrabhsála a ghlanadh?">
+<!ENTITY home_bookmarks_empty "Taispeánfar leabharmharcanna sábháilte anseo.">
+<!ENTITY home_closed_tabs_title "Cluaisíní a dúnadh le déanaí">
+<!ENTITY home_last_tabs_title "Cluaisíní ón seisiún roimhe seo">
+<!ENTITY home_last_tabs_empty "Taispeántar do chuid cluaisíní is déanaí anseo.">
+<!ENTITY home_open_all "Oscail uile">
+<!ENTITY home_most_recent_empty "Taispeántar na suímh ar thug tú cuairt orthu le déanaí anseo.">
+<!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
+     The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
+<!ENTITY home_most_recent_emptyhint2 "Cogar: úsáid &formatS1;Cluaisín Nua Príobháideach&formatS2; chun brabhsáil gan do stair a shábháil.">
+<!ENTITY home_reading_list_empty "Taispeántar altanna a shábháil tú anseo">
+<!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
+     as an advisory message on how to add content to the reading list when the reading list empty.
+     The placeholder &formatI; will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!ENTITY home_reading_list_hint2 "LEID: Chun altanna a shábháil i do Liosta Léitheoireachta, déan fadbhrú ar an deilbhín &formatI; nuair a fheicfidh tú sa bharra teidil é.">
+<!-- Localization note (home_reading_list_hint_accessible): This string is used
+     as alternate text for accessibility. It is not visible in the UI. -->
+<!ENTITY home_reading_list_hint_accessible "LEID: Chun altanna a shábháil i do Liosta Léitheoireachta, déan fadbhrú ar dheilbhín an mhóid léitheora nuair a fheicfidh tú sa bharra teidil é.">
+<!-- Localization note (home_default_empty): This string is used as the default text when there
+     is no data to show in an about:home panel that was created by an add-on. -->
+
+<!ENTITY home_default_empty "Níor aimsíodh aon ábhar don phainéal seo.">
+<!-- Localization note (home_move_up_to_filter): The variable is replaced by the name of the
+     previous location in the navigation, such as the previous folder -->
+
+<!ENTITY home_move_up_to_filter "Fill ar &formatS;">
+
+<!ENTITY home_remote_tabs_title "Cluaisíní Sioncrónaithe">
+<!ENTITY home_remote_tabs_empty "Taispeánfar do chuid cluaisíní ó ghléasanna eile anseo.">
+<!ENTITY home_remote_tabs_unable_to_connect "Ní féidir ceangal">
+<!ENTITY home_remote_tabs_need_to_sign_in "Logáil isteach chun athcheangal le do Chuntas Firefox agus dul ar aghaidh leis an sioncrónú.">
+<!ENTITY home_remote_tabs_need_to_finish_migrating "Tá do chuntas nua Firefox réidh!">
+
+<!ENTITY home_remote_tabs_trouble_verifying "Fadhbanna ag deimhniú do chuntais?">
+<!ENTITY home_remote_tabs_need_to_verify "Caithfidh tú do Chuntas Firefox a dheimhniú chun sioncrónú a thosú.">
+
+<!ENTITY home_remote_tabs_one_hidden_device "Gléas amháin i bhfolach">
+<!-- Localization note (home_remote_tabs_many_hidden_devices) : The
+     formatD is replaced with the number of hidden devices.  The
+     number of hidden devices is always more than one.  We can't use
+     Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY home_remote_tabs_many_hidden_devices "&formatD; gléas i bhfolach">
+<!-- Localization note (home_remote_tabs_hidden_devices_title) : This is the
+     title of a dialog; we expect more than one device. -->
+<!ENTITY home_remote_tabs_hidden_devices_title "Gléasanna i bhfolach">
+<!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
+     the text of a button; we expect more than one device. -->
+<!ENTITY home_remote_tabs_unhide_selected_devices "Dífholaigh na gléasanna roghnaithe">
+
+<!ENTITY remote_tabs_panel_moved_title "Cá bhfuil mo chuid cluaisíní?">
+<!ENTITY remote_tabs_panel_moved_desc "Bhogamar na cluaisíní ó do ghléasanna eile go painéal nua ar do leathanach baile ar féidir teacht air go héasca nuair a osclóidh tú cluaisín nua.">
+<!ENTITY remote_tabs_panel_moved_link "Taispeáin mo phainéal nua dom.">
+
+<!ENTITY pin_site_dialog_hint "Cuir téarma cuardaigh isteach">
+
+<!ENTITY filepicker_title "Roghnaigh Comhad">
+<!ENTITY filepicker_audio_title "Roghnaigh nó taifead fuaim">
+<!ENTITY filepicker_image_title "Roghnaigh nó glac grianghraf">
+<!ENTITY filepicker_video_title "Roghnaigh nó taifead físeán">
+<!-- Site identity popup -->
+
+<!ENTITY identity_connected_to "Tá tú ceangailte le">
+<!-- Localization note (identity_run_by) : This string appears between a
+domain name (above) and an organization name (below). E.g.
+
+example.com
+which is run by
+Example Enterprises, Inc.
+
+The layout of the identity dialog prevents combining this into a single string with
+substitution variables.  If it is difficult to translate the sense of the string
+with that structure, consider a translation which ignores the preceding domain and
+just addresses the organization to follow, e.g. "This site is run by " -->
+<!ENTITY identity_connection_secure "Ceangal Slán">
+<!ENTITY identity_connection_insecure "Ceangal neamhshlán">
+<!ENTITY identity_login_insecure "Níl an leathanach seo slán agus seans go mbeadh bradaí in ann teacht ar do chuid dintiúir logála isteach.">
+<!-- Mixed content notifications in site identity popup -->
+
+<!ENTITY mixed_content_blocked_all1 "Chuir &brandShortName; cosc ar ábhar neamhshlán ar an leathanach seo.">
+<!ENTITY mixed_content_blocked_some1 "Chuir &brandShortName; cosc ar roinnt ábhair neamhshláin ar an leathanach seo.">
+<!ENTITY mixed_content_display_loaded1 "Tá codanna den leathanach seo neamhshlán (léithéidí íomhánna).">
+<!ENTITY mixed_content_protection_disabled1 "Dhíchumasaigh tú cosaint ar ábhar neamhshlán.">
+<!-- Tracking content notifications in site identity popup -->
+
+<!ENTITY doorhanger_tracking_title "Cosaint ar lorg">
+<!ENTITY doorhanger_tracking_state_enabled "Cumasaithe">
+<!ENTITY doorhanger_tracking_state_disabled "Díchumasaithe">
+<!ENTITY doorhanger_tracking_message_enabled1 "Cuireadh cosc ar iarrachtaí d\u0027iompar ar líne a lorg.">
+<!ENTITY doorhanger_tracking_message_disabled2 "Tá eilimintí ar an leathanach seo a d\u0027fhéadfadh do bhrabhsáil a lorg.">
+<!-- Common mixed and tracking content strings in site identity popup -->
+
+<!ENTITY learn_more "Tuilleadh Eolais">
+<!ENTITY enable_protection "Cumasaigh cosaint">
+<!ENTITY disable_protection "Díchumasaigh cosaint">
+<!ENTITY keep_blocking "Coinnigh an bac">
+
+<!ENTITY private_data_success "Glanadh na sonraí príobháideacha">
+<!ENTITY private_data_fail "Níorbh fhéidir sonraí áirithe príobháideacha a ghlanadh">
+
+<!ENTITY bookmarkhistory_button_import "Iompórtáil">
+<!ENTITY bookmarkhistory_import_both "Leabharmharcanna agus stair á n-iompórtáil 
+ó Android">
+<!ENTITY bookmarkhistory_import_bookmarks "Leabharmharcanna á n-iompórtáil 
+ó Android">
+<!ENTITY bookmarkhistory_import_history "Stair á hiompórtáil 
+ó Android">
+<!ENTITY bookmarkhistory_import_wait "Fan le do thoil...">
+
+<!ENTITY suggestions_prompt3 "An bhfuil fonn ort moltaí cuardaigh a fháil?">
+<!--  Localization note (search_bar_item_desc): When the user clicks the url bar
+      and starts typing, a list of icons of search engines appears at the bottom
+      of the screen. When a user clicks an icon, the entered text will be searched
+      via the search engine that uses the icon they clicked. This text is used
+      for screen reader users when they hover each icon - &formatS; will be
+      replaced with the name of the currently highlighted icon. -->
+<!ENTITY search_bar_item_desc "Cuardaigh le &formatS;">
+<!-- Localization note (suggestion_for_engine): The placeholder &formatS1; will be
+     replaced with the name of the search engine. The placeholder &formatS2; will be
+     replaced with the search query. -->
+
+<!ENTITY suggestion_for_engine "Déan cuardach ar &formatS2; le &formatS1;">
+
+<!ENTITY webapp_generic_name "Aip">
+
+<!ENTITY searchable_description "Leabharmharcanna agus stair">
+<!-- Updater notifications --> 
+
+<!ENTITY updater_start_title2 "Nuashonrú ar fáil: &brandShortName;">
+<!ENTITY updater_start_select2 "Tapáil chun íosluchtú">
+
+<!ENTITY updater_downloading_title2 "&brandShortName; á íosluchtú">
+<!ENTITY updater_downloading_title_failed2 "Theip ar íosluchtú">
+<!ENTITY updater_downloading_select2 "Tapáil chun an nuashonrú a chur i bhfeidhm tar éis íosluchtaithe">
+<!ENTITY updater_downloading_retry2 "Tapáil chun iarracht eile a dhéanamh">
+
+<!ENTITY updater_apply_title2 "Nuashonrú ar fáil: &brandShortName;">
+<!ENTITY updater_apply_select2 "Tapáil chun nuashonrú">
+<!-- Guest mode -->
+
+<!ENTITY new_guest_session "Seisiún Nua ar Iasacht">
+<!ENTITY exit_guest_session "Scoir ón Seisiún ar Iasacht">
+<!ENTITY guest_session_dialog_continue "Ar Aghaidh">
+<!ENTITY guest_session_dialog_cancel "Cealaigh">
+<!ENTITY new_guest_session_title "Atosóidh &brandShortName; anois">
+<!ENTITY new_guest_session_text2 "Má thugann tú do ghléas do chara ar iasacht, ní bheidh sé/sí in ann do chuid sonraí pearsanta a fheiceáil (mar shampla, focail fhaire, stair bhrabhsála, nó leabharmharcanna).\n\nNuair a bheidh do chara críochnaithe, scriosfar a c(h)uid sonraí brabhsála, agus athchóireofar do sheisiún.">
+<!ENTITY guest_browsing_notification_title "Seisiún ar Iasacht ar siúl">
+<!ENTITY guest_browsing_notification_text "Tapáil chun deireadh a chur leis">
+
+<!ENTITY exit_guest_session_title "Atosóidh &brandShortName; anois">
+<!ENTITY exit_guest_session_text "Scriosfar na sonraí brabhsála ón seisiún seo.">
+<!-- Miscellaneous -->
+<!-- LOCALIZATION NOTE (ellipsis): This text is appended to a piece of text that does not fit in the
+     designated space. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit
+     traditions in your locale. -->
+
+<!ENTITY ellipsis "…">
+
+<!ENTITY colon ":">
+<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
+     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
+     This format string is typically used by getString method, in such method the percent sign
+     is a reserved caracter. In order to display one percent sign in the result of getString,
+     double percent signs must be inserted in the format string.
+     This entity is used in the zoomed view to display the zoom factor-->
+
+<!ENTITY percent "&formatS;&#037;&#037;">
+<!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
+     They are never shown to users -->
+
+<!ENTITY actionbar_menu "Roghchlár">
+<!ENTITY actionbar_done "Déanta">
+<!-- Voice search in the awesome bar -->
+
+<!ENTITY voicesearch_prompt "Abair leat">
+<!-- Localization note (remote_tabs_last_synced): the variable is replaced by a
+     "relative time span string" produced by Android.  This string describes the
+     time the tabs were last synced relative to the current time; examples
+     include "42 minutes ago", "4 days ago", "last week", etc. The subject of
+     "Last synced" is one of the user's other Sync clients, typically Firefox on
+     their desktop or laptop.-->
+
+<!ENTITY remote_tabs_last_synced "Sioncrónaithe: &formatS;">
+<!-- Localization note: Used when the sync has not happend yet, showed in place of a date -->
+<!ENTITY remote_tabs_never_synced "Sioncrónú is déanaí: gan sioncrónú">
+<!-- Find-In-Page strings -->
+<!-- LOCALIZATION NOTE (find_matchcase): This is meant to appear as an icon that changes color
+     if match-case is activated. i.e. No more than two letters, one uppercase, one lowercase. -->
+
+<!ENTITY find_matchcase "AaÁa">
+
+<!ENTITY intent_uri_cannot_open "Ní féidir an nasc a oscailt">
+<!-- LOCALIZATION NOTE (intent_uri_private_browsing_prompt): This string will
+     appear in an alert when a user, who is currently in private browsing,
+     clicks a link that will open an external Android application. "&formatS;"
+     will be replaced with the name of the application that will be opened. -->
+<!ENTITY intent_uri_private_browsing_prompt "Osclófar an nasc seo in &formatS;. An bhfuil tú cinnte gur mhaith leat Brabhsáil Phríobháideach a scor?">
+<!-- LOCALIZATION NOTE (intent_uri_private_browsing_multiple_match_title): This
+     string will appear as the title of an alert when a user, who is currently
+     in private browsing, clicks a link that will open an external Android
+     application and more than one application is available to open that link.
+     We don't have control over the style of this dialog and it looks
+     unpolished when this string is longer than one line so ideally keep it
+     short! -->
+<!ENTITY intent_uri_private_browsing_multiple_match_title "Scoir de Bhrabhsáil Phríobháideach?">
+<!-- DevTools Authentication -->
+<!-- LOCALIZATION NOTE (devtools_auth_scan_header): This header text appears
+     above a QR reader that is actively scanning for QR codes.  The expected QR
+     code has already been displayed by the client trying to connect (such as
+     desktop Firefox via WebIDE), so you just need to aim this device at the QR
+     code. -->
+
+<!ENTITY devtools_auth_scan_header "Ag scanadh an chóid QR ar an ngléas eile">
+<!-- Restrictions -->
+<!-- Localization note: These are restrictions the device owner (e.g. parent) can enable for
+     a restricted profile (e.g. child). Used inside the Android settings UI. -->
+
+<!ENTITY restriction_disallow_import_settings_title2 "Díchumasaigh \u0027Iompórtáil ó Android\u0027">
+<!ENTITY restriction_disallow_addons_title2 "Díchumasaigh suiteáil breiseán">
+<!ENTITY restriction_disallow_devtools_title2 "Díchumasaigh na huirlisí forbartha">
+<!ENTITY restriction_disallow_customize_home_title2 "Díchumasaigh saincheapadh Baile">
+<!ENTITY restriction_disallow_private_browsing_title2 "Díchumasaigh Brabhsáil Phríobháideach">
+<!ENTITY restriction_disallow_location_services_title2 "Díchumasaigh Seirbhísí Geoshuite">
+<!ENTITY restriction_disallow_display_settings_title2 "Díchumasaigh Socruithe Taispeána">
+<!ENTITY restriction_disallow_clear_history_title2 "Díchumasaigh \u0027Glan an stair bhrabhsála\u0027">
+<!ENTITY restriction_disallow_master_password_title2 "Díchumasaigh an príomhfhocal faire">
+<!ENTITY restriction_disallow_guest_browsing_title2 "Díchumasaigh Seisiúin ar Iasacht">
+<!-- Default Bookmarks titles-->
+<!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
+
+<!ENTITY bookmarks_about_browser "Firefox: Maidir le do bhrabhsálaí">
+<!-- LOCALIZATION NOTE (bookmarks_addons): link title for https://addons.mozilla.org/en-US/mobile -->
+<!ENTITY bookmarks_addons "Firefox: Cuir in oiriúint duit féin le breiseáin">
+<!-- LOCALIZATION NOTE (bookmarks_support): link title for https://support.mozilla.org/ -->
+<!ENTITY bookmarks_support "Firefox: Tacaíocht">
+<!-- LOCALIZATION NOTE (bookmarks_restricted_support): link title for https://support.mozilla.org/kb/controlledaccess -->
+<!ENTITY bookmarks_restricted_support2 "Cúnamh agus Tacaíocht Firefox i dtaobh próifílí teoranta ar tháibléid Android">
+<!-- LOCALIZATION NOTE (bookmarks_restricted_webmaker):link title for https://webmaker.org -->
+<!ENTITY bookmarks_restricted_webmaker "Foghlaim an Gréasán: Mozilla Webmaker">

@@ -1,0 +1,272 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- Don't localize these. They're here until they have
+     a better place to live. -->
+
+<!ENTITY syncBrand.fullName.label "Firefox Sync">
+<!ENTITY syncBrand.shortName.label "Sync">
+<!-- Main titles. -->
+
+<!ENTITY sync.app.name.label "&syncBrand.fullName.label;">
+<!ENTITY sync.title.connect.label "Ceangail le &syncBrand.shortName.label;">
+<!ENTITY sync.title.adddevice.label "Cuir Cuntas &syncBrand.fullName.label; Leis">
+<!ENTITY sync.title.pair.label "Ceangail Gléas">
+<!-- J-PAKE Key Screen -->
+
+<!ENTITY sync.subtitle.connect.label "Chun do ghléas nua a ghníomhachtú, roghnaigh “Socraigh &syncBrand.shortName.label;” ar an ngléas.">
+<!ENTITY sync.subtitle.header2.label "Cuir an cód seo isteach i do ghléas eile">
+<!ENTITY sync.subtitle.connectlocation2.label "Roghnaigh “&sync.title.pair.label;” sa rannán &syncBrand.shortName.label; sna roghanna Firefox ar do ghléas eile.">
+<!ENTITY sync.subtitle.pair.label "Chun gníomhachtú, roghnaigh “Ceangail gléas” ar do ghléas eile.">
+<!ENTITY sync.pin.default.label "...\n...\n...\n">
+<!ENTITY sync.pin.oneline.label "...">
+<!ENTITY sync.link.show.label "Taispeáin dom.">
+<!ENTITY sync.link.advancedsetup.label "Ardroghanna…">
+<!ENTITY sync.link.nodevice.label "Níl an gléas liom faoi láthair...">
+<!-- J-PAKE Waiting Screen -->
+
+<!ENTITY sync.jpake.subtitle.waiting.label "Ag fanacht leis an ngléas eile…">
+<!-- Account Login Screen -->
+
+<!ENTITY sync.subtitle.account.label "Cuir faisnéis do chuntais &syncBrand.fullName.label; isteach">
+<!ENTITY sync.input.username.label "Ainm an Chuntais">
+<!ENTITY sync.input.password.label "Focal faire">
+<!ENTITY sync.input.key.label "Eochair Athshlánaithe">
+<!ENTITY sync.checkbox.server.label "Úsáid freastalaí saincheaptha">
+<!ENTITY sync.input.server.label "URL an fhreastalaí">
+<!-- Setup Fail -->
+
+<!ENTITY sync.title.fail.label "Ní féidir &syncBrand.shortName.label; a shocrú">
+<!ENTITY sync.subtitle.fail.label "Níorbh fhéidir le &syncBrand.fullName.label; ceangal leis an bhfreastalaí. An bhfuil fonn ort triail eile a bhaint as?">
+<!ENTITY sync.button.tryagain.label "Bain triail eile as">
+<!ENTITY sync.button.manual.label "Socrú De Láimh">
+<!ENTITY sync.subtitle.nointernet.label "Níl ceangal leis an Idirlíon ar fáil.">
+<!ENTITY sync.subtitle.failaccount.label "Níorbh fhéidir cuntas a chruthú ar do ghléas.">
+<!ENTITY sync.subtitle.failmultiple.label "An bhfuil níos mó ná Firefox amháin suiteáilte agat? Ní thacaíonn &syncBrand.fullName.label; le níos mó ná leagan amháin de Firefox faoi láthair. Caithfidh tú leaganacha eile a dhíshuiteáil chun &syncBrand.shortName.label; a úsáid.">
+<!-- Setup Success -->
+
+<!ENTITY sync.title.success.label "Críochnaithe">
+<!ENTITY sync.subtitle.success.label1 "Tá do chuid sonraí á n-íosluchtú sa chúlra. Féach ar na Socruithe chun do chuntas a bhainistiú, nó tosaigh ag brabhsáil le &brandShortName;..">
+<!ENTITY sync.settings.label "Socruithe">
+<!ENTITY sync.subtitle.manage.label1 "Tá cuntas &syncBrand.fullName.label; socraithe agat cheana. Féach ar na Socruithe chun do chuntas a bhainistiú, nó tosaigh &brandShortName;.">
+<!-- Pair Device -->
+
+<!ENTITY sync.pair.tryagain.label "Bain triail as arís.">
+<!ENTITY sync.pair.connectlocation.label "Chun do ghléas nua a chur i ngníomh, roghnaigh “Socraigh &syncBrand.shortName.label;” ar an ngléas, ansin roghnaigh “Tá Cuntas Agam”.">
+<!-- Firefox SyncAdapter Settings Screen -->
+
+<!ENTITY sync.settings.options.label "Roghanna">
+<!ENTITY sync.summary.pair.label "Nasc gléas eile le do chuntas &syncBrand.shortName.label;">
+<!-- Configure Engines -->
+
+<!ENTITY sync.configure.engines.title.label "Rudaí le sioncrónú">
+<!ENTITY sync.configure.engines.sync.my.title.label "Sioncrónaigh do…">
+<!ENTITY sync.configure.engines.title.bookmarks "Leabharmharcanna">
+<!ENTITY sync.configure.engines.title.passwords2 "Focail Fhaire">
+<!ENTITY sync.configure.engines.title.history "Stair">
+<!ENTITY sync.configure.engines.title.tabs "Cluaisíní">
+<!-- Common text -->
+
+<!ENTITY sync.button.cancel.label "Cealaigh">
+<!ENTITY sync.button.connect.label "Ceangail">
+<!ENTITY sync.button.ok.label "OK">
+<!-- Account strings -->
+
+<!ENTITY sync.account.label "&syncBrand.fullName.label; (ligthe i léig)">
+<!-- Localization note (sync.default.client.name): Default string of the "Device
+     name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
+     will be replaced by the name of the Firefox release channel and &formatS2
+     by the model name of the Android device. Examples look like "Aurora on
+     GT-I1950" and "Fennec on MI 2S". -->
+
+<!ENTITY sync.default.client.name "&formatS1; ar &formatS2;">
+<!-- Bookmark folder strings -->
+
+<!ENTITY bookmarks.folder.menu.label "Roghchlár na Leabharmharcanna">
+<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.tags.label "Clibeanna">
+<!ENTITY bookmarks.folder.toolbar.label "Barra Leabharmharc">
+<!ENTITY bookmarks.folder.unfiled.label "Leabharmharcanna Gan Sórtáil">
+<!ENTITY bookmarks.folder.desktop.label "Leabharmharcanna Deisce">
+<!ENTITY bookmarks.folder.mobile.label "Leabharmharcanna Soghluaiste">
+<!ENTITY bookmarks.folder.readinglist.label "Liosta Léitheoireachta">
+<!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
+<!ENTITY bookmarks.folder.pinned.label "Feistithe">
+<!-- Notification strings -->
+
+<!ENTITY sync.notification.oneaccount.label "Ní thacaítear ach aon chuntas &syncBrand.fullName.label; amháin.">
+<!ENTITY sync.notification.configure.saved "Sábháladh do chuid roghnúchán.">
+<!-- Incorrect settings and changing credentials. -->
+
+<!ENTITY sync.invalidcreds.label "Ainm cuntais nó focal faire mícheart.">
+<!ENTITY sync.invalidserver.label "Cuir isteach URL bailí don bhfreastalaí">
+<!ENTITY sync.verifying.label "Á Dheimhniú…">
+<!ENTITY sync.new.recoverykey.status.incorrect "Eochair Athshlánaithe mhícheart. Triail arís é, le do thoil.">
+<!-- Send tab to device. -->
+
+<!ENTITY sync.title.send.tab.label "Seol an Cluaisín Chuig Ghléasanna">
+<!ENTITY sync.button.send.label "Seol">
+<!ENTITY sync.button.set.up.sync.label "Socraigh &syncBrand.shortName.label;">
+<!ENTITY sync.title.redirect.to.set.up.sync.label "Socraigh &syncBrand.shortName.label; chun cluaisíní a sheoladh">
+<!ENTITY sync.text.redirect.to.set.up.sync.label "Socraigh &syncBrand.fullName.label; ar do ghléas chun cluaisíní a sheoladh chuig ghléasanna eile.">
+<!ENTITY sync.text.tab.sent.label "Seoladh do chluaisín!">
+<!ENTITY sync.text.tab.not.sent.label "Tharla earráid agus do chluaisín á sheoladh.">
+<!-- Firefox Account strings. -->
+
+
+<!ENTITY fxaccount_full_label "Cuntais Firefox">
+
+<!ENTITY fxaccount_custom_server_account_title "Cuntas ar an bhfreastalaí á úsáid">
+<!ENTITY fxaccount_custom_server_sync_title "Sonraí Sync á stóráil ar an bhfreastalaí">
+<!-- Localization note: these are shown in all screens that query the
+     user for an email address and password. Hide and show are button
+     labels. -->
+
+<!ENTITY fxaccount_email_hint "Ríomhphost">
+<!ENTITY fxaccount_password_hint "Focal faire">
+<!ENTITY fxaccount_password_hide "Folaigh">
+<!ENTITY fxaccount_password_show "Taispeáin">
+<!-- Localization note: these are shown in screens after the user has
+     created or signed in to an account, and take the user back to
+     Firefox. -->
+
+<!ENTITY fxaccount_back_to_browsing "Fill ar bhrabhsáil">
+<!-- Localization note: the following two strings are interpolated
+     into fxaccount_create_account_policy_text2; see note for that
+     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+
+<!ENTITY fxaccount_policy_linktos "Téarmaí Seirbhíse">
+<!ENTITY fxaccount_policy_linkprivacy "Fógra Príobháideachais">
+
+<!ENTITY fxaccount_getting_started_welcome_to_sync "Fáilte go dtí &syncBrand.shortName.label;">
+<!ENTITY fxaccount_getting_started_description2 "Logáil isteach chun do chuid cluaisíní, leabharmharcanna, focail fhaire agus araile a shioncrónú.">
+<!ENTITY fxaccount_getting_started_get_started "Tús maith">
+<!ENTITY fxaccount_getting_started_old_firefox "An bhfuil seanleagan de &syncBrand.shortName.label; agat?">
+<!-- Localization note: the Firefox below should not change with the
+     particular version of Firefox installed (Release, Beta, Aurora,
+     etc).  The account remains a "Firefox Account". -->
+
+<!ENTITY fxaccount_create_account_header2 "Cruthaigh Cuntas Firefox">
+<!ENTITY fxaccount_create_account_password_length_restriction "Ní mór dó a bheith 8 gcarachtar ar a laghad">
+<!ENTITY fxaccount_create_account_day_of_birth "Lá">
+<!ENTITY fxaccount_create_account_month_of_birth "Mí">
+<!ENTITY fxaccount_create_account_year_of_birth "Bliain bhreithe">
+<!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
+<!ENTITY fxaccount_create_account_policy_text2 "Glacaim le &formatS1; agus &formatS2; do néalseirbhísí Firefox.">
+<!ENTITY fxaccount_create_account_button "Ar Aghaidh">
+<!ENTITY fxaccount_create_account_choose_what_to_sync "Roghnaigh na rudaí le sioncrónú">
+<!ENTITY fxaccount_create_account_sign_in_instead "An bhfuil cuntas agat cheana? Logáil isteach">
+<!ENTITY fxaccount_create_account_1990_or_earlier "1990 nó níos luaithe">
+<!ENTITY fxaccount_create_account_unknown_error "Níorbh fhéidir cuntas a chruthú">
+
+<!ENTITY fxaccount_account_create_not_allowed "Níorbh fhéidir cuntas a chruthú">
+<!ENTITY fxaccount_account_create_not_allowed_you_must_meet_certain_age_requirements "Caithfidh tú aois áirithe a shlánú sular féidir leat cuntas a chruthú.">
+<!ENTITY fxaccount_account_create_not_allowed_learn_more "Tuilleadh eolais">
+
+<!ENTITY fxaccount_confirm_account_header "Dearbhaigh do chuntas">
+<!-- Localization note: &formatS; is the Firefox Account's email address. -->
+<!ENTITY fxaccount_confirm_account_verification_link "Seoladh nasc deimhnithe chuig &formatS;">
+<!ENTITY fxaccount_confirm_account_resend_email "Seol an ríomhphost arís">
+<!ENTITY fxaccount_confirm_account_change_email "Déan dearmad den seoladh ríomhphoist seo?">
+<!ENTITY fxaccount_confirm_account_verification_link_sent2 "Seoladh teachtaireacht deimhnithe trí ríomhphost">
+<!ENTITY fxaccount_confirm_account_verification_link_not_sent2 "Níorbh fhéidir an teachtaireacht dearbhaithe a sheoladh">
+<!ENTITY fxaccount_resend_unlock_code_button_label "Athsheol an ríomhphost díghlasála">
+<!ENTITY fxaccount_unlock_code_sent "Seoladh an ríomhphost díghlasála">
+<!ENTITY fxaccount_unlock_code_not_sent "Níorbh fhéidir an ríomhphost díghlasála a sheoladh">
+
+<!ENTITY fxaccount_sign_in_sub_header "Logáil isteach">
+<!ENTITY fxaccount_sign_in_button_label "Logáil isteach">
+<!ENTITY fxaccount_sign_in_forgot_password "Focal faire dearmadta?">
+<!ENTITY fxaccount_sign_in_create_account_instead "Cruthaigh cuntas">
+<!ENTITY fxaccount_sign_in_unknown_error "Níorbh fhéidir logáil isteach">
+
+<!ENTITY fxaccount_account_verified_sub_header "Cuntas dearbhaithe">
+<!ENTITY fxaccount_account_verified_description2 "Tosóidh do chuid sonraí ag sioncrónú go luath.">
+
+<!ENTITY fxaccount_migration_finished_header "Nuashonrú críochnaithe">
+
+<!ENTITY fxaccount_update_credentials_header "Logáil isteach">
+<!ENTITY fxaccount_update_credentials_button_label "Logáil isteach">
+<!ENTITY fxaccount_update_credentials_unknown_error "Níorbh fhéidir logáil isteach">
+
+<!ENTITY fxaccount_finish_migrating_header "Logáil isteach chun an nuashonrú a chríochnú">
+<!ENTITY fxaccount_finish_migrating_button_label "Cuir an nuashonrú i gcrích">
+<!ENTITY fxaccount_finish_migrating_description "Is gá go leor sonraí a aistriú chun nuashonrú a dhéanamh. Tá sé níos fearr é dhéanamh ar líonra Wi-Fi.">
+
+<!ENTITY fxaccount_status_header2 "Cuntas Firefox">
+<!ENTITY fxaccount_status_signed_in_as "Logáilte isteach mar">
+<!ENTITY fxaccount_status_manage_account "Bainistigh mo chuntas">
+<!ENTITY fxaccount_status_auth_server "Freastalaí an chuntais">
+<!ENTITY fxaccount_status_sync_now "Sioncrónaigh anois">
+<!ENTITY fxaccount_status_syncing2 "Á Shioncrónú…">
+<!ENTITY fxaccount_status_device_name "Ainm an ghléis">
+<!ENTITY fxaccount_status_sync_server "Freastalaí Sync">
+<!ENTITY fxaccount_status_sync "&syncBrand.shortName.label;">
+<!ENTITY fxaccount_status_sync_enabled "&syncBrand.shortName.label;: cumasaithe">
+<!ENTITY fxaccount_status_needs_verification2 "Caithfidh tú do chuntas a dhearbhú. Tapáil chun an teachtaireacht dearbhaithe a sheoladh arís.">
+<!ENTITY fxaccount_status_needs_credentials "Ní féidir ceangal. Tapáil chun logáil isteach.">
+<!ENTITY fxaccount_status_needs_upgrade "Caithfidh tú &brandShortName; a nuashonrú chun logáil isteach.">
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled "Tá &syncBrand.shortName.label; réidh, ach níl sé ag sioncrónú go huathoibríoch. Scoránaigh “Auto-sync data” sna Android Settings &gt; Data Usage.">
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 "Tá &syncBrand.shortName.label; réidh, ach níl sé ag sioncrónú go huathoibríoch. Scoránaigh “Auto-sync data” sna Android Settings &gt; Accounts.">
+<!ENTITY fxaccount_status_needs_finish_migrating "Tapáil le logáil isteach i do chuntas nua Firefox.">
+<!ENTITY fxaccount_status_bookmarks "Leabharmharcanna">
+<!ENTITY fxaccount_status_history "Stair">
+<!ENTITY fxaccount_status_passwords2 "Focail Fhaire">
+<!ENTITY fxaccount_status_tabs "Oscail cluaisíní">
+<!ENTITY fxaccount_status_legal "Cúrsaí Dlí" >
+<!-- Localization note: when tapped, the following two strings link to
+     external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_status_linktos "Téarmaí Seirbhíse">
+<!ENTITY fxaccount_status_linkprivacy "Fógra Príobháideachais">
+<!ENTITY fxaccount_status_more "Tuilleadh&ellipsis;">
+<!ENTITY fxaccount_remove_account "Dícheangail&ellipsis;">
+
+<!ENTITY fxaccount_remove_account_dialog_title "Bain an Cuntas Firefox?">
+<!ENTITY fxaccount_remove_account_dialog_message "Stopfaidh &brandShortName; sioncrónú le do chuntas, ach ní scriosfaidh sé do chuid sonraí brabhsála ar an ngléas seo.">
+<!-- Localization note: format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_remove_account_toast "Baineadh Cuntas Firefox &formatS;.">
+
+<!ENTITY fxaccount_enable_debug_mode "Cumasaigh an Mód Dífhabhtaithe">
+<!-- Localization note: this is the name shown by the Android system
+     itself for a Firefox Account. Don't localize this. -->
+
+<!ENTITY fxaccount_account_type_label "Firefox">
+<!-- Localization note: these are shown by the Android system itself,
+     when the user navigates to the Android > Accounts > {Firefox
+     Account} Screen. The link takes the user to the Firefox Account
+     status activity, which lets them manage their Firefox
+     Account. -->
+
+<!ENTITY fxaccount_options_title "Roghanna &syncBrand.shortName.label;">
+<!ENTITY fxaccount_options_configure_title "Cumraigh &syncBrand.shortName.label;">
+<!-- Localization note: these error messages are shown after a request
+     has been made to the remote server, and an error of some type has
+     been returned. -->
+
+<!ENTITY fxaccount_remote_error_UPGRADE_REQUIRED "Caithfidh tú Firefox a uasghrádú">
+<!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
+
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_CREATE_AN_ACCOUNT_THAT_ALREADY_EXISTS_2 "Tá an cuntas ann cheana. &formatS1;">
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST "Seoladh ríomhphoist nó focal faire neamhbhailí">
+<!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD "Seoladh ríomhphoist nó focal faire neamhbhailí">
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT "Níl an cuntas deimhnithe">
+<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS "Tá an freastalaí gnóthach; bain triail eile as go luath">
+<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD "Tá an freastalaí gnóthach; bain triail eile as go luath">
+<!ENTITY fxaccount_remote_error_UNKNOWN_ERROR "Tharla fadhb éigin">
+<!ENTITY fxaccount_remote_error_COULD_NOT_CONNECT "Ní féidir ceangal leis an líonra">
+<!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED "Cuntas faoi ghlas. &formatS1;">
+
+<!ENTITY fxaccount_sync_sign_in_error_notification_title2 "Níl &syncBrand.shortName.label; ceangailte">
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_sign_in_error_notification_text2 "Tapáil le logáil isteach mar &formatS;">
+
+<!ENTITY fxaccount_sync_finish_migrating_notification_title "Nuashonrú &syncBrand.shortName.label; a chur i gcrích?">
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_finish_migrating_notification_text "Tapáil le logáil isteach mar &formatS;">
