@@ -1,0 +1,27 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- extracted from EdReplace.xul -->
+
+<!ENTITY replaceDialog.title "Find and Replace">
+<!ENTITY findField.label "Tìm văn bản:">
+<!ENTITY findField.accesskey "m">
+<!ENTITY replaceField.label "Thay thế bằng:">
+<!ENTITY replaceField.accesskey "a">
+<!ENTITY caseSensitiveCheckbox.label "Phân biệt HOA-thường">
+<!ENTITY caseSensitiveCheckbox.accesskey "A">
+<!ENTITY wrapCheckbox.label "Bao lại xung quanh">
+<!ENTITY wrapCheckbox.accesskey "o">
+<!ENTITY backwardsCheckbox.label "Tìm ngược trở lại">
+<!ENTITY backwardsCheckbox.accesskey "l">
+<!ENTITY findNextButton.label "Tìm Tiếp">
+<!ENTITY findNextButton.accesskey "T">
+<!ENTITY replaceButton.label "Thay thế">
+<!ENTITY replaceButton.accesskey "h">
+<!ENTITY replaceAndFindButton.label "Thay thế và Tìm">
+<!ENTITY replaceAndFindButton.accesskey "v">
+<!ENTITY replaceAllButton.label "Thay thế Toàn bộ">
+<!ENTITY replaceAllButton.accesskey "b">
+<!ENTITY closeButton.label "Đóng">
+

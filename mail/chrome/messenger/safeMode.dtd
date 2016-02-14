@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY safeModeDialog.title             "&brandShortName; Chế độ An toàn">
+<!ENTITY window.width                     "37em">
+
+<!ENTITY safeModeDescription.label        "&brandShortName; đang chạy ở chế độ An toàn, nó sẽ tạm thời vô hiệu hóa mọi thiết lập cá nhân, giao diện, phần mở rộng của bạn.">
+<!ENTITY safeModeDescription2.label       "Bạn có thể chuyển một số hoặc tất cả các thiết lập sau đây thành những thay đổi vĩnh viễn:">
+
+<!ENTITY disableAddons.label              "Vô hiệu hóa tất cả tiện ích">
+<!ENTITY disableAddons.accesskey          "V">
+
+<!ENTITY resetToolbars.label              "Đặt lại các thanh công cụ và điều khiển về mặc định">
+<!ENTITY resetToolbars.accesskey          "a">
+
+<!ENTITY changeAndRestartButton.label     "Lưu thay đổi và Khởi động lại">
+<!ENTITY changeAndRestartButton.accesskey "L">
+
+<!ENTITY continueButton.label             "Tiếp tục ở Chế độ An toàn">
+<!ENTITY continueButton.accesskey         "p">
+

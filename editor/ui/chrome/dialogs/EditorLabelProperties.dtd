@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY windowTitle.label "Thuộc tính Nhãn">
+
+<!ENTITY Settings.label "Thiết lập">
+<!ENTITY Settings.accesskey "T">
+
+<!ENTITY EditLabelText.label "Chỉnh sửa Văn bản:">
+<!ENTITY EditLabelText.accesskey "C">
+<!ENTITY LabelFor.label "Dành cho Điều khiển:">
+<!ENTITY LabelFor.accesskey "D">
+<!ENTITY AccessKey.label "Phím truy cập:">
+<!ENTITY AccessKey.accesskey "P">
+
+<!ENTITY RemoveLabel.label "Xóa Nhãn">
+<!ENTITY RemoveLabel.accesskey "X">
+
