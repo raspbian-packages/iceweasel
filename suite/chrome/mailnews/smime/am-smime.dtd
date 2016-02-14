@@ -1,0 +1,32 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY securityTitle.label "Segurança">
+<!ENTITY securityTab.label "Segurança">
+<!ENTITY securityHeading.label "Para enviar ou receber mensagens cifradas, deve especificar um certificado assinando digitalmente e um certificado de cifra.">
+<!ENTITY encryptionGroupTitle.label "Cifra">
+<!ENTITY encryptionChoiceLabel.label "Configuração da cifra pré-definida ao enviar mensagens:">
+<!ENTITY neverEncrypt.label "Nunca (não utilizar cifra)">
+<!ENTITY neverEncrypt.accesskey "N">
+<!ENTITY alwaysEncryptMessage.label "Requerido (impossível enviar mensagens a menos que os receptores tenham um certificado)">
+<!ENTITY alwaysEncryptMessage.accesskey "u">
+<!ENTITY encryptionCert.message "Utilizar este certificado para cifrar/decifrar mensagens enviadas para si:">
+<!ENTITY digitalSign.certificate.button "Selecionar...">
+<!ENTITY digitalSign.certificate.accesskey "S">
+<!ENTITY digitalSign.certificate_clear.button "Limpar">
+<!ENTITY digitalSign.certificate_clear.accesskey "L">
+<!ENTITY encryption.certificate.button "Selecionar...">
+<!ENTITY encryption.certificate.accesskey "S">
+<!ENTITY encryption.certificate_clear.button "Limpar">
+<!ENTITY encryption.certificate_clear.accesskey "r">
+<!ENTITY signingGroupTitle.label "Assinatura digital">
+<!ENTITY signMessage.label "Assinar mensagens digitalmente (pré-definição)">
+<!ENTITY signMessage.accesskey "d">
+<!ENTITY signingCert.message "Utilizar este certificado para assinar digitalmente as mensagens enviadas:">
+
+<!ENTITY certificates.label "Certificados">
+<!ENTITY manageCerts.label "Gerir certificados…">
+<!ENTITY manageCerts.accesskey "G">
+<!ENTITY manageDevices.label "Gerir dispositivos de segurança…">
+<!ENTITY manageDevices.accesskey "e">
