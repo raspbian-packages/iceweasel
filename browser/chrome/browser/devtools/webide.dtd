@@ -1,0 +1,171 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!ENTITY runtimeMenu_disconnect_label "Khupha kunxibelelo">
+
+
+
+<!ENTITY runtimeMenu_takeScreenshot_label "Iskrinshot">
+
+
+
+
+
+
+
+
+
+
+<!ENTITY viewMenu_label "Jonga">
+
+
+
+<!ENTITY viewMenu_zoomin_label "Sondeza Kufuphi">
+
+<!ENTITY viewMenu_zoomout_label "Bhekelisela Kudana">
+
+
+
+
+
+<!-- We try to repicate Firefox' bindings: -->
+<!-- quit app -->
+<!-- open menu -->
+<!-- reload app -->
+<!-- show toolbox -->
+<!ENTITY key_toggleToolbox "VK_F12">
+<!-- toggle sidebar -->
+<!-- zoom -->
+
+
+
+
+
+<!ENTITY projectPanel_tabs "Iithebhu">
+
+
+
+
+<!ENTITY runtimePanel_installsimulator "Fakela isixhobo esakhelwe ukulinganisa">
+
+
+<!-- Lense -->
+<!ENTITY details_warning_header "Izilumkiso">
+
+
+<!ENTITY details_location "Indawo">
+
+
+
+<!-- New App -->
+
+
+
+<!-- Decks -->
+
+
+
+<!ENTITY deck_close "Vala">
+<!-- Addons -->
+<!ENTITY addons_aboutaddons "Vula umlawuli wezongezelelo">
+<!-- Prefs -->
+
+<!ENTITY prefs_general_title "Jikelele">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Permissions Table -->
+
+<!-- Runtime Details -->
+
+
+
+
+
+
+<!-- Device Preferences and Settings -->
+
+
+<!ENTITY device_typeobject "Into">
+
+<!-- Device Preferences -->
+
+
+
+
+<!-- Device Settings -->
+
+
+
+
+<!-- Monitor -->
+<!ENTITY monitor_help "Uncedo">
+<!-- WiFi Authentication -->
+<!-- LOCALIZATION NOTE (wifi_auth_header): The header displayed on the dialog
+     that instructs the user to transfer an authentication token to the
+     server. -->
+<!-- LOCALIZATION NOTE (wifi_auth_scan_request): Instructions requesting the
+     user to transfer authentication info by scanning a QR code. -->
+<!-- LOCALIZATION NOTE (wifi_auth_no_scanner): Link text to assist users with
+     devices that can't scan a QR code. -->
+<!-- LOCALIZATION NOTE (wifi_auth_yes_scanner): Link text to assist users with
+     devices that can scan a QR code. -->
+<!-- LOCALIZATION NOTE (wifi_auth_token_request): Instructions requesting the
+     user to transfer authentication info by transferring a token. -->
+<!-- Logs panel -->
+<!-- Simulator Options -->
+
+
+
+
+<!ENTITY simulator_version "Uguqulelo">
+
+
+<!ENTITY simulator_device "Isixhobo">
+
+

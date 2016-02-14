@@ -1,0 +1,23 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- Title -->
+
+<!ENTITY mailListWindow.title           "Uludwe Lwemeyile">
+<!-- Labels -->
+<!ENTITY addToAddressBook.label         "Fakela apha: ">
+
+<!ENTITY ListName.label                 "Dwelisa Igama: ">
+<!ENTITY ListNickName.label             "Uludwe Igama lesiqhulo: ">
+<!ENTITY ListDescription.label          "Inkcazelo: ">
+<!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
+<!ENTITY AddressTitle.label             "Chwetheza iidilesi zemeyile ukuze uzifakele kuludwe lwemeyile:">
+<!ENTITY UpButton.label                 "Shenxisela Phezulu">
+<!ENTITY DownButton.label               "Shenxisela Ezantsi">
+<!-- Access Keys -->
+
+<!ENTITY addToAddressBook.accesskey     "F">
+<!ENTITY ListName.accesskey             "D">
+<!ENTITY ListNickName.accesskey         "I">
+<!ENTITY ListDescription.accesskey      "a">
+
