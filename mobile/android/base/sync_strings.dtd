@@ -1,0 +1,272 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Don't localize these. They're here until they have
+     a better place to live. -->
+<!ENTITY syncBrand.fullName.label "Firefox Sync">
+<!ENTITY syncBrand.shortName.label "Sync">
+
+<!-- Main titles. -->
+<!ENTITY sync.app.name.label '&syncBrand.fullName.label;'>
+<!ENTITY sync.title.connect.label 'Verbinden met &syncBrand.shortName.label;'>
+<!ENTITY sync.title.adddevice.label 'Een &syncBrand.fullName.label;-account toevoegen'>
+<!ENTITY sync.title.pair.label 'Een apparaat koppelen'>
+
+<!-- J-PAKE Key Screen -->
+<!ENTITY sync.subtitle.connect.label 'Selecteer ‘&syncBrand.shortName.label; instellen’ op uw nieuwe apparaat om het te activeren.'>
+<!ENTITY sync.subtitle.header2.label 'Voer deze code in op uw andere apparaat'>
+<!ENTITY sync.subtitle.connectlocation2.label 'Selecteer ‘&sync.title.pair.label;’ in de sectie &syncBrand.shortName.label; van de opties van Firefox op uw andere apparaat.'>
+<!ENTITY sync.subtitle.pair.label 'Selecteer ‘Een apparaat koppelen’ op uw andere apparaat om het te activeren.'>
+<!ENTITY sync.pin.default.label '...\n...\n...\n'>
+<!ENTITY sync.pin.oneline.label '...'>
+<!ENTITY sync.link.show.label 'Tonen hoe.'>
+<!ENTITY sync.link.advancedsetup.label 'Uitgebreide configuratie…'>
+<!ENTITY sync.link.nodevice.label 'Ik heb het apparaat niet bij me…'>
+
+<!-- J-PAKE Waiting Screen -->
+<!ENTITY sync.jpake.subtitle.waiting.label 'Wachten op andere apparaat…'>
+
+<!-- Account Login Screen -->
+<!ENTITY sync.subtitle.account.label 'Voer uw &syncBrand.fullName.label;-accountgegevens in'>
+<!ENTITY sync.input.username.label 'Accountnaam'>
+<!ENTITY sync.input.password.label 'Wachtwoord'>
+<!ENTITY sync.input.key.label 'Herstelsleutel'>
+<!ENTITY sync.checkbox.server.label 'Eigen server gebruiken'>
+<!ENTITY sync.input.server.label 'Server-URL'>
+  
+<!-- Setup Fail -->
+<!ENTITY sync.title.fail.label 'Kan &syncBrand.shortName.label; niet configureren'>
+<!ENTITY sync.subtitle.fail.label '&syncBrand.fullName.label; kan niet verbinden met de server. Wilt u het opnieuw proberen?'>
+<!ENTITY sync.button.tryagain.label 'Opnieuw proberen'>
+<!ENTITY sync.button.manual.label 'Handmatige configuratie'>
+<!ENTITY sync.subtitle.nointernet.label 'Geen internetverbinding beschikbaar.'>
+<!ENTITY sync.subtitle.failaccount.label 'Account aanmaken op uw apparaat is mislukt.'>
+<!ENTITY sync.subtitle.failmultiple.label 'Hebt u meer dan één Firefox geïnstalleerd? &syncBrand.fullName.label; ondersteunt momenteel maar één Firefox-installatie tegelijk. De-installeer andere exemplaren om &syncBrand.shortName.label; te gebruiken.'>
+ 
+<!-- Setup Success -->
+<!ENTITY sync.title.success.label 'Set-up voltooid'>
+<!ENTITY sync.subtitle.success.label1 'Uw gegevens worden nu op de achtergrond gedownload. U kunt naar Instellingen gaan om uw account te beheren, of beginnen met navigeren via &brandShortName;.'>
+<!ENTITY sync.settings.label 'Instellingen'>
+<!ENTITY sync.subtitle.manage.label1 'Uw &syncBrand.fullName.label;-account is al geconfigureerd. U kunt naar Instellingen gaan om uw account te beheren, of &brandShortName; starten.'>
+
+<!-- Pair Device -->
+<!ENTITY sync.pair.tryagain.label 'Probeer het opnieuw.'>
+<!ENTITY sync.pair.connectlocation.label 'Selecteer ‘&syncBrand.shortName.label; instellen’ en daarna ‘Ik heb een account’ op uw nieuwe apparaat om het te activeren.'>
+
+<!-- Firefox SyncAdapter Settings Screen -->
+<!ENTITY sync.settings.options.label 'Opties'>
+<!ENTITY sync.summary.pair.label 'Een ander apparaat aan uw &syncBrand.shortName.label;-account koppelen'>
+
+<!-- Configure Engines -->
+<!ENTITY sync.configure.engines.title.label 'Wat te synchroniseren'>
+<!ENTITY sync.configure.engines.sync.my.title.label 'Synchroniseren:'>
+<!ENTITY sync.configure.engines.title.bookmarks 'Bladwijzers'>
+<!ENTITY sync.configure.engines.title.passwords2 'Aanmeldingen'>
+<!ENTITY sync.configure.engines.title.history 'Geschiedenis'>
+<!ENTITY sync.configure.engines.title.tabs 'Tabbladen'>
+
+<!-- Common text -->
+<!ENTITY sync.button.cancel.label 'Annuleren'>
+<!ENTITY sync.button.connect.label 'Verbinden'>
+<!ENTITY sync.button.ok.label 'OK'>
+  
+<!-- Account strings -->
+<!ENTITY sync.account.label '&syncBrand.fullName.label; (niet meer ondersteund)'>
+  
+<!-- Localization note (sync.default.client.name): Default string of the "Device
+     name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
+     will be replaced by the name of the Firefox release channel and &formatS2
+     by the model name of the Android device. Examples look like "Aurora on
+     GT-I1950" and "Fennec on MI 2S". -->
+<!ENTITY sync.default.client.name '&formatS1; op &formatS2;'>
+
+<!-- Bookmark folder strings -->
+<!ENTITY bookmarks.folder.menu.label 'Bladwijzermenu'>
+<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.tags.label 'Labels'>
+<!ENTITY bookmarks.folder.toolbar.label 'Bladwijzerwerkbalk'>
+<!ENTITY bookmarks.folder.unfiled.label 'Ongesorteerde bladwijzers'>
+<!ENTITY bookmarks.folder.desktop.label 'Desktop-bladwijzers'>
+<!ENTITY bookmarks.folder.mobile.label 'Mobiel-bladwijzers'>
+<!ENTITY bookmarks.folder.readinglist.label 'Leeslijst'>
+<!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
+<!ENTITY bookmarks.folder.pinned.label 'Vastgemaakt'>
+
+<!-- Notification strings -->
+<!ENTITY sync.notification.oneaccount.label 'Er wordt maar één &syncBrand.fullName.label;-account ondersteund.'>
+<!ENTITY sync.notification.configure.saved 'Uw selecties zijn opgeslagen.'>
+
+<!-- Incorrect settings and changing credentials. -->
+<!ENTITY sync.invalidcreds.label 'Onjuiste accountnaam of wachtwoord.'>
+<!ENTITY sync.invalidserver.label 'Voer een geldige server-URL in'>
+<!ENTITY sync.verifying.label 'Verifiëren…'>
+<!ENTITY sync.new.recoverykey.status.incorrect 'Herstelsleutel onjuist. Probeer het opnieuw.'>
+
+<!-- Send tab to device. -->
+<!ENTITY sync.title.send.tab.label 'Tabblad naar apparaten verzenden'>
+<!ENTITY sync.button.send.label 'Verzenden'>
+<!ENTITY sync.button.set.up.sync.label '&syncBrand.shortName.label; instellen'>
+<!ENTITY sync.title.redirect.to.set.up.sync.label '&syncBrand.shortName.label; instellen om tabbladen te verzenden'>
+<!ENTITY sync.text.redirect.to.set.up.sync.label 'Stel &syncBrand.fullName.label; in op uw apparaat om tabbladen naar andere apparaten te verzenden.'>
+<!ENTITY sync.text.tab.sent.label 'Uw tabblad is verzonden!'>
+<!ENTITY sync.text.tab.not.sent.label 'Er is een probleem opgetreden bij het verzenden van uw tabblad.'>
+
+<!-- Firefox Account strings. -->
+
+<!ENTITY fxaccount_full_label 'Firefox-accounts'>
+
+<!ENTITY fxaccount_custom_server_account_title 'Account op server gebruiken'>
+<!ENTITY fxaccount_custom_server_sync_title 'Sync-gegevens op server opslaan'>
+
+<!-- Localization note: these are shown in all screens that query the
+     user for an email address and password. Hide and show are button
+     labels. -->
+<!ENTITY fxaccount_email_hint 'E-mail'>
+<!ENTITY fxaccount_password_hint 'Wachtwoord'>
+<!ENTITY fxaccount_password_hide 'Verbergen'>
+<!ENTITY fxaccount_password_show 'Tonen'>
+
+<!-- Localization note: these are shown in screens after the user has
+     created or signed in to an account, and take the user back to
+     Firefox. -->
+<!ENTITY fxaccount_back_to_browsing 'Terug naar navigeren'>
+
+<!-- Localization note: the following two strings are interpolated
+     into fxaccount_create_account_policy_text2; see note for that
+     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_policy_linktos 'Servicevoorwaarden (en)'>
+<!ENTITY fxaccount_policy_linkprivacy 'Privacyverklaring (en)'>
+
+<!ENTITY fxaccount_getting_started_welcome_to_sync 'Welkom bij &syncBrand.shortName.label;'>
+<!ENTITY fxaccount_getting_started_description2 'Meld u aan om uw tabbladen, bladwijzers, aanmeldingen en meer te synchroniseren.'>
+<!ENTITY fxaccount_getting_started_get_started 'Beginnen'>
+<!ENTITY fxaccount_getting_started_old_firefox 'Gebruikt u een oudere versie van &syncBrand.shortName.label;?'>
+
+<!-- Localization note: the Firefox below should not change with the
+     particular version of Firefox installed (Release, Beta, Aurora,
+     etc).  The account remains a "Firefox" account. -->
+<!ENTITY fxaccount_create_account_header2 'Firefox-account aanmaken'>
+<!ENTITY fxaccount_create_account_password_length_restriction 'Moet minstens 8 tekens zijn'>
+<!ENTITY fxaccount_create_account_day_of_birth 'Dag'>
+<!ENTITY fxaccount_create_account_month_of_birth 'Maand'>
+<!ENTITY fxaccount_create_account_year_of_birth 'Geboortejaar'>
+<!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
+<!ENTITY fxaccount_create_account_policy_text2 'Door verder te gaan accepteer ik de &formatS1; en &formatS2; van de Firefox-cloudservices.'>
+<!ENTITY fxaccount_create_account_button 'Volgende'>
+<!ENTITY fxaccount_create_account_choose_what_to_sync 'Kies wat te synchroniseren'>
+<!ENTITY fxaccount_create_account_sign_in_instead 'Al een account? Aanmelden'>
+<!ENTITY fxaccount_create_account_1990_or_earlier '1990 of eerder'>
+<!ENTITY fxaccount_create_account_unknown_error 'Kan geen account aanmaken'>
+
+<!ENTITY fxaccount_account_create_not_allowed 'Kan geen account aanmaken'>
+<!ENTITY fxaccount_account_create_not_allowed_you_must_meet_certain_age_requirements 'U moet aan bepaalde leeftijdsvoorwaarden voldoen om een account aan te maken.'>
+<!ENTITY fxaccount_account_create_not_allowed_learn_more 'Meer info'>
+
+<!ENTITY fxaccount_confirm_account_header 'Bevestig uw account'>
+<!-- Localization note: &formatS; is the Firefox Account's email address. -->
+<!ENTITY fxaccount_confirm_account_verification_link 'Er is een verificatiekoppeling verzonden naar &formatS;'>
+<!ENTITY fxaccount_confirm_account_resend_email 'E-mail opnieuw verzenden'>
+<!ENTITY fxaccount_confirm_account_change_email 'Dit e-mailadres vergeten?'>
+<!ENTITY fxaccount_confirm_account_verification_link_sent2 'Verificatie-e-mail verzonden'>
+<!ENTITY fxaccount_confirm_account_verification_link_not_sent2 'Kan geen verificatie-e-mail verzenden'>
+<!ENTITY fxaccount_resend_unlock_code_button_label 'Ontgrendel-e-mail opnieuw verzenden'>
+<!ENTITY fxaccount_unlock_code_sent 'Ontgrendel-e-mail verzonden'>
+<!ENTITY fxaccount_unlock_code_not_sent 'Kan geen ontgrendel-e-mail verzenden'>
+
+<!ENTITY fxaccount_sign_in_sub_header 'Aanmelden'>
+<!ENTITY fxaccount_sign_in_button_label 'Aanmelden'>
+<!ENTITY fxaccount_sign_in_forgot_password 'Wachtwoord vergeten?'>
+<!ENTITY fxaccount_sign_in_create_account_instead 'Account aanmaken'>
+<!ENTITY fxaccount_sign_in_unknown_error 'Kan niet aanmelden'>
+
+<!ENTITY fxaccount_account_verified_sub_header 'Account geverifieerd'>
+<!ENTITY fxaccount_account_verified_description2 'Het synchroniseren van uw gegevens zal over enkele ogenblikken beginnen.'>
+
+<!ENTITY fxaccount_migration_finished_header 'Upgrade voltooid'>
+
+<!ENTITY fxaccount_update_credentials_header 'Aanmelden'>
+<!ENTITY fxaccount_update_credentials_button_label 'Aanmelden'>
+<!ENTITY fxaccount_update_credentials_unknown_error 'Kan niet aanmelden'>
+
+<!ENTITY fxaccount_finish_migrating_header 'Meld u aan om het upgraden te voltooien'>
+<!ENTITY fxaccount_finish_migrating_button_label 'Upgraden voltooien'>
+<!ENTITY fxaccount_finish_migrating_description 'Upgraden kan heel veel gegevens overbrengen. U kunt het beste met een wifi-netwerk verbonden zijn.'>
+
+<!ENTITY fxaccount_status_header2 'Firefox-account'>
+<!ENTITY fxaccount_status_signed_in_as 'Aangemeld als'>
+<!ENTITY fxaccount_status_manage_account 'Account beheren'>
+<!ENTITY fxaccount_status_auth_server 'Accountserver'>
+<!ENTITY fxaccount_status_sync_now 'Nu synchroniseren'>
+<!ENTITY fxaccount_status_syncing2 'Synchroniseren…'>
+<!ENTITY fxaccount_status_device_name 'Apparaatnaam'>
+<!ENTITY fxaccount_status_sync_server 'Sync-server'>
+<!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
+<!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label;: ingeschakeld'>
+<!ENTITY fxaccount_status_needs_verification2 'Uw account moet worden geverifieerd. Tik om de verificatie-e-mail opnieuw te verzenden.'>
+<!ENTITY fxaccount_status_needs_credentials 'Kan niet verbinden. Tik om u aan te melden.'>
+<!ENTITY fxaccount_status_needs_upgrade 'U dient &brandShortName; te upgraden om u aan te melden.'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '&syncBrand.shortName.label; is ingesteld, maar synchroniseert niet automatisch. Schakel ‘Automatisch synchroniseren’ om in Android-instellingen &gt; Gegevensgebruik.'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 '&syncBrand.shortName.label; is ingesteld, maar synchroniseert niet automatisch. Schakel ‘Automatisch synchroniseren’ om in het menu van Android-instellingen &gt; Accounts.'>
+<!ENTITY fxaccount_status_needs_finish_migrating 'Tik om u aan te melden bij uw nieuwe Firefox-account.'>
+<!ENTITY fxaccount_status_bookmarks 'Bladwijzers'>
+<!ENTITY fxaccount_status_history 'Geschiedenis'>
+<!ENTITY fxaccount_status_passwords2 'Aanmeldingen'>
+<!ENTITY fxaccount_status_tabs 'Geopende tabbladen'>
+<!ENTITY fxaccount_status_legal 'Juridisch' >
+<!-- Localization note: when tapped, the following two strings link to
+     external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_status_linktos 'Servicevoorwaarden (en)'>
+<!ENTITY fxaccount_status_linkprivacy 'Privacyverklaring (en)'>
+<!ENTITY fxaccount_status_more 'Meer&ellipsis;'>
+<!ENTITY fxaccount_remove_account 'Verbreken&ellipsis;'>
+
+<!ENTITY fxaccount_remove_account_dialog_title 'Firefox-account verwijderen?'>
+<!ENTITY fxaccount_remove_account_dialog_message '&brandShortName; zal het synchroniseren met uw account stoppen, maar geen navigatiegegevens op dit apparaat verwijderen.'>
+<!-- Localization note: format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_remove_account_toast 'Firefox-account &formatS; verwijderd.'>
+
+<!ENTITY fxaccount_enable_debug_mode 'Debugmodus inschakelen'>
+
+<!-- Localization note: this is the name shown by the Android system
+     itself for a Firefox Account. Don't localize this. -->
+<!ENTITY fxaccount_account_type_label 'Firefox'>
+
+<!-- Localization note: these are shown by the Android system itself,
+     when the user navigates to the Android > Accounts > {Firefox
+     Account} Screen. The link takes the user to the Firefox Account
+     status activity, which lets them manage their Firefox
+     Account. -->
+<!ENTITY fxaccount_options_title '&syncBrand.shortName.label;-opties'>
+<!ENTITY fxaccount_options_configure_title '&syncBrand.shortName.label; configureren'>
+
+<!-- Localization note: these error messages are shown after a request
+     has been made to the remote server, and an error of some type has
+     been returned. -->
+<!ENTITY fxaccount_remote_error_UPGRADE_REQUIRED 'U dient Firefox te upgraden'>
+
+<!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_CREATE_AN_ACCOUNT_THAT_ALREADY_EXISTS_2 'Account bestaat al. &formatS1;'>
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST 'Ongeldig e-mailadres of wachtwoord'>
+<!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD 'Ongeldig e-mailadres of wachtwoord'>
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT 'Account is niet geverifieerd'>
+<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS 'Server is bezet, probeer het later opnieuw'>
+<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD 'Server is bezet, probeer het later opnieuw'>
+<!ENTITY fxaccount_remote_error_UNKNOWN_ERROR 'Er was een probleem'>
+<!ENTITY fxaccount_remote_error_COULD_NOT_CONNECT 'Kan niet verbinden met netwerk'>
+<!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED 'Account is vergrendeld. &formatS1;'>
+
+<!ENTITY fxaccount_sync_sign_in_error_notification_title2 '&syncBrand.shortName.label; is niet verbonden'>
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_sign_in_error_notification_text2 'Tik om u aan te melden als &formatS;'>
+
+<!ENTITY fxaccount_sync_finish_migrating_notification_title '&syncBrand.shortName.label; upgraden voltooien?'>
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_finish_migrating_notification_text 'Tik om u aan te melden als &formatS;'>
