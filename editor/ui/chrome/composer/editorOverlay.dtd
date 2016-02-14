@@ -1,0 +1,311 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
+<!-- File menu items -->
+
+
+<!ENTITY saveCmd.key "S">
+<!-- Edit menu items -->
+
+<!ENTITY pasteNoFormatting.key "V">
+
+
+
+
+<!ENTITY pasteAsQuotationCmd.key "o">
+<!ENTITY findBarCmd.label "Atrast...">
+
+
+
+
+
+<!ENTITY checkSpellingCmd2.key "p">
+<!-- Insert menu items -->
+
+
+
+<!ENTITY insertLinkCmd.key "L">
+
+
+
+
+
+
+<!ENTITY insertTableCmd.label "Tabula...">
+<!ENTITY insertTableCmd.accesskey "T">
+<!ENTITY insertHTMLCmd.label "HTML…">
+<!ENTITY insertHTMLCmd.accesskey "H">
+
+
+
+
+
+
+<!-- Used just in context popup. -->
+
+
+
+<!-- Font Face SubMenu -->
+<!ENTITY fontfaceMenu.label "Fonts">
+<!ENTITY fontfaceMenu.accesskey "F">
+
+
+
+
+<!ENTITY fontFixedWidth.key "T">
+
+
+
+
+
+
+<!-- Font Size SubMenu -->
+
+
+
+<!-- < is above this key on many keyboards -->
+
+
+
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 "."> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Font Style SubMenu -->
+
+
+
+<!ENTITY styleBoldCmd.key "B">
+
+
+<!ENTITY styleItalicCmd.key "I">
+
+
+<!ENTITY styleUnderlineCmd.key "U">
+
+
+
+
+
+
+
+
+
+
+
+
+<!ENTITY styleCite.label "Citāts">
+<!ENTITY styleCite.accesskey "C">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!ENTITY formatRemoveStyles.key "Y">
+<!ENTITY formatRemoveLinks.key "K">
+
+
+<!ENTITY formatRemoveNamedAnchors2.key "R">
+
+
+
+
+<!ENTITY heading1Cmd.label "Virsraksts 1">
+<!ENTITY heading1Cmd.accesskey "1">
+<!ENTITY heading2Cmd.label "Virsraksts 2">
+<!ENTITY heading2Cmd.accesskey "2">
+<!ENTITY heading3Cmd.label "Virsraksts 3">
+<!ENTITY heading3Cmd.accesskey "3">
+<!ENTITY heading4Cmd.label "Virsraksts 4">
+<!ENTITY heading4Cmd.accesskey "4">
+<!ENTITY heading5Cmd.label "Virsraksts 5">
+<!ENTITY heading5Cmd.accesskey "5">
+<!ENTITY heading6Cmd.label "Virsraksts 6">
+<!ENTITY heading6Cmd.accesskey "6">
+<!ENTITY paragraphAddressCmd.label "Adrese">
+<!ENTITY paragraphAddressCmd.accesskey "A">
+
+
+<!-- List menu items -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Shared in Paragraph, and Toolbar menulist -->
+
+<!-- isn't used in menu now, but may be added in future -->
+
+<!-- Align menu items -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Layer toolbar items -->
+
+<!ENTITY layer.tooltip "Slānis">
+
+
+
+
+<!ENTITY increaseIndent.key "]">
+
+
+<!ENTITY decreaseIndent.key "[">
+
+
+<!-- Table Menu -->
+
+<!-- Select Submenu -->
+
+
+
+
+
+
+
+<!-- Insert SubMenu -->
+
+<!ENTITY tableTable.label "Tabula">
+<!ENTITY tableTable.accesskey "T">
+<!ENTITY tableRow.label "Rinda">
+<!ENTITY tableRows.label "Rinda(s)">
+<!ENTITY tableRow.accesskey "R">
+
+
+
+
+
+
+
+
+
+
+
+
+<!ENTITY tableCells.label "Šūna(s)">
+
+
+
+
+
+
+
+
+
+<!-- Delete SubMenu -->
+<!ENTITY tableDeleteMenu.label "Dzēst">
+<!ENTITY tableDeleteMenu.accesskey "D">
+<!-- text for "Join Cells" is in editor.properties 
+     ("JoinSelectedCells" and "JoinCellToRight")
+     the access key must exist in both of those strings
+     But value must be set here for accesskey to draw properly
+-->
+
+
+
+
+
+
+
+<!-- Toolbar-only items -->
+
+<!ENTITY menuBar.tooltip "Izvēlnes josla">
+
+<!ENTITY cutToolbarCmd.tooltip "Izgriezt">
+<!ENTITY copyToolbarCmd.tooltip "Kopēt">
+<!ENTITY pasteToolbarCmd.tooltip "Ielīmēt">
+<!ENTITY printToolbarCmd.label "Drukāt">
+
+<!ENTITY findToolbarCmd.label "Atrast">
+
+
+
+<!ENTITY imageToolbarCmd.label "Attēls">
+
+
+
+<!ENTITY tableToolbarCmd.label "Tabula">
+
+<!ENTITY linkToolbarCmd.label "Saite">
+
+<!ENTITY anchorToolbarCmd.label "Enkurs">
+
+
+
+
+
+<!-- Editor toolbar -->
+
+<!ENTITY decreaseFontSizeToolbarCmd.tooltip "Mazāks fonta izmērs">
+<!ENTITY increaseFontSizeToolbarCmd.tooltip "Lielāks fonta izmērs">
+<!ENTITY boldToolbarCmd.tooltip "Treknraksts">
+<!ENTITY italicToolbarCmd.tooltip "Kursīvs">
+<!ENTITY underlineToolbarCmd.tooltip "Pasvītrot">
+
+
+
+
+
+
+
+
+
+
+<!-- Structure Toolbar Context Menu items -->
+
+
+
+
+
+<!-- TOC manipulation -->
+
+<!ENTITY updateTOC.label          "Atjaunināt">
+<!ENTITY updateTOC.accesskey      "u">
+
+
+
+
