@@ -1,0 +1,752 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY  no_space_to_start_error "Nu există spațiu disponibil suficient pentru ca &brandShortName; să pornească.">
+<!ENTITY  error_loading_file "A intervenit o eroare în timpul încărcării fișierelor necesare pentru a rula &brandShortName;">
+
+<!ENTITY firstrun_panel_title_welcome "Bun venit">
+<!ENTITY  onboard_start_message3 "Navighează cu &brandShortName;">
+<!ENTITY  onboard_start_subtext3 "Fă ca experiența de navigare mobilă pe web să fie cu adevărat unică.">
+<!ENTITY  onboard_start_button_account "Autentifică-te în &brandShortName;">
+<!ENTITY  onboard_start_button_browser "Începe navigarea">
+<!ENTITY firstrun_button_next "Înainte">
+
+<!ENTITY  onboard_start_restricted1 "Rămâi în siguranță și păstrează controlul cu această versiune simplificată de &brandShortName;.">
+
+<!ENTITY firstrun_import_title "Importă">
+<!ENTITY firstrun_import_message "Bun venit la &brandShortName;">
+<!ENTITY firstrun_import_subtext "Importă semnele de carte și istoricul din alt browser.">
+<!ENTITY firstrun_import_action "Transferă în &brandShortName;">
+<!ENTITY firstrun_import_dialog_button "Transferă">
+<!ENTITY firstrun_import_progress_title "Se transferă">
+<!-- Localization note: These are used as the titles of different pages on the home screen.
+     They are automatically converted to all caps by the Android platform. -->
+
+<!ENTITY  bookmarks_title "Semne de carte">
+<!ENTITY  history_title "Istoric">
+<!ENTITY  reading_list_title "Listă de citit">
+<!ENTITY  recent_tabs_title "File recente">
+
+<!ENTITY  switch_to_tab "Comută la filă">
+
+<!ENTITY  crash_reporter_title "Raportor de defecțiuni &brandShortName;">
+<!ENTITY  crash_message2 "&brandShortName; a întâlnit o problemă și s-a închis neașteptat. Filele ar trebui să fie listate pe pagina de start &brandShortName; după ce repornești browserul.">
+<!ENTITY  crash_send_report_message3 "Notifică &vendorShortName; despre această defecțiune astfel încât să o poată remedia">
+<!ENTITY  crash_include_url2 "Include adresa paginii pe care am fost">
+<!ENTITY  crash_sorry "Ne pare rău">
+<!ENTITY  crash_comment "Adaugă un comentariu (comentariile sunt vizibile publicului)">
+<!ENTITY  crash_allow_contact2 "Permite &vendorShortName; să mă contacteze referitor la acest raport">
+<!ENTITY  crash_email "E-mailul tău">
+<!ENTITY  crash_closing_alert "Ieși fără să trimiți un raport de defecțiune?">
+<!ENTITY  sending_crash_report "Se trimite raportul de defecțiune\u2026">
+<!ENTITY  crash_close_label "Închide">
+<!ENTITY  crash_restart_label "Repornește &brandShortName;">
+<!ENTITY  exit_label "Ieși">
+
+<!ENTITY  launcher_shortcuts_title "Aplicații web &brandShortName;">
+<!ENTITY  launcher_shortcuts_empty "Nicio aplicație web găsită">
+
+<!ENTITY choose_file "Alege fișierul">
+
+<!ENTITY url_bar_default_text2 "Caută sau introdu adresa">
+
+<!ENTITY bookmark "Semn de carte">
+<!ENTITY bookmark_remove "Elimină semnul de carte">
+<!ENTITY bookmark_added "Semn de carte adăugat">
+<!-- Localization note (bookmark_already_added) : This string is
+     used as a label in a toast. It is the verb "to bookmark", not
+     the noun "a bookmark". -->
+<!ENTITY bookmark_already_added "Însemnat deja">
+<!ENTITY bookmark_removed "Semn de carte șters">
+<!ENTITY bookmark_updated "Semn de carte actualizat">
+<!ENTITY bookmark_options "Opțiuni">
+
+<!ENTITY history_today_section "Azi">
+<!ENTITY history_yesterday_section "Ieri">
+<!ENTITY history_week_section3 "Ultimele 7 zile">
+<!ENTITY history_this_month_section "Luna aceasta">
+<!ENTITY history_older_section3 "Mai vechi de 6 luni">
+
+<!ENTITY go "Du-te">
+<!ENTITY search "Caută">
+<!ENTITY reload "Reîncarcă">
+<!ENTITY forward "Înainte">
+<!ENTITY menu "Meniu">
+<!ENTITY back "Înapoi">
+<!ENTITY stop "Oprire">
+<!ENTITY site_security "Securitatea site-ului">
+<!ENTITY edit_mode_cancel "Renunță">
+
+<!ENTITY close_tab "Închide fila">
+<!ENTITY one_tab "1 filă">
+<!-- Localization note (num_tabs2) : Number of tabs is always more than one.
+     We can't use android plural forms, sadly. See bug #753859. -->
+<!ENTITY num_tabs2 "file &formatD;">
+<!ENTITY new_tab_opened "Filă nouă deschisă">
+<!ENTITY new_private_tab_opened "Filă privată nouă deschisă">
+<!-- Localization note (switch_button_message): This string should be as short
+     as possible because it's shown as a label in a toast.  Ideally, this string
+     is upper-case, to match Google and Android's convention. -->
+<!ENTITY switch_button_message "COMUTĂ">
+<!-- Localization note (tab_title_prefix_is_playing_audio): This string is not
+     visible in the UI, but rather used as a text-to-speech content description
+     for sight-impaired a11y users. The content description is set on a tab
+     title in a list of open tabs when content in that tab is playing audio.
+     &formatS; will be replaced with the title of the tab, as received from the
+     web page. When audio is not playing in a tab, &formatS; will be used as
+     the content description. -->
+<!ENTITY tab_title_prefix_is_playing_audio "Se redă audio – &formatS;">
+
+<!ENTITY settings "Setări">
+<!ENTITY settings_title "Setări">
+<!ENTITY pref_category_input_options "Opțiuni de intrare">
+<!ENTITY pref_category_advanced "Avansat">
+<!ENTITY pref_category_customize "Personalizare">
+<!ENTITY pref_category_customize_summary "Pagină de start, căutare, file, importă">
+<!ENTITY pref_category_customize_alt_summary "Pagină de start, file, deschide mai târziu, importă">
+<!-- Localization note (pref_category_language) : This is the preferences
+     section in which the user picks the locale in which to display Firefox
+     UI. The locale includes both language and region concepts. -->
+
+<!ENTITY pref_category_language "Limbă">
+<!ENTITY pref_category_language_summary "Schimbă limba browserului">
+<!ENTITY pref_browser_locale "Limba browserului">
+<!-- Localization note (locale_system_default) : This string indicates that
+     Firefox will use the locale currently selected in Android's settings
+     to display browser chrome. -->
+
+<!ENTITY locale_system_default "Setare implicită a sistemului">
+<!-- Localization note (overlay_share_label) : This is the label that appears
+     in Android's intent chooser when sending a link to Firefox to bookmark,
+     send to another device, or add to Reading List. -->
+
+<!ENTITY overlay_share_label "Adaugă la &brandShortName;">
+<!-- Localization note (overlay_share_bookmark_btn_label) : This string is
+     used in the share overlay menu to select an action. It is the verb
+     "to bookmark", not the noun "a bookmark". -->
+
+<!ENTITY overlay_share_bookmark_btn_label "Semn de carte">
+<!ENTITY overlay_share_reading_list_btn_label "Adaugă în lista de citit">
+<!ENTITY overlay_share_bookmark_btn_label_already "Însemnat deja">
+<!ENTITY overlay_share_reading_list_btn_label_already "În lista de citit deja">
+<!ENTITY overlay_share_send_other "Trimite către alte dispozitive">
+<!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
+     share overlay menu to represent the "Send Tab" action when the user
+     either has not set up Sync, or has no other devices to send a tab
+     to. -->
+
+<!ENTITY overlay_share_send_tab_btn_label "Trimite către un alt dispozitiv">
+<!ENTITY overlay_share_no_url "Niciun link nu a fost găsit în această partajare">
+<!ENTITY overlay_share_select_device "Selectează un dispozitiv">
+<!-- Localization note (overlay_no_synced_devices) : Used when the menu option
+     to send a tab to a synced device is pressed and no other synced devices
+     are found. -->
+<!ENTITY overlay_no_synced_devices "Niciun dispozitiv conectat găsit la contul Firefox">
+<!-- Localization note (menu_no_synced_devices): Used in a toast when the user
+     clicks on the button to send a tab to another device and there are no
+     other devices present. This label should briefly inform the user that they
+     need another connected device in order to use the feature. -->
+
+<!ENTITY pref_category_search3 "Căutare">
+<!ENTITY pref_category_search_summary "Personalizează motoarele de căutare">
+<!ENTITY pref_category_display "Ecran">
+<!ENTITY pref_category_display_summary "Text, bară de titlu, navigare pe ecran complet">
+<!ENTITY pref_category_privacy_short "Confidențialitate">
+<!ENTITY pref_category_privacy_summary2 "Controlează autentificările, cookie-urile, urmărirea, datele">
+<!ENTITY pref_category_vendor "&vendorShortName;">
+<!ENTITY pref_category_vendor_summary "Despre &brandShortName;, întrebări frecvente, împărtășire de date">
+<!ENTITY pref_category_datareporting "Împărtășire de date">
+<!ENTITY pref_learn_more "Află mai multe">
+<!ENTITY pref_category_installed_search_engines "Motoare de căutare instalate">
+<!ENTITY pref_category_add_search_providers "Adaugă mai multe motoare de căutare">
+<!ENTITY pref_category_search_restore_defaults "Restaurează motoarele de căutare">
+<!ENTITY pref_search_restore_defaults "Restaurează setările implicite">
+<!ENTITY pref_search_restore_defaults_summary "Restaurează setările implicite">
+<!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
+     advisory message on the customise search providers settings page explaining how to add new
+     search providers.
+     The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!ENTITY pref_search_hint "PONT: Adaugă orice site în lista motoarelor de căutare prin atingerea lungă pe câmpul de căutare al acestuia iar apoi apăsând pe iconița &formatI;.">
+<!ENTITY pref_category_devtools "Unelte de dezvoltare">
+<!ENTITY pref_developer_remotedebugging "Depanare de la distanță">
+<!ENTITY pref_developer_remotedebugging_usb "Depanare de la distanță via USB">
+<!ENTITY pref_developer_remotedebugging_wifi "Depanare de la distanță via Wi-Fi">
+<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Depanarea via Wi-Fi necesită ca dispozitivul să aibă o aplicație care scanează coduri QR.">
+<!ENTITY pref_category_logins "Autentificări">
+<!ENTITY pref_remember_signons2 "Reține autentificările">
+<!ENTITY pref_open_external_urls_privately_title "Deschide linkuri în navigarea privată">
+<!ENTITY pref_open_external_urls_privately_summary "Pentru toate linkurile externe deschise în &brandShortName;">
+<!ENTITY pref_manage_logins "Gestionează autentificările">
+
+<!ENTITY pref_category_home "Pagină de start">
+<!ENTITY pref_category_home_summary "Personalizează pagina de start">
+<!ENTITY pref_category_home_panels "Panouri">
+<!ENTITY home_add_panel_title "Adaugă un nou panou">
+<!ENTITY home_add_panel_empty "Ne pare rău, nu am găsit niciun panou pe care să-l poți adăuga.">
+<!-- Localization note (home_add_panel_installed):
+     The &formatS; will be replaced with the name of the new panel the user just
+     selected to be added to the home page. -->
+<!ENTITY home_add_panel_installed "\u0027&formatS;\u0027 adăugat la pagina de start">
+<!ENTITY pref_category_home_content_settings "Setări de conținut">
+<!ENTITY pref_home_updates "Actualizări automate">
+<!ENTITY pref_home_updates_enabled "Activate">
+<!ENTITY pref_home_updates_wifi "Doar prin Wi-Fi">
+<!ENTITY pref_home_suggested_sites "Arată sugestii de site-uri">
+<!ENTITY pref_home_suggested_sites_summary "Afișează scurtături pe pagina de start către site-uri pe care noi credem că le-ai putea considera interesante">
+<!ENTITY pref_category_home_homepage "Pagină de start">
+<!ENTITY home_homepage_title "Setează o pagină de start">
+<!ENTITY home_homepage_use_current_tab "Folosește fila actuală">
+<!-- Localization note: These are shown in the left sidebar on tablets -->
+
+<!ENTITY pref_header_customize "Personalizare">
+<!ENTITY pref_header_display "Ecran">
+<!ENTITY pref_header_privacy_short "Confidențialitate">
+<!ENTITY pref_header_help "Ajutor">
+<!ENTITY pref_header_language "Limbă">
+<!ENTITY pref_header_vendor "&vendorShortName;">
+<!ENTITY pref_header_devtools "Unelte de dezvoltare">
+
+<!ENTITY pref_cookies_menu "Cookie-uri">
+<!ENTITY pref_cookies_accept_all "Activate">
+<!ENTITY pref_cookies_not_accept_foreign "Activate, excluzând terții">
+<!ENTITY pref_cookies_disabled "Dezactivate">
+
+<!ENTITY pref_tap_to_load_images_title "Atinge pentru a încărca imaginile">
+<!ENTITY pref_tap_to_load_images_summary2 "Încarcă imaginile doar la apăsarea lungă a acestora">
+
+<!ENTITY pref_tracking_protection_title "Protecție față de urmărire">
+<!ENTITY pref_tracking_protection_summary3 "Activată în navigarea privată">
+<!ENTITY pref_donottrack_title "Nu mă urmări">
+<!ENTITY pref_donottrack_summary "&brandShortName; va spune site-urilor că nu dorești să fii urmărit">
+
+<!ENTITY pref_tracking_protection_enabled "Activată">
+<!ENTITY pref_tracking_protection_enabled_pb "Activată în navigarea privată">
+<!ENTITY pref_tracking_protection_disabled "Dezactivată">
+
+<!ENTITY tracking_protection_prompt_title "Acum cu protecție de urmărire">
+<!ENTITY tracking_protection_prompt_text "Blochează în mod activ elementele care îți urmăresc navigarea astfel încât să nu-ți faci griji.">
+<!ENTITY tracking_protection_prompt_tip_text "Vizitează setările de confidențialitate pentru a afla mai multe">
+<!ENTITY tracking_protection_prompt_action_button "Am priceput!">
+
+<!ENTITY tab_queue_toast_message3 "Filă salvată în &brandShortName;">
+<!ENTITY tab_queue_toast_action "Deschide acum">
+<!ENTITY tab_queue_prompt_title "Deschizi multiple linkuri?">
+<!ENTITY tab_queue_prompt_text4 "Salvează-le până la următoarea deschidere a &brandShortName;.">
+<!ENTITY tab_queue_prompt_tip_text2 "Poți modifica acest lucru mai târziu din Setări">
+<!ENTITY tab_queue_prompt_positive_action_button "Activează">
+<!ENTITY tab_queue_prompt_negative_action_button "Nu acum">
+<!ENTITY tab_queue_notification_title "&brandShortName;">
+<!-- Localization note (tab_queue_notification_text_plural2) : The
+     formatD is replaced with the number of tabs queued.  The
+     number of tabs queued is always more than one.  We can't use
+     Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY tab_queue_notification_text_plural2 "&formatD; file în așteptare">
+<!-- Localization note (tab_queue_notification_text_singular2) : This is the
+     text of a notification; we expect only one tab queued. -->
+<!ENTITY tab_queue_notification_text_singular2 "1 filă în așteptare">
+
+<!ENTITY pref_char_encoding "Codare de caractere">
+<!ENTITY pref_char_encoding_on "Arată meniul">
+<!ENTITY pref_char_encoding_off "Nu arăta meniul">
+<!ENTITY pref_clear_private_data2 "Curăță acum">
+<!ENTITY pref_clear_private_data_category "Curăță datele private">
+<!ENTITY pref_clear_on_exit_title2 "Curăță la ieșire">
+<!ENTITY pref_clear_on_exit_summary2 "&brandShortName; va curăța automat datele de fiecare dată când selectezi \u201EIeși\u201D din meniul principal">
+<!ENTITY pref_clear_on_exit_dialog_title "Selectează ce date să ștergi">
+<!ENTITY pref_plugins "Pluginuri">
+<!ENTITY pref_plugins_enabled "Activate">
+<!ENTITY pref_plugins_tap_to_play "Atinge pentru redare">
+<!ENTITY pref_plugins_disabled "Dezactivate">
+<!ENTITY pref_text_size "Mărimea textului">
+<!ENTITY pref_restore "File">
+<!ENTITY pref_restore_always "Restaurează mereu">
+<!ENTITY pref_restore_quit "Nu restaura după ieșirea din &brandShortName;">
+<!ENTITY pref_font_size_tiny "Foarte mică">
+<!ENTITY pref_font_size_small "Mică">
+<!ENTITY pref_font_size_medium "Medie">
+<!ENTITY pref_font_size_large "Mare">
+<!ENTITY pref_font_size_xlarge "Foarte mare">
+<!ENTITY pref_font_size_set "Setează">
+<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
+(or combination of characters) is used to decrease the preview font size; a larger version of the
+same character/combination is used to increase the preview font size. It should be a concise
+representation of the language it is used in that will help show the text in the preview will change
+size. -->
+<!ENTITY pref_font_size_adjust_char "A">
+<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
+    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+
+<!ENTITY pref_font_size_preview_text "Vulpea portocalie ageră face un salt peste așteptările tale cu mai multă viteză, mai multă flexibilitate și mai multă securitate. Fiind organizație nonprofit, suntem liberi să inovăm în folosul tău fără nicio presiune ca să facem compromisuri. Asta înseamnă o experiență mai bună pentru tine și un viitor mai luminos pentru web.">
+
+<!ENTITY pref_media_autoplay_enabled "Permite redarea automată">
+<!ENTITY pref_media_autoplay_enabled_summary "Controlează dacă site-urile web pot rula automat videoclipuri și alt conținut media">
+<!ENTITY pref_zoom_force_enabled "Activează mereu zoom-ul">
+<!ENTITY pref_zoom_force_enabled_summary "Forțează suprascrierea ca să poți face zoom pe orice pagină">
+<!ENTITY pref_voice_input "Intrare vocală">
+<!ENTITY pref_voice_input_summary "Permite dictarea vocală în bara de titlu">
+<!ENTITY pref_qrcode_enabled "Cititor de coduri QR">
+<!ENTITY pref_qrcode_enabled_summary "Permite scanerul QR în bara de titlu">
+
+<!ENTITY pref_use_master_password "Folosește parola generală">
+<!ENTITY pref_sync "Sincronizare">
+<!ENTITY pref_sync_summary2 "Sincronizează filele, semnele de carte, autentificările, istoricul">
+<!ENTITY pref_search_suggestions "Arată sugestii de căutare">
+<!ENTITY pref_history_search_suggestions "Arată istoricul căutărilor">
+<!ENTITY pref_import_android "Importă din Android">
+<!ENTITY pref_import_android_summary "Importă semnele de carte și istoricul din browserul nativ">
+<!ENTITY pref_private_data_history2 "Istoricul navigării">
+<!ENTITY pref_private_data_searchHistory "Istoricul căutărilor">
+<!ENTITY pref_private_data_formdata2 "Istoricul formularelor">
+<!ENTITY pref_private_data_cookies2 "Cookie-urile și autentificările active">
+<!ENTITY pref_private_data_passwords2 "Autentificările salvate">
+<!ENTITY pref_private_data_cache "Cache-ul">
+<!ENTITY pref_private_data_offlineApps "Datele offline ale site-urilor web">
+<!ENTITY pref_private_data_siteSettings2 "Setările site-urilor">
+<!ENTITY pref_private_data_downloadFiles2 "Descărcările">
+<!ENTITY pref_private_data_syncedTabs "Filele sincronizate">
+
+
+<!ENTITY pref_about_firefox "Despre &brandShortName;">
+<!ENTITY pref_vendor_faqs "Întrebări frecvente">
+<!ENTITY pref_vendor_feedback "Oferă feedback">
+
+<!ENTITY pref_dialog_set_default "Setează ca implicit">
+<!ENTITY pref_dialog_default "Standard">
+<!ENTITY pref_dialog_remove "Elimină">
+
+<!ENTITY pref_search_last_toast "Nu poți elimina sau dezactiva ultimul tău motor de căutare.">
+
+<!ENTITY pref_panels_show "Afișează">
+<!ENTITY pref_panels_hide "Ascunde">
+<!ENTITY pref_panels_reorder "Schimbă ordinea">
+<!ENTITY pref_panels_move_up "Mută sus">
+<!ENTITY pref_panels_move_down "Mută jos">
+
+<!ENTITY datareporting_notification_title "Statistici și date pentru &brandShortName;">
+<!ENTITY datareporting_notification_action_long "Alege ce informații să partajezi">
+<!ENTITY datareporting_notification_action "Alege ce să partajezi">
+<!ENTITY datareporting_notification_summary "Pentru a îmbunătăți experiența, &brandShortName; trimite automat anumite informații la &vendorShortName;.">
+<!ENTITY datareporting_notification_summary_short "Pentru a îmbunătăți experiența, &brandShortName;…">
+<!ENTITY datareporting_notification_ticker_text "&datareporting_notification_title;: &datareporting_notification_action_long;">
+<!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary2,
+     reporting_telemetry_title, datareporting_telemetry_summary,
+     datareporting_crashreporter_summary) : These match the strings in
+     en-US/chrome/browser/preferences/advanced.dtd (healthReportSection.label,
+     healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
+     crashReporterDesc.label). -->
+
+<!ENTITY datareporting_fhr_title "Raport de stare &brandShortName;">
+<!ENTITY datareporting_fhr_summary2 "Împărtășește date cu &vendorShortName; privind starea browserului și te ajută să înțelegi performanța browserului">
+<!ENTITY datareporting_abouthr_title "Vezi raportul meu de stare">
+<!ENTITY datareporting_telemetry_title "Telemetrie">
+<!ENTITY datareporting_telemetry_summary "Împărtășește date privind performanța, consumul, hardware-ul și personalizările browserului cu &vendorShortName; pentru a ne ajuta să facem &brandShortName; mai bun">
+<!ENTITY datareporting_crashreporter_summary "&brandShortName; trimite rapoarte de defecțiuni pentru a ajuta &vendorShortName; să facă browserul mai stabil și sigur">
+<!-- Localization note (datareporting_crashreporter_title_short) : This string matches
+     (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
+<!ENTITY datareporting_crashreporter_title_short "Raportor de defecțiuni">
+<!ENTITY datareporting_wifi_title2 "Serviciu de localizare &vendorShortName;">
+<!ENTITY datareporting_wifi_geolocation_summary4 "Ajută &vendorShortName; să facă harta lumii! Împărtășește locația aproximativă prin Wi-Fi și rețelele celulare ale dispozitivului pentru a îmbunătăți serviciul nostru de geolocalizare.">
+<!-- Localization note (pref_update_autodownload2) : This should mention downloading
+     specifically, since the pref only prevents automatic downloads and not the
+     actual notification that an update is available. -->
+<!ENTITY pref_update_autodownload2 "Descarcă actualizări automat">
+<!ENTITY pref_update_autodownload_wifi "Doar prin Wi-Fi">
+<!ENTITY pref_update_autodownload_never "Niciodată">
+<!ENTITY pref_update_autodownload_always "Mereu">
+<!-- Localization note (help_menu) : This string is used in the main menu-->
+
+<!ENTITY help_menu "Ajutor">
+
+<!ENTITY quit "Ieși">
+
+<!ENTITY addons "Suplimente">
+<!ENTITY logins "Autentificări">
+<!ENTITY downloads "Descărcări">
+<!ENTITY char_encoding "Codare caractere">
+
+<!ENTITY share "Împărtășește">
+<!ENTITY share_title "Distribuie prin intermediul">
+<!ENTITY share_image_failed "Nu se poate partaja această imagine">
+<!ENTITY save_as_pdf "Salvează ca PDF">
+<!ENTITY print "Tipărește">
+<!ENTITY find_in_page "Găsește în pagină">
+<!ENTITY desktop_mode "Cere versiune de desktop">
+<!ENTITY page "Pagină">
+<!ENTITY tools "Unelte">
+<!ENTITY new_tab "Filă nouă">
+<!ENTITY new_private_tab "Filă privată nouă">
+<!ENTITY close_all_tabs "Închide toate filele">
+<!ENTITY close_private_tabs "Închide filele private">
+<!ENTITY tabs_normal "File">
+<!ENTITY tabs_private "Privat">
+<!ENTITY tabs_synced "Sincronizate">
+<!ENTITY set_image_fail "Nu s-a putut seta imaginea">
+<!ENTITY set_image_path_fail "Nu s-a putut salva imaginea">
+<!ENTITY set_image_chooser_title "Setează imaginea ca">
+<!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+
+<!ENTITY find_text "Găsește în pagină">
+<!ENTITY find_prev "Anterior">
+<!ENTITY find_next "Următor">
+<!ENTITY find_close "Închide">
+<!-- Localization note (media_sending_to, media_play, media_pause, media_stop) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+
+<!ENTITY media_sending_to "Se trimite către dispozitiv">
+<!ENTITY media_play "Redă">
+<!ENTITY media_pause "Pauză">
+<!ENTITY media_stop "Oprește">
+
+<!ENTITY contextmenu_open_new_tab "Deschide în filă nouă">
+<!ENTITY contextmenu_open_private_tab "Deschide în filă privată">
+<!ENTITY contextmenu_remove "Elimină">
+<!ENTITY contextmenu_add_to_launcher "Adaugă la ecran principal">
+<!ENTITY contextmenu_share "Împărtășește">
+<!ENTITY contextmenu_pasteandgo "Lipește și accesează">
+<!ENTITY contextmenu_paste "Lipește">
+<!ENTITY contextmenu_copyurl "Copiază adresa">
+<!ENTITY contextmenu_edit_bookmark "Editează">
+<!ENTITY contextmenu_subscribe "Abonează-te la pagină">
+<!ENTITY contextmenu_site_settings "Editează setările site-ului">
+<!ENTITY contextmenu_top_sites_edit "Editează">
+<!ENTITY contextmenu_top_sites_pin "Fixează site-ul">
+<!ENTITY contextmenu_top_sites_unpin "Anulează fixarea site-ului">
+<!ENTITY contextmenu_add_search_engine "Adaugă motor de căutare">
+<!ENTITY contextmenu_mark_read "Marchează ca citit">
+<!ENTITY contextmenu_mark_unread "Marchează ca necitit">
+<!-- Localization note (doorhanger_login_no_username): This string is used in the save-login doorhanger
+     where normally a username would be displayed. In this case, no username was found, and this placeholder
+     contains brackets to indicate this is not actually a username, but rather a placeholder -->
+
+<!ENTITY doorhanger_login_no_username "[Niciun nume de utilizator]">
+<!ENTITY doorhanger_login_edit_title "Editează autentificarea">
+<!ENTITY doorhanger_login_edit_username_hint "Utilizator">
+<!ENTITY doorhanger_login_edit_password_hint "Parolă">
+<!ENTITY doorhanger_login_edit_toggle "Arată parola">
+<!ENTITY doorhanger_login_edit_toast_error "Eșec la salvarea autentificării">
+<!ENTITY doorhanger_login_select_message "Copiezi parola din &formatS;?">
+<!ENTITY doorhanger_login_select_toast_copy "Parolă copiată în clipboard">
+<!ENTITY doorhanger_login_select_toast_copy_error "Nu s-a putut copia parola">
+<!ENTITY doorhanger_login_select_action_text "Selectează o altă autentificare">
+<!ENTITY doorhanger_login_select_title "Copiază parola din">
+
+<!ENTITY pref_titlebar_mode "Bară de titlu">
+<!ENTITY pref_titlebar_mode_title "Arată titlul paginii">
+<!ENTITY pref_titlebar_mode_url "Arată adresa paginii">
+<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
+     whether or not the magnifying glass is disabled. -->
+
+<!ENTITY pref_magnifying_glass_enabled "Mărește zonele mici">
+<!ENTITY pref_magnifying_glass_enabled_summary "Mărește linkurile și câmpurile formularelor la apăsarea lângă acestea">
+<!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
+     whether or not the dynamic toolbar is enabled. -->
+
+<!ENTITY pref_scroll_title_bar2 "Navigare pe ecran complet">
+<!ENTITY pref_scroll_title_bar_summary "Ascunde bara de titlu a &brandShortName; când derulezi în josul paginii">
+
+<!ENTITY pref_tab_queue_title2 "Deschide multiple linkuri">
+<!ENTITY pref_tab_queue_summary3 "Salvează-le până la următoarea deschidere a &brandShortName;.">
+<!-- Localization note (page_removed): This string appears in a toast message when
+     any page is removed frome about:home. This includes pages that are in history,
+     bookmarks, or reading list. -->
+
+<!ENTITY page_removed "Pagina eliminată">
+
+<!ENTITY bookmark_edit_title "Editează semnul de carte">
+<!ENTITY bookmark_edit_name "Nume">
+<!ENTITY bookmark_edit_location "Locație">
+<!ENTITY bookmark_edit_keyword "Cuvânt cheie">
+<!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
+     dialog that appears after selecting the "Edit Site Settings" context menu item. -->
+
+<!ENTITY site_settings_title3       "Setările site-ului">
+<!ENTITY site_settings_cancel       "Renunță">
+<!ENTITY site_settings_clear        "Curăță">
+<!ENTITY site_settings_no_settings  "Nu sunt setări de curățat.">
+<!-- Localization note (reading_list_added3) : Used in a toast, please keep as short
+     as possible. -->
+
+<!ENTITY reading_list_added3 "Adăugat în lista de citit">
+<!ENTITY reading_list_removed "Pagină eliminată din lista ta de citit">
+<!-- Localization note (reading_list_remove) : Used to remove the currently open page from
+     the user's reading list. The opposite of overlay_share_reading_list_btn_label. -->
+<!ENTITY reading_list_remove "Șterge din lista de lectură">
+<!ENTITY reading_list_duplicate "Pagina deja existentă în lista de citit">
+<!-- Localization note (reading_list_time_minutes2) : This string is used in the "Reading List"
+     panel on the home page to give the user an estimate of how many minutes it will take to
+     read an article. The word "minute" should be abbreviated if possible. -->
+
+<!ENTITY reading_list_time_minutes2 "&formatD; min">
+<!ENTITY reading_list_time_over_an_hour "Mai mult de o oră">
+<!-- Localization note : These strings are used as alternate text for accessibility.
+     They are not visible in the UI. -->
+
+<!ENTITY page_action_dropmarker_description "Acțiuni adiționale">
+
+<!ENTITY masterpassword_create_title "Creează o parolă generală">
+<!ENTITY masterpassword_remove_title "Elimină parola generală">
+<!ENTITY masterpassword_password "Parolă">
+<!ENTITY masterpassword_confirm "Confirmă parola">
+
+<!ENTITY button_ok "Ok">
+<!ENTITY button_cancel "Renunță">
+<!ENTITY button_yes "Da">
+<!ENTITY button_no "Nu">
+<!ENTITY button_clear_data "Curăță datele">
+<!ENTITY button_set "Setează">
+<!ENTITY button_clear "Curăță">
+<!ENTITY button_copy "Copiază">
+
+<!ENTITY home_top_sites_title "Site-uri de top">
+<!-- Localization note (home_top_sites_add): This string is used as placeholder
+     text underneath empty thumbnails in the Top Sites page on about:home. -->
+<!ENTITY home_top_sites_add "Adaugă un site">
+<!-- Localization note (home_title): This string should be kept in sync
+     with the page title defined in aboutHome.dtd -->
+
+<!ENTITY home_title "Pagina de start &brandShortName;">
+<!ENTITY home_history_title "Istoric">
+<!ENTITY home_clear_history_button "Curăță istoricul de navigare">
+<!ENTITY home_clear_history_confirm "Sigur dorești să cureți istoricul?">
+<!ENTITY home_bookmarks_empty "Semnele de carte pe care le salvezi apar aici.">
+<!ENTITY home_closed_tabs_title "File închise recent">
+<!ENTITY home_last_tabs_title "Filele de ultima dată">
+<!ENTITY home_last_tabs_empty "Filele tale recente apar aici.">
+<!ENTITY home_open_all "Deschide toate">
+<!ENTITY home_most_recent_empty "Site-urile pe care le-ai vizitat cel mai recent apar aici.">
+<!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
+     The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
+<!ENTITY home_most_recent_emptyhint2 "Psst: folosind o &formatS1;filă privată nouă&formatS2; nu se va salva istoricul.">
+<!ENTITY home_reading_list_empty "Articolele pe care le-ai salvat pentru mai târziu apar aici.">
+<!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
+     as an advisory message on how to add content to the reading list when the reading list empty.
+     The placeholder &formatI; will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!ENTITY home_reading_list_hint2 "PONT: Salvează articole în lista de citit prin apăsarea lungă a iconiței &formatI; când aceasta apare în bara de titlu.">
+<!-- Localization note (home_reading_list_hint_accessible): This string is used
+     as alternate text for accessibility. It is not visible in the UI. -->
+<!ENTITY home_reading_list_hint_accessible "PONT: Salvează articole în lista de citit prin apăsarea lungă a butonului mod citire când acesta apare în bara de titlu.">
+<!-- Localization note (home_default_empty): This string is used as the default text when there
+     is no data to show in an about:home panel that was created by an add-on. -->
+
+<!ENTITY home_default_empty "Niciun conținut nu a putut fi găsit pentru acest panou.">
+<!-- Localization note (home_move_up_to_filter): The variable is replaced by the name of the
+     previous location in the navigation, such as the previous folder -->
+
+<!ENTITY home_move_up_to_filter "Până la &formatS;">
+
+<!ENTITY home_remote_tabs_title "File sincronizate">
+<!ENTITY home_remote_tabs_empty "Filele tale de pe alte dispozitive apar aici.">
+<!ENTITY home_remote_tabs_unable_to_connect "Nu se poate conecta">
+<!ENTITY home_remote_tabs_need_to_sign_in "Te rugăm să te autentifici pentru a te reconecta în contul Firefox și a continua sincronizarea.">
+<!ENTITY home_remote_tabs_need_to_finish_migrating "Noul tău cont Firefox este gata!">
+
+<!ENTITY home_remote_tabs_trouble_verifying "Probleme la verificarea contului?">
+<!ENTITY home_remote_tabs_need_to_verify "Te rugăm să verifici contul Firefox pentru a începe sincronizarea.">
+
+<!ENTITY home_remote_tabs_one_hidden_device "1 dispozitiv ascuns">
+<!-- Localization note (home_remote_tabs_many_hidden_devices) : The
+     formatD is replaced with the number of hidden devices.  The
+     number of hidden devices is always more than one.  We can't use
+     Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY home_remote_tabs_many_hidden_devices "&formatD; dispozitive ascunse">
+<!-- Localization note (home_remote_tabs_hidden_devices_title) : This is the
+     title of a dialog; we expect more than one device. -->
+<!ENTITY home_remote_tabs_hidden_devices_title "Dispozitive ascunse">
+<!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
+     the text of a button; we expect more than one device. -->
+<!ENTITY home_remote_tabs_unhide_selected_devices "Nu mai ascunde dispozitivele selectate">
+
+<!ENTITY remote_tabs_panel_moved_title "Unde au dispărut filele mele?">
+<!ENTITY remote_tabs_panel_moved_desc "Am mutat filele tale de pe alte dispozitive într-un panou pe pagina de start care poate fi accesat ușor de fiecare dată când deschizi o filă nouă.">
+<!ENTITY remote_tabs_panel_moved_link "Du-mă la noul meu panou.">
+
+<!ENTITY pin_site_dialog_hint "Introdu un cuvânt cheie pentru căutare">
+
+<!ENTITY filepicker_title "Alege fișier">
+<!ENTITY filepicker_audio_title "Alege sau înregistrează în format audio">
+<!ENTITY filepicker_image_title "Alege sau fă o poză">
+<!ENTITY filepicker_video_title "Alege sau înregistrează în format video">
+<!-- Site identity popup -->
+
+<!ENTITY identity_connected_to "Ești conectat la">
+<!-- Localization note (identity_run_by) : This string appears between a
+domain name (above) and an organization name (below). E.g.
+
+example.com
+which is run by
+Example Enterprises, Inc.
+
+The layout of the identity dialog prevents combining this into a single string with
+substitution variables.  If it is difficult to translate the sense of the string
+with that structure, consider a translation which ignores the preceding domain and
+just addresses the organization to follow, e.g. "This site is run by " -->
+<!ENTITY identity_connection_secure "Conexiune securizată">
+<!ENTITY identity_connection_insecure "Conexiune nesecurizată">
+
+<!-- Mixed content notifications in site identity popup -->
+
+<!ENTITY mixed_content_blocked_all1 "&brandShortName; a blocat conținutul nesigur de pe această pagină.">
+<!ENTITY mixed_content_blocked_some1 "&brandShortName; a blocat câteva elemente din conținutul nesigur de pe această pagină.">
+<!ENTITY mixed_content_display_loaded1 "Părți ale acestei pagini nu sunt sigure (cum ar fi imagini).">
+<!ENTITY mixed_content_protection_disabled1 "Ai dezactivat protecția față de conținutul nesigur.">
+<!-- Tracking content notifications in site identity popup -->
+
+<!ENTITY doorhanger_tracking_title "Protecția față de urmărire">
+<!ENTITY doorhanger_tracking_state_enabled "Activat">
+<!ENTITY doorhanger_tracking_state_disabled "Dezactivat">
+<!ENTITY doorhanger_tracking_message_enabled1 "Au fost blocate tentative de urmărire a comportamentului tău online.">
+<!ENTITY doorhanger_tracking_message_disabled2 "Această pagină include elemente care îți pot urmări navigarea.">
+<!-- Common mixed and tracking content strings in site identity popup -->
+
+<!ENTITY learn_more "Află mai multe">
+<!ENTITY enable_protection "Activează protecția">
+<!ENTITY disable_protection "Dezactivează protecția">
+<!ENTITY keep_blocking "Păstrează blocarea">
+
+<!ENTITY private_data_success "Datele private curățate">
+<!ENTITY private_data_fail "Unele date private nu au putut fi curățate">
+
+<!ENTITY bookmarkhistory_button_import "Importă">
+<!ENTITY bookmarkhistory_import_both "Se importă semne de carte și istoric 
+din Android">
+<!ENTITY bookmarkhistory_import_bookmarks "Se importă semne de carte 
+din Android">
+<!ENTITY bookmarkhistory_import_history "Se importă istoricul 
+din Android">
+<!ENTITY bookmarkhistory_import_wait "Te rugăm să aștepți...">
+
+<!ENTITY suggestions_prompt3 "Dorești să pornești sugestiile de căutare?">
+<!--  Localization note (search_bar_item_desc): When the user clicks the url bar
+      and starts typing, a list of icons of search engines appears at the bottom
+      of the screen. When a user clicks an icon, the entered text will be searched
+      via the search engine that uses the icon they clicked. This text is used
+      for screen reader users when they hover each icon - &formatS; will be
+      replaced with the name of the currently highlighted icon. -->
+<!ENTITY search_bar_item_desc "Caută cu &formatS;">
+<!-- Localization note (suggestion_for_engine): The placeholder &formatS1; will be
+     replaced with the name of the search engine. The placeholder &formatS2; will be
+     replaced with the search query. -->
+
+<!ENTITY suggestion_for_engine "Caută &formatS1; pentru &formatS2;">
+
+<!ENTITY webapp_generic_name "Aplicație">
+
+<!ENTITY searchable_description "Semne de carte și istoric">
+<!-- Updater notifications --> 
+
+<!ENTITY updater_start_title2 "Actualizare disponibilă pentru &brandShortName;">
+<!ENTITY updater_start_select2 "Apasă pentru a descărca">
+
+<!ENTITY updater_downloading_title2 "Se descarcă &brandShortName;">
+<!ENTITY updater_downloading_title_failed2 "Descărcare eșuată">
+<!ENTITY updater_downloading_select2 "Apasă pentru a aplica actualizarea odată descărcată">
+<!ENTITY updater_downloading_retry2 "Apasă pentru a reîncerca">
+
+<!ENTITY updater_apply_title2 "Actualizare disponibilă pentru &brandShortName;">
+<!ENTITY updater_apply_select2 "Apasă pentru a actualiza">
+<!-- Guest mode -->
+
+<!ENTITY new_guest_session "Sesiune vizitator nouă">
+<!ENTITY exit_guest_session "Ieși din sesiunea vizitator">
+<!ENTITY guest_session_dialog_continue "Continuă">
+<!ENTITY guest_session_dialog_cancel "Renunță">
+<!ENTITY new_guest_session_title "&brandShortName; va reporni acum">
+<!ENTITY new_guest_session_text2 "Persoana care va folosi aceasta nu va putea să vadă niciuna din datele tale personale de navigare (precum parolele salvate, istoricul sau semnele de carte).\n\nCând vizita s-a încheiat, datele de navigare vor fi șterse iar sesiunea va fi restaurată.">
+<!ENTITY guest_browsing_notification_title "Navigarea în mod vizitator e activată">
+<!ENTITY guest_browsing_notification_text "Atinge pentru ieșire">
+
+<!ENTITY exit_guest_session_title "&brandShortName; va reporni acum">
+<!ENTITY exit_guest_session_text "Datele de navigare de la această sesiune vor fi șterse.">
+<!-- Miscellaneous -->
+<!-- LOCALIZATION NOTE (ellipsis): This text is appended to a piece of text that does not fit in the
+     designated space. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit
+     traditions in your locale. -->
+
+<!ENTITY ellipsis "…">
+
+<!ENTITY colon ":">
+<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
+     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
+     This format string is typically used by getString method, in such method the percent sign
+     is a reserved caracter. In order to display one percent sign in the result of getString,
+     double percent signs must be inserted in the format string.
+     This entity is used in the zoomed view to display the zoom factor-->
+
+<!ENTITY percent "&formatS;&#037;&#037;">
+<!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
+     They are never shown to users -->
+
+<!ENTITY actionbar_menu "Meniu">
+<!ENTITY actionbar_done "Gata">
+<!-- Voice search in the awesome bar -->
+
+<!ENTITY voicesearch_prompt "Vorbește acum">
+<!-- Localization note (remote_tabs_last_synced): the variable is replaced by a
+     "relative time span string" produced by Android.  This string describes the
+     time the tabs were last synced relative to the current time; examples
+     include "42 minutes ago", "4 days ago", "last week", etc. The subject of
+     "Last synced" is one of the user's other Sync clients, typically Firefox on
+     their desktop or laptop.-->
+
+<!ENTITY remote_tabs_last_synced "Ultima sincronizare: &formatS;">
+<!-- Localization note: Used when the sync has not happend yet, showed in place of a date -->
+<!ENTITY remote_tabs_never_synced "Ultima sincronizare: niciodată">
+<!-- Find-In-Page strings -->
+<!-- LOCALIZATION NOTE (find_matchcase): This is meant to appear as an icon that changes color
+     if match-case is activated. i.e. No more than two letters, one uppercase, one lowercase. -->
+
+<!ENTITY find_matchcase "Aa">
+
+<!ENTITY intent_uri_cannot_open "Nu se poate deschide linkul">
+<!-- LOCALIZATION NOTE (intent_uri_private_browsing_prompt): This string will
+     appear in an alert when a user, who is currently in private browsing,
+     clicks a link that will open an external Android application. "&formatS;"
+     will be replaced with the name of the application that will be opened. -->
+<!ENTITY intent_uri_private_browsing_prompt "Acest link se va deschide în &formatS;. Sigur dorești să ieși din navigarea privată?">
+<!-- LOCALIZATION NOTE (intent_uri_private_browsing_multiple_match_title): This
+     string will appear as the title of an alert when a user, who is currently
+     in private browsing, clicks a link that will open an external Android
+     application and more than one application is available to open that link.
+     We don't have control over the style of this dialog and it looks
+     unpolished when this string is longer than one line so ideally keep it
+     short! -->
+<!ENTITY intent_uri_private_browsing_multiple_match_title "Ieși din navigarea privată?">
+<!-- DevTools Authentication -->
+<!-- LOCALIZATION NOTE (devtools_auth_scan_header): This header text appears
+     above a QR reader that is actively scanning for QR codes.  The expected QR
+     code has already been displayed by the client trying to connect (such as
+     desktop Firefox via WebIDE), so you just need to aim this device at the QR
+     code. -->
+
+<!ENTITY devtools_auth_scan_header "Se scanează codul QR afișat pe celălalt dispozitiv">
+<!-- Restrictions -->
+<!-- Localization note: These are restrictions the device owner (e.g. parent) can enable for
+     a restricted profile (e.g. child). Used inside the Android settings UI. -->
+
+<!ENTITY restriction_disallow_import_settings_title2 "Dezactivează „Importă din Android”">
+<!ENTITY restriction_disallow_addons_title2 "Dezactivează instalarea suplimentelor">
+<!ENTITY restriction_disallow_devtools_title2 "Dezactivează uneltele de dezvoltare">
+<!ENTITY restriction_disallow_customize_home_title2 "Dezactivează personalizarea paginii de start">
+<!ENTITY restriction_disallow_private_browsing_title2 "Dezactivează navigarea privată">
+<!ENTITY restriction_disallow_location_services_title2 "Dezactivează serviciile de localizare">
+<!ENTITY restriction_disallow_display_settings_title2 "Dezactivează setările de afișare">
+<!ENTITY restriction_disallow_clear_history_title2 "Dezactivează „Curăță istoricul de navigare”">
+<!ENTITY restriction_disallow_master_password_title2 "Dezactivează parola generală">
+<!ENTITY restriction_disallow_guest_browsing_title2 "Dezactivează navigarea în mod vizitator">
+<!-- Default Bookmarks titles-->
+<!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
+
+<!ENTITY bookmarks_about_browser "Firefox: Despre browserul tău">
+<!-- LOCALIZATION NOTE (bookmarks_addons): link title for https://addons.mozilla.org/en-US/mobile -->
+<!ENTITY bookmarks_addons "Firefox: Personalizează cu suplimente">
+<!-- LOCALIZATION NOTE (bookmarks_support): link title for https://support.mozilla.org/ -->
+<!ENTITY bookmarks_support "Firefox: Suport">
+<!-- LOCALIZATION NOTE (bookmarks_restricted_support): link title for https://support.mozilla.org/kb/controlledaccess -->
+<!ENTITY bookmarks_restricted_support2 "Ajutor și suport Firefox pentru profiluri restricționate pe tabletele Android">
+<!-- LOCALIZATION NOTE (bookmarks_restricted_webmaker):link title for https://webmaker.org -->
+<!ENTITY bookmarks_restricted_webmaker "Învață webul: Mozilla Webmaker">
