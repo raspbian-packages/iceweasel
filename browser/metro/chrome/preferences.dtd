@@ -1,0 +1,34 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY optionsHeader.title "Inpostaçioìn">
+<!ENTITY optionsHeader.char.title "Codìfica caràteri">
+<!ENTITY optionsHeader.char.autodetect.label "Riconosciménto outomàtico">
+<!ENTITY optionsHeader.char.options.label "Fànni védde e inpostaçioìn codifica inta bâra">
+<!ENTITY clearPrivateData.title "Scancèlla dæti personâli">
+<!ENTITY clearPrivateData.label "Scancèlla da sto dispoxitîvo a stöia de navegaçión, paròlle segrête, cookie e dæti di mòdoli">
+<!ENTITY clearPrivateData.button "Scancèlla">
+<!ENTITY clearPrivateData.done "Fæto">
+<!ENTITY clearPrivateData.history "Stöia da navegaçión">
+<!ENTITY clearPrivateData.otherdata "Âtri dæti (paròlle segrête, cache, cookie, ecc.)">
+<!ENTITY clearPrivateData.downloadHist "Stöia di descaregaménti">
+<!ENTITY clearPrivateData.cookies "Cookie">
+<!ENTITY clearPrivateData.cache "Cache">
+<!ENTITY clearPrivateData.sitePref "Preferénse di scîti">
+<!ENTITY clearPrivateData.formSearchHist "Mòdoli e stöia de  riçèrche">
+<!ENTITY clearPrivateData.passwords "Paròlle segrête sarvæ">
+<!ENTITY clearPrivateData.offline "Dæti no in lìnia di scîti web">
+<!ENTITY clearPrivateData.logins "Accèssi fæti">
+<!ENTITY optionsHeader.privacy.passwords.label "Aregòrda paròlla segrêta">
+<!ENTITY doNotTrack.title "Antitraciaménto">
+<!ENTITY optionsHeader.reporting.title "Report di ciànti">
+<!ENTITY optionsHeader.reporting.crashes.label "Mànda a Mozilla segnalaçioìn in sci ciànti anòmali de &brandShortName; pe megiorâne a stabilitæ e-a seguéssa">
+<!ENTITY optionsHeader.telemetry.title "Telemetrîa">
+<!ENTITY optionsHeader.telemetry.label "Condivìddi con Mozilla e statìstiche in sce l'ûzo de &brandShortName; pe agiutâ a megiorâ o navegatô">
+
+<!ENTITY doNotTrack.options.doNotTrack "Domànda a-i scîti web de no êse traciòu">
+<!ENTITY doNotTrack.options.doTrack "Dìnni a-i scîti web a disponibilitæ d'êse traciòu">
+<!ENTITY doNotTrack.options.default "No comunicâ a-i scîti web nisciùnn-a preferénsa de traciaménto">
+<!ENTITY doNotTrack.learnMoreLink "Âtre informaçioìn…">
+<!ENTITY optionsHeader.reporting.crashes.submitURLs "Inclùddi l’indirìsso da pàgina che ti vixitâvi">
