@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Está navegando de forma privada">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Abrir unha xanela privada?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "&brandShortName; non lembrará ningún historial desta sesión.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "&brandShortName; non lembrará ningún historial das xanelas privadas.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Isto inclúe o historial de navegación, buscas, descargas, cookies e ficheiros temporais da Internet. Con todo, os ficheiros que descargue e os marcadores gardados si permanecerán.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Actualmente non está nunha xanela privada.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Lembre que aínda que este computador non manteña un rexistro do seu historial de navegación, o seu fornecedor de internet aínda pode saber as páxinas que vostede visita.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Máis información.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Abrir unha xanela privada">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "p">
