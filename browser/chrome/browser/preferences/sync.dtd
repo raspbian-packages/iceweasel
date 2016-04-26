@@ -1,0 +1,82 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- The page shown when not logged in... -->
+
+<!ENTITY setupButton.label          "Configura el &syncBrand.fullName.label;">
+<!ENTITY setupButton.accesskey      "C">
+<!ENTITY weaveDesc.label            "El &syncBrand.fullName.label; us permet accedir al vostre historial, adreces d'interès, contrasenyes i pestanyes obertes des de qualsevol dels vostres dispositius.">
+<!-- The page shown when logged in... -->
+<!-- Login error feedback -->
+
+
+<!ENTITY updatePass.label             "Actualitza">
+<!ENTITY resetPass.label              "Reinicia">
+<!-- Manage Account -->
+
+<!ENTITY manageAccount.label          "Gestiona el compte">
+<!ENTITY manageAccount.accesskey      "a">
+<!ENTITY viewQuota.label              "Visualitza la quota">
+<!ENTITY changePassword2.label        "Canvia la contrasenya…">
+<!ENTITY myRecoveryKey.label          "La meva clau de recuperació">
+<!ENTITY resetSync2.label             "Reinicia el Sync…">
+
+<!ENTITY pairDevice.label             "Vincula un dispositiu">
+
+<!ENTITY syncMy.label               "Sincronitza:">
+<!ENTITY engine.bookmarks.label     "Adreces d'interès">
+<!ENTITY engine.bookmarks.accesskey "d">
+<!ENTITY engine.readinglist.label   "Llista de lectura">
+<!ENTITY engine.readinglist.accesskey "L">
+<!ENTITY engine.tabs.label          "Pestanyes">
+<!ENTITY engine.tabs.accesskey      "t">
+<!ENTITY engine.history.label       "Historial">
+<!ENTITY engine.history.accesskey   "r">
+<!ENTITY engine.passwords.label     "Contrasenyes">
+<!ENTITY engine.passwords.accesskey "y">
+<!ENTITY engine.prefs.label         "Preferències">
+<!ENTITY engine.prefs.accesskey     "s">
+<!ENTITY engine.addons.label        "Complements">
+<!ENTITY engine.addons.accesskey    "C">
+<!-- Device Settings -->
+
+<!ENTITY syncDeviceName.label       "Nom del dispositiu:">
+<!ENTITY syncDeviceName.accesskey   "N">
+<!ENTITY unlinkDevice.label           "Desvincula aquest dispositiu">
+<!-- Footer stuff -->
+
+<!ENTITY prefs.tosLink.label        "Condicions del servei">
+<!ENTITY prefs.ppLink.label         "Política de privadesa">
+<!-- Firefox Accounts stuff -->
+
+<!ENTITY fxaPrivacyNotice.link.label "Avís de privadesa">
+<!ENTITY determiningAcctStatus.label     "S'està determinant l'estat del compte…">
+<!-- LOCALIZATION NOTE (signedInUnverified.beforename.label,
+signedInUnverified.aftername.label): these two string are used respectively
+before and after the account email address. Localizers can use one of them, or
+both, to better adapt this sentence to their language.
+-->
+
+<!ENTITY signedInUnverified.beforename.label "">
+<!ENTITY signedInUnverified.aftername.label "no està verificat.">
+<!-- LOCALIZATION NOTE (signedInLoginFailure.beforename.label,
+signedInLoginFailure.aftername.label): these two string are used respectively
+before and after the account email address. Localizers can use one of them, or
+both, to better adapt this sentence to their language.
+-->
+
+<!ENTITY signedInLoginFailure.beforename.label "Inicieu la sessió per tornar-vos a connectar">
+<!ENTITY signedInLoginFailure.aftername.label "">
+
+<!ENTITY notSignedIn.label           "No heu iniciat la sessió.">
+<!ENTITY signIn.label                "Inicia la sessió">
+<!ENTITY manage.label                "Gestiona">
+<!ENTITY disconnect.label            "Desconnecta…">
+<!ENTITY verify.label                "Verifiqueu l'adreça electrònica">
+<!ENTITY forget.label                "Oblida aquesta adreça electrònica">
+
+<!ENTITY welcome.description "Accediu a les vostres pestanyes, adreces d'interès, contrasenyes i més arreu amb el &brandShortName;.">
+<!ENTITY welcome.signIn.label "Inicia la sessió">
+<!ENTITY welcome.createAccount.label "Crea un compte">
+
+<!ENTITY welcome.useOldSync.label "Utilitzeu una versió antiga del Sync?">
