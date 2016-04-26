@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY newtab.pageTitle "Llingüeta nueva">
+<!ENTITY newtab.undo.undoButton "Desfacer.">
+<!ENTITY newtab.undo.restoreButton "Restaurar toes.">
+<!ENTITY newtab.undo.removedLabel "Miniatura desaniciada.">
+<!ENTITY newtab.undo.closeTooltip "Anubrir">
+<!ENTITY newtab.intro.header "¿Qué ye esta páxina?">
+<!ENTITY newtab.customize.what "¿Qué ye esta páxina?">
+<!ENTITY newtab.customize.title "Personalizar la páxina Llingüeta nueva">
+<!ENTITY newtab.customize.enhanced "Ameyorada">
+<!ENTITY newtab.customize.classic "Clásica">
+<!ENTITY newtab.customize.blank "En blanco">
