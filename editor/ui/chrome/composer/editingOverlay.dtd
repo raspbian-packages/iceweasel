@@ -1,0 +1,38 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- File menu items -->
+<!ENTITY openFileCmd.label "Abrir ficheiro...">
+<!ENTITY openFileCmd.accesskey "o">
+<!ENTITY openFileCmd.key "o">
+<!ENTITY openRemoteCmd.label "Abrir local da web...">
+<!ENTITY openRemoteCmd.accesskey "l">
+<!ENTITY openRemoteCmd.key "l">
+<!ENTITY fileRecentMenu.label "Páginas recentes">
+<!ENTITY fileRecentMenu.accesskey "r">
+<!ENTITY saveCmd.label "Guardar">
+<!ENTITY saveCmd.accesskey "G">
+<!ENTITY saveAsCmd.label "Guardar como...">
+<!ENTITY saveAsCmd.accesskey "u">
+<!ENTITY saveAsChangeEncodingCmd.label "Guardar e mudar a codificação de caracteres">
+<!ENTITY saveAsChangeEncodingCmd.accesskey "G">
+<!ENTITY publishCmd.label "Publicar">
+<!ENTITY publishCmd.accesskey "b">
+<!ENTITY publishCmd.key "S">
+<!ENTITY publishAsCmd.label "Publicar como...">
+<!ENTITY publishAsCmd.accesskey "i">
+<!ENTITY fileRevert.label "Reverter">
+<!ENTITY fileRevert.accesskey "v">
+
+<!-- Edit menu items -->
+<!ENTITY publishSettings.label "Configurações do sítio de publicação...">
+<!ENTITY publishSettings.accesskey "b">
+
+<!-- Toolbar buttons/items -->
+<!ENTITY newToolbarCmd.label "Novo">
+<!ENTITY newToolbarCmd.tooltip "Criar nova página de Composição">
+<!ENTITY openToolbarCmd.label "Abrir">
+<!ENTITY openToolbarCmd.tooltip "Abrir ficheiro local">
+<!ENTITY saveToolbarCmd.tooltip "Guardar ficheiro para uma localização remota">
+<!ENTITY publishToolbarCmd.tooltip "Carregar ficheiro para uma localização remota">
