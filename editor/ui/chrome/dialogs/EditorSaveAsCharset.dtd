@@ -1,0 +1,18 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- These strings are generic to all or most of the editor's dialogs. -->
+
+<!-- This button is for the progressive disclosure of additional editing functionality -->
+
+<!-- These strings are for use specifically in the editor's link dialog. -->
+<!ENTITY windowTitle.label "另存新檔並修改字元編碼">
+<!ENTITY documentTitleTitle.label "文件標題">
+<!ENTITY documentCharsetTitle.label "語言及字元編碼">
+<!ENTITY documentCharsetDesc.label "選擇您想要把檔案另存成哪種字元編碼:">
+<!ENTITY documentExportToText.label "輸出純文字">
+
+
+
+
