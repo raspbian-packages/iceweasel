@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Jūs pārlūkojat  privātajā režīmā">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Atvērt privāto logu?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "&brandShortName; neatcerēsies, ko esat skatījies šajā logā.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "&brandShortName; neatcerēsies, ko esat skatījies privātajos logos.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Šis iekļauj apmeklētās lapas, veiktos meklējumus, lejupielādes, formās ievadīto un sīkdatnes. Savukārt lejupielādētie faili un pievienotās grāmatzīmes tiks saglabātas.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Šobrīd jūs neesat privātajā logā.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Lai arī šis dators neatcerēsies, kādas lapas apmeklējat, jūsu darba devējs vai interneta pakalpojumu sniedzējs joprojām var noteikt lapas, kuras apmeklējat.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Uzzināt vairāk.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Atvērt privāto logu">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "p">
