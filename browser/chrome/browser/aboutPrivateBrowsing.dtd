@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Rydych yn pori'n breifat">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Agor ffenestr breifat?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "Ni fydd &brandShortName; yn cofio unrhyw hanes o'r ffenestr hon.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "Ni fydd &brandShortName; yn cofio unrhyw hanes o ffenestr breifat.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Mae hyn yn cynnwys hanes pori, hanes chwilio, hanes llwytho i lawr, hanes ffurflenni gwe, cwcis neu ffeiliau gwe dros dro. Er hynny, bydd ffeiliau sydd wedi eu llwytho i lawr a nodau tudalen yn cael eu cadw.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Nid ydych mewn ffenestr breifat ar hyn o bryd.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Tra na fydd gan y cyfrifiadur hwn gofnod o'ch hanes pori, bydd eich cyflogwr neu'ch darparwr gwasanaeth rhyngrwyd yn gallu tracio'r tudalennau fuoch iddynt.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Dysgu Rhagor.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Agor Ffenestr Breifat">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "F">
