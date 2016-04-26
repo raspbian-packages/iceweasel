@@ -1,0 +1,18 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Page Properties">
+<!ENTITY location.label "Địa chỉ:">
+<!ENTITY lastModified.label "Sửa đổi Mới nhất:">
+<!ENTITY titleInput.label "Tiêu đề:">
+<!ENTITY titleInput.accessKey "T">
+<!ENTITY authorInput.label "Tác giả:">
+<!ENTITY authorInput.accessKey "c">
+<!ENTITY descriptionInput.label "Mô tả:">
+<!ENTITY descriptionInput.accessKey "M">
+<!ENTITY locationNewPage.label "[Trang mới, chưa lưu]">
+<!ENTITY EditHEADSource1.label "Người dùng nâng cao:">
+<!ENTITY EditHEADSource2.label "Để chỉnh sửa nội dung của phần &lt;head&gt;, hãy dùng &quot;Mã nguồn HTML&quot; trên Trình đơn Hiển thị hoặc Thanh công cụ Chế độ Chỉnh sửa.">
+
