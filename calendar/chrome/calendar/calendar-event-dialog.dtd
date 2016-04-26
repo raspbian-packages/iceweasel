@@ -1,0 +1,347 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY event.title.label                  "Embann an elfenn" >
+
+<!ENTITY event.dialog.keepDurationButton.tooltip   "Mirout ar padelezh pa vez kemmet an deiziad dibenn">
+
+
+<!ENTITY newevent.from.label                "A-berzh" >
+<!ENTITY newevent.to.label                  "Da" >
+
+<!ENTITY newevent.status.label                    "Stad" >
+<!ENTITY newevent.status.accesskey                "S" >
+<!ENTITY newevent.eventStatus.none.label          "Anspisaet" >
+<!ENTITY newevent.eventStatus.none.accesskey      "o" >
+
+
+
+
+<!ENTITY newevent.status.tentative.label          "Argeziad" >
+<!ENTITY newevent.status.tentative.accesskey      "A" >
+<!ENTITY newevent.status.confirmed.label          "Kadarnaet" >
+<!ENTITY newevent.status.confirmed.accesskey      "K" >
+<!ENTITY newevent.status.needsaction.label        "Gwered dleet" >
+
+<!ENTITY newevent.status.completed.label          "Klokaet" >
+<!-- The following entity is for New Task dialog only -->
+
+<!ENTITY newtodo.percentcomplete.label      "&#037; echu">
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
+   - These two labels are displayed side by side in the event dialog, make sure
+   - they still fit in. -->
+
+
+<!-- Keyboard Shortcuts -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Menubar -->
+
+
+
+
+
+
+
+<!ENTITY  event.menu.item.new.contact.label               "Karned chomlec'hioù Darempredoù">
+<!ENTITY  event.menu.item.new.contact.accesskey           "D">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!ENTITY  event.menu.options.attendees.label                  "Pediñ Perzhidi...">
+<!ENTITY  event.menu.options.attendees.accesskey              "P">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!ENTITY  event.menu.options.privacy.public.label             "Degouezh Foran">
+<!ENTITY  event.menu.options.privacy.public.accesskey         "D">
+<!ENTITY  event.menu.options.privacy.confidential.label       "Diskouez an eur hag an deiziad hepken">
+<!ENTITY  event.menu.options.privacy.confidential.accesskey   "i">
+
+
+
+
+
+
+
+
+
+
+<!ENTITY event.email.attendees.label                      "Skridaozañ ur bostel d'an holl berzhidi...">
+<!ENTITY event.email.attendees.accesskey                  "h">
+
+
+<!-- Toolbar -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Main page -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!ENTITY event.description.label                          "Deskrivadur :" >
+<!ENTITY event.description.accesskey                      "p">
+<!ENTITY event.attachments.label                          "Stagadennoù :" >
+<!ENTITY event.attachments.accesskey                      "h" >
+<!ENTITY event.attachments.menubutton.label               "Stagañ">
+<!ENTITY event.attachments.menubutton.accesskey           "S">
+<!ENTITY event.attachments.url.label                      "Pajennad web...">
+<!ENTITY event.attachments.url.accesskey                  "P">
+<!ENTITY event.attachments.popup.remove.label             "Lemel" >
+<!ENTITY event.attachments.popup.remove.accesskey         "L" >
+<!ENTITY event.attachments.popup.open.label               "Digeriñ" >
+<!ENTITY event.attachments.popup.open.accesskey           "D" >
+<!ENTITY event.attachments.popup.removeAll.label          "Dilemel pep tra" >
+<!ENTITY event.attachments.popup.removeAll.accesskey      "a" >
+<!ENTITY event.attachments.popup.attachPage.label         "Stagañ ar bajennad web..." >
+<!ENTITY event.attachments.popup.attachPage.accesskey     "w" >
+<!ENTITY event.url.label                                  "Liamm kar :" >
+<!ENTITY event.priority2.label                            "Renk :">
+
+
+
+<!ENTITY event.reminder.15minutes.before.label            "15 munutenn a-raok" >
+<!ENTITY event.reminder.30minutes.before.label            "30 munutenn a-raok" >
+<!ENTITY event.reminder.1hour.before.label                "1 eur a-raok" >
+<!ENTITY event.reminder.2hours.before.label               "2 eur a-raok" >
+
+
+
+
+
+
+
+
+<!-- Recurrence dialog -->
+
+<!ENTITY event.repeat.does.not.repeat.label             "Ne adkrog ket">
+<!ENTITY event.repeat.daily.label                       "Deizek">
+<!ENTITY event.repeat.weekly.label                      "Sizhuniek">
+
+<!ENTITY event.repeat.bi.weekly.label                   "Bep div sizhun">
+<!ENTITY event.repeat.monthly.label                     "Miziek">
+<!ENTITY event.repeat.yearly.label                      "Bloaziek">
+<!ENTITY event.repeat.custom.label                      "Personelaat...">
+
+
+
+
+
+
+
+<!ENTITY repeat.units.days.both                         "Deiz(ioù)" >
+
+
+<!ENTITY event.recurrence.pattern.weekly.every.label    "Bep" >
+<!ENTITY repeat.units.weeks.both                        "Sizhun(ioù)" >
+
+
+<!ENTITY event.recurrence.pattern.monthly.every.label   "Bep" >
+<!ENTITY repeat.units.months.both                       "Miz(ioù)" >
+<!ENTITY event.recurrence.monthly.every.label           "Bep" >
+<!ENTITY event.recurrence.monthly.first.label           "An hini kentañ">
+
+
+
+
+
+
+
+
+<!ENTITY event.recurrence.pattern.monthly.week.4.label  "Merc'her" >
+<!ENTITY event.recurrence.pattern.monthly.week.5.label  "Yaou" >
+<!ENTITY event.recurrence.pattern.monthly.week.6.label  "Gwener" >
+<!ENTITY event.recurrence.pattern.monthly.week.7.label  "Sadorn" >
+<!ENTITY event.recurrence.repeat.dayofmonth.label       "Devezh ar miz">
+
+
+<!ENTITY event.recurrence.every.label                        "Bep :" >
+<!ENTITY repeat.units.years.both                             "Bloaz(ioù)" >
+<!ENTITY event.recurrence.pattern.yearly.every.month.label   "Bep" >
+<!-- LOCALIZATON NOTE
+     Some languages use a preposition when describing dates:
+     Portuguese: 6 de Setembro
+     English: 6 [of] September
+     event.recurrence.pattern.yearly.of.label is "of" in
+     Edit recurrence window -> Recurrence pattern -> Repeat yearly
+-->
+
+<!ENTITY event.recurrence.pattern.yearly.of.label            "" >
+
+
+
+
+
+
+<!ENTITY event.recurrence.pattern.yearly.month.7.label       "Gouere" >
+<!ENTITY event.recurrence.pattern.yearly.month.8.label       "Eost" >
+<!ENTITY event.recurrence.pattern.yearly.month.9.label       "Gwengolo" >
+<!ENTITY event.recurrence.pattern.yearly.month.10.label      "Here" >
+<!ENTITY event.recurrence.pattern.yearly.month.11.label      "Du" >
+<!ENTITY event.recurrence.pattern.yearly.month.12.label      "Kerzu" >
+<!ENTITY event.recurrence.yearly.every.label                 "Bep">
+<!ENTITY event.recurrence.yearly.first.label                 "An hini kentañ">
+<!ENTITY event.recurrence.yearly.second.label                "An eil">
+
+
+
+
+
+
+
+
+<!ENTITY event.recurrence.pattern.yearly.week.5.label        "Yaou" >
+<!ENTITY event.recurrence.pattern.yearly.week.6.label        "Gwener" >
+<!ENTITY event.recurrence.pattern.yearly.week.7.label        "Sadorn" >
+<!ENTITY event.recurrence.pattern.yearly.day.label           "deiz" >
+
+<!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Genver" >
+<!ENTITY event.recurrence.pattern.yearly.month2.2.label      "C'hwevrer" >
+<!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Meurzh" >
+<!ENTITY event.recurrence.pattern.yearly.month2.4.label      "Ebrel" >
+
+
+
+
+
+
+
+
+
+<!ENTITY event.recurrence.forever.label                 "Deiziad echuiñ ebet" >
+<!ENTITY event.recurrence.repeat.for.label              "Krouiñ" >
+<!ENTITY event.recurrence.appointments.label            "Emgav(ioù)" >
+
+<!ENTITY event.recurrence.preview.label                 "Rakwelet">
+<!-- Attendees dialog -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!ENTITY event.attendee.usertype.individual     "Hiniennel">
+<!ENTITY event.attendee.usertype.group          "Strollad">
+
+<!ENTITY event.attendee.usertype.room           "Sal">
+<!-- Timezone dialog -->
+
+<!-- Read-Only dialog -->
+
+<!ENTITY read.only.general.label         "Hollek">
+
+
+
+<!ENTITY read.only.event.end.label       "Deiziad ar fin :">
+
+<!ENTITY read.only.repeat.label          "Adlenn :">
+<!ENTITY read.only.location.label        "Lec'hiadur :">
+<!ENTITY read.only.category.label        "Rummad :">
+
+<!ENTITY read.only.reply.label           "Respont :">
+<!ENTITY read.only.accept.label          "Kemer a rin perzh">
+<!ENTITY read.only.decline.label         "Ne gemerin ket perzh">
+
+
+
+
+<!ENTITY read.only.description.label     "Deskrivadur">
+<!ENTITY read.only.link.label            "Liamm kar">
