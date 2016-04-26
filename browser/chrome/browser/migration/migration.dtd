@@ -1,0 +1,37 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY migrationWizard.title          "Kel Wizard ki woko">
+
+<!ENTITY importFrom.label               "Gin ayera me Kelo ki woko, Alama me buk, Gin mukato, Mung me donyo kacel ki tic mogo ki bot:">
+<!ENTITY importFromUnix.label           "Kel ki woko en ma imaro, Alama me buk, Gin mukato, Mung me donyo kacel ki tic mogo kibot:">
+<!ENTITY importFromBookmarks.label      "Kel Alama buk kiwoko ki bot:">
+
+<!ENTITY importFromIE.label             "Microsoft Internet Explorer">
+<!ENTITY importFromIE.accesskey         "M">
+<!ENTITY importFromNothing.label        "Pe ikel gin mo ki woko">
+<!ENTITY importFromNothing.accesskey    "P">
+<!ENTITY importFromSafari.label         "Safari">
+<!ENTITY importFromSafari.accesskey     "S">
+<!ENTITY importFromChrome.label         "Chrome">
+<!ENTITY importFromChrome.accesskey     "C">
+<!ENTITY importFromFirefox.label        "Firefox">
+<!ENTITY importFromFirefox.accesskey    "x">
+
+<!ENTITY noMigrationSources.label       "Pe tye purugram mo matye ki tic me alama buk, gin mukato onyo mung me donyo ma kiromo nongo.">
+
+<!ENTITY importSource.title             "Kel Ter kacel ki Tic ki woko">
+<!ENTITY importItems.title              "Jami me akela ki woko">
+<!ENTITY importItems.label              "Yer jami me akela ki woko:">
+
+<!ENTITY migrating.title                "Kelo ki woko…">
+<!ENTITY migrating.label                "Jami magi kombedi kitye ka kelo ki woko…">
+
+<!ENTITY selectProfile.title            "Yer Profile">
+<!ENTITY selectProfile.label            "Profile magi nonge me kel ki iye:">
+
+<!ENTITY done.title                     "Kel ki woko otum">
+<!ENTITY done.label                     "Jami magi okele maber ki woko:">
+
