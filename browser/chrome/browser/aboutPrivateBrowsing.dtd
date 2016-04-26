@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Siz məxfi səyahət edirsiniz">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Məxfi pəncərə açılsın?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "&brandShortName; bu pəncərəyə aid tarixçəni xatırlamayacaq.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "&brandShortName; məxfi pəncərəyə aid tarixçəni xatırlamayacaq.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Buna səyahət, axtarış, yükləmə, forma tarixçəsi, kukilər və müvəqqəti internet faylları daxildir. Ancaq, yüklədiyiniz fayllar və yaratdığınız əlfəcinlər qalacaq.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Hazırda məxfi pəncərədə deyilsiniz.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Baxış keçmişinizlə bağlı qeydlər bu kompüterdə saxlanmasa belə, internet provayderiniz və ya işə götürəniniz yenə də açdığınız səhifələri görə bilər.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Ətraflı Öyrən.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Məxfi Pəncərə Aç">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "M">
