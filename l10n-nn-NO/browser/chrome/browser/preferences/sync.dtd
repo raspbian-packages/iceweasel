@@ -1,0 +1,82 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- The page shown when not logged in... -->
+<!ENTITY setupButton.label          "Konfigurer &syncBrand.fullName.label;">
+<!ENTITY setupButton.accesskey      "K">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; lèt deg få tilgang til historikk, bokmerke, passord og opne faner på tvers av alle einingane dine.">
+
+<!-- The page shown when logged in... -->
+
+<!-- Login error feedback -->
+<!ENTITY updatePass.label             "Oppdater">
+<!ENTITY resetPass.label              "Tilbakestill">
+
+<!-- Manage Account -->
+<!ENTITY manageAccount.label          "Handsam konto">
+<!ENTITY manageAccount.accesskey      "H">
+<!ENTITY viewQuota.label              "Vis plasskvote">
+<!ENTITY changePassword2.label        "Endra passord …">
+<!ENTITY myRecoveryKey.label          "Gjenopprettingsnykel">
+<!ENTITY resetSync2.label             "Tilbakestill Sync …">
+
+<!ENTITY pairDevice.label             "Knyt til ei eining">
+
+<!ENTITY syncMy.label               "Synkroniser">
+<!ENTITY engine.bookmarks.label     "Bokmerke">
+<!ENTITY engine.bookmarks.accesskey "B">
+<!ENTITY engine.readinglist.label   "Leseliste">
+<!ENTITY engine.readinglist.accesskey "L">
+<!ENTITY engine.tabs.label          "Faner">
+<!ENTITY engine.tabs.accesskey      "F">
+<!ENTITY engine.history.label       "Historikk">
+<!ENTITY engine.history.accesskey   "H">
+<!ENTITY engine.passwords.label     "Passord">
+<!ENTITY engine.passwords.accesskey "P">
+<!ENTITY engine.prefs.label         "Innstillingar">
+<!ENTITY engine.prefs.accesskey     "n">
+<!ENTITY engine.addons.label        "Utvidingar">
+<!ENTITY engine.addons.accesskey    "U">
+
+<!-- Device Settings -->
+<!ENTITY syncDeviceName.label       "Einingsnamn:">
+<!ENTITY syncDeviceName.accesskey   "E">
+<!ENTITY unlinkDevice.label           "Fjern tilknyting til eininga">
+
+<!-- Footer stuff -->
+<!ENTITY prefs.tosLink.label        "Tenestevilkår">
+<!ENTITY prefs.ppLink.label         "Personvern">
+
+<!-- Firefox Accounts stuff -->
+<!ENTITY fxaPrivacyNotice.link.label "Personvernmerknad">
+<!ENTITY determiningAcctStatus.label     "Hentar kontostatus …">
+
+<!-- LOCALIZATION NOTE (signedInUnverified.beforename.label,
+signedInUnverified.aftername.label): these two string are used respectively
+before and after the account email address. Localizers can use one of them, or
+both, to better adapt this sentence to their language.
+-->
+<!ENTITY signedInUnverified.beforename.label "">
+<!ENTITY signedInUnverified.aftername.label "er ikkje stadfesta.">
+
+<!-- LOCALIZATION NOTE (signedInLoginFailure.beforename.label,
+signedInLoginFailure.aftername.label): these two string are used respectively
+before and after the account email address. Localizers can use one of them, or
+both, to better adapt this sentence to their language.
+-->
+<!ENTITY signedInLoginFailure.beforename.label "Logg inn for å kopla til att">
+<!ENTITY signedInLoginFailure.aftername.label "">
+
+<!ENTITY notSignedIn.label           "Du er ikkje innlogga.">
+<!ENTITY signIn.label                "Logg inn">
+<!ENTITY manage.label                "Handsam">
+<!ENTITY disconnect.label            "Kopla frå …">
+<!ENTITY verify.label                "Stadfest e-post">
+<!ENTITY forget.label                "Gløym denne e-posten">
+
+<!ENTITY welcome.description "Få tilgang til faner, bokmerke, passord og meir, alle stadar du brukar &brandShortName;.">
+<!ENTITY welcome.signIn.label "Logg inn">
+<!ENTITY welcome.createAccount.label "Lag konto">
+
+<!ENTITY welcome.useOldSync.label "Brukar du ein eldre versjon av Sync?">

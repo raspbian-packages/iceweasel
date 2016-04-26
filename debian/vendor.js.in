@@ -1,0 +1,8 @@
+%if browser != OFFICIAL_NAME
+pref("general.useragent.compatMode.firefox", true);
+%endif
+// Forbid application updates
+lockPref("app.update.enabled", false);
+
+pref("devtools.webide.autoinstallADBHelper", false);
+pref("devtools.webide.autoinstallFxdtAdapters", false);

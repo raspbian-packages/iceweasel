@@ -1,0 +1,17 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY cmd_engineManager.label        "Administri serĉilojn…">
+<!ENTITY searchEndCap.label             "Serĉi">
+
+<!-- LOCALIZATION NOTE: The SearchHighlight strings are used in the
+   - UITour popups that shows on first use of the new search panel. -->
+<!ENTITY SearchHighlight1.title "Serĉi per unu alklako">
+<!ENTITY SearchHighlight1.text "Serĉi tuj per iu ajn el tiuj ĉi serĉiloj, sen ŝanĝi vian ĉefan serĉilon.">
+
+<!ENTITY SearchHighlight2.title "Inteligentaj sugestoj">
+<!ENTITY SearchHighlight2.text "Sugestoj de via ĉefa serĉilo aperos dum vi tajpas.">
+
+<!ENTITY SearchHighlightNext "Antaŭen">
+<!ENTITY SearchHighlightClose "Dankon!">

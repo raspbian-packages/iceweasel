@@ -1,0 +1,5 @@
+google
+seznam-cz
+duckduckgo-cz
+heureka-cz
+wikipedia-cz

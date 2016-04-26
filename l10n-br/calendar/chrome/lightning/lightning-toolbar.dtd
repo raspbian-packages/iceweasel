@@ -1,0 +1,37 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+
+
+<!ENTITY lightning.toolbar.sync.label "Goubredañ">
+<!ENTITY lightning.toolbar.delete.label "Dilemel">
+<!ENTITY lightning.toolbar.edit.label "Embann">
+<!ENTITY lightning.toolbar.gototoday.label "Mont d'an deiz a hiziv">
+<!ENTITY lightning.toolbar.print.label "Moullañ">
+<!-- Mode Toolbar -->
+
+<!ENTITY lightning.toolbar.calendar.label     "Deiziataer">
+
+<!ENTITY lightning.toolbar.calendar.accesskey "D">
+
+
+
+<!-- Toolbar write button -->
+
+<!-- Calendar and Task Mode Toolbar -->
+
+
+
+
+
+<!ENTITY lightning.toolbar.month.label               "Miz">
+<!ENTITY lightning.toolbar.month.accesskey           "M">
+<!-- LOCALIZATION NOTE: the same as appmenuButton.label and appmenuButton1.tooltip
+     from messenger.dtd -->
+
+
+
+
+

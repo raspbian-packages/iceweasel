@@ -1,0 +1,21 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Personal Dictionary">
+
+<!ENTITY wordEditField.label "Từ mới:">
+<!ENTITY wordEditField.accessKey "m">
+<!ENTITY AddButton.label "Thêm">
+<!ENTITY AddButton.accessKey "T">
+<!ENTITY DictionaryList.label "Các từ trong từ điển:">
+<!ENTITY DictionaryList.accessKey "t">
+<!ENTITY ReplaceButton.label "Thay thế">
+<!ENTITY ReplaceButton.accessKey "y">
+<!ENTITY RemoveButton.label "Xóa">
+<!ENTITY RemoveButton.accessKey "X">
+
+<!ENTITY CloseButton.label "Đóng">
+<!ENTITY CloseButton.accessKey "g">
+

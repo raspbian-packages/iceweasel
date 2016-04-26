@@ -1,0 +1,11 @@
+#if MOZ_APP_NAME == iceweasel
+[browser]
+bin/browser/components/aboutIce.js
+bin/browser/components/aboutIce.manifest
+bin/browser/chrome/ice.manifest
+bin/browser/chrome/ice@JAREXT@
+#endif
+
+[debian]
+bin/components/addonsInfo.js
+bin/components/addonsInfo.manifest

@@ -1,0 +1,12 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutAddons.title2                     "Add-on">
+<!ENTITY aboutAddons.header2                    "Add-on Anda">
+<!ENTITY aboutAddons.options                    "Pilihan">
+
+<!ENTITY addonAction.enable                     "Bolehkan">
+<!ENTITY addonAction.disable                    "Lumpuhkan">
+<!ENTITY addonAction.uninstall                  "Nyahpasang">
+<!ENTITY addonAction.undo                       "Kembali Asal">

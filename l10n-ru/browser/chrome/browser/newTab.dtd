@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY newtab.pageTitle "Новая вкладка">
+<!ENTITY newtab.customize.title "Настройка страницы «Новая вкладка»">
+<!ENTITY newtab.customize.enhanced "Улучшенная">
+<!ENTITY newtab.customize.classic "Классическая">
+<!ENTITY newtab.customize.blank "Пустая">
+<!ENTITY newtab.customize.what "Что это за страница?">
+<!ENTITY newtab.intro.header "Что это за страница?">
+<!ENTITY newtab.undo.removedLabel "Миниатюра удалена.">
+<!ENTITY newtab.undo.undoButton "Отменить.">
+<!ENTITY newtab.undo.restoreButton "Восстановить все.">
+<!ENTITY newtab.undo.closeTooltip "Скрыть">

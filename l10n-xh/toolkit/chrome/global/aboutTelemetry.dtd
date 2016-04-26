@@ -1,0 +1,43 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutTelemetry.pageTitle "Iingcombolo zethelemetri">
+
+<!ENTITY aboutTelemetry.telemetryEnabled "  IThelemetri <span>ivunyelwe</span>.">
+
+<!ENTITY aboutTelemetry.telemetryDisabled "  IThelemetri <span>ayivunyelwanga</span>.">
+
+<!ENTITY aboutTelemetry.generalDataSection "Ingcombolo jikelele">
+
+<!ENTITY aboutTelemetry.slowSqlSection "  Iingxelo ze-SQL ezicothayo">
+
+<!ENTITY aboutTelemetry.chromeHangsSection "  Ukubhrawuza kuyajinga">
+
+<!ENTITY aboutTelemetry.threadHangStatsSection "  Ithredi iyajinga">
+
+<!ENTITY aboutTelemetry.histogramsSection "  IiHistogrem">
+
+<!ENTITY aboutTelemetry.keyedHistogramsSection "ii Histograms eziqhotyoshelweyo">
+
+<!ENTITY aboutTelemetry.simpleMeasurementsSection "  Imilinganiselo elula">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "  Iinkcukacha zesongezelelo">
+
+<!ENTITY aboutTelemetry.lateWritesSection "  Mva ibhala">
+
+<!ENTITY aboutTelemetry.systemInfoSection "  Inkcazelo yenkqubo">
+
+<!ENTITY aboutTelemetry.addonHistogramsSection "  IiHistogrem ziqokelelwe zizongezelelo">
+
+<!ENTITY aboutTelemetry.toggle "  Cofa ukuze utogole icandelo">
+
+<!ENTITY aboutTelemetry.emptySection "  (Akukho zingcombolo ziqokelelweyo)">
+
+<!ENTITY aboutTelemetry.fullSqlWarning "  QAPHELA: I-SQL ecothayo ephelisa ubuzaza yenziwe yasebenza. Uluhlu lweekharakhtha ze-SQL oluzeleyo lunokuboniswa ngezantsi kodwa aluyi kuthunyelwa kwiThelemetri.">
+
+<!ENTITY aboutTelemetry.fetchSymbols "  Zisa amagama omsebenzi ocazululo olujingayo">
+
+<!ENTITY aboutTelemetry.hideSymbols "  Bonisa iingcombolo ezingahlelwanga kwezijingayo">
+
+<!ENTITY aboutTelemetry.filterText "  Hluza (izitringi okanye /regexp/)">

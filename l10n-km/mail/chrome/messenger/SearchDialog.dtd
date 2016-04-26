@@ -1,0 +1,78 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- for SearchDialog.xul -->
+
+<!ENTITY searchHeading.label         "Փնտրել նամակները՝">
+<!ENTITY searchHeading.accesskey     "h">
+<!ENTITY searchSubfolders.label      "Փնտրել ենթաթղթապանակներ">
+<!ENTITY searchSubfolders.accesskey  "e">
+<!ENTITY searchOnServer.label        "Բացել որոնումը սպասարկիչում">
+<!ENTITY searchOnServer.accesskey    "u">
+<!ENTITY resetButton.label           "Մաքրել">
+<!ENTITY resetButton.accesskey       "C">
+<!ENTITY openButton.label            "Բացել">
+<!ENTITY openButton.accesskey        "n">
+<!ENTITY deleteButton.label          "លុប​">
+<!ENTITY deleteButton.accesskey      "D">
+<!ENTITY searchDialogTitle.label     "Search Messages">
+<!ENTITY results.label               "Results">
+<!ENTITY moveButton.label            "ផ្លាស់ទី​ទៅ">
+<!ENTITY moveButton.accesskey        "T">
+<!ENTITY closeCmd.key                "W"> 
+<!ENTITY openInFolder.label          "Բացել թղթապանակում">
+<!ENTITY openInFolder.accesskey      "r">
+<!ENTITY saveAsVFButton.label        "Պահպանել որպես փնտրման թղթ.">
+<!ENTITY saveAsVFButton.accesskey    "v">
+<!-- for ABSearchDialog.xul -->
+
+<!ENTITY abSearchHeading.label       "Փնտրել՝ ">
+<!ENTITY abSearchHeading.accesskey   "h">
+<!ENTITY propertiesButton.label      "Հատկություններ">
+<!ENTITY propertiesButton.accesskey  "P">
+<!ENTITY composeButton.label         "Գրել">
+<!ENTITY composeButton.accesskey     "W">
+<!ENTITY deleteCardButton.label      "លុប​">
+<!ENTITY deleteCardButton.accesskey  "D">
+<!ENTITY abSearchDialogTitle.label   "Advanced Address Book Search">
+<!-- Thread Pane -->
+
+<!ENTITY threadColumn.label "Թեմատիկա">
+<!ENTITY fromColumn.label "From">
+<!ENTITY recipientColumn.label "Ստացողը">
+<!ENTITY subjectColumn.label "Subject">
+<!ENTITY dateColumn.label "Date">
+<!ENTITY priorityColumn.label "Priority">
+<!ENTITY tagsColumn.label "Tags">
+<!ENTITY accountColumn.label "Account">
+<!ENTITY statusColumn.label "Վիճակը">
+<!ENTITY sizeColumn.label "Size">
+<!ENTITY junkStatusColumn.label "Junk Status">
+<!ENTITY unreadColumn.label "Unread">
+<!ENTITY totalColumn.label "Total">
+<!ENTITY readColumn.label "Read">
+<!ENTITY receivedColumn.label "Received">
+<!ENTITY starredColumn.label "Starred">
+<!ENTITY locationColumn.label "Location">
+<!ENTITY idColumn.label "Order Received">
+<!-- Thread Pane Tooltips -->
+
+<!ENTITY columnChooser2.tooltip "ចំនួន​ជួរឈរ​ដែល​ត្រូវ​បង្ហាញ">
+<!ENTITY threadColumn2.tooltip "បង្ហាញ​ប្រធាន​បទ​​តែមួយ​​​សម្រាប់​សារ">
+<!ENTITY fromColumn2.tooltip "តម្រៀប​តាម​ពី">
+<!ENTITY recipientColumn2.tooltip "តម្រៀប​តាម​អ្នក​ទទួល">
+<!ENTITY subjectColumn2.tooltip "តម្រៀប​តាម​ប្រធានបទ">
+<!ENTITY dateColumn2.tooltip "តម្រៀប​តាម​កាលបរិច្ឆេទ​">
+<!ENTITY priorityColumn2.tooltip "តម្រៀប​តាម​អាទិភាព">
+<!ENTITY tagsColumn2.tooltip "តម្រៀប​តាម​ស្លាក">
+<!ENTITY accountColumn2.tooltip "តម្រៀប​តាម​គណនី">
+<!ENTITY statusColumn2.tooltip "តម្រៀប​តាម​ស្ថានភាព">
+<!ENTITY sizeColumn2.tooltip "តម្រៀប​តាម​ទំហំ​">
+<!ENTITY junkStatusColumn2.tooltip "តម្រៀប​តាម​​​ស្ថាន​ភាព​ឥត​បាន​ការ">
+<!ENTITY unreadColumn2.tooltip "Number of unread messages in thread">
+<!ENTITY totalColumn2.tooltip "Total number of messages in thread">
+<!ENTITY readColumn2.tooltip "តម្រៀប​តាម​អាន">
+<!ENTITY receivedColumn2.tooltip "តម្រៀប​តាម​កាលបរិច្ឆេទ​​បាន​ទទួល">
+<!ENTITY starredColumn2.tooltip "តម្រៀប​តាម​ផ្កាយ">
+<!ENTITY locationColumn2.tooltip "តម្រៀប​តាម​ទីតាំង">
+<!ENTITY idColumn2.tooltip "តម្រៀប​តាម​លំដាប់​បាន​ទទួល">
