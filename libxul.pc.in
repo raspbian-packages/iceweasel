@@ -1,0 +1,15 @@
+prefix=/usr
+sdkdir=/usr/lib/@browser@-devel-@GRE_VERSION@
+includedir=/usr/include/@browser@-@GRE_VERSION@
+idldir=/usr/share/idl/@browser@-@GRE_VERSION@
+
+Name: libxul
+Description: The Mozilla Runtime and Embedding Engine
+Version: @GRE_MILESTONE@
+%if LESS_SYSTEM_LIBS
+Requires: mozilla-nspr
+%else
+Requires: nspr
+%endif
+Libs: -L${sdkdir}/lib -lxpcomglue_s -lxul -lmozalloc
+Cflags: -I${includedir}

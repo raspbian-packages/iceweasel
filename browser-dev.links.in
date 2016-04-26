@@ -1,0 +1,3 @@
+%if !LESS_SYSTEM_LIBS
+usr/bin/nspr-config usr/lib/@browser@-devel-@GRE_VERSION@/sdk/bin/nspr-config
+%endif

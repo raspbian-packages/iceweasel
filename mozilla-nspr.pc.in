@@ -1,0 +1,9 @@
+prefix=/usr
+sdkdir=/usr/lib/@browser@-devel-@GRE_VERSION@
+includedir=/usr/include/@browser@-@GRE_VERSION@/nspr
+
+Name: NSPR
+Description: The Netscape Portable Runtime
+Version: @NSPR_VERSION@
+Libs: -L${sdkdir}/lib -lplds4 -lplc4 -lnspr4 -lpthread -ldl
+Cflags: -I${includedir}

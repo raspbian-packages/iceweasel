@@ -1,0 +1,20 @@
+From: Mike Hommey <glandium@debian.org>
+Date: Sat, 8 Dec 2007 19:24:40 +0100
+Subject: Set javascript.options.showInConsole
+
+---
+ modules/libpref/init/all.js | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/modules/libpref/init/all.js b/modules/libpref/init/all.js
+index c4c47e2..28f80f3 100644
+--- a/modules/libpref/init/all.js
++++ b/modules/libpref/init/all.js
+@@ -1048,6 +1048,7 @@ pref("javascript.options.strict.debug",     true);
+ #endif
+ pref("javascript.options.baselinejit",      true);
+ pref("javascript.options.ion",              true);
++pref("javascript.options.showInConsole",    true);
+ pref("javascript.options.asmjs",            true);
+ pref("javascript.options.native_regexp",    true);
+ pref("javascript.options.parallel_parsing", true);
