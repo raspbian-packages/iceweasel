@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY wizard.title             "Tạo Lịch Mới" >
+<!ENTITY wizard.label             "Tạo một bộ lịch mới" >
+<!ENTITY wizard.description       "Khởi tạo bộ lịch của bạn" >
+
+<!ENTITY initialpage.description    "Bộ lịch của bạn có thể được lưu trữ trên máy tính hoặc trên một máy chủ để có thể truy cập nó từ xa hoặc chia sẻ nó với bạn bè hoặc đồng nghiệp." >
+<!ENTITY initialpage.computer.label  "Trên Máy Tính Của Tôi">
+<!ENTITY initialpage.network.label  "Trên Hệ Thống Mạng">
+
+<!ENTITY locationpage.description         "Cung cấp thông tin về những thứ cần thiết để truy cập bộ lịch từ xa của bạn" >
+<!ENTITY locationpage.login.description   "Phụ: nhập tên đăng nhập và mật khẩu" >
+<!ENTITY locationpage.username.label      "Tên đăng nhập:" >
+<!ENTITY locationpage.password.label      "Mật khẩu:" >
+
+<!ENTITY custompage.shortdescription  "Tùy biến lịch của bạn" >
+<!ENTITY custompage.longdescription   "Bạn có thể đặt biệt danh cho bộ lịch của bạn và tô màu các sự kiện của bộ lịch này." >
+
+<!ENTITY finishpage.shortdescription  "Lịch đã được Tạo" >
+<!ENTITY finishpage.longdescription   "Bộ lịch của bạn đã được tạo." >

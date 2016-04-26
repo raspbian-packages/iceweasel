@@ -1,0 +1,57 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- for SearchDialog.xul -->
+<!ENTITY searchHeading.label         "Шукати в повідомленнях у:">
+<!ENTITY searchHeading.accesskey     "і">
+<!ENTITY searchSubfolders.label      "Шукати у вкладених теках">
+<!ENTITY searchSubfolders.accesskey  "к">
+<!ENTITY searchOnServer.label        "Виконати пошук на сервері">
+<!ENTITY searchOnServer.accesskey    "с">
+<!ENTITY resetButton.label           "Очистити">
+<!ENTITY resetButton.accesskey       "О">
+<!ENTITY openButton.label            "Відкрити">
+<!ENTITY openButton.accesskey        "д">
+<!ENTITY deleteButton.label          "Вилучити">
+<!ENTITY deleteButton.accesskey      "ч">
+<!ENTITY searchDialogTitle.label     "Пошук листів…">
+<!ENTITY results.label               "Результати">
+
+<!ENTITY closeCmd.key                "W"> 
+<!ENTITY openInFolder.label          "Відкрити у теці">
+<!ENTITY openInFolder.accesskey      "т">
+<!ENTITY saveAsVFButton.label        "Зберегти як віртуальну теку">
+<!ENTITY saveAsVFButton.accesskey    "б">
+
+<!-- for ABSearchDialog.xul -->
+<!ENTITY abSearchHeading.label       "Шукати в:">
+<!ENTITY abSearchHeading.accesskey   "Ш">
+<!ENTITY propertiesButton.label      "Властивості">
+<!ENTITY propertiesButton.accesskey  "л">
+<!ENTITY composeButton.label         "Написати">
+<!ENTITY composeButton.accesskey     "Н">
+<!ENTITY abSearchDialogTitle.label   "Розширений режим пошуку в адресній книзі">
+
+<!-- Thread Pane -->
+<!ENTITY threadColumn.label "Гілка">
+<!ENTITY fromColumn.label "Відправник">
+<!ENTITY recipientColumn.label "Адресат">
+<!ENTITY subjectColumn.label "Тема">
+<!ENTITY dateColumn.label "Дата">
+<!ENTITY priorityColumn.label "Важливість">
+<!ENTITY tagsColumn.label "Tags">
+<!ENTITY accountColumn.label "Обліковий запис">
+<!ENTITY statusColumn.label "Стан">
+<!ENTITY sizeColumn.label "Розмір">
+<!ENTITY junkStatusColumn.label "Спам">
+<!ENTITY unreadColumn.label "Не прочитано">
+<!ENTITY totalColumn.label "Всього">
+<!ENTITY readColumn.label "Прочитано">
+<!ENTITY receivedColumn.label "Отримано">
+<!ENTITY starredColumn.label "Помічено зіркою">
+<!ENTITY locationColumn.label "Розташування">
+<!ENTITY idColumn.label "Порядок отримання">
+
+<!-- Thread Pane Tooltips -->
+

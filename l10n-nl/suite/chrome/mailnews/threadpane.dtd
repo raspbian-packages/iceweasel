@@ -1,0 +1,45 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+ 
+<!ENTITY threadColumn.label "Conversatie">
+<!ENTITY fromColumn.label "Van">
+<!ENTITY recipientColumn.label "Ontvanger">
+<!ENTITY attachmentColumn.label "Bijlagen">
+<!ENTITY subjectColumn.label "Onderwerp">
+<!ENTITY dateColumn.label "Datum">
+<!ENTITY priorityColumn.label "Prioriteit">
+<!ENTITY tagsColumn.label "Labels">
+<!ENTITY accountColumn.label "Account">
+<!ENTITY statusColumn.label "Status">
+<!ENTITY sizeColumn.label "Grootte">
+<!ENTITY junkStatusColumn.label "Ongewenstberichtstatus">
+<!ENTITY unreadColumn.label "Ongelezen in conversatie">
+<!ENTITY totalColumn.label "Totaal in conversatie">
+<!ENTITY readColumn.label "Gelezen">
+<!ENTITY receivedColumn.label "Ontvangen">
+<!ENTITY flagColumn.label "Markering">
+<!ENTITY locationColumn.label "Locatie">
+<!ENTITY idColumn.label "Volgorde van ontvangst">
+
+<!--Tooltips-->
+<!ENTITY columnChooser2.tooltip "Weer te geven kolommen selecteren">
+<!ENTITY threadColumn2.tooltip "Berichtconversaties weergeven">
+<!ENTITY fromColumn2.tooltip "Op afzender sorteren">
+<!ENTITY recipientColumn2.tooltip "Op ontvanger sorteren">
+<!ENTITY attachmentColumn2.tooltip "Op bijlage sorteren">
+<!ENTITY subjectColumn2.tooltip "Op onderwerp sorteren">
+<!ENTITY dateColumn2.tooltip "Op datum sorteren">
+<!ENTITY priorityColumn2.tooltip "Op prioriteit sorteren">
+<!ENTITY tagsColumn2.tooltip "Op labels sorteren">
+<!ENTITY accountColumn2.tooltip "Op account sorteren">
+<!ENTITY statusColumn2.tooltip "Op status sorteren">
+<!ENTITY sizeColumn2.tooltip "Op grootte sorteren">
+<!ENTITY junkStatusColumn2.tooltip "Op ongewenstberichtstatus sorteren">
+<!ENTITY unreadColumn2.tooltip "Aantal ongelezen berichten in conversatie">
+<!ENTITY totalColumn2.tooltip "Totale aantal berichten in conversatie">
+<!ENTITY readColumn2.tooltip "Op gelezen sorteren">
+<!ENTITY receivedColumn2.tooltip "Op ontvangstdatum sorteren">
+<!ENTITY flagColumn2.tooltip "Op gemarkeerd sorteren">
+<!ENTITY locationColumn2.tooltip "Op locatie sorteren">
+<!ENTITY idColumn2.tooltip "Op volgorde van ontvangst sorteren">

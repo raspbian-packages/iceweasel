@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- These strings are used in the about:newtab page -->
+
+<!ENTITY newtab.pageTitle "Pestanya nova">
+<!ENTITY newtab.customize.title "Personalitzeu la pàgina de pestanya nova">
+<!ENTITY newtab.customize.enhanced "Millorada">
+<!ENTITY newtab.customize.classic "Clàssica">
+<!ENTITY newtab.customize.blank "En blanc">
+<!ENTITY newtab.customize.what "Què és aquesta pàgina?">
+<!ENTITY newtab.intro.header "Què és aquesta pàgina? ">
+<!ENTITY newtab.undo.removedLabel "S'ha eliminat la miniatura.">
+<!ENTITY newtab.undo.undoButton "Desfés.">
+<!ENTITY newtab.undo.restoreButton "Restaura-les totes.">
+<!ENTITY newtab.undo.closeTooltip "Amaga">

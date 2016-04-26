@@ -1,0 +1,48 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY findAgainCmd.commandkey2       "VK_F3">
+
+<!ENTITY backButton.label               "Назад">
+<!ENTITY backButton.accesskey           "з">
+
+<!ENTITY forwardButton.label            "Напред">
+<!ENTITY forwardButton.accesskey        "п">
+
+<!ENTITY copyCmd.label                  "Копиране">
+<!ENTITY copyCmd.accesskey              "К">
+
+
+
+
+<!ENTITY homeButton.label               "Начална страница">
+
+<!ENTITY printButton.label              "Отпечатване">
+<!ENTITY printButton.tooltip            "Отпечатване на тази страница">
+
+
+<!ENTITY search.emptytext               "Търсене">
+
+
+
+<!-- LOCALIZATION NOTE :
+fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
+fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
+If shift key is needed with your locale popular keyboard for them,
+you can use these alternative items. Otherwise, their values should be empty.  -->
+<!ENTITY fullZoomReduceCmd.commandkey2  "">
+
+<!-- + is above this key on many keyboards -->
+<!ENTITY fullZoomEnlargeCmd.commandkey3 "">
+
+<!ENTITY fullZoomResetCmd.commandkey2   "">
+
+
+
+
+<!ENTITY fullZoomReduceBtn.label        "Намаляване">
+<!ENTITY fullZoomReduceBtn.accesskey    "м">
+<!ENTITY fullZoomEnlargeBtn.label       "Увеличаване">
+<!ENTITY fullZoomEnlargeBtn.accesskey   "У">

@@ -1,0 +1,112 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+
+<!ENTITY loadError.label "Greška pri učitavanju stranice">
+<!ENTITY retry.label "Pokušajte ponovno">
+<!-- Specific error messages -->
+
+
+<!ENTITY connectionFailure.title "Povezivanje nije moguće">
+
+
+<!ENTITY deniedPortAccess.title "Ova adresa je ograničena">
+<!ENTITY deniedPortAccess.longDesc "">
+
+<!ENTITY dnsNotFound.title "Poslužitelj nije pronađen">
+<!-- LOCALIZATION NOTE (dnsNotFound.longDesc4) This string contains markup including widgets for searching
+     or enabling wifi connections. The text inside tags should be localized.  Do not change the ids. -->
+
+<!ENTITY fileNotFound.title "Datoteka nije pronađena">
+<!ENTITY fileNotFound.longDesc "<ul> 
+<li>Provjerite velika i mala slova ili prisutnost ostalih tipfelera.</li> 
+<li>Provjerite je li datoteka premještena, preimenovana ili obrisana.</li> 
+</ul>">
+
+
+<!ENTITY generic.title "Ups.">
+<!ENTITY generic.longDesc "<p>Iz nekog razloga &brandShortName; ne može učitati ovu stranicu.</p>">
+
+<!ENTITY malformedURI.title "Adresa nije ispravna">
+<!-- LOCALIZATION NOTE (malformedURI.longDesc2) This string contains markup including widgets for searching
+     or enabling wifi connections. The text inside the tags should be localized. Do not touch the ids. -->
+
+<!ENTITY netInterrupt.title "Veza je prekinuta">
+
+
+<!ENTITY notCached.title "Dokument je istekao">
+<!ENTITY notCached.longDesc "<p>Traženi dokument nije dostupan u &brandShortName; priručnoj memoriji.</p><ul><li>Radi sigurnosti, &brandShortName; neće automatski ponovno zatražiti osjetljive dokumente.</li><li>Kliknite na Pokušajte ponovno da biste zatražili dokument od web stranice.</li></ul>">
+
+<!ENTITY netOffline.title "Izvanmrežni rad">
+<!-- LOCALIZATION NOTE (netOffline.longDesc3) This string contains markup including widgets enabling wifi connections.
+     The text inside the tags should be localized. Do not touch the ids. -->
+
+<!ENTITY contentEncodingError.title "Greška kodiranja sadržaja">
+<!ENTITY contentEncodingError.longDesc "<ul> 
+<li>Kontaktirajte vlasnike web stranice i obavijestite ih o ovom problemu.</li> 
+</ul>">
+
+<!ENTITY unsafeContentType.title "Nesigurni tip datoteke">
+<!ENTITY unsafeContentType.longDesc "<ul> 
+<li>Kontaktirajte vlasnike web stranice i obavijestite ih o ovom problemu.</li> 
+</ul>">
+
+<!ENTITY netReset.title "Veza je prekinuta">
+
+
+<!ENTITY netTimeout.title "Vezi je isteklo vrijeme čekanja">
+
+
+<!ENTITY unknownProtocolFound.title "Adresa nije prepoznata">
+<!ENTITY unknownProtocolFound.longDesc "<ul> 
+<li>Možda trebate instalirati drugi program za otvaranje ove adrese.</li> 
+</ul>">
+
+<!ENTITY proxyConnectFailure.title "Proxy poslužitelj odbija veze">
+<!ENTITY proxyConnectFailure.longDesc "<ul> 
+<li>Provjerite proxy postavke i potvrdite da su ispravne.</li> 
+<li>Kako biste provjerili radi li proxy poslužitelj, kontaktirajte svojeg mrežnog 
+administratora.</li> 
+</ul>">
+
+<!ENTITY proxyResolveFailure.title "Proxy poslužitelj nije pronađen">
+<!-- LOCALIZATION NOTE (proxyResolveFailure.longDesc3) This string contains markup including widgets for enabling wifi connections.
+     The text inside the tags should be localized. Do not touch the ids. -->
+
+<!ENTITY redirectLoop.title "Stranica ne preusmjerava ispravno">
+<!ENTITY redirectLoop.longDesc "<ul> 
+<li>Ovaj problem ponekad može biti uzrokovan onemogućavanjem ili odbijanjem prihvaćanja 
+kolačića.</li> 
+</ul>">
+
+<!ENTITY unknownSocketType.title "Neočekivani odgovor od poslužitelja">
+<!ENTITY unknownSocketType.longDesc "<ul> 
+<li>Provjerite je li na vašem računalu instaliran Personal Security Manager 
+</li> 
+<li>Ovo može biti uzrokovano neuobičajenim postavkama na poslužitelju.</li> 
+</ul>">
+
+<!ENTITY nssFailure2.title "Sigurna veza nije uspjela">
+
+
+<!ENTITY nssBadCert.title "Sigurna veza nije uspjela">
+
+<!-- LOCALIZATION NOTE (sharedLongDesc3) This string contains markup including widgets for enabling wifi connections.
+     The text inside the tags should be localized. Do not touch the ids. -->
+
+
+
+
+
+
+
+<!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
+contents of the <xul:button> tags.  The only language content is the label= field,
+which uses strings already defined above. The button is included here (instead of
+netError.xhtml) because it exposes functionality specific to firefox. -->
+
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Kontaktirajte vlasnike web stranice i obavijestite ih o ovom problemu.</li></ul></p>">
+

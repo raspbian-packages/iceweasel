@@ -1,0 +1,13 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY privatebrowsingpage.title                  "Приватно прегледање">
+
+<!ENTITY privatebrowsingpage.issueDesc.private      "Отворили сте нови приватан језичак.">
+<!ENTITY privatebrowsingpage.issueDesc.normal       "Ви нисте у приватном језичку.">
+
+<!ENTITY privatebrowsingpage.description            "У приватним језичцима, &brandShortName; неће памтити историју прегледања, претраге, преузимања, веб форме, колачиће или привремене интернет датотеке. Али, датотеке које преузмете или забележите ће бити сачуване.">
+<!ENTITY privatebrowsingpage.description.private    "&privatebrowsingpage.issueDesc.private; &privatebrowsingpage.description;">
+
+<!ENTITY privatebrowsingpage.moreInfo               "Док овај уређај не бележи Вашу историју прегедања, Ваш интернет провајдер и даље може да прати странице које посетите.">

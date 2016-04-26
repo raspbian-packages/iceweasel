@@ -1,0 +1,195 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY  splash_settingup "Inpòsta o teu &brandShortName;">
+<!ENTITY  splash_bookmarks_history "Agiornémmo i teu segnalìbbri e a teu stöia, o quæ o poriéiva pigiâ ciù ò mêno un menûto.">
+
+<!ENTITY  no_space_to_start_error "No gh\'é ne abasta de spàçio in sciô disco pe &brandShortName;.">
+<!ENTITY  error_loading_file "Gh\'é stæto \'n erô quànde ò provòu a caregâ di file domandæ pe fâ anâ o &brandShortName;">
+
+<!ENTITY  awesomebar_all_pages_title "I prìmmi scîti">
+<!ENTITY  awesomebar_bookmarks_title "Segnalìbbri">
+<!ENTITY  awesomebar_history_title "Stöia">
+<!ENTITY  awesomebar_search_engine "Çèrca \&quot;&#037;s\&quot;">
+
+<!ENTITY  crash_reporter_title "Report di ciànti do &brandShortName;">
+<!ENTITY  crash_message "O &brandShortName; o se ciantòu. I teu féuggi doven êse inta pagina iniçiâ de &brandShortName; quànde ti reavîi.">
+<!ENTITY  crash_help_message "Pe piaxéi danni un agiùtto pe scistemâ sto problêma!">
+<!ENTITY  crash_send_report_message "Mànda a Mozilla \'n report do ciànto">
+<!ENTITY  crash_include_url "Mettighe l\'indirìsso da pagina">
+<!ENTITY  crash_close_label "Særa">
+<!ENTITY  crash_restart_label "Àrvi tórna &brandShortName;">
+<!ENTITY  sending_crash_report "Mando o report do ciànto\u2026">
+<!ENTITY  exit_label "Sciòrti">
+<!ENTITY  continue_label "Continoa">
+
+<!ENTITY  launcher_shortcuts_title "App Web de &brandShortName;">
+<!ENTITY  launcher_shortcuts_empty "Nisciùnn-a web apps atrovâ">
+
+<!ENTITY choose_file "Çèrni o File">
+
+<!ENTITY awesomebar_default_text "Introdûxi riçèrca ò indirìsso">
+
+<!ENTITY remote_tabs "Féuggi in Sync">
+<!ENTITY remote_tabs_show_all "Móstra tùtti i féuggi">
+
+<!ENTITY bookmark "Segnalìbbro">
+<!ENTITY bookmark_added "Segnalìbbro azónto">
+<!ENTITY bookmark_removed "Segnalìbbro scancelòu">
+<!ENTITY bookmark_updated "Segnalìbbro agiornòu">
+
+<!ENTITY history_today_section "Ancheu">
+<!ENTITY history_yesterday_section "Vêi">
+<!ENTITY history_week_section "7 giórni fa">
+<!ENTITY history_older_section "Ciù vêgi de 7 giórni">
+
+<!ENTITY reload "Recàrega">
+<!ENTITY forward "Avànti">
+
+<!ENTITY new_tab "Nêuvo féuggio">
+<!ENTITY new_tab_opened "Nêuvo féuggio avèrto">
+
+<!ENTITY settings "Inpostaçioìn">
+<!ENTITY settings_title "Inpostaçioìn">
+<!ENTITY pref_category_general "Generâle">
+<!ENTITY pref_category_privacy "Privacy &amp; Seguéssa">
+<!ENTITY pref_category_content "Contegnûo">
+<!ENTITY pref_about_firefox "Informaçioìn rigoàrdo &brandShortName;">
+<!ENTITY pref_do_not_track "Fànni in mòddo che i scîti no poriàn localizâme">
+<!ENTITY pref_telemetry "Mànda dæti in sce prestaçioìn">
+<!ENTITY pref_remember_signons "Aregorda e paròlle segrétte">
+<!ENTITY pref_cookies "Abìlita cookie">
+<!ENTITY pref_char_encoding "Show character encoding">
+<!ENTITY pref_char_encoding_on "Fànni védde o menû">
+<!ENTITY pref_char_encoding_off "No fànni védde o menû">
+<!ENTITY pref_clear_private_data "Scancèlla i dæti privæ">
+<!ENTITY pref_plugins "Plugin">
+<!ENTITY pref_plugins_enabled "Abilitòu">
+<!ENTITY pref_plugins_tap_to_play "Tócca pe riprodûe">
+<!ENTITY pref_plugins_disabled "Dizabilitòu">
+<!ENTITY pref_text_size "Dimensción do tèsto">
+<!ENTITY pref_font_size_tiny "Picìn">
+<!ENTITY pref_font_size_small "Picìn">
+<!ENTITY pref_font_size_medium "Médio">
+<!ENTITY pref_font_size_large "Làrgo">
+<!ENTITY pref_font_size_xlarge "Ciù làrgo no se peu">
+<!ENTITY pref_use_master_password "Dêuvia unna paròlla segrêta prinçipâ">
+<!ENTITY pref_sync "Scincronìzza">
+<!ENTITY pref_private_data_passwords "Paròlle segrétte sarvæ">
+
+<!ENTITY quit "Sciòrti">
+
+<!ENTITY addons "Conponénti azónti">
+<!ENTITY downloads "Descaregaménti">
+<!ENTITY char_encoding "Codifica do caràtere">
+
+<!ENTITY share "Condivìddi">
+<!ENTITY share_title "Condivìddi via">
+<!ENTITY save_as_pdf "Sàrva cómme PDF">
+
+<!ENTITY contextmenu_open_new_tab "Arvi in nêuvo féuggio">
+<!ENTITY contextmenu_remove_bookmark "Scancèlla">
+<!ENTITY contextmenu_add_to_launcher "Azónzi a-o schèrmo iniçiâle">
+<!ENTITY contextmenu_share "Condivìddi">
+<!ENTITY contextmenu_edit_bookmark "Càngia">
+
+<!ENTITY bookmark_edit_title "Càngia segnalìbbro">
+<!ENTITY bookmark_edit_name "Nómme">
+<!ENTITY bookmark_edit_location "Indirìsso">
+<!ENTITY bookmark_edit_keyword "Paròlla ciâve">
+
+<!ENTITY site_settings_title2 "Inpostaçioìn do scîto…">
+
+<!ENTITY site_settings_cancel       "Anùlla">
+<!ENTITY site_settings_clear        "Polìsci">
+<!ENTITY site_settings_no_settings  "No gh\'é de inpostaçioìn da scancelâ.">
+
+<!ENTITY masterpassword_create_title "Crêa unna paròlla segrêta prinçipâ">
+<!ENTITY masterpassword_remove_title "Lêva da mêzo a paròlla segrêta prinçipâ">
+<!ENTITY masterpassword_password "Paròlla segrêta">
+<!ENTITY masterpassword_confirm "Confèrma paròlla segrêta">
+
+<!ENTITY button_ok "Va bén">
+<!ENTITY button_cancel "Anùlla">
+
+<!ENTITY abouthome_addons_title "Conpleménti pe-o teu &brandShortName;">
+<!ENTITY abouthome_addons_browse "Amîa tùtti i conpleménti &brandShortName;">
+<!ENTITY abouthome_last_tabs_title "I teu féuggi de l\'ùrtima vòtta">
+<!ENTITY abouthome_last_tabs_open "Àrvi tùtti i féuggi de l\'ùrtima vòtta">
+<!ENTITY abouthome_top_sites_title "Mêgio scîti">
+<!ENTITY abouthome_top_sites_browse "Amîa tùtti i teu scîti preferîi">
+<!ENTITY abouthome_about_sync3 "Inpòsta Firefox Sync pe lêze segnalìbbri, stöia e féuggi da-i teu âtri dispoxitîvi »">
+
+<!ENTITY abouthome_sync_bold_name "Firefox Sync">
+
+<!ENTITY filepicker_title "Çèrni o File">
+<!ENTITY filepicker_audio_title "Çèrni ò regìstra són">
+<!ENTITY filepicker_image_title "Çèrni ò pìggia \'na föto">
+<!ENTITY filepicker_video_title "Çèrni ò regìstra \'n vìdeo">
+
+<!ENTITY close_tab "Særa féuggio">
+<!ENTITY contextmenu_remove_history "Scancèlla">
+<!ENTITY find_in_page "Trêuva inta pàgina">
+<!ENTITY find_text "Trêuva inta pàgina">
+<!ENTITY find_prev "Precedénte">
+<!ENTITY find_next "Pròscimo">
+<!ENTITY find_close "Særa">
+<!ENTITY history_removed "Pàgina scancelâ">
+<!ENTITY identity_connected_to "S\'é conéssi con">
+<!ENTITY identity_run_by "Sto scîto o l\'é è gestîo da">
+<!ENTITY reading_list_added "Pàgina azónta a-a Lìsta de letûa">
+<!ENTITY reading_list_removed "Pàgina scancelâ da Lìsta de letûa">
+<!ENTITY reader_mode "Modalitæ letûa">
+<!ENTITY num_tabs "&#037;d féuggi">
+
+<!ENTITY menu "Menû">
+<!ENTITY stop "Fèrma">
+<!ENTITY site_security "Seguéssa do scîto">
+<!ENTITY back "Inderê">
+<!ENTITY close_tab "Særa féuggio">
+
+<!ENTITY pref_category_importexport "Inpòrta e espòrta">
+
+<!ENTITY pref_import_android "Inpòrta dò-u Android">
+<!ENTITY pref_private_data_history "Stöia da navegaçión e descaregaménto">
+<!ENTITY pref_private_data_formdata "Mòdoli e riçèrca">
+<!ENTITY pref_private_data_cookies2 "Cookie e acéssi atîvi">
+
+<!ENTITY pref_private_data_cache "Cache">
+<!ENTITY pref_private_data_offlineApps "Dæti fêua lìnia di scîti web">
+<!ENTITY pref_private_data_siteSettings "Preferénse di scîti">
+<!ENTITY desktop_mode "Domànda versción desktop">
+
+<!ENTITY contextmenu_pasteandgo "Incòlla e vànni">
+<!ENTITY contextmenu_paste "Incòlla">
+<!ENTITY contextmenu_copyurl "Còpia indirìsso">
+
+<!ENTITY button_clear_data "Scancèlla dæti">
+
+<!ENTITY private_data_success "Dæti personâle scancelæ">
+<!ENTITY private_data_fail "Inposcìbile scancelâ quàrche dæto personâle">
+<!ENTITY bookmarkhistory_button_import "Inpòrta">
+<!ENTITY bookmarkhistory_import_both "Inportaçión segnalìbbri e stöia dò-u Android">
+<!ENTITY bookmarkhistory_import_bookmarks "Inportaçión segnalìbbri dò-u Android">
+<!ENTITY bookmarkhistory_import_history "Inportaçión stöia dò-u Android">
+<!ENTITY bookmarkhistory_import_wait "Aténdi…">
+
+<!ENTITY apps "App">
+<!ENTITY one_tab "1 féuggio">
+<!ENTITY pref_search_suggestions "Véddi i sugeriménti de riçèrca">
+<!ENTITY reading_list "Elénco letûa">
+<!ENTITY reading_list_failed "Inposcìbile azónze a pàgina a Elénco letûa">
+<!ENTITY share_image_failed "Inposcìbile condivìdde sta inmàgine">
+<!ENTITY webapp_generic_name "App">
+
+<!ENTITY abouthome_about_apps2 "Scàrega nêuve app da Mozilla Marketplace e descòvri o mêgio do Web »">
+<!ENTITY abouthome_apps_bold_name "Mozilla Marketplace">
+
+<!ENTITY go "Vànni">
+<!ENTITY search "Çèrca">
+<!ENTITY pref_font_size_set "Inpòsta">
+<!ENTITY pref_font_size_adjust_char "A">
+<!ENTITY pref_font_size_preview_text "A vórpe cô de çetrón pàssa sórvia ògni òstàcolo con velocitæ de lóngo magiô, flescibilitæ e siguéssa. In quànto organizaçión sénsa fìn de goâgno sémmo càpaci de creâ inovaçoioìn pe o bén di uténti sénsa càzze in prescioìn ò conpromìssi. Quésto scignìfica \'na mêgio esperiénsa pe tùtti e \'n mêgio avegnî pe-o Web.">
+<!ENTITY pref_use_master_password "Adêvia paròlla segrêta prinçipâ">

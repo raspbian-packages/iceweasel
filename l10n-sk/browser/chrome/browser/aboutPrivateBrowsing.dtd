@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Používate režim Súkromné prehliadanie">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Otvoriť súkromné okno?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "&brandShortName; si nebude pre toto okno pamätať žiadnu históriu.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "&brandShortName; si pre súkromné okná nepamätá žiadnu históriu.">
+
+<!ENTITY aboutPrivateBrowsing.description      "To zahŕňa históriu navštívených stránok a vyhľadávania, záznamy o prevzatých súboroch, údaje zadané do formulárov, cookies a dočasné internetové súbory. Prevzaté súbory a vytvorené záložky však ostanú zachované.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Práve sa nenachádzate v súkromnom okne.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Aj keď sa v tomto počítači nebudú ukladať žiadne údaje o prehliadaných stránkach, váš poskytovateľ internetového pripojenia či zamestnávateľ môžu napriek tomu sledovať, ktoré stránky navštevujete.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Ďalšie informácie">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Otvoriť okno v režime Súkromné prehliadanie">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "v">

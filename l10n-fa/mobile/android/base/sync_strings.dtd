@@ -1,0 +1,225 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- Don't localize these. They're here until they have
+     a better place to live. -->
+
+<!ENTITY syncBrand.fullName.label "هم‌گام‌سازی فایرفاکس">
+<!ENTITY syncBrand.shortName.label "هم‌گام‌سازی">
+<!-- Main titles. -->
+<!ENTITY sync.title.connect.label "وصل شدن به &syncBrand.shortName.label;">
+<!ENTITY sync.title.adddevice.label "اضافه کردن یک حساب &syncBrand.fullName.label;">
+<!ENTITY sync.title.pair.label "وصل کردن دستگاه">
+<!-- J-PAKE Key Screen -->
+
+<!ENTITY sync.subtitle.connect.label "برای فعال کردن دستگاه جدید خود “Set up &syncBrand.shortName.label;” را در دستگاه خود انتخاب کنید.">
+<!ENTITY sync.subtitle.header2.label "این کد را در دستگاه دیگر خود وارد کنید">
+<!ENTITY sync.subtitle.connectlocation2.label "در قسمت &syncBrand.shortName.label; از ترجیحات فایرفاکس دستگاه دیگر خود مورد «&sync.title.pair.label;» انتخاب کنید.">
+<!ENTITY sync.subtitle.pair.label "برای فعال‌سازی، «همگام‌سازی یک دستگاه» در دستگاه دیگر را انتخاب کنید.">
+<!ENTITY sync.pin.default.label "...\n...\n...\n">
+<!ENTITY sync.pin.oneline.label "...">
+<!ENTITY sync.link.show.label "نمایش روش کار">
+<!ENTITY sync.link.advancedsetup.label "راه‌اندازی پیشرفته…">
+<!ENTITY sync.link.nodevice.label "هم‌اکنون دستگاه همراهم نیست...">
+<!-- J-PAKE Waiting Screen -->
+
+<!ENTITY sync.jpake.subtitle.waiting.label "در انتظار دستگاه‌های دیگر…">
+<!-- Account Login Screen -->
+
+<!ENTITY sync.subtitle.account.label "اطلاعات حساب &syncBrand.fullName.label; خود را وارد کنید">
+<!ENTITY sync.input.username.label "نام حساب">
+
+<!ENTITY sync.input.key.label "کلید بازیابی">
+<!ENTITY sync.checkbox.server.label "استفاده از یک کارگزار خاص">
+<!ENTITY sync.input.server.label "کارگزار نشانی وب">
+<!-- Setup Fail -->
+
+<!ENTITY sync.title.fail.label "نمی‌توان &syncBrand.shortName.label; را تنظیم کرد">
+<!ENTITY sync.subtitle.fail.label "&syncBrand.fullName.label; نمی‌تواند به کارگزار متصل شود. آیا می‌خواهید دوباره تلاش کنید؟">
+<!ENTITY sync.button.tryagain.label "تلاش مجدد">
+<!ENTITY sync.button.manual.label "تنظیم دستی">
+<!ENTITY sync.subtitle.nointernet.label "اتصال اینترنت در دسترس نیست.">
+<!ENTITY sync.subtitle.failaccount.label "ایجاد حساب بر روی دستگاه شما شکست خورد.">
+<!ENTITY sync.subtitle.failmultiple.label "آیا شما بیش از یک فایرفاکس نصب شده دارید؟ در حال حاضر، &syncBrand.fullName.label; فقط از یک فایرفاکس نصب شده در یک زمان پشتیبانی میکند. لطفاً برای استفاده از &syncBrand.shortName.label; موارد دیگر را حذف کنید.">
+<!-- Setup Success -->
+
+<!ENTITY sync.title.success.label "خاتمه‌ی برپاسازی">
+<!ENTITY sync.subtitle.success.label1 "داده شما در پس‌زمینه درحال بارگیری است. شما می‌توانید برای مدیریت حساب خود به تنظیمات بروید، یا با &brandShortName; شروع به مرور کنید.">
+<!ENTITY sync.settings.label "تنظیمات">
+<!ENTITY sync.subtitle.manage.label1 "حساب &syncBrand.fullName.label; شما از قبل تنظیم شده است. شما می‌توانید برای مدیریت حساب خود به تنظیمات بروید، یا &brandShortName; را راه‌اندازی کنید.">
+<!-- Pair Device -->
+
+<!ENTITY sync.pair.tryagain.label "لطفاً دوباره تلاش کنید.">
+<!ENTITY sync.pair.connectlocation.label "برای فعال‌سازی دستگاه جدید خود، بر روی دستگاه “Set up &syncBrand.shortName.label;” را انتخاب کنید، و سپس “I Have an Account.” را انتخاب کنید.">
+<!-- Firefox SyncAdapter Settings Screen -->
+
+<!ENTITY sync.settings.options.label "گزینه‌ها">
+<!ENTITY sync.summary.pair.label "پیوند دستگاهی دیگر به حساب &syncBrand.shortName.label; شما">
+<!-- Configure Engines -->
+
+<!ENTITY sync.configure.engines.title.label "چه‌چیزی هم‌گام‌سازی شود">
+<!ENTITY sync.configure.engines.sync.my.title.label "هم‌گام‌سازی...">
+
+
+
+<!ENTITY sync.configure.engines.title.tabs "زبانه‌ها">
+<!-- Common text -->
+
+<!ENTITY sync.button.cancel.label "انصراف">
+<!ENTITY sync.button.connect.label "اتصال">
+<!ENTITY sync.button.ok.label "تأیید">
+<!-- Account strings -->
+<!-- Localization note (sync.default.client.name): Default string of the "Device
+     name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
+     will be replaced by the name of the Firefox release channel and &formatS2
+     by the model name of the Android device. Examples look like "Aurora on
+     GT-I1950" and "Fennec on MI 2S". -->
+<!-- Bookmark folder strings -->
+
+<!ENTITY bookmarks.folder.menu.label "منوی نشانک‌ها">
+<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.tags.label "برچسب‌ها">
+<!ENTITY bookmarks.folder.toolbar.label "نوار ابزار نشانک‌ها">
+<!ENTITY bookmarks.folder.unfiled.label "نشانک‌های مرتب نشده">
+<!ENTITY bookmarks.folder.desktop.label "نشانک‌های رایانهٴ شخصی">
+<!ENTITY bookmarks.folder.mobile.label "نشانک‌های همراه">
+<!ENTITY bookmarks.folder.readinglist.label "لیست خواندن">
+<!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
+<!ENTITY bookmarks.folder.pinned.label "میخ شد">
+<!-- Notification strings -->
+
+<!ENTITY sync.notification.oneaccount.label "فقط یک حساب &syncBrand.fullName.label; پشتیبانی می‌شود.">
+<!ENTITY sync.notification.configure.saved "موارد انتخاب شده شما ذخیره شده‌اند.">
+<!-- Incorrect settings and changing credentials. -->
+
+<!ENTITY sync.invalidcreds.label "نام حساب یا گذرواژه اشتباه است">
+<!ENTITY sync.invalidserver.label "لطفاً یک نشانی پایگاه صحیح وارد کنید">
+<!ENTITY sync.verifying.label "در حال وارسی…">
+<!ENTITY sync.new.recoverykey.status.incorrect "کلید بازیابی نادرست است. لطفاً دوباره تلاش کنید.">
+<!-- Send tab to device. -->
+
+<!ENTITY sync.title.send.tab.label "ارسال زبانه به دستگاه‌ها">
+<!ENTITY sync.button.send.label "ارسال">
+<!ENTITY sync.button.set.up.sync.label "تنظیم &syncBrand.shortName.label;">
+<!ENTITY sync.title.redirect.to.set.up.sync.label "تنظیم &syncBrand.shortName.label; برای ارسال زبانه‌ها">
+<!ENTITY sync.text.redirect.to.set.up.sync.label "تنظیم &syncBrand.fullName.label; بر روی دستگاه شما برای ارسال زبانه‌ها به دستگاه‌های دیگر.">
+<!ENTITY sync.text.tab.sent.label "زبانه شما ارسال شد!">
+<!ENTITY sync.text.tab.not.sent.label "مشکلی در ارسال زبانه شما وجود دارد.">
+<!-- Firefox Account strings. -->
+
+
+<!-- Localization note: these are shown in all screens that query the
+     user for an email address and password. Hide and show are button
+     labels. -->
+
+
+<!ENTITY fxaccount_password_show "نمایش">
+<!-- Localization note: these are shown in screens after the user has
+     created or signed in to an account, and take the user back to
+     Firefox. -->
+<!-- Localization note: the following two strings are interpolated
+     into fxaccount_create_account_policy_text2; see note for that
+     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+
+
+
+
+
+<!-- Localization note: the Firefox below should not change with the
+     particular version of Firefox installed (Release, Beta, Aurora,
+     etc).  The account remains a "Firefox Account". -->
+
+
+
+
+<!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
+<!ENTITY fxaccount_create_account_button "بعدی">
+
+
+
+
+
+
+<!ENTITY fxaccount_account_create_not_allowed_learn_more "اطلاعات بیشتر">
+
+<!-- Localization note: &formatS; is the Firefox Account's email address. -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Localization note: when tapped, the following two strings link to
+     external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+
+
+
+
+<!-- Localization note: format string below will be replaced
+     with the Firefox Account's email address. -->
+
+<!-- Localization note: this is the name shown by the Android system
+     itself for a Firefox Account. Don't localize this. -->
+<!-- Localization note: these are shown by the Android system itself,
+     when the user navigates to the Android > Accounts > {Firefox
+     Account} Screen. The link takes the user to the Firefox Account
+     status activity, which lets them manage their Firefox
+     Account. -->
+
+<!-- Localization note: these error messages are shown after a request
+     has been made to the remote server, and an error of some type has
+     been returned. -->
+<!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
+
+
+
+
+
+
+
+
+
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->

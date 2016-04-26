@@ -1,0 +1,34 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY windowTitle.label "Thuộc tính Vùng Văn Bản">
+
+<!ENTITY Settings.label "Thiết lập">
+
+<!ENTITY TextAreaName.label "Field Name:">
+<!ENTITY TextAreaName.accessKey "T">
+<!ENTITY TextAreaRows.label "Rows:">
+<!ENTITY TextAreaRows.accessKey "H">
+<!ENTITY TextAreaCols.label "Columns:">
+<!ENTITY TextAreaCols.accessKey "C">
+<!ENTITY TextAreaReadOnly.label "Read Only">
+<!ENTITY TextAreaReadOnly.accessKey "h">
+<!ENTITY TextAreaDisabled.label "Disabled">
+<!ENTITY TextAreaDisabled.accessKey "B">
+<!ENTITY TextAreaTabIndex.label "Tab Index:">
+<!ENTITY TextAreaTabIndex.accessKey "m">
+<!ENTITY TextAreaAccessKey.label "Access Key:">
+<!ENTITY TextAreaAccessKey.accessKey "P">
+<!ENTITY InitialText.label "Initial Text:">
+<!ENTITY InitialText.accessKey "V">
+
+<!ENTITY TextAreaWrap.label "Wrap Mode:">
+<!ENTITY TextAreaWrap.accessKey "B">
+<!ENTITY WrapDefault.value "Mặc định">
+<!ENTITY WrapOff.value "Tắt">
+<!ENTITY WrapHard.value "Cứng">
+<!ENTITY WrapSoft.value "Mềm">
+<!ENTITY WrapPhysical.value "Vật lí">
+<!ENTITY WrapVirtual.value "Ảo">
+

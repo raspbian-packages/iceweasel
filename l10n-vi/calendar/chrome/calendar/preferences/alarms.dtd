@@ -1,0 +1,35 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- WARNING! This file contains UTF-8 encoded characters!
+   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
+   - your editor isn't using UTF-8 encoding and may munge up the document!
+  -->
+
+<!ENTITY pref.alarmgoesoff.label "Khi đổ chuông báo:">
+<!ENTITY pref.playasound "Chơi một đoạn âm thanh">
+<!ENTITY pref.calendar.alarms.playsound.accessKey "h">
+<!ENTITY pref.calendar.alarms.sound.useDefault.label "Sử dụng âm thanh mặc định">
+<!ENTITY pref.calendar.alarms.sound.useDefault.accessKey "m">
+<!ENTITY pref.calendar.alarms.sound.browse.label "Duyệt…">
+<!ENTITY pref.calendar.alarms.sound.browse.accessKey "u">
+<!ENTITY pref.calendar.alarms.sound.preview.label "Nghe thử">
+<!ENTITY pref.calendar.alarms.sound.preview.accessKey "e">
+<!ENTITY pref.showalarmbox "Hiện một hộp cảnh báo">
+<!ENTITY pref.calendar.alarms.showAlarmBox.accessKey "b">
+<!ENTITY pref.missedalarms "Hiện những chuông báo đã lỡ">
+<!ENTITY pref.calendar.alarms.missedAlarms.accessKey "l">
+<!ENTITY pref.calendar.alarms.defaults.label "Mặc định cho Chuông báo">
+<!ENTITY pref.defalarm4events.label "Thiết lập chuông báo mặc định cho các sự kiện:">
+<!ENTITY pref.defalarm4events.accesskey "s">
+<!ENTITY pref.defalarm4todos.label "Thiết lập chuông báo mặc định cho các tác vụ:">
+<!ENTITY pref.defalarm4todos.accesskey "v">
+<!ENTITY pref.alarm.on "Bật">
+<!ENTITY pref.alarm.off "Tắt">
+<!ENTITY pref.defalarmlen4events.label "Mặc định, đổ chuông trước khi có một sự kiện:">
+<!ENTITY pref.defalarmlen4events.accesskey "r">
+<!ENTITY pref.defalarmlen4todos.label "Mặc định, đổ chuông trước khi có một tác vụ:">
+<!ENTITY pref.defalarmlen4todos.accesskey "k">
+<!ENTITY pref.defaultemail.label "Địa chỉ mặc định để gửi chuông báo tới:">
+<!ENTITY pref.defaulttext.label "Nội dung cảnh báo mặc định cho chuông báo:">

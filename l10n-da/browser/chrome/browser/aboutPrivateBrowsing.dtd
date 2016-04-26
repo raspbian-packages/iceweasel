@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title                 "Du surfer privat">
+<!ENTITY aboutPrivateBrowsing.title.normal          "Åbn et privat vindue?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle              "&brandShortName; vil ikke huske historik for dette vindue.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal       "&brandShortName; vil ikke huske historik for private vinduer.">
+
+<!ENTITY aboutPrivateBrowsing.description           "Det omfatter browser-, filhentnings-, formular- og søgehistorik samt gemte cookies og midlertidige internetfiler. Hentede filer og nyoprettede bogmærker vil dog blive gemt.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate            "Du befinder dig ikke i et privat vindue.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo              "Selvom denne computer ikke vil gemme informationer om hvor du har været, så vil din internetudbyder eller arbejdsgiver stadig kunne følge hvilke sider du besøger.">
+<!ENTITY aboutPrivateBrowsing.learnMore             "Læs mere">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Åbn et privat vindue">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "p">

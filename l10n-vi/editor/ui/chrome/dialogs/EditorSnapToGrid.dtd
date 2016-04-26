@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Snap to Grid">
+
+<!ENTITY enableSnapToGrid.label "kích hoạt Dính vào Đường kẻ ô">
+<!ENTITY enableSnapToGrid.accessKey "k">
+
+<!ENTITY sizeEditField.label "Kích thước:">
+<!ENTITY sizeEditField.accessKey "h">
+
+<!ENTITY pixelsLabel.value "điểm ảnh">
+
