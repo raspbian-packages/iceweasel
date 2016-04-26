@@ -1,0 +1,117 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY itemGeneral.label       "Загальні">
+<!ENTITY itemDisplay.label       "Читання та відображення">
+<!ENTITY itemUpdate.label        "Оновлення">
+<!ENTITY itemNetworking.label    "Мережа та диск">
+<!ENTITY itemCertificates.label  "Сертифікати">
+
+<!-- General Settings -->
+
+<!ENTITY submitTelemetry.label         "Надсилати дані про швидкодію">
+<!ENTITY submitTelemetry.accesskey     "Н">
+<!ENTITY telemetryInfoLink.label       "Дізнатись більше про телеметрію">
+<!ENTITY enableGlodaSearch.label       "Ввімкнути глобальний пошук та індексацію">
+<!ENTITY enableGlodaSearch.accesskey   "і">
+
+<!ENTITY scrolling.label               "Прокрутка">
+<!ENTITY useAutoScroll.label           "Використовувати автопрокрутку">
+<!ENTITY useAutoScroll.accesskey       "а">
+<!ENTITY useSmoothScrolling.label      "Використовувати плавну прокрутку">
+<!ENTITY useSmoothScrolling.accesskey  "п">
+
+<!ENTITY systemIntegration.label       "Системна інтеграція">
+<!ENTITY alwaysCheckDefault.label      "Перевіряти на старті чи &brandShortName; є типовою поштовою програмою">
+<!ENTITY alwaysCheckDefault.accesskey  "ш">
+<!ENTITY searchIntegration.label       "Дозволити &searchIntegration.engineName; шукати листи">
+<!ENTITY searchIntegration.accesskey   "S">
+<!ENTITY checkDefaultsNow.label        "Перевірити зараз…">
+<!ENTITY checkDefaultsNow.accesskey    "з">
+<!ENTITY configEditDesc.label          "Додаткові налаштування">
+<!ENTITY configEdit.label              "Редактор налаштувань">
+<!ENTITY configEdit.accesskey          "Р">
+<!ENTITY returnReceiptsInfo.label      "Вкажіть, як &brandShortName; має обробляти сповіщення про доставку">
+<!ENTITY showReturnReceipts.label      "Сповіщення про доставку…">
+<!ENTITY showReturnReceipts.accesskey  "д">
+
+<!-- Display and Reading Settings -->
+<!ENTITY reading.caption               "Читання">
+<!ENTITY display.caption               "Відображення">
+<!ENTITY showCondensedAddresses.label  "Показувати тільки ім’я людей, що знаходяться в моїй адресній книзі">
+<!ENTITY showCondensedAddresses.accesskey "м">
+
+<!ENTITY autoMarkAsRead.label          "Автоматично позначати листи як прочитані">
+<!ENTITY autoMarkAsRead.accesskey      "А">
+<!ENTITY markAsReadNoDelay.label       "Зразу після відображення">
+<!ENTITY markAsReadNoDelay.accesskey   "З">
+<!-- LOCALIZATION NOTE (markAsReadDelay.label): This will concatenate to
+     "After displaying for [___] seconds",
+     using (markAsReadDelay.label) and a number (secondsLabel.label). -->
+<!ENTITY markAsReadDelay.label         "Як мине">
+<!ENTITY markAsReadDelay.accesskey     "Я">
+<!ENTITY secondsLabel.label            "секунд">
+<!ENTITY openMsgIn.label               "Відкривати листи у:">
+<!ENTITY openMsgInNewTab.label         "Новій вкладці">
+<!ENTITY openMsgInNewTab.accesskey     "в">
+<!ENTITY reuseExpRadio0.label          "новому вікні">
+<!ENTITY reuseExpRadio0.accesskey      "н">
+<!ENTITY reuseExpRadio1.label          "вже існуючому вікні">
+<!ENTITY reuseExpRadio1.accesskey      "у">
+<!ENTITY closeMsgOnMoveOrDelete.label  "Закривати вікно листа після видалення/переміщення">
+<!ENTITY closeMsgOnMoveOrDelete.accesskey "З">
+
+<!-- Update -->
+<!ENTITY updateApp.label                 "&brandShortName; updates:">
+<!ENTITY updateAuto.label                "Automatically install updates (recommended: improved security)">
+<!ENTITY updateAuto.accesskey            "A">
+<!ENTITY updateCheck.label               "Check for updates, but let me choose whether to install them">
+<!ENTITY updateCheck.accesskey           "C">
+<!ENTITY updateManual.label              "Never check for updates (not recommended: security risk)">
+<!ENTITY updateManual.accesskey          "N">
+<!ENTITY updateAutoAddonWarn.label       "Warn me if this will disable any of my add-ons">
+<!ENTITY updateAutoAddonWarn.accesskey   "W">
+<!ENTITY updateHistory.label             "Show Update History">
+<!ENTITY updateHistory.accesskey         "p">
+
+<!ENTITY useService.label                "Використовувати фонову службу для встановлення оновлень">
+<!ENTITY useService.accesskey            "ф">
+
+<!-- Networking and Disk Space -->
+<!ENTITY showSettings.label            "Настройки…">
+<!ENTITY showSettings.accesskey        "Н">
+<!ENTITY proxiesConfigure.label        "Настройте як &brandShortName; з’єднується з інтернетом">
+<!ENTITY connectionsInfo.caption       "З’єднання">
+<!ENTITY offlineInfo.caption           "Автономний режим">
+<!ENTITY offlineInfo.label             "Налаштуйте параметри автономного режиму">
+<!ENTITY showOffline.label             "Автономний режим…">
+<!ENTITY showOffline.accesskey         "А">
+
+<!ENTITY Diskspace                       "Дисковий простір">
+<!ENTITY offlineCompactFolders.label     "Стискати всі теки, якщо це звільнить більш ніж">
+<!ENTITY offlineCompactFolders.accesskey "в">
+<!ENTITY offlineCompactFoldersMB.label   "MB загалом">
+
+<!-- LOCALIZATION NOTE:
+  The entities useCacheBefore.label and useCacheAfter.label appear on a single
+  line in preferences as follows:
+
+  &useCacheBefore.label  [ textbox for cache size in MB ]   &useCacheAfter.label;
+-->
+<!ENTITY useCacheBefore.label            "Використовувати до">
+<!ENTITY useCacheBefore.accesskey        "и">
+<!ENTITY useCacheAfter.label             "MB місця під кеш">
+<!ENTITY clearCacheNow.label             "Очистити зараз">
+<!ENTITY clearCacheNow.accesskey         "О">
+
+<!-- Certificates -->
+<!ENTITY certSelection.description       "Коли сервер запитує мій персональний сертифікат:">
+<!ENTITY certs.auto                      "Вибрати автоматично">
+<!ENTITY certs.auto.accesskey            "а">
+<!ENTITY certs.ask                       "Питати щоразу">
+<!ENTITY certs.ask.accesskey             "П">
+
+<!ENTITY viewCertificates.label         "Перегляд сертифікатів">
+<!ENTITY viewSecurityDevices.label      "Пристрої захисту">
+<!ENTITY viewSecurityDevices.accesskey  "з">
