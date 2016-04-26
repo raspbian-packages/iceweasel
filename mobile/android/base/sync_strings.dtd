@@ -1,0 +1,260 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- Don't localize these. They're here until they have
+     a better place to live. -->
+
+<!ENTITY syncBrand.fullName.label "تزامن فيَرفُكس">
+<!ENTITY syncBrand.shortName.label "تزامُن">
+<!-- Main titles. -->
+
+<!ENTITY sync.app.name.label "&syncBrand.fullName.label;">
+<!ENTITY sync.title.connect.label "اتصّل ب‍&syncBrand.shortName.label;">
+<!ENTITY sync.title.adddevice.label "أضف حساب &syncBrand.fullName.label;">
+<!ENTITY sync.title.pair.label "اربط جهازًا">
+<!-- J-PAKE Key Screen -->
+
+<!ENTITY sync.subtitle.connect.label "لتفعيل جهازك الجديد اختر ”إعداد &syncBrand.shortName.label;“ على الجهاز.">
+<!ENTITY sync.subtitle.header2.label "أدخل هذا الكود في جهازك الآخر">
+<!ENTITY sync.subtitle.connectlocation2.label "اختر ”&sync.title.pair.label;“ من قسم &syncBrand.shortName.label; في خيارات فيَرفُكس على جهازك الآخر.">
+<!ENTITY sync.subtitle.pair.label "للتفعيل، اختر ”اربط جهازًا“ في جهازك الآخر.">
+<!ENTITY sync.pin.default.label "...\n...\n...\n">
+<!ENTITY sync.pin.oneline.label "...">
+<!ENTITY sync.link.show.label "أرني كيف.">
+<!ENTITY sync.link.advancedsetup.label "الإعداد المتقدم…">
+<!ENTITY sync.link.nodevice.label "الجهاز ليس معي الآن…">
+<!-- J-PAKE Waiting Screen -->
+
+<!ENTITY sync.jpake.subtitle.waiting.label "ينتظر الجهاز الآخر…">
+<!-- Account Login Screen -->
+
+<!ENTITY sync.subtitle.account.label "أدخل معلومات حساب &syncBrand.fullName.label;">
+<!ENTITY sync.input.username.label "اسم الحساب">
+<!ENTITY sync.input.password.label "كلمة السّر">
+<!ENTITY sync.input.key.label "مفتاح الاستعادة">
+<!ENTITY sync.checkbox.server.label "استخدم خادومًا مخصصًا">
+<!ENTITY sync.input.server.label "عنوان الخادوم">
+<!-- Setup Fail -->
+
+<!ENTITY sync.title.fail.label "تعذّر إعداد &syncBrand.shortName.label;">
+<!ENTITY sync.subtitle.fail.label "تعذّر على &syncBrand.fullName.label; الاتصال بالخادوم. أتريد إعادة المحاولة؟">
+<!ENTITY sync.button.tryagain.label "أعِد المحاولة">
+<!ENTITY sync.button.manual.label "إعداد يدوي">
+<!ENTITY sync.subtitle.nointernet.label "لا يتوفر اتصال بالإنترنت.">
+<!ENTITY sync.subtitle.failaccount.label "فشل إنشاء الحساب على جهازك.">
+<!ENTITY sync.subtitle.failmultiple.label "ألديك أكثر من نسخة فيَرفُكس مثبّتة؟ حاليا لا يدعم &syncBrand.fullName.label; أكثر من تثبيت لفيَرفُكس في المرة. من فضلك أزل التثبيتات الأخرى لتستطيع استخدام &syncBrand.shortName.label;.">
+<!-- Setup Success -->
+
+<!ENTITY sync.title.success.label "اكتمل الإعداد">
+<!ENTITY sync.subtitle.success.label1 "بياناتك تُنزّل الآن في الخلفية. يمكنك الذهاب إلى الإعدادات لإدارة حسابك، أو البدء في التصفح باستخدام &brandShortName;.">
+<!ENTITY sync.settings.label "الإعدادات">
+<!ENTITY sync.subtitle.manage.label1 "سبق إعداد حساب &syncBrand.fullName.label;. يمكنك الذهاب إلى الإعدادات لإدارة حسابك، أو تشغيل &brandShortName;.">
+<!-- Pair Device -->
+
+<!ENTITY sync.pair.tryagain.label "رجاء حاول مرة أخرى.">
+<!ENTITY sync.pair.connectlocation.label "لتفعيل جهازك الجديد اختر ”إعداد &syncBrand.shortName.label;“ على الجهاز، ثم أختر ”لدي حساب“">
+<!-- Firefox SyncAdapter Settings Screen -->
+
+<!ENTITY sync.settings.options.label "الخيارات">
+<!ENTITY sync.summary.pair.label "اربط جهازا آخر بحساب &syncBrand.shortName.label;">
+<!-- Configure Engines -->
+
+<!ENTITY sync.configure.engines.title.label "ماذا سيُزامَن">
+<!ENTITY sync.configure.engines.sync.my.title.label "زامِن…">
+<!ENTITY sync.configure.engines.title.bookmarks "العلامات">
+<!ENTITY sync.configure.engines.title.passwords "كلمات السّر">
+<!ENTITY sync.configure.engines.title.history "التأريخ">
+<!ENTITY sync.configure.engines.title.tabs "الألسنة">
+<!-- Common text -->
+
+<!ENTITY sync.button.cancel.label "ألغِ">
+<!ENTITY sync.button.connect.label "اتصل">
+<!ENTITY sync.button.ok.label "حسنا">
+<!-- Account strings -->
+
+<!ENTITY sync.account.label "&syncBrand.fullName.label; (لاغٍ)">
+<!-- Localization note (sync.default.client.name): Default string of the "Device
+     name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
+     will be replaced by the name of the Firefox release channel and &formatS2
+     by the model name of the Android device. Examples look like "Aurora on
+     GT-I1950" and "Fennec on MI 2S". -->
+<!-- Bookmark folder strings -->
+
+<!ENTITY bookmarks.folder.menu.label "قائمة العلامات">
+<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.tags.label "الوسوم">
+<!ENTITY bookmarks.folder.toolbar.label "شريط العلامات">
+<!ENTITY bookmarks.folder.unfiled.label "العلامات غير المرتّبة">
+<!ENTITY bookmarks.folder.desktop.label "علامات سطح المكتب">
+<!ENTITY bookmarks.folder.mobile.label "علامات الجوال">
+<!ENTITY bookmarks.folder.readinglist.label "قائمة القراءة">
+<!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
+<!ENTITY bookmarks.folder.pinned.label "مثبَّت">
+<!-- Notification strings -->
+
+<!ENTITY sync.notification.oneaccount.label "لا يُدعم إلا حساب &syncBrand.fullName.label; واحد.">
+<!ENTITY sync.notification.configure.saved "حُفظت اختياراتُك.">
+<!-- Incorrect settings and changing credentials. -->
+
+<!ENTITY sync.invalidcreds.label "اسم الحساب أو كلمة السر خطأ.">
+<!ENTITY sync.invalidserver.label "رجاءً أدخِل عنوان خادوم صالح">
+<!ENTITY sync.verifying.label "يتحقق…">
+<!ENTITY sync.new.recoverykey.status.incorrect "مفتاح الاستعادة خطأ. من فضلك أعد المحاولة.">
+<!-- Send tab to device. -->
+
+<!ENTITY sync.title.send.tab.label "أرسِل اللسان إلى الأجهزة">
+<!ENTITY sync.button.send.label "أرسِل">
+<!ENTITY sync.button.set.up.sync.label "اضبط &syncBrand.shortName.label;">
+<!ENTITY sync.title.redirect.to.set.up.sync.label "اضبط &syncBrand.shortName.label; لإرسال الألسنة">
+<!ENTITY sync.text.redirect.to.set.up.sync.label "اضبط &syncBrand.fullName.label; على جهازك لإرسال الألسنة إلى الأجهزة الأخرى.">
+<!ENTITY sync.text.tab.sent.label "أُرسِل اللسان.">
+<!ENTITY sync.text.tab.not.sent.label "حدثت مشكلة أثناء إرسال اللسان.">
+<!-- Firefox Account strings. -->
+
+
+<!ENTITY fxaccount_full_label "حسابات فَيَرفُكس">
+
+<!ENTITY fxaccount_custom_server_account_title "يستخدم حسابًا على خادوم">
+<!ENTITY fxaccount_custom_server_sync_title "يحفظ بيانات التزامن على خادوم">
+<!-- Localization note: these are shown in all screens that query the
+     user for an email address and password. Hide and show are button
+     labels. -->
+
+<!ENTITY fxaccount_email_hint "البريد">
+<!ENTITY fxaccount_password_hint "كلمة السّر">
+<!ENTITY fxaccount_password_hide "أخفِ">
+<!ENTITY fxaccount_password_show "أظهِر">
+<!-- Localization note: these are shown in screens after the user has
+     created or signed in to an account, and take the user back to
+     Firefox. -->
+
+<!ENTITY fxaccount_back_to_browsing "عُد إلى التصفح">
+<!-- Localization note: the following two strings are interpolated
+     into fxaccount_create_account_policy_text2; see note for that
+     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+
+<!ENTITY fxaccount_policy_linktos "بنود خدمة">
+<!ENTITY fxaccount_policy_linkprivacy "تنبيه خصوصية">
+
+<!ENTITY fxaccount_getting_started_welcome_to_sync "مرحبًا في &syncBrand.shortName.label;">
+<!ENTITY fxaccount_getting_started_description "لِج لمزامنة ألسنتك و علاماتك و كلمات السر و غيرها المزيد.">
+<!ENTITY fxaccount_getting_started_get_started "ابدأ">
+<!ENTITY fxaccount_getting_started_old_firefox "أستخدم إصدارة أقدم من &syncBrand.shortName.label;؟">
+<!-- Localization note: the Firefox below should not change with the
+     particular version of Firefox installed (Release, Beta, Aurora,
+     etc).  The account remains a "Firefox Account". -->
+
+<!ENTITY fxaccount_create_account_header2 "أنشئ حسابَ فَيَرفُكس">
+<!ENTITY fxaccount_create_account_password_length_restriction "يجب أن يكون طوله 8 محارف على الأقل">
+
+
+<!ENTITY fxaccount_create_account_year_of_birth "سنة الميلاد">
+<!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
+<!ENTITY fxaccount_create_account_policy_text2 "بالمواصلة أوافق على &formatS1; و &formatS2; خدمات فَيَرفُكس السحابية.">
+<!ENTITY fxaccount_create_account_button "التالي">
+<!ENTITY fxaccount_create_account_choose_what_to_sync "اختر ما الذي تريد مزامنته">
+<!ENTITY fxaccount_create_account_sign_in_instead "ألديك حساب بالفعل؟ لِج">
+<!ENTITY fxaccount_create_account_1990_or_earlier "1990 أو ما قبلها">
+<!ENTITY fxaccount_create_account_unknown_error "تعذّر إنشاء الحساب">
+
+<!ENTITY fxaccount_account_create_not_allowed "تعذّر إنشاء الحساب">
+<!ENTITY fxaccount_account_create_not_allowed_you_must_meet_certain_age_requirements "يجب أن تتخطى سنًا معينة لإنشاء حساب.">
+<!ENTITY fxaccount_account_create_not_allowed_learn_more "اطّلع على المزيد">
+
+<!ENTITY fxaccount_confirm_account_header "أكّد حسابك">
+<!-- Localization note: &formatS; is the Firefox Account's email address. -->
+<!ENTITY fxaccount_confirm_account_verification_link "أُرسل رابط التأكيد إلى &formatS;">
+<!ENTITY fxaccount_confirm_account_resend_email "أعِد إرسال الرسالة">
+
+<!ENTITY fxaccount_confirm_account_verification_link_sent2 "أُرسل بريد التأكيد">
+<!ENTITY fxaccount_confirm_account_verification_link_not_sent2 "تعذّر إرسال بريد التأكيد">
+
+
+
+
+<!ENTITY fxaccount_sign_in_sub_header "لِج">
+<!ENTITY fxaccount_sign_in_button_label "لِج">
+<!ENTITY fxaccount_sign_in_forgot_password "أنسيت كلمة السر؟">
+<!ENTITY fxaccount_sign_in_create_account_instead "أنشئ حسابًا">
+<!ENTITY fxaccount_sign_in_unknown_error "تعذّر الولوج">
+
+<!ENTITY fxaccount_account_verified_sub_header "اُكّد الحساب">
+<!ENTITY fxaccount_account_verified_description2 "ستبدأ بياناتك في المزامنة آنيًا.">
+
+
+<!ENTITY fxaccount_update_credentials_header "لِج">
+<!ENTITY fxaccount_update_credentials_button_label "لِج">
+<!ENTITY fxaccount_update_credentials_unknown_error "تعذّر الولوج">
+
+
+
+
+<!ENTITY fxaccount_status_header2 "حساب فَيَرفُكس">
+<!ENTITY fxaccount_status_signed_in_as "ولِجت باسم">
+<!ENTITY fxaccount_status_auth_server "خادوم الحساب">
+
+
+<!ENTITY fxaccount_status_device_name "اسم الجهاز">
+<!ENTITY fxaccount_status_sync_server "خادوم التزامن">
+<!ENTITY fxaccount_status_sync "&syncBrand.shortName.label;">
+<!ENTITY fxaccount_status_sync_enabled "&syncBrand.shortName.label;: مُفعّل">
+<!ENTITY fxaccount_status_needs_verification2 "يحتاج حسابك للتأكيد. انقر لإعادة إرسال بريد التأكيد.">
+<!ENTITY fxaccount_status_needs_credentials "تعذر الاتصال. انقر لتسجيل الدخول.">
+<!ENTITY fxaccount_status_needs_upgrade "تحتاج لترقية &brandShortName; لتتمكن من تسجيل الدخول.">
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled "‏&syncBrand.shortName.label; مُعدّ، لكن لا يُزامن تلقائيًا. انقر على ”مزامنة البيانات تلقائيًا“ في إعدادات أندرويد ← استخدام البيانات.">
+
+
+<!ENTITY fxaccount_status_bookmarks "العلامات">
+<!ENTITY fxaccount_status_history "التأريخ">
+<!ENTITY fxaccount_status_passwords "كلمات السر">
+<!ENTITY fxaccount_status_tabs "الألسنة المفتوحة">
+<!ENTITY fxaccount_status_legal "قانوني" >
+<!-- Localization note: when tapped, the following two strings link to
+     external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_status_linktos "بنود الخدمة">
+<!ENTITY fxaccount_status_linkprivacy "تنبيه الخصوصية">
+
+
+
+<!-- Localization note: format string below will be replaced
+     with the Firefox Account's email address. -->
+
+<!-- Localization note: this is the name shown by the Android system
+     itself for a Firefox Account. Don't localize this. -->
+
+<!ENTITY fxaccount_account_type_label "فَيَرفُكس">
+<!-- Localization note: these are shown by the Android system itself,
+     when the user navigates to the Android > Accounts > {Firefox
+     Account} Screen. The link takes the user to the Firefox Account
+     status activity, which lets them manage their Firefox
+     Account. -->
+
+<!ENTITY fxaccount_options_title "خيارات &syncBrand.shortName.label;">
+<!ENTITY fxaccount_options_configure_title "اضبط &syncBrand.shortName.label;">
+<!-- Localization note: these error messages are shown after a request
+     has been made to the remote server, and an error of some type has
+     been returned. -->
+
+<!ENTITY fxaccount_remote_error_UPGRADE_REQUIRED "تحتاج لتحديث فَيَرفُكس">
+<!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
+
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_CREATE_AN_ACCOUNT_THAT_ALREADY_EXISTS_2 "الحساب موجود من قبل. &formatS1;">
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST "كلمة السر أو البريد غير سليم">
+<!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD "كلمة السر أو البريد غير سليم">
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT "الحساب غير مُؤكّد">
+<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS "الخادوم مشغول، أعد المحاولة بعد قليل">
+<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD "الخادوم مشغول، أعد المحاولة بعد قليل">
+<!ENTITY fxaccount_remote_error_UNKNOWN_ERROR "حدثت مشكلة">
+<!ENTITY fxaccount_remote_error_COULD_NOT_CONNECT "تعذّر الاتصال بالشبكة">
+
+
+<!ENTITY fxaccount_sync_sign_in_error_notification_title2 "‏&syncBrand.shortName.label; غير متّصل">
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
