@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Tha thu a’ dèanamh brabhsadh prìobhaideach">
+<!ENTITY aboutPrivateBrowsing.title.normal     "A bheil thu airson uinneag phrìobhaideach fhosgladh?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "Cha chum &brandShortName; eachdraidh na h-uinneige seo 'na chuimhne.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "Cha chuimhnich &brandShortName; eachdraidh sam bith o uinneagan prìobhaideach.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Tha seo a’ gabhail a-steach an eachdraidh brabhsaidh, eachdraidh nan lorg, eachdraidh luchdaidh, eachdraidh fhoirmean-lìn, briosgaidean no faidhlichean-lìn sealach. Ge-tà, thèid faidhlichean a luchdaicheas tu a-nuas agus comharran-lìn a nì thu a chumail.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Chan eil thu ann an uinneag phrìobhaideach an-dràsta fhèin.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Fhad ’s nach bi clàr d’ eachdraidh brabhsaidh air an uidheam seo, ’s urrainn dhan t-solaraiche-lìn no dhan fhastaiche agad fios fhaighinn air na duilleagan a thadhail thu air.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Barrachd fiosrachaidh.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Fosgail uinneag phrìobhaideach">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "p">
