@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Po shfletoni privatisht">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Të hapet një dritare private?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "&brandShortName;-i nuk do të mbajë mend ndonjë historik për këtë dritare.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "&brandShortName; -i nuk do të mbajë mend ndonjë historik për  dritare private.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Kjo përfshin historik shfletimesh, historik kërkimesh, historik shkarkimesh, historik plotësimi formularësh web, cookies, dhe kartela të përkohshme interneti. Sidoqoftë, kartelat që shkarkoni dhe faqerojtësit që krijoni do të ruhen.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Tani nuk gjendeni në një dritare private.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Ndërkohë që ky kompjuter nuk do të ketë ndonjë regjistrim të historikut tuaj të shfletimit, punëdhënësi juaj ose mundësuesi i shërbimit tuaj internet prapëseprapë munden të gjurmojnë faqet që vizitoni.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Mësoni Më Tepër.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Hapni në Dritare Private">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "H">

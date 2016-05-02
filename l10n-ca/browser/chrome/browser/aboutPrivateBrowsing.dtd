@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Esteu navegant de forma privada">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Voleu obrir una finestra privada?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "El &brandShortName; no recordarà res de l'historial d'aquesta finestra.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "El &brandShortName; no recordarà res de l'historial de les pestanyes privades.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Això inclou l'historial de navegació, l'historial de cerques, l'historial de baixades, l'historial dels formularis web, les galetes i altres fitxers temporals d'Internet. Per altra banda, sí que es conservaran els fitxers que baixeu i les adreces d'interès que deseu.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Actualment no esteu en una finestra privada.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Encara que l'ordinador no tindrà cap registre del vostre historial de navegació, el vostre proveïdor d'Internet o el vostre patró sí que podrien conèixer les pàgines que visiteu.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Més informació.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Obre una finestra privada">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "p">

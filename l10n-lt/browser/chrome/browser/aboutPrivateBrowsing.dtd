@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Jūs naršote privačiai">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Atverti privačiojo naršymo langą?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "Šiame lange „&brandShortName;“ nieko neįsimins.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "„&brandShortName;“ neįsimins nieko, kas atliekama privačiuosiuose languose.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Tai galioja naršymo, paieškos ir atsiuntimų žurnalams, pildytoms formoms, slapukams bei laikiniesiems failams. Tačiau atsiųsti failai ir sukurti adresyno įrašai išliks.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Šiuo metu jūs esate ne privačiajame lange.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Nors šiame kompiuteryje ir neliks duomenų apie jūsų naršytus tinklalapius, jūsų interneto paslaugų teikėjas ar darbdavys vis tiek gali sekti, ką naršote.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Sužinoti daugiau.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Atverti privatųjį langą">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "p">

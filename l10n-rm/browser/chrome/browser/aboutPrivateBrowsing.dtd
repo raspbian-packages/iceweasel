@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Ti es en il modus privat">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Avrir ina fanestra privata?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "&brandShortName; na vegn betg a memorisar la cronologia per questa fanestra.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "&brandShortName; na vegn betg a memorisar la cronologia per fanestras privatas.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Quai includa la cronologia, endataziuns da tschertga, la glista da las telechargiadas, endataziuns en formulars, cookies e datotecas temporaras da l'internet. Las datotecas che ti telechargias ed ils segnapaginas che ti creeschas vegnan però salvads.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Ti n'es actualmain betg en ina fanestra privata.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Era sche quest computer na registrescha betg la cronologia, po tes purschider da servetschs d'internet u tes emploiader anc adina vesair tge paginas che ti visitas.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Ulteriuras infurmaziuns.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Avrir ina fanestra privata">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "P">

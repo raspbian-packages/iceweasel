@@ -1,0 +1,239 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- Don't localize these. They're here until they have
+     a better place to live. -->
+
+<!ENTITY syncBrand.fullName.label "Firefox Sync">
+<!ENTITY syncBrand.shortName.label "Sync">
+<!-- Main titles. -->
+
+<!ENTITY sync.app.name.label "&syncBrand.fullName.label;">
+<!ENTITY sync.title.connect.label "Kub i &syncBrand.shortName.label;">
+<!ENTITY sync.title.adddevice.label "Med Akaunti me &syncBrand.fullName.label;">
+<!ENTITY sync.title.pair.label "Ket Jami tic aryo ayo">
+<!-- J-PAKE Key Screen -->
+
+<!ENTITY sync.subtitle.connect.label "Me miyo Jami tic megi manyen, “Yer &syncBrand.shortName.label;” ikum jami tic.">
+<!ENTITY sync.subtitle.header2.label "Ket nyig coc man ikom jami me tic mukene">
+<!ENTITY sync.subtitle.connectlocation2.label "Yer “&sync.title.pair.label;” ki i but &syncBrand.shortName.label; pa gin ayera me Firefox pa nyonyo ni mukene ni.">
+<!ENTITY sync.subtitle.pair.label "Me miyo tic, yer “Ket jami tic aryo aryo” ikom jami tic megi mapat.">
+<!ENTITY sync.pin.default.label "...\n...\n...\n">
+<!ENTITY sync.pin.oneline.label "...">
+<!ENTITY sync.link.show.label "Nyuta yore mene.">
+<!ENTITY sync.link.advancedsetup.label "Ter me rwom ma lamal…">
+<!ENTITY sync.link.nodevice.label "Pe atye ki nyonyo ne bota…">
+<!-- J-PAKE Waiting Screen -->
+
+<!ENTITY sync.jpake.subtitle.waiting.label "Tye ka kuro jami tic mukene…">
+<!-- Account Login Screen -->
+
+<!ENTITY sync.subtitle.account.label "Ket ngec pa akaunti megi i &syncBrand.fullName.label;">
+<!ENTITY sync.input.username.label "Nying akaunti">
+<!ENTITY sync.input.password.label "Mung me donyo">
+<!ENTITY sync.input.key.label "Lagony mega me Nongo">
+<!ENTITY sync.checkbox.server.label "Tii ki cik pa lapok tic">
+<!ENTITY sync.input.server.label "Lapok tic me URL">
+<!-- Setup Fail -->
+
+<!ENTITY sync.title.fail.label "Ter &syncBrand.shortName.label;">
+<!ENTITY sync.subtitle.fail.label "&syncBrand.fullName.label; pe onongo romo kube ki lapok tic. I mito temo ne doki?">
+<!ENTITY sync.button.tryagain.label "Tem doki">
+<!ENTITY sync.button.manual.label "Tera me cing">
+<!ENTITY sync.subtitle.nointernet.label "Intanet pe okube.">
+<!ENTITY sync.subtitle.failaccount.label "Keto Akaunti ni ikom jami tic mamegi pe olare.">
+<!ENTITY sync.subtitle.failmultiple.label "Onyo iketo Firefox makato acel oko? Ikom kare ni, &syncBrand.fullName.label; cwako ka keto Firefox acel keken icawa mo ni. Tim ber ikwany woko gin mukene w ek ti ki &syncBrand.shortName.label;.">
+<!-- Setup Success -->
+
+<!ENTITY sync.title.success.label "Tero Otyeko">
+<!ENTITY sync.subtitle.success.label1 "Kombedi gutye ka kwanyo woko tic mamegi I cal maneno mabor. I romo wot i tero wek iloo teko pa akaunti mamegi, onyo cak yenyo kwede &brandShortName;.">
+<!ENTITY sync.settings.label "Tero">
+<!ENTITY sync.subtitle.manage.label1 "Kityeko dong tero woko akaunti mamegi me &syncBrand.fullName.label; I twero wot itero wek I loo teko pa akaunti mamegi, onyo cak &brandShortName;.">
+<!-- Pair Device -->
+
+<!ENTITY sync.pair.tryagain.label "Tim ber item doki.">
+<!ENTITY sync.pair.connectlocation.label "Pi miyo jami tic mamegi manyen, yer,\u0027\u0027Tero &syncBrand.shortName.label;” I kom jami tic, ci dong I yer “Atye ki Akaunti”">
+<!-- Firefox SyncAdapter Settings Screen -->
+
+<!ENTITY sync.settings.options.label "Me ayera">
+<!ENTITY sync.summary.pair.label "Kub jami tic mukene i akaunti me &syncBrand.shortName.label;">
+<!-- Configure Engines -->
+
+<!ENTITY sync.configure.engines.title.bookmarks "Alama buk">
+<!ENTITY sync.configure.engines.title.passwords "Mung me donyo">
+<!ENTITY sync.configure.engines.title.history "Gin mukato">
+
+<!-- Common text -->
+
+<!ENTITY sync.button.cancel.label "Jwik">
+<!ENTITY sync.button.connect.label "Kub">
+<!ENTITY sync.button.ok.label "Kakare">
+<!-- Account strings -->
+
+<!ENTITY sync.account.label "&syncBrand.fullName.label; (konye odugu nok woko)">
+<!-- Localization note (sync.default.client.name): Default string of the "Device
+     name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
+     will be replaced by the name of the Firefox release channel and &formatS2
+     by the model name of the Android device. Examples look like "Aurora on
+     GT-I1950" and "Fennec on MI 2S". -->
+
+<!ENTITY sync.default.client.name "&formatS1; ikom &formatS2;">
+<!-- Bookmark folder strings -->
+
+<!ENTITY bookmarks.folder.menu.label "Ket Alama Buk me Acaki">
+<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.tags.label "Dan">
+<!ENTITY bookmarks.folder.toolbar.label "Keto alama me me Gitic">
+<!ENTITY bookmarks.folder.unfiled.label "Alam me Pot buk mape Kiyero">
+<!ENTITY bookmarks.folder.desktop.label "Alama buk me Cal ma i kompiuta">
+<!ENTITY bookmarks.folder.mobile.label "Alama me pot buk ma kiwoto kwede">
+<!ENTITY bookmarks.folder.readinglist.label "Nying jami me kwan">
+<!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
+<!ENTITY bookmarks.folder.pinned.label "Kimwono">
+<!-- Notification strings -->
+
+<!ENTITY sync.notification.oneaccount.label "Kicwako ka akaunti pa &syncBrand.fullName.label; acel keken.">
+<!ENTITY sync.notification.configure.saved "Kigwoko yer mamegi.">
+<!-- Incorrect settings and changing credentials. -->
+
+<!ENTITY sync.invalidcreds.label "Nying akaunt ki mung mape tye kakare.">
+<!ENTITY sync.invalidserver.label "Tim ber iket lapok tic me URL matiyo">
+<!ENTITY sync.verifying.label "Moko…">
+<!ENTITY sync.new.recoverykey.status.incorrect "Lagony me Sync pe tye kakare. Tim ber item doki.">
+<!-- Send tab to device. -->
+
+<!ENTITY sync.title.send.tab.label "Cwal Dirica matidi Bot Jami tic">
+<!ENTITY sync.button.send.label "Cwali">
+<!ENTITY sync.button.set.up.sync.label "Ter &syncBrand.shortName.label;">
+<!ENTITY sync.title.redirect.to.set.up.sync.label "Kub &syncBrand.shortName.label; pi cwalo dirica matidi">
+<!ENTITY sync.text.redirect.to.set.up.sync.label "Kub &syncBrand.fullName.label; ikom jami tic mamegi w ek icwal dirica matidi ikom jamitic mukene">
+<!ENTITY sync.text.tab.sent.label "Otyeko dong cwalo dirica ni matidi!">
+
+<!-- Firefox Account strings. -->
+
+
+<!ENTITY fxaccount_full_label "Akaunt me Firefox">
+
+
+<!-- Localization note: these are shown in all screens that query the
+     user for an email address and password. Hide and show are button
+     labels. -->
+
+
+<!ENTITY fxaccount_password_show "Nyuti">
+<!-- Localization note: these are shown in screens after the user has
+     created or signed in to an account, and take the user back to
+     Firefox. -->
+<!-- Localization note: the following two strings are interpolated
+     into fxaccount_create_account_policy_text2; see note for that
+     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_policy_linkprivacy "Ngec me mung">
+
+<!ENTITY fxaccount_getting_started_welcome_to_sync "Ki joli i &syncBrand.shortName.label;">
+
+<!ENTITY fxaccount_getting_started_get_started "Caki">
+<!ENTITY fxaccount_getting_started_old_firefox "Itye ka tic ki &syncBrand.shortName.label; ma otii?">
+<!-- Localization note: the Firefox below should not change with the
+     particular version of Firefox installed (Release, Beta, Aurora,
+     etc).  The account remains a "Firefox Account". -->
+
+<!ENTITY fxaccount_create_account_header2 "Cwe akaunt me Firefox">
+<!ENTITY fxaccount_create_account_password_length_restriction "Myero obed olo kit 8">
+
+
+<!ENTITY fxaccount_create_account_year_of_birth "Mwaka me nywal">
+<!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
+<!ENTITY fxaccount_create_account_policy_text2 "Me mede anyim, Aye tic me pol &formatS1; ki &formatS2; pa Firefox.">
+<!ENTITY fxaccount_create_account_button "Malubo">
+
+<!ENTITY fxaccount_create_account_sign_in_instead "Akaunt dong tye? Dony iye">
+<!ENTITY fxaccount_create_account_1990_or_earlier "1990 onyo macon">
+<!ENTITY fxaccount_create_account_unknown_error "Pe onongo twero cweyo akaunt">
+
+<!ENTITY fxaccount_account_create_not_allowed "Pe twero cweyo akaunt">
+<!ENTITY fxaccount_account_create_not_allowed_you_must_meet_certain_age_requirements "Myero mwaka ni orwate ki ma kimito me cweyo akaunt.">
+<!ENTITY fxaccount_account_create_not_allowed_learn_more "Nong ngec mapol">
+
+<!ENTITY fxaccount_confirm_account_header "Mok akaunt mamegi">
+<!-- Localization note: &formatS; is the Firefox Account's email address. -->
+<!ENTITY fxaccount_confirm_account_verification_link "Kicwalo kakube me mok bot &formatS;">
+<!ENTITY fxaccount_confirm_account_resend_email "Nwo cwalo email">
+<!ENTITY fxaccount_confirm_account_change_email "Wek wi wil ikom kanonge me email man?">
+<!ENTITY fxaccount_confirm_account_verification_link_sent2 "Kicwalo email me mok">
+<!ENTITY fxaccount_confirm_account_verification_link_not_sent2 "Pe onongo twero cwalo email me mok">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Localization note: when tapped, the following two strings link to
+     external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+
+
+
+
+<!-- Localization note: format string below will be replaced
+     with the Firefox Account's email address. -->
+
+<!-- Localization note: this is the name shown by the Android system
+     itself for a Firefox Account. Don't localize this. -->
+<!-- Localization note: these are shown by the Android system itself,
+     when the user navigates to the Android > Accounts > {Firefox
+     Account} Screen. The link takes the user to the Firefox Account
+     status activity, which lets them manage their Firefox
+     Account. -->
+
+<!-- Localization note: these error messages are shown after a request
+     has been made to the remote server, and an error of some type has
+     been returned. -->
+<!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
+
+
+
+
+
+
+
+
+
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->

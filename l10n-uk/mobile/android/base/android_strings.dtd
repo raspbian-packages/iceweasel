@@ -1,0 +1,588 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY  no_space_to_start_error "Недостатньо місця для запуску &brandShortName;.">
+<!ENTITY  error_loading_file "Сталась помилка під час завантаження файлів, необхідних для запуску &brandShortName;">
+
+<!ENTITY  onboard_start_message2 "Вітаємо у &brandShortName;">
+<!ENTITY  onboard_start_subtext2 "Ще більше можливостей забезпечення приватності та способів налаштування.">
+<!ENTITY  onboard_start_button_account "Увійти до &brandShortName;">
+<!ENTITY  onboard_start_button_browser "Почати перегляд">
+
+<!-- Localization note: These are used as the titles of different pages on the home screen.
+     They are automatically converted to all caps by the Android platform. -->
+<!ENTITY  bookmarks_title "Закладки">
+<!ENTITY  history_title "Історія">
+<!ENTITY  reading_list_title "Список читання">
+<!ENTITY  recent_tabs_title "Нещодавні вкладки">
+
+<!ENTITY  switch_to_tab "Перейти у вкладку">
+
+<!ENTITY  crash_reporter_title "Звіти про падіння &brandShortName;">
+<!ENTITY  crash_message2 "&brandShortName; зіткнувся з проблемою та аварійно завершив роботу. Ваші вкладки повинні бути показані на початковій сторінці &brandShortName; після перезапуску.">
+<!ENTITY  crash_send_report_message3 "Повідомте &vendorShortName; про це падіння, щоб вони змогли його виправити">
+<!ENTITY  crash_include_url2 "Включно з адресою відвіданої сторінки">
+<!ENTITY  crash_sorry "Перепрошуємо">
+<!ENTITY  crash_comment "Додати коментар (коментарі публічно видимі)">
+<!ENTITY  crash_allow_contact2 "Дозволити &vendorShortName; зв’язатись з вами стосовно цього звіту">
+<!ENTITY  crash_email "Ваш email">
+<!ENTITY  crash_closing_alert "Вийти після відправки звіту про падіння?">
+<!ENTITY  sending_crash_report "Відправка звіту про падіння\u2026">
+<!ENTITY  crash_close_label "Закрити">
+<!ENTITY  crash_restart_label "Перезапустити &brandShortName;">
+<!ENTITY  exit_label "Вийти">
+
+<!ENTITY  launcher_shortcuts_title "Веб-програми &brandShortName;">
+<!ENTITY  launcher_shortcuts_empty "Веб-програм не знайдено">
+
+<!ENTITY choose_file "Виберіть файл">
+
+<!ENTITY url_bar_default_text2 "Введіть запит чи адресу">
+
+<!ENTITY bookmark "Закласти">
+<!ENTITY bookmark_added "Закладку додано">
+<!ENTITY bookmark_removed "Закладку вилучено">
+<!ENTITY bookmark_updated "Закладку оновлено">
+<!ENTITY bookmark_options "Налаштування">
+
+<!ENTITY history_today_section "Сьогодні">
+<!ENTITY history_yesterday_section "Учора">
+<!ENTITY history_week_section2 "Останній тиждень">
+<!ENTITY history_older_section2 "Останній місяць">
+
+<!ENTITY go "Перейти">
+<!ENTITY search "Пошук">
+<!ENTITY reload "Перезавантажити">
+<!ENTITY forward "Вперед">
+<!ENTITY menu "Меню">
+<!ENTITY back "Назад">
+<!ENTITY stop "Стоп">
+<!ENTITY site_security "Безпека сайта">
+<!ENTITY edit_mode_cancel "Скасувати">
+
+<!ENTITY close_tab "Закрити вкладку">
+<!ENTITY one_tab "1 вкладка">
+<!-- Localization note (num_tabs2) : Number of tabs is always more than one.
+     We can't use android plural forms, sadly. See bug #753859. -->
+<!ENTITY num_tabs2 "&formatD; вкладок">
+<!ENTITY new_tab_opened "Нову вкладку відкрито">
+<!ENTITY new_private_tab_opened "Відкрита нова приватна вкладка">
+<!-- Localization note (switch_button_message): This string should be as short
+     as possible because it's shown as a label in a toast.  Ideally, this string
+     is upper-case, to match Google and Android's convention. -->
+<!ENTITY switch_button_message "ПЕРЕМКНУТИ">
+
+<!ENTITY settings "Налаштування">
+<!ENTITY settings_title "Налаштування">
+<!ENTITY pref_category_advanced "Додатково">
+<!ENTITY pref_category_customize "Вподобання">
+<!ENTITY pref_category_customize_summary "Початкова сторінка, пошук, вкладки, імпорт">
+
+<!-- Localization note (pref_category_language) : This is the preferences
+     section in which the user picks the locale in which to display Firefox
+     UI. The locale includes both language and region concepts. -->
+<!ENTITY pref_category_language "Мова">
+<!ENTITY pref_category_language_summary "Зміна мови браузера">
+<!ENTITY pref_browser_locale "Мова браузера">
+
+<!-- Localization note (locale_system_default) : This string indicates that
+     Firefox will use the locale currently selected in Android's settings
+     to display browser chrome. -->
+<!ENTITY locale_system_default "Типова системна">
+
+<!-- Localization note (overlay_share_label) : This is the label that appears
+     in Android's intent chooser when sending a link to Firefox to bookmark,
+     send to another device, or add to Reading List. -->
+<!ENTITY overlay_share_label "Додати до &brandShortName;">
+
+<!-- Localization note (overlay_share_bookmark_btn_label) : This string is
+     used in the share overlay menu to select an action. It is the verb
+     "to bookmark", not the noun "a bookmark". -->
+<!ENTITY overlay_share_bookmark_btn_label "Закладка">
+<!ENTITY overlay_share_reading_list_btn_label "Додати до списку читання">
+<!ENTITY overlay_share_bookmark_btn_label_already "Вже закладено">
+<!ENTITY overlay_share_reading_list_btn_label_already "Вже у списку читання">
+<!ENTITY overlay_share_send_other "Відправити на інші пристрої">
+
+<!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
+     share overlay menu to represent the "Send Tab" action when the user
+     either has not set up Sync, or has no other devices to send a tab
+     to. -->
+<!ENTITY overlay_share_send_tab_btn_label "Відправити на інший пристрій">
+<!ENTITY overlay_share_no_url "Не знайдено посилання">
+<!ENTITY overlay_share_retry "Спробувати знову">
+<!ENTITY overlay_share_select_device "Виберіть пристрій">
+
+<!ENTITY pref_category_search3 "Пошук">
+<!ENTITY pref_category_search_summary "Налаштувати засоби пошуку">
+<!ENTITY pref_category_display "Відображення">
+<!ENTITY pref_category_display_summary "Текст, панель заголовку, повноекранний перегляд">
+<!ENTITY pref_category_privacy_short "Приватність">
+<!ENTITY pref_category_privacy_summary "Керування паролями, куками, стеженням та даними">
+<!ENTITY pref_category_vendor "&vendorShortName;">
+<!ENTITY pref_category_vendor_summary "Про &brandShortName;, ЧаП, вибір даних">
+<!ENTITY pref_category_datareporting "Вибір даних">
+<!ENTITY pref_learn_more "Докладніше">
+<!ENTITY pref_category_installed_search_engines "Встановлені засоби пошуку">
+<!ENTITY pref_category_add_search_providers "Додати інші джерела">
+<!ENTITY pref_category_search_restore_defaults "Відновити засоби пошуку">
+<!ENTITY pref_search_restore_defaults "Відновити типові">
+<!ENTITY pref_search_restore_defaults_summary "Відновити типові">
+<!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
+     advisory message on the customise search providers settings page explaining how to add new
+     search providers.
+     The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!ENTITY pref_search_hint "Підказка: Додавайте будь-який сайт до списку засобів пошуку довгим натисканням по його пошуковому полю, а потім торкнувшись до іконки &formatI;.">
+<!ENTITY pref_category_devtools "Інструменти розробника">
+<!ENTITY pref_category_devtools_summary "Віддалене зневадження, підсвічування кольором">
+<!ENTITY pref_developer_paint_flashing "Підсвічування кольором">
+<!ENTITY pref_developer_remotedebugging "Віддалене зневадження">
+<!ENTITY pref_remember_signons "Пам’ятати паролі">
+
+<!ENTITY pref_category_home "Початкова сторінка">
+<!ENTITY pref_category_home_summary "Налаштувати початкову сторінку">
+<!ENTITY pref_category_home_panels "Панелі">
+<!ENTITY home_add_panel_title "Додати нову панель">
+<!ENTITY home_add_panel_empty "Нажаль ми не знайшли жодних панелей, які можна було б додати.">
+<!-- Localization note (home_add_panel_installed):
+     The &formatS; will be replaced with the name of the new panel the user just
+     selected to be added to the home page. -->
+<!ENTITY home_add_panel_installed "\'&formatS;\' додано на початкову">
+<!ENTITY pref_category_home_content_settings "Налаштування вмісту">
+<!ENTITY pref_home_updates "Автоматичні оновлення">
+<!ENTITY pref_home_updates_enabled "Увімкнено">
+<!ENTITY pref_home_updates_wifi "Лише по Wi-Fi">
+<!ENTITY pref_home_suggested_sites "Показувати пропоновані сайти">
+<!ENTITY pref_home_suggested_sites_summary "Відображати на домашній сторінці ярлики сайтів, які на нашу думку можуть вас зацікавити">
+
+<!-- Localization note: These are shown in the left sidebar on tablets -->
+<!ENTITY pref_header_customize "Вподобання">
+<!ENTITY pref_header_display "Відображення">
+<!ENTITY pref_header_privacy_short "Приватність">
+<!ENTITY pref_header_help "Допомога">
+<!ENTITY pref_header_language "Мова">
+<!ENTITY pref_header_vendor "&vendorShortName;">
+<!ENTITY pref_header_devtools "Інструменти розробника">
+
+<!ENTITY pref_cookies_menu "Куки">
+<!ENTITY pref_cookies_accept_all "Увімкнено">
+<!ENTITY pref_cookies_not_accept_foreign "Увімкнено, включно з третьосторонніми">
+<!ENTITY pref_cookies_disabled "Вимкнено">
+
+<!ENTITY pref_tracking_protection_title "Захист від стеження">
+<!ENTITY pref_tracking_protection_summary "&brandShortName; буде запобігати сайтам стежити за вами">
+<!ENTITY pref_donottrack_title "Не стежити">
+<!ENTITY pref_donottrack_summary "&brandShortName; буде повідомляти сайти, що ви не хочете, щоб за вами стежили">
+
+<!ENTITY pref_char_encoding "Кодування символів">
+<!ENTITY pref_char_encoding_on "Показувати меню">
+<!ENTITY pref_char_encoding_off "Не показувати меню">
+<!ENTITY pref_clear_private_data2 "Очистити зараз">
+<!ENTITY pref_clear_private_data_category "Очистити приватні дані">
+<!ENTITY pref_clear_on_exit_title2 "Очищати при виході">
+<!ENTITY pref_clear_on_exit_summary2 "&brandShortName; буде завжди автоматично очищати ваші дані, коли ви виберете \u0022Quit\u0022 в головному меню">
+<!ENTITY pref_clear_on_exit_dialog_title "Вибрати, які дані очищати">
+<!ENTITY pref_plugins "Плагіни">
+<!ENTITY pref_plugins_enabled "Увімкнено">
+<!ENTITY pref_plugins_tap_to_play "Торкнутися, щоб грати">
+<!ENTITY pref_plugins_disabled "Вимкнено">
+<!ENTITY pref_text_size "Розмір тексту">
+<!ENTITY pref_reflow_on_zoom4 "Переформатування тексту">
+<!ENTITY pref_restore "Вкладки">
+<!ENTITY pref_restore_always "Завжди відновлювати">
+<!ENTITY pref_restore_quit "Не відновлювати після виходу з &brandShortName;">
+<!ENTITY pref_font_size_tiny "Дрібний">
+<!ENTITY pref_font_size_small "Малий">
+<!ENTITY pref_font_size_medium "Середній">
+<!ENTITY pref_font_size_large "Великий">
+<!ENTITY pref_font_size_xlarge "Дуже великий">
+<!ENTITY pref_font_size_set "Встановити">
+<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
+(or combination of characters) is used to decrease the preview font size; a larger version of the
+same character/combination is used to increase the preview font size. It should be a concise
+representation of the language it is used in that will help show the text in the preview will change
+size. -->
+<!ENTITY pref_font_size_adjust_char "А">
+
+<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
+    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+<!ENTITY pref_font_size_preview_text "Швидкий рудий лис перестрибне через ваші очікування з більшою швидкістю, гнучкістю та безпечністю. Як некомерційна організація, ми вільні творити заради вас без потреби йти на компроміси. Ми покращимо вашу роботу в інтернеті та зробимо його майбутнє світлим.">
+
+<!ENTITY pref_media_autoplay_enabled "Дозволити автовідтворення">
+<!ENTITY pref_media_autoplay_enabled_summary "Контроль можливості автоматичного відтворення відео сайтами та іншим медійним вмістом">
+<!ENTITY pref_zoom_force_enabled "Завжди дозволяти змінювати масштаб">
+<!ENTITY pref_zoom_force_enabled_summary "Ігнорувати налаштування сайтів, щоб ви могли змінювати масштаб будь-якої сторінки">
+
+<!ENTITY pref_use_master_password "Головний пароль">
+<!ENTITY pref_sync "Синхронізація">
+<!ENTITY pref_sync_summary "Синхронізація вкладок, закладок, паролів та історії">
+<!ENTITY pref_search_suggestions "Показувати пошукові припущення">
+<!ENTITY pref_import_android "Імпорт з Android">
+<!ENTITY pref_import_android_summary "Імпорт закладок та історії з вбудованого браузера">
+<!ENTITY pref_private_data_history2 "Історія перегляду">
+<!ENTITY pref_private_data_formdata "Історія форм та пошуків">
+<!ENTITY pref_private_data_cookies2 "Куки та активні сеанси">
+<!ENTITY pref_private_data_passwords "Збережені паролі">
+<!ENTITY pref_private_data_cache "Кеш">
+<!ENTITY pref_private_data_offlineApps "Позамережні дані сайтів">
+<!ENTITY pref_private_data_siteSettings2 "Налаштування сайта">
+<!ENTITY pref_private_data_downloadFiles2 "Завантаження">
+
+
+<!ENTITY pref_about_firefox "Про &brandShortName;">
+<!ENTITY pref_vendor_faqs "Питання">
+<!ENTITY pref_vendor_feedback "Залишити відгук">
+
+<!ENTITY pref_dialog_set_default "Встановити типовим">
+<!ENTITY pref_dialog_default "Типовий">
+<!ENTITY pref_dialog_remove "Вилучити">
+
+<!ENTITY pref_search_last_toast "Ви не можете вилучити чи вимкнути ваш останній засіб пошуку.">
+
+<!ENTITY pref_panels_show "Показати">
+<!ENTITY pref_panels_hide "Приховати">
+<!ENTITY pref_panels_reorder "Змінити порядок">
+<!ENTITY pref_panels_move_up "Посунути вгору">
+<!ENTITY pref_panels_move_down "Посунути вниз">
+
+<!ENTITY datareporting_notification_title "Статистика та дані &brandShortName;">
+<!ENTITY datareporting_notification_action_long "Вибрати, якою інформацією ділитись">
+<!ENTITY datareporting_notification_action "Вибрати чим ділитись">
+<!ENTITY datareporting_notification_summary "Щоб покращити роботу, &brandShortName; автоматично надсилає деяку інформацію до &vendorShortName;.">
+<!ENTITY datareporting_notification_summary_short "Щоб покращити роботу, &brandShortName;…">
+<!ENTITY datareporting_notification_ticker_text "&datareporting_notification_title;: &datareporting_notification_action_long;">
+
+<!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary2,
+     reporting_telemetry_title, datareporting_telemetry_summary,
+     datareporting_crashreporter_summary) : These match the strings in
+     en-US/chrome/browser/preferences/advanced.dtd (healthReportSection.label,
+     healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
+     crashReporterDesc.label). -->
+<!ENTITY datareporting_fhr_title "Звіт про справність &brandShortName;">
+<!ENTITY datareporting_fhr_summary2 "Надсилає до &vendorShortName; дані про справність вашого браузера та допомогає вам дізнатись більше про його швидкодію">
+<!ENTITY datareporting_abouthr_title "Переглянути Звіт про справність">
+<!ENTITY datareporting_telemetry_title "Телеметрія">
+<!ENTITY datareporting_telemetry_summary "Надсилає у &vendorShortName; дані про використання, апаратне забезпечення та налаштування вашого браузера, щоб допомогти нам зробити &brandShortName; кращим">
+<!ENTITY datareporting_crashreporter_summary "&brandShortName; надсилає звіти про падіння у &vendorShortName;, щоб допомогти зробити ваш браузер більш стабільним та безпечним">
+<!-- Localization note (datareporting_crashreporter_title_short) : This string matches
+     (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
+<!ENTITY datareporting_crashreporter_title_short "Звіти про падіння">
+<!ENTITY datareporting_wifi_title2 "Послуга розташування &vendorShortName;">
+<!ENTITY datareporting_wifi_geolocation_summary3 "Допоможіть &vendorShortName; створити карту світу! Поділіться приблизним розташуванням Wi-Fi та мобільної мережі вашого пристрою, щоб покращити нашу службу визначення місцезнаходження">
+<!-- Localization note (pref_update_autodownload2) : This should mention downloading
+     specifically, since the pref only prevents automatic downloads and not the
+     actual notification that an update is available. -->
+<!ENTITY pref_update_autodownload2 "Завантажувати оновлення автоматично">
+<!ENTITY pref_update_autodownload_wifi "Лише по Wi-Fi">
+<!ENTITY pref_update_autodownload_never "Ніколи">
+<!ENTITY pref_update_autodownload_always "Завжди">
+
+<!-- Localization note (help_menu) : This string is used in the main menu-->
+<!ENTITY help_menu "Допомога">
+
+<!ENTITY quit "Вийти">
+
+<!ENTITY addons "Додатки">
+<!ENTITY downloads "Завантаження">
+<!ENTITY apps "Програми">
+<!ENTITY char_encoding "Кодування">
+
+<!ENTITY share "Поділитись">
+<!ENTITY share_title "Поділитись через">
+<!ENTITY share_image_failed "Не вдалося поділитись зображенням">
+<!ENTITY save_as_pdf "Зберегти як PDF">
+<!ENTITY find_in_page "Знайти на сторінці">
+<!ENTITY desktop_mode "Вимагати десктопний сайт">
+<!ENTITY page "Сторінка">
+<!ENTITY tools "Інструменти">
+<!ENTITY new_tab "Нова вкладка">
+<!ENTITY new_private_tab "Нова приватна вкладка">
+<!ENTITY close_all_tabs "Закрити всі вкладки">
+<!ENTITY close_private_tabs "Закрити приватні вкладки">
+<!ENTITY tabs_normal "Вкладки">
+<!ENTITY tabs_private "Приватні">
+<!ENTITY tabs_synced "Синхронізовані">
+<!ENTITY set_image_fail "Неможливо встановити зображення">
+<!ENTITY set_image_path_fail "Неможливо зберегти зображення">
+<!ENTITY set_image_chooser_title "Встановити зображення як">
+
+<!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+<!ENTITY find_text "Знайти на сторінці">
+<!ENTITY find_prev "Попереднє">
+<!ENTITY find_next "Наступне">
+<!ENTITY find_close "Закрити">
+
+<!-- Localization note (media_sending_to, media_play, media_pause, media_stop) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+<!ENTITY media_sending_to "Відправлення на пристрій">
+<!ENTITY media_play "Грати">
+<!ENTITY media_pause "Пауза">
+<!ENTITY media_stop "Стоп">
+
+<!ENTITY contextmenu_open_new_tab "Відкрити у новій вкладці">
+<!ENTITY contextmenu_open_private_tab "Відкрити в приватній вкладці">
+<!ENTITY contextmenu_remove "Вилучити">
+<!ENTITY contextmenu_add_to_launcher "Додати на домашню сторінку">
+<!ENTITY contextmenu_share "Поділитись">
+<!ENTITY contextmenu_pasteandgo "Вставити і перейти">
+<!ENTITY contextmenu_paste "Вставити">
+<!ENTITY contextmenu_copyurl "Копіювати адресу">
+<!ENTITY contextmenu_edit_bookmark "Редагувати">
+<!ENTITY contextmenu_subscribe "Підписатись на сторінку">
+<!ENTITY contextmenu_site_settings "Редагувати налаштування сайта">
+<!ENTITY contextmenu_top_sites_edit "Редагувати">
+<!ENTITY contextmenu_top_sites_pin "Прикріпити сайт">
+<!ENTITY contextmenu_top_sites_unpin "Відкріпити сайт">
+<!ENTITY contextmenu_add_search_engine "Додати засіб пошуку">
+
+<!ENTITY pref_titlebar_mode "Панель заголовка">
+<!ENTITY pref_titlebar_mode_title "Показувати заголовок сторінки">
+<!ENTITY pref_titlebar_mode_url "Показувати адресу сторінки">
+
+<!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
+     whether or not the dynamic toolbar is enabled. -->
+<!ENTITY pref_scroll_title_bar2 "Повноекранний перегляд">
+<!ENTITY pref_scroll_title_bar_summary "Приховує панель заголовка &brandShortName; при прокрутці сторінки вниз">
+
+<!-- Localization note (page_removed): This string appears in a toast message when
+     any page is removed frome about:home. This includes pages that are in history,
+     bookmarks, or reading list. -->
+<!ENTITY page_removed "Сторінку прибрано">
+
+<!ENTITY bookmark_edit_title "Редагувати закладку">
+<!ENTITY bookmark_edit_name "Назва">
+<!ENTITY bookmark_edit_location "Адреса">
+<!ENTITY bookmark_edit_keyword "Ключове слово">
+
+<!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
+     dialog that appears after selecting the "Edit Site Settings" context menu item. -->
+<!ENTITY site_settings_title3       "Налаштування сайта">
+<!ENTITY site_settings_cancel       "Скасувати">
+<!ENTITY site_settings_clear        "Очистити">
+<!ENTITY site_settings_no_settings  "Нічого очищати.">
+
+<!ENTITY reading_list_added "Сторінку додано до списку читання">
+<!ENTITY reading_list_removed "Сторінку прибрано зі списку читання">
+<!-- Localization note (reading_list_remove) : Used to remove the currently open page from
+     the user's reading list. The opposite of overlay_share_reading_list_btn_label. -->
+<!ENTITY reading_list_remove "Прибрати зі списку читання">
+<!ENTITY reading_list_duplicate "Сторінка вже у вашому списку читання">
+
+<!-- Localization note (reading_list_time_minutes2) : This string is used in the "Reading List"
+     panel on the home page to give the user an estimate of how many minutes it will take to
+     read an article. The word "minute" should be abbreviated if possible. -->
+<!ENTITY reading_list_time_minutes2 "&formatD; хв">
+<!ENTITY reading_list_time_over_an_hour "За годину">
+
+<!-- Localization note : These strings are used as alternate text for accessibility.
+     They are not visible in the UI. -->
+<!ENTITY page_action_dropmarker_description "Додаткові дії">
+
+<!ENTITY masterpassword_create_title "Створити головний пароль">
+<!ENTITY masterpassword_remove_title "Вилучити головний пароль">
+<!ENTITY masterpassword_password "Пароль">
+<!ENTITY masterpassword_confirm "Підтвердити пароль">
+
+<!ENTITY button_ok "OK">
+<!ENTITY button_cancel "Скасувати">
+<!ENTITY button_yes "Так">
+<!ENTITY button_no "Ні">
+<!ENTITY button_clear_data "Очистити дані">
+<!ENTITY button_set "Встановити">
+<!ENTITY button_clear "Очистити">
+
+<!ENTITY home_top_sites_title "Часті сайти">
+<!-- Localization note (home_top_sites_add): This string is used as placeholder
+     text underneath empty thumbnails in the Top Sites page on about:home. -->
+<!ENTITY home_top_sites_add "Додати сайт">
+
+<!-- Localization note (home_title): This string should be kept in sync
+     with the page title defined in aboutHome.dtd -->
+<!ENTITY home_title "Початкова &brandShortName;">
+<!ENTITY home_history_title "Історія">
+<!ENTITY home_clear_history_button "Очистити історію перегляду">
+<!ENTITY home_clear_history_confirm "Ви впевнені, що хочете очистити свою історію?">
+<!ENTITY home_bookmarks_empty "Ваші закладки будуть тут.">
+<!ENTITY home_closed_tabs_title "Нещодавно закриті вкладки">
+<!ENTITY home_last_tabs_title "Вкладки з минулого разу">
+<!ENTITY home_last_tabs_empty "Ваші нещодавні вкладки будуть тут.">
+<!ENTITY home_open_all "Відкрити всі">
+<!ENTITY home_most_recent_empty "Ваші нещодавно відвідані сайти будуть тут.">
+<!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
+     The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
+<!ENTITY home_most_recent_emptyhint2 "Зверніть увагу: історія з &formatS1;Нової приватної вкладки&formatS2; не буде зберігатися.">
+<!ENTITY home_reading_list_empty "Збережені вами на потім статі будуть тут.">
+<!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
+     as an advisory message on how to add content to the reading list when the reading list empty.
+     The placeholder &formatI; will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!ENTITY home_reading_list_hint2 "Підказка: Додавайте статті до вашого списку читання довгим натисканням на іконку &formatI;, коли вона з’являється в панелі адреси.">
+<!-- Localization note (home_reading_list_hint_accessible): This string is used
+     as alternate text for accessibility. It is not visible in the UI. -->
+<!ENTITY home_reading_list_hint_accessible "Підказка: Зберігайте статі до вашого списку читання довгим натисканням на іконку читача, коли вона з’являється в панелі адреси.">
+
+<!-- Localization note (home_default_empty): This string is used as the default text when there
+     is no data to show in an about:home panel that was created by an add-on. -->
+<!ENTITY home_default_empty "Вміст цієї панелі не знайдено.">
+
+<!-- Localization note (home_move_up_to_filter): The variable is replaced by the name of the
+     previous location in the navigation, such as the previous folder -->
+<!ENTITY home_move_up_to_filter "Повернутися до &formatS;">
+
+<!ENTITY home_remote_tabs_title "Синхронізовані вкладки">
+<!ENTITY home_remote_tabs_empty "Ваші вкладки з інших пристроїв з’являються тут.">
+<!ENTITY home_remote_tabs_unable_to_connect "Неможливо з’єднатися">
+<!ENTITY home_remote_tabs_need_to_sign_in "Увійдіть, щоб знову підключитися до свого облікового запису Firefox та продовжити синхронізацію.">
+<!ENTITY home_remote_tabs_need_to_finish_migrating "Ваш новий обліковий запис Firefox готовий!">
+
+<!ENTITY home_remote_tabs_trouble_verifying "Проблеми з підтвердженням облікового запису?">
+<!ENTITY home_remote_tabs_need_to_verify "Підтвердіть свій обліковий запис Firefox для початку синхронізації.">
+
+<!ENTITY home_remote_tabs_one_hidden_device "1 пристрій приховано">
+<!-- Localization note (home_remote_tabs_many_hidden_devices) : The
+     formatD is replaced with the number of hidden devices.  The
+     number of hidden devices is always more than one.  We can't use
+     Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY home_remote_tabs_many_hidden_devices "&formatD; пристроїв приховано">
+<!-- Localization note (home_remote_tabs_hidden_devices_title) : This is the
+     title of a dialog; we expect more than one device. -->
+<!ENTITY home_remote_tabs_hidden_devices_title "Приховані пристрої">
+<!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
+     the text of a button; we expect more than one device. -->
+<!ENTITY home_remote_tabs_unhide_selected_devices "Показати вибрані пристрої">
+
+<!ENTITY private_browsing_title "Приватний перегляд">
+<!ENTITY private_tabs_panel_empty_desc "Ваші приватні вкладки будуть з’являтися тут. Хоча ваша історія перегляду та куки не будуть збережені, закладки та завантажені файли залишаться на вашому пристрої.">
+<!ENTITY private_tabs_panel_learn_more "Хочете дізнатись більше?">
+
+<!ENTITY remote_tabs_panel_moved_title "Куди поділись мої вкладки?">
+<!ENTITY remote_tabs_panel_moved_desc "Ми перемістили ваші вкладки з інших пристроїв у панель домашньої сторінки, до якої ви можете легко отримати доступ щоразу при відкритті нової вкладки.">
+<!ENTITY remote_tabs_panel_moved_link "Покажіть мені нову панель.">
+
+<!ENTITY pin_site_dialog_hint "Введіть пошукове скорочення">
+
+<!ENTITY filepicker_title "Виберіть файл">
+<!ENTITY filepicker_audio_title "Виберіть чи запишіть звук">
+<!ENTITY filepicker_image_title "Виберіть чи зробіть фото">
+<!ENTITY filepicker_video_title "Виберіть чи запишіть відео">
+
+<!-- Site identity popup -->
+<!ENTITY identity_connected_to "Ви підключені до">
+<!-- Localization note (identity_run_by) : This string appears between a
+domain name (above) and an organization name (below). E.g.
+
+example.com
+which is run by
+Example Enterprises, Inc.
+
+The layout of the identity dialog prevents combining this into a single string with
+substitution variables.  If it is difficult to translate the sense of the string
+with that structure, consider a translation which ignores the preceding domain and
+just addresses the organization to follow, e.g. "This site is run by " -->
+<!ENTITY identity_run_by "який запущено">
+<!ENTITY identity_no_info "Цей веб-сайт не надає ідентифікуючої інформації.">
+<!ENTITY identity_not_encrypted "Ваше з’єднання з цим веб-сайтом не зашифроване.">
+
+<!-- Mixed content notifications in site identity popup -->
+<!ENTITY loaded_mixed_content_message "Ця сторінка відображає вміст, який не є безпечним.">
+<!ENTITY blocked_mixed_content_message_top "&brandShortName; заблокував вміст, який не є безпечним.">
+<!ENTITY blocked_mixed_content_message_bottom "Більшість веб-сайтів будуть працювати нормально навіть коли цей вміст заблоковано.">
+
+<!-- Tracking content notifications in site identity popup -->
+<!ENTITY loaded_tracking_content_message_top "Захист від стеження вимкнено.">
+<!ENTITY loaded_tracking_content_message_bottom "Частини цієї сторінки можуть стежити за вашою активністю в мережі.">
+<!ENTITY blocked_tracking_content_message_top2 "Захист від стеження увімкнено.">
+<!ENTITY blocked_tracking_content_message_bottom2 "Частини сторінки, які стежать за вашою активністю в мережі, було заблоковано.">
+
+<!-- Common mixed and tracking content strings in site identity popup -->
+<!ENTITY learn_more "Дізнатись більше">
+<!ENTITY enable_protection "Увімкнути захист">
+<!ENTITY disable_protection "Вимкнути захист">
+<!ENTITY keep_blocking "Блокувати далі">
+
+<!ENTITY private_data_success "Приватні дані видалено">
+<!ENTITY private_data_fail "Деякі приватні дані не можуть бути видалені">
+
+<!ENTITY bookmarkhistory_button_import "Імпорт">
+<!ENTITY bookmarkhistory_import_both "Імпорт закладок та історії
+                                      з Android">
+<!ENTITY bookmarkhistory_import_bookmarks "Імпорт закладок
+                                           з Android">
+<!ENTITY bookmarkhistory_import_history "Імпорт історії
+                                         з Android">
+<!ENTITY bookmarkhistory_import_wait "Зачекайте…">
+
+<!ENTITY suggestions_prompt3 "Хочете увімкнути пошукові підказки?">
+
+<!-- Localization note (suggestion_for_engine): The placeholder &formatS1; will be
+     replaced with the name of the search engine. The placeholder &formatS2; will be
+     replaced with the search query. -->
+<!ENTITY suggestion_for_engine "Шукати &formatS2; у &formatS1;">
+
+<!ENTITY webapp_generic_name "Програми">
+
+<!ENTITY searchable_description "Закладки та історія">
+
+ <!-- Updater notifications -->
+<!ENTITY updater_start_title2 "Наявні оновлення для &brandShortName;">
+<!ENTITY updater_start_select2 "Торкніться, щоб завантажити">
+
+<!ENTITY updater_downloading_title2 "Завантаження &brandShortName;">
+<!ENTITY updater_downloading_title_failed2 "Завантаження невдале">
+<!ENTITY updater_downloading_select2 "Торкніться, щоб застосувати оновлення по завершенні">
+<!ENTITY updater_downloading_retry2 "Торкніться, щоб повторити">
+
+<!ENTITY updater_apply_title2 "Доступне оновлення для &brandShortName;">
+<!ENTITY updater_apply_select2 "Торкніться, щоб оновити">
+
+<!-- Guest mode -->
+<!ENTITY new_guest_session "Новий гостьовий сеанс">
+<!ENTITY exit_guest_session "Завершити гостьовий сеанс">
+<!ENTITY guest_session_dialog_continue "Продовжити">
+<!ENTITY guest_session_dialog_cancel "Скасувати">
+<!ENTITY new_guest_session_title "&brandShortName; буде перезапущено">
+<!ENTITY new_guest_session_text "Особа, яка користується гостьовим сеансом не побачить жодних ваших особистих даних (паролі, історія, закладки тощо). .\n\nКоли гість завершить роботу, його дані перегляду будуть стерті, а ваш сеанс буде відновлено.">
+<!ENTITY guest_browsing_notification_title "Активовано гостьовий перегляд">
+<!ENTITY guest_browsing_notification_text "Торкніться для виходу">
+
+<!ENTITY exit_guest_session_title "&brandShortName; буде перезапущено">
+<!ENTITY exit_guest_session_text "Дані цього сеансу перегляду будуть видалені.">
+
+<!-- Miscellaneous -->
+<!-- LOCALIZATION NOTE (ellipsis): This text is appended to a piece of text that does not fit in the
+     designated space. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit
+     traditions in your locale. -->
+<!ENTITY ellipsis "…">
+
+<!ENTITY colon ":">
+
+<!-- These are only used for accessiblity for the done and overflow-menu buttons in the actionbar.
+     They are never shown to users -->
+<!ENTITY actionbar_menu "Меню">
+<!ENTITY actionbar_done "Готово">
+
+<!-- Voice search in the awesome bar -->
+<!ENTITY voicesearch_prompt "Говоріть">
+<!ENTITY voicesearch_failed_title "Голосовий пошук &brandShortName;">
+<!ENTITY voicesearch_failed_message "Виникла проблема з голосовим пошуком. Спробуйте пізніше.">
+<!ENTITY voicesearch_failed_message_recoverable "Вибачте! Ми не можемо розпізнати ваші слова. Спробуйте знову.">
+<!ENTITY voicesearch_failed_retry "Спробувати знову">
+
+<!-- Localization note (remote_tabs_last_synced): the variable is replaced by a
+     "relative time span string" produced by Android.  This string describes the
+     time the tabs were last synced relative to the current time; examples
+     include "42 minutes ago", "4 days ago", "last week", etc. The subject of
+     "Last synced" is one of the user's other Sync clients, typically Firefox on
+     their desktop or laptop.-->
+<!ENTITY remote_tabs_last_synced "Востаннє синхронізовано: &formatS;">
+<!-- Localization note: Used when the sync has not happend yet, showed in place of a date -->
+<!ENTITY remote_tabs_never_synced "Востаннє синхронізовано: ніколи">
+
+<!-- Find-In-Page strings -->
+<!-- LOCALIZATION NOTE (find_matchcase): This is meant to appear as an icon that changes color
+     if match-case is activated. i.e. No more than two letters, one uppercase, one lowercase. -->
+<!ENTITY find_matchcase "Аа">

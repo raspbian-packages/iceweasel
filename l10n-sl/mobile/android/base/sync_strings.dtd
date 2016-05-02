@@ -1,0 +1,270 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Don't localize these. They're here until they have
+     a better place to live. -->
+<!ENTITY syncBrand.fullName.label "Firefox Sync">
+<!ENTITY syncBrand.shortName.label "Sync">
+
+<!-- Main titles. -->
+<!ENTITY sync.app.name.label '&syncBrand.fullName.label;'>
+<!ENTITY sync.title.connect.label 'Poveži se z &syncBrand.shortName.label;m'>
+<!ENTITY sync.title.adddevice.label 'Dodaj račun za &syncBrand.fullName.label;'>
+<!ENTITY sync.title.pair.label 'Dodaj napravo'>
+
+<!-- J-PAKE Key Screen -->
+<!ENTITY sync.subtitle.connect.label 'Za vklop vaše nove naprave na njej izberite “Nastavi &syncBrand.shortName.label;”.'>
+<!ENTITY sync.subtitle.header2.label 'Vnesite ta ključ na drugi napravi'>
+<!ENTITY sync.subtitle.connectlocation2.label 'V nastavitvah Firefoxa na drugi napravi poiščite &syncBrand.shortName.label; in izberite “&sync.title.pair.label;”.'>
+<!ENTITY sync.subtitle.pair.label 'Za vklop izberite “Dodaj napravo” na vaši drugi napravi.'>
+<!ENTITY sync.pin.default.label '...\n...\n...\n'>
+<!ENTITY sync.pin.oneline.label '...'>
+<!ENTITY sync.link.show.label 'Pokaži mi kako.'>
+<!ENTITY sync.link.advancedsetup.label 'Napredna nastavitev …'>
+<!ENTITY sync.link.nodevice.label 'Naprave nimam pri sebi …'>
+
+<!-- J-PAKE Waiting Screen -->
+<!ENTITY sync.jpake.subtitle.waiting.label 'Čakanje na drugo napravo …'>
+
+<!-- Account Login Screen -->
+<!ENTITY sync.subtitle.account.label 'Vnesite podatke računa za &syncBrand.fullName.label; '>
+<!ENTITY sync.input.username.label 'Ime računa'>
+<!ENTITY sync.input.password.label 'Geslo'>
+<!ENTITY sync.input.key.label 'Obnovitveni ključ'>
+<!ENTITY sync.checkbox.server.label 'Uporabi zasebni strežnik'>
+<!ENTITY sync.input.server.label 'URL strežnika'>
+  
+<!-- Setup Fail -->
+<!ENTITY sync.title.fail.label '&syncBrand.shortName.label;: nastavitev ni uspela'>
+<!ENTITY sync.subtitle.fail.label '&syncBrand.fullName.label; ne uspe vzpostaviti povezave s strežnikom. Želite poskusiti znova?'>
+<!ENTITY sync.button.tryagain.label 'Poskusi znova'>
+<!ENTITY sync.button.manual.label 'Ročna nastavitev'>
+<!ENTITY sync.subtitle.nointernet.label 'Povezava z internetom ni na voljo.'>
+<!ENTITY sync.subtitle.failaccount.label 'Ustvarjanje računa na napravi je spodletelo.'>
+<!ENTITY sync.subtitle.failmultiple.label 'Ali imate nameščen več kot en Firefox? &syncBrand.fullName.label; trenutno podpira samo eno sočasno namestitev Firefoxa. Za uporabo &syncBrand.shortName.label; odstranite ostale namestitve.'>
+  
+<!-- Setup Success -->
+<!ENTITY sync.title.success.label 'Nastavitev končana'>
+<!ENTITY sync.subtitle.success.label1 'Podatki se prenašajo v ozadju. Za upravljanje računa lahko uporabite nastavitve ali začnete brskati s &brandShortName;om.'>
+<!ENTITY sync.settings.label 'Nastavitve'>
+<!ENTITY sync.subtitle.manage.label1 'Vaš račun za &syncBrand.fullName.label; je že nastavljen. Za upravljanje računa lahko uporabite nastavitve ali zaženete &brandShortName;.'>
+
+<!-- Pair Device -->
+<!ENTITY sync.pair.tryagain.label 'Poskusite znova.'>
+<!ENTITY sync.pair.connectlocation.label 'Za vklop vaše nove naprave na njej izberite “Nastavi &syncBrand.shortName.label;” in potem “Imam račun”.'>
+
+<!-- Firefox SyncAdapter Settings Screen -->
+<!ENTITY sync.settings.options.label 'Možnosti'>
+<!ENTITY sync.summary.pair.label 'Povežite drugo napravo z vašim računom za &syncBrand.shortName.label;'>
+
+<!-- Configure Engines -->
+<!ENTITY sync.configure.engines.title.label 'Kaj naj se sinhronizira'>
+<!ENTITY sync.configure.engines.sync.my.title.label 'Sinhroniziraj moje …'>
+<!ENTITY sync.configure.engines.title.bookmarks 'Zaznamke'>
+<!ENTITY sync.configure.engines.title.passwords 'Gesla'>
+<!ENTITY sync.configure.engines.title.history 'Zgodovino'>
+<!ENTITY sync.configure.engines.title.tabs 'Zavihke'>
+
+<!-- Common text -->
+<!ENTITY sync.button.cancel.label 'Prekliči'>
+<!ENTITY sync.button.connect.label 'Poveži'>
+<!ENTITY sync.button.ok.label 'V redu'>
+  
+<!-- Account strings -->
+<!ENTITY sync.account.label '&syncBrand.fullName.label;'>
+
+<!-- Localization note (sync.default.client.name): Default string of the "Device
+     name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
+     will be replaced by the name of the Firefox release channel and &formatS2
+     by the model name of the Android device. Examples look like "Aurora on
+     GT-I1950" and "Fennec on MI 2S". -->
+<!ENTITY sync.default.client.name '&formatS1; na &formatS2;'>
+
+<!-- Bookmark folder strings -->
+<!ENTITY bookmarks.folder.menu.label 'Meni zaznamkov'>
+<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.tags.label 'Oznake'>
+<!ENTITY bookmarks.folder.toolbar.label 'Vrstica zaznamkov'>
+<!ENTITY bookmarks.folder.unfiled.label 'Nerazvrščeni zaznamki'>
+<!ENTITY bookmarks.folder.desktop.label 'Namizni zaznamki'>
+<!ENTITY bookmarks.folder.mobile.label 'Mobilni zaznamki'>
+<!ENTITY bookmarks.folder.readinglist.label 'Bralni seznam'>
+<!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
+<!ENTITY bookmarks.folder.pinned.label 'Pripeto'>
+
+<!-- Notification strings -->
+<!ENTITY sync.notification.oneaccount.label 'Samo en račun za &syncBrand.fullName.label; je podprt.'>
+<!ENTITY sync.notification.configure.saved 'Izbira je bila shranjena.'>
+
+<!-- Incorrect settings and changing credentials. -->
+<!ENTITY sync.invalidcreds.label 'Napačno ime računa ali geslo.'>
+<!ENTITY sync.invalidserver.label 'Vnesite veljaven URL strežnika'>
+<!ENTITY sync.verifying.label 'Preverjanje …'>
+<!ENTITY sync.new.recoverykey.status.incorrect 'Napačen obnovitveni ključ. Poskusite znova.'>
+
+<!-- Send tab to device. -->
+<!ENTITY sync.title.send.tab.label 'Pošlji zavihek na naprave'>
+<!ENTITY sync.button.send.label 'Pošlji'>
+<!ENTITY sync.button.set.up.sync.label 'Nastavi &syncBrand.shortName.label;'>
+<!ENTITY sync.title.redirect.to.set.up.sync.label 'Nastavi &syncBrand.shortName.label; za pošiljanje zavihkov'>
+<!ENTITY sync.text.redirect.to.set.up.sync.label 'Nastavi &syncBrand.fullName.label; na svoji napravi za pošiljanje zavihkov na druge naprave.'>
+<!ENTITY sync.text.tab.sent.label 'Zavihek je bil poslan!'>
+<!ENTITY sync.text.tab.not.sent.label 'Prišlo je do napake pri pošiljanju vašega zavihka.'>
+
+<!-- Firefox Account strings. -->
+
+<!ENTITY fxaccount_full_label 'Firefox Računi'>
+
+<!ENTITY fxaccount_custom_server_account_title 'Uporaba računa na strežniku'>
+<!ENTITY fxaccount_custom_server_sync_title 'Shranjevanje podatkov Sync na strežniku'>
+
+<!-- Localization note: these are shown in all screens that query the
+     user for an email address and password. Hide and show are button
+     labels. -->
+<!ENTITY fxaccount_email_hint 'E-pošta'>
+<!ENTITY fxaccount_password_hint 'Geslo'>
+<!ENTITY fxaccount_password_hide 'Skrij'>
+<!ENTITY fxaccount_password_show 'Prikaži'>
+
+<!-- Localization note: these are shown in screens after the user has
+     created or signed in to an account, and take the user back to
+     Firefox. -->
+<!ENTITY fxaccount_back_to_browsing 'Nazaj na brskanje'>
+
+<!-- Localization note: the following two strings are interpolated
+     into fxaccount_create_account_policy_text2; see note for that
+     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_policy_linktos 'Pogoje uporabe'>
+<!ENTITY fxaccount_policy_linkprivacy 'Obvestilo o zasebnosti'>
+
+<!ENTITY fxaccount_getting_started_welcome_to_sync 'Pozdravljeni v &syncBrand.shortName.label;'>
+<!ENTITY fxaccount_getting_started_description 'Prijavite se in sinhronizirajte zavihke, zaznamke, gesla in še kaj.'>
+<!ENTITY fxaccount_getting_started_get_started 'Začni'>
+<!ENTITY fxaccount_getting_started_old_firefox 'Uporabljate starejšo različico &syncBrand.shortName.label;?'>
+
+<!-- Localization note: the Firefox below should not change with the
+     particular version of Firefox installed (Release, Beta, Aurora,
+     etc).  The account remains a "Firefox" account. -->
+<!ENTITY fxaccount_create_account_header2 'Ustvari Firefox Račun'>
+<!ENTITY fxaccount_create_account_password_length_restriction 'Mora vsebovati vsaj 8 znakov'>
+<!ENTITY fxaccount_create_account_day_of_birth 'Dan'>
+<!ENTITY fxaccount_create_account_month_of_birth 'Mesec'>
+<!ENTITY fxaccount_create_account_year_of_birth 'Leto rojstva'>
+<!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
+<!ENTITY fxaccount_create_account_policy_text2 'Z nadaljevanjem sprejemam &formatS1; in &formatS2; spletnih storitev Firefox.'>
+<!ENTITY fxaccount_create_account_button 'Naprej'>
+<!ENTITY fxaccount_create_account_choose_what_to_sync 'Izberite, kaj želite sinhronizirati'>
+<!ENTITY fxaccount_create_account_sign_in_instead 'Že imate račun? Prijavite se'>
+<!ENTITY fxaccount_create_account_1990_or_earlier '1990 ali prej'>
+<!ENTITY fxaccount_create_account_unknown_error 'Ni bilo mogoče ustvariti računa'>
+
+<!ENTITY fxaccount_account_create_not_allowed 'Ni mogoče ustvariti računa'>
+<!ENTITY fxaccount_account_create_not_allowed_you_must_meet_certain_age_requirements 'Za ustvarjanje računa morate ustrezati starostni omejitvi.'>
+<!ENTITY fxaccount_account_create_not_allowed_learn_more 'Več o tem'>
+
+<!ENTITY fxaccount_confirm_account_header 'Potrdite račun'>
+<!-- Localization note: &formatS; is the Firefox account's email address. -->
+<!ENTITY fxaccount_confirm_account_verification_link 'Potrditvena povezava je bila poslana na &formatS;'>
+<!ENTITY fxaccount_confirm_account_resend_email 'Pošlji ponovno'>
+<!ENTITY fxaccount_confirm_account_change_email 'Pozabim ta e-poštni naslov?'>
+<!ENTITY fxaccount_confirm_account_verification_link_sent2 'Potrditvena e-pošta poslana'>
+<!ENTITY fxaccount_confirm_account_verification_link_not_sent2 'Ni bilo mogoče poslati potrditvene pošte'>
+<!ENTITY fxaccount_resend_unlock_code_button_label 'Ponovno pošlji e-pošto za odklep'>
+<!ENTITY fxaccount_unlock_code_sent 'E-pošta za odklep računa poslana'>
+<!ENTITY fxaccount_unlock_code_not_sent 'E-pošte za odklep računa ni mogoče poslati'>
+
+<!ENTITY fxaccount_sign_in_sub_header 'Prijava'>
+<!ENTITY fxaccount_sign_in_button_label 'Prijava'>
+<!ENTITY fxaccount_sign_in_forgot_password 'Pozabljeno geslo?'>
+<!ENTITY fxaccount_sign_in_create_account_instead 'Ustvari račun'>
+<!ENTITY fxaccount_sign_in_unknown_error 'Prijava ni uspela'>
+
+<!ENTITY fxaccount_account_verified_sub_header 'Račun potrjen'>
+<!ENTITY fxaccount_account_verified_description2 'Sinhronizacija podatkov se bo začela.'>
+
+<!ENTITY fxaccount_migration_finished_header 'Nadgradnja končana'>
+
+<!ENTITY fxaccount_update_credentials_header 'Prijava'>
+<!ENTITY fxaccount_update_credentials_button_label 'Prijava'>
+<!ENTITY fxaccount_update_credentials_unknown_error 'Prijava ni uspela'>
+
+<!ENTITY fxaccount_finish_migrating_header 'Prijavite se za dokončanje nadgranje'>
+<!ENTITY fxaccount_finish_migrating_button_label 'Končaj nadgradnjo'>
+<!ENTITY fxaccount_finish_migrating_description 'Med nadgradnjo se lahko prensejo večje količine podatkov. Priporočamo uporabo omrežja WiFi.'>
+
+<!ENTITY fxaccount_status_header2 'Firefox Račun'>
+<!ENTITY fxaccount_status_signed_in_as 'Prijavljen kot'>
+<!ENTITY fxaccount_status_auth_server 'Strežnik za račun'>
+<!ENTITY fxaccount_status_sync_now 'Sinhroniziraj zdaj'>
+<!ENTITY fxaccount_status_syncing2 'Sinhronizacija …'>
+<!ENTITY fxaccount_status_device_name 'Ime naprave'>
+<!ENTITY fxaccount_status_sync_server 'Strežnik za Sync'>
+<!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
+<!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label;: omogočen'>
+<!ENTITY fxaccount_status_needs_verification2 'Vaš račun mora biti potrjen. Tapnite za ponovno pošiljanje potrditvene e-pošte.'>
+<!ENTITY fxaccount_status_needs_credentials 'Povezava ni mogoča. Tapnite za prijavo.'>
+<!ENTITY fxaccount_status_needs_upgrade 'Za prijavo morate nadgraditi &brandShortName;.'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '&syncBrand.shortName.label; je nastavljen, vendar sinhronizacija ne poteka samodejno. Vključite “Samodejno sinhroniziraj podatke” v Androidovem menu Nastavitve &gt; Uporaba podatkov.'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 '&syncBrand.shortName.label; je nastavljen, vendar sinhronizacija ne poteka samodejno. Vključite “Samodejno sinhroniziraj podatke” v Androidovem menu Nastavitve &gt; Računi.'>
+<!ENTITY fxaccount_status_needs_finish_migrating 'Tapnite za prijavo v vaš nov Firefox Račun.'>
+<!ENTITY fxaccount_status_bookmarks 'Zaznamki'>
+<!ENTITY fxaccount_status_history 'Zgodovina'>
+<!ENTITY fxaccount_status_passwords 'Gesla'>
+<!ENTITY fxaccount_status_tabs 'Odprti zavihki'>
+<!ENTITY fxaccount_status_legal 'Pravni pouk' >
+<!-- Localization note: when tapped, the following two strings link to
+     external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_status_linktos 'Pogoji uporabe'>
+<!ENTITY fxaccount_status_linkprivacy 'Obvestilo o zasebnosti'>
+<!ENTITY fxaccount_status_more 'Več &ellipsis;'>
+
+<!ENTITY fxaccount_remove_account_dialog_title 'Odstranim Firefox Račun?'>
+<!ENTITY fxaccount_remove_account_dialog_message '&brandShortName; se bo prenehal sinhronizirati z vašim računom, vendar ne bo izbrisal podatkov o brskanju na tej napravi.'>
+<!-- Localization note: format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_remove_account_toast 'Firefox Račun &formatS; odstranjen.'>
+
+<!ENTITY fxaccount_remove_account_menu_item 'Odstrani račun'>
+
+<!-- Localization note: this is the name shown by the Android system
+     itself for a Firefox account. Don't localize this. -->
+<!ENTITY fxaccount_account_type_label 'Firefox'>
+
+<!-- Localization note: these are shown by the Android system itself,
+     when the user navigates to the Android > Accounts > [Firefox
+     Account] Screen. The link takes the user to the Firefox account
+     status activity, which lets them manage their Firefox
+     account. -->
+<!ENTITY fxaccount_options_title 'Možnosti &syncBrand.shortName.label;'>
+<!ENTITY fxaccount_options_configure_title 'Nastavi &syncBrand.shortName.label;'>
+
+<!-- Localization note: these error messages are shown after a request
+     has been made to the remote server, and an error of some type has
+     been returned. -->
+<!ENTITY fxaccount_remote_error_UPGRADE_REQUIRED 'Nadgraditi morate Firefox'>
+
+<!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_CREATE_AN_ACCOUNT_THAT_ALREADY_EXISTS_2 'Račun že obstaja. &formatS1;'>
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST 'Neveljavna e-pošta ali geslo'>
+<!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD 'Neveljavna e-pošta ali geslo'>
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT 'Račun ni potrjen'>
+<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS 'Strežnik je zaseden, ponovno poskusite pozneje'>
+<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD 'Strežnik je zaseden, ponovno poskusite pozneje'>
+<!ENTITY fxaccount_remote_error_UNKNOWN_ERROR 'Prišlo je do napake'>
+<!ENTITY fxaccount_remote_error_COULD_NOT_CONNECT 'Povezava z omrežjem ni uspela'>
+<!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED 'Račun je zaklenjen. &formatS1;'>
+
+<!ENTITY fxaccount_sync_sign_in_error_notification_title2 '&syncBrand.shortName.label; ni povezan'>
+<!-- Note to translators: the format string below will be replaced
+     with the Firefox account's email address. -->
+<!ENTITY fxaccount_sync_sign_in_error_notification_text2 'Tapnite za prijavo kot &formatS;'>
+
+<!ENTITY fxaccount_sync_finish_migrating_notification_title 'Končaj nadgradnjo &syncBrand.shortName.label;?'>
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_finish_migrating_notification_text 'Tapnite za prijavo kot &formatS;'>

@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Navigați în mod fără urme">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Deschid o fereastră fără urme?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "&brandShortName; nu va memora nimic pentru această fereastră.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "&brandShortName; nu va memora nimic pentru această fereastră fără urme.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Aceasta include istoricul navigării, istoricul căutărilor, istoricul descărcărilor, istoricul formularelor web, cookie-urile și fișierelor de internet temporare. Totuși, fișierele pe care le-ați descărcat și semnele de carte pe care le-ați făcut vor fi păstrate.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Nu sunteți într-o fereastră fără urme.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Cu toate că acest calculator nu va păstra istoricul navigării, furnizorul de internet sau angajatorul pot încă să urmărească paginile pe care le vizitați.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Aflați mai multe.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Deschide o fereastră fără urme">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "m">

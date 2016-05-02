@@ -1,0 +1,81 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- These strings are for use specifically in the editor's image and form image dialogs. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Image Properties">
+
+<!ENTITY pixelsPopup.value "điểm ảnh">
+
+<!-- These are in the Location tab panel -->
+<!ENTITY locationEditField.label "Địa chỉ Hình ảnh:">
+<!ENTITY locationEditField.accessKey "a">
+<!ENTITY locationEditField.tooltip "Gõ vào tên hoặc vị trí của hình ảnh">
+<!ENTITY title.label "Ghi chú:">
+<!ENTITY title.accessKey "G">
+<!ENTITY title.tooltip "Thuộc tính 'title' html hiển thị dưới dạng ghi chú">
+<!ENTITY altText.label "Văn bản thay thế:">
+<!ENTITY altText.accessKey "V">
+<!ENTITY altTextEditField.tooltip "Gõ văn bản hiển thị thay cho hình ảnh">
+<!ENTITY noAltText.label "Không dùng văn bản thay thế">
+<!ENTITY noAltText.accessKey "K">
+
+<!ENTITY previewBox.label "Xem trước Hình ảnh">
+
+<!-- These controls are in the Dimensions tab panel -->
+<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!ENTITY actualSize.label "Kích thước Thật:">
+<!ENTITY actualSizeRadio.label "Kích thước Thật">
+<!ENTITY actualSizeRadio.accessKey "T">
+<!ENTITY actualSizeRadio.tooltip "Chuyển ảnh về kích thước thật">
+<!ENTITY customSizeRadio.label "Kích thước Tùy biến">
+<!ENTITY customSizeRadio.accessKey "b">
+<!ENTITY customSizeRadio.tooltip "Thay đổi kích thước như đang hiển thị trên trang">
+<!ENTITY heightEditField.label "Cao:">
+<!ENTITY heightEditField.accessKey "C">
+<!ENTITY widthEditField.label "Rộng:">
+<!ENTITY widthEditField.accessKey "R">
+<!ENTITY constrainCheckbox.label "Giữ nguyên">
+<!ENTITY constrainCheckbox.accessKey "G">
+<!ENTITY constrainCheckbox.tooltip "Giữ nguyên tỉ lệ ảnh">
+
+<!-- These controls are in the Image Map box of the expanded area -->
+<!ENTITY imagemapBox.label "Bản đồ Hình ảnh">
+<!ENTITY removeImageMapButton.label "Xóa">
+<!ENTITY removeImageMapButton.accessKey "X">
+<!ENTITY editImageMapButton.label "Chỉnh sửa…">
+<!ENTITY editImageMapButton.tooltip "Tạo các hotspot có thể nhấn được cho hình ảnh này">
+
+<!-- These are the options for image alignment -->
+<!ENTITY alignment.label "Căn Chữ theo Hình ảnh">
+<!ENTITY bottomPopup.value "Theo phần dưới">
+<!ENTITY topPopup.value "Theo phần trên">
+<!ENTITY centerPopup.value "Ở giữa">
+<!ENTITY wrapRightPopup.value "Bao lại ở bên phải">
+<!ENTITY wrapLeftPopup.value "Bao lại ở bên trái">
+
+<!-- These controls are in the Spacing Box -->
+<!ENTITY spacingBox.label "Khoảng cách">
+<!ENTITY leftRightEditField.label "Trái và Phải:">
+<!ENTITY leftRightEditField.accessKey "T">
+<!ENTITY topBottomEditField.label "Trên và Dưới:">
+<!ENTITY topBottomEditField.accessKey "D">
+<!ENTITY borderEditField.label "Đường viền Liên tục:">
+<!ENTITY borderEditField.accessKey "v">
+
+<!-- These controls are in the Link Box -->
+<!ENTITY showImageLinkBorder.label "Hiện viền xung quanh ảnh liên kết">
+<!ENTITY showImageLinkBorder.accessKey "H">
+<!ENTITY LinkAdvancedEditButton.label "Sửa đổi Liên kết Nâng cao…">
+<!ENTITY LinkAdvancedEditButton.accessKey "L">
+<!ENTITY LinkAdvancedEditButton.tooltip "Add or modify HTML attributes, style attributes, and JavaScript">
+
+<!-- These tabs are currently used in the image input dialog -->
+<!ENTITY imageInputTab.label "Biểu mẫu">
+<!ENTITY imageLocationTab.label "Địa chỉ">
+<!ENTITY imageDimensionsTab.label "Chiều">
+<!ENTITY imageAppearanceTab.label "Diện mạo">
+<!ENTITY imageLinkTab.label "Liên kết">
+

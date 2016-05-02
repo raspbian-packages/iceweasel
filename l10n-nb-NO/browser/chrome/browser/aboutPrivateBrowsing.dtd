@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Du er nå i privat modus">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Åpne et privat vindu?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "&brandShortName; vil ikke huske historikk i dette vinduet.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "&brandShortName; vil ikke huske historikk i private vinduer.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Det gjelder også nettleserhistorikk, søkehistorikk, nedlastings- og skjemahistorikk, infokapsler og midlertidige internettfiler. Filer du laster ned, og bokmerker du lager, vil likevel beholdes.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Du er for tiden ikke i et privat vindu.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Selv om denne datamaskinen ikke har spor av nettleserhistorikken, kan arbeidsgiveren din eller internettilbyderen likevel spore hvilke sider du besøker.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Les mer.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Åpne et privat vindu">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "Å">

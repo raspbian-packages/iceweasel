@@ -1,0 +1,46 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY itemFormatting.label             "Mentrezhañ">
+<!ENTITY itemTags.label                   "Merkoù">
+
+<!ENTITY style.label                      "Stil :">
+<!ENTITY style.accesskey                  "S">
+<!ENTITY regularStyle.label               "Ingal">
+<!ENTITY bold.label                       "Tev">
+<!ENTITY italic.label                     "Stouet">
+<!ENTITY boldItalic.label                 "Stouet tev">
+<!ENTITY size.label                       "Ment :">
+<!ENTITY size.accesskey                   "M">
+<!ENTITY regularSize.label                "Ingal">
+<!ENTITY bigger.label                     "Brasoc'h">
+<!ENTITY smaller.label                    "Bihanoc'h">
+<!ENTITY quotedTextColor.label            "Liv :">
+<!ENTITY quotedTextColor.accesskey        "L">
+<!ENTITY displayWidth.label               "Kemennadennoù testenn eeun">
+<!ENTITY displayText.label                "Pa 'z emañ o skrammañ kemennadennoù gant testenn eeun meneget :">
+<!-- LOCALIZATION NOTE : (emoticonsAndStructs.label) 'Emoticons' are also known as 'Smileys', e.g. :-)   -->
+
+<!ENTITY convertEmoticons.label        "Diskouez fromarlunioù evel kevregadoù">
+<!ENTITY convertEmoticons.accesskey    "D">
+<!-- labels -->
+
+<!ENTITY displayTagsText.label     "Arveret e vez merkoù da rummañ ha lakaat tevet war ho kemennadennoù.">
+<!ENTITY addTagButton.label        "Ouzhpennañ">
+<!ENTITY addTagButton.accesskey    "O">
+<!ENTITY editTagButton.label       "Embann">
+<!ENTITY editTagButton.accesskey   "E">
+<!ENTITY removeTagButton.label     "Dilemel">
+<!ENTITY removeTagButton.accesskey "D">
+<!-- Fonts and Colors -->
+
+<!ENTITY fontsAndColors1.label   "Nodrezhoù ha livioù">
+<!ENTITY defaultFont.label       "Nodrezh dre ziouer:">
+<!ENTITY defaultFont.accesskey   "z">
+<!ENTITY defaultSize.label       "Ment:">
+<!ENTITY defaultSize.accesskey   "M">
+<!ENTITY fontOptions.accesskey   "K">
+<!ENTITY fontOptions.label       "Kempleshoc'h…">
+<!ENTITY colorButton.label       "Livioù…">
+<!ENTITY colorButton.accesskey   "i">

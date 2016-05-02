@@ -1,0 +1,23 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- WARNING! This file contains UTF-8 encoded characters!
+   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
+   - your editor isn't using UTF-8 encoding and may munge up the document!
+  -->
+
+<!ENTITY pref.mainbox.label "הגדרות כלליות" >
+<!ENTITY pref.dateformat.label "מבנה תאריך:" >
+<!ENTITY pref.dateformat.accesskey "ת">
+<!ENTITY pref.dateformat.long "ארוך" >
+<!ENTITY pref.dateformat.short "קצר"  >
+<!ENTITY pref.defaultlength.label "אורך אירוע ברירת מחדל:" >
+<!ENTITY pref.defaultlength.accesskey "א">
+<!ENTITY pref.defaultsnoozelength.label "אורך תנומה ברירת מחדל:" >
+<!ENTITY pref.defaultsnoozelength.accesskey "ת">
+
+<!ENTITY pref.accessibility.label "נגישות" >
+<!ENTITY pref.systemcolors.label "צבעים מותאמים לנגישות" >
+<!ENTITY pref.systemcolors.accesskey "נ">
+

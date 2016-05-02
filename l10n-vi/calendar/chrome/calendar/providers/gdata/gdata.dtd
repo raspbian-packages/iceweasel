@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY gdata-provider.label "Google Lịch">
+
+<!ENTITY gdata.privacy.default.label "Google Mặc Định">
+<!ENTITY gdata.privacy.default.accesskey "G">
+
+<!ENTITY gdata.migration.title "Di chuyển các bộ lịch chỉ-đọc">
+<!ENTITY gdata.migration.description "Nhà cung cấp cho Google Lịch nhận thấy các bộ lịch của bạn chỉ có thể truy cập Google Lịch trong chế độ chỉ-đọc. Nếu bạn muốn nâng cấp bất kì bộ lịch nào, vui lòng chọn chúng ở bên dưới">
+<!ENTITY gdata.migration.upgrade.label "Nâng cấp">
+<!ENTITY gdata.migration.upgrade.accesskey "N">
+<!ENTITY gdata.migration.showagain.label "Luôn luôn kiểm tra ">
+
+<!ENTITY gdata.reminder.action.sms.label "Gửi một Tin nhắn Văn bản">

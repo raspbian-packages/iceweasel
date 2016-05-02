@@ -1,0 +1,15 @@
+/usr/lib/@browser@/@browser@ /usr/bin/@browser@
+/usr/lib/@browser@/@browser@ /usr/lib/@browser@/firefox-bin
+/usr/share/@browser@/browser/icons/mozicon128.png /usr/share/icons/hicolor/128x128/apps/@browser@.png
+/usr/share/@browser@/browser/chrome/icons/default/default48.png /usr/share/icons/hicolor/48x48/apps/@browser@.png
+/usr/share/@browser@/browser/chrome/icons/default/default48.png /usr/share/pixmaps/@browser@.png
+/etc/@browser@/pref /usr/share/@browser@/browser/defaults/syspref
+/etc/@browser@/profile /usr/share/@browser@/browser/defaults/profile
+
+/usr/share/@browser@/browser/icons /usr/lib/@browser@/browser/icons
+/usr/share/@browser@/browser/chrome /usr/lib/@browser@/browser/chrome
+/usr/share/@browser@/browser/defaults /usr/lib/@browser@/browser/defaults
+
+/usr/share/@browser@/webapprt /usr/lib/@browser@/webapprt
+
+@DICT_DIR@ usr/lib/@browser@/dictionaries

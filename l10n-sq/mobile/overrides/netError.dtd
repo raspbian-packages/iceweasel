@@ -1,0 +1,189 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+
+<!ENTITY loadError.label "Problem në ngarkimin e faqes">
+<!ENTITY retry.label "Riprovoni">
+
+<!-- Specific error messages -->
+
+<!ENTITY connectionFailure.title "Nuk arrin të lidhet">
+<!ENTITY connectionFailure.longDesc2 "&sharedLongDesc3;">
+
+<!ENTITY deniedPortAccess.title "Kjo adresë është e ndaluar">
+<!ENTITY deniedPortAccess.longDesc "">
+
+<!ENTITY dnsNotFound.title "Nuk u gjet shërbyes">
+<!-- LOCALIZATION NOTE (dnsNotFound.longDesc4) This string contains markup including widgets for searching
+     or enabling wifi connections. The text inside tags should be localized.  Do not change the ids. -->
+<!ENTITY dnsNotFound.longDesc4 "
+<ul>
+  <li>Kontrolloni adresën për gabime shkrimi si, p.sh.,
+    <strong>ww</strong>.shembull.com në vend të
+    <strong>www</strong>.shembull.com</li>
+    <div id='searchbox'>
+      <input id='searchtext' type='search'></input>
+      <button id='searchbutton'>Kërkoni</button>
+    </div>
+  <li>Nëse nuk arrini të ngarkoni qoftë edhe një faqe, kontrollojini pajisjes tuaj lidhjen për të dhëna ose atë Wi-Fi.
+    <button id='wifi'>Aktivizoni Wi-Fi-n</button>
+  </li>
+</ul>
+">
+
+<!ENTITY fileNotFound.title "Nuk u gjet kartelë">
+<!ENTITY fileNotFound.longDesc "
+<ul>
+  <li>Kontrolloni emrin e kartelës për gabime në shkrimin e tij.</li>
+  <li>Shihni mos është lëvizur, riemërtuar a fshirë kartela.</li>
+</ul>
+">
+
+<!ENTITY generic.title "Oops.">
+<!ENTITY generic.longDesc "
+<p>&brandShortName;-u, për ndonjë arsye, nuk mund ta ngarkojë këtë faqe.</p>
+">
+
+<!ENTITY malformedURI.title "Vendndodhja nuk është e vlefshme">
+<!-- LOCALIZATION NOTE (malformedURI.longDesc2) This string contains markup including widgets for searching
+     or enabling wifi connections. The text inside the tags should be localized. Do not touch the ids. -->
+<!ENTITY malformedURI.longDesc2 "
+<ul>
+  <li>Adresat Web zakonisht shkruhen si
+    <strong>http://www.shembull.com/</strong></li>
+    <div id='searchbox'>
+      <input id='searchtext' type='search'></input>
+      <button id='searchbutton'>Kërkoni</button>
+    </div>
+  <li>Sigurohuni që po përdorni pjerrëse djathtas (d.m.th.
+    <strong>/</strong>).</li>
+</ul>
+">
+
+<!ENTITY netInterrupt.title "Lidhja u ndërpre">
+<!ENTITY netInterrupt.longDesc2 "&sharedLongDesc3;">
+
+<!ENTITY netOffline.title "Mënyrë i Palidhur">
+<!ENTITY netOffline.longDesc3 "
+<ul>
+  <li>Riprovojeni. &brandShortName;-i do të përpiqet të hapë një lidhje dhe të ringarkojë faqen.
+    <button id='wifi'>Aktivizoni Wi-Fi-n</button>
+  </li>
+</ul>
+">
+
+<!ENTITY notCached.title "Dokumenti Skadoi">
+<!ENTITY notCached.longDesc "<p>Dokumenti i kërkuar nuk gjendet më te fshehtina e &brandShortName;-it.</p><ul><li>Si një masë parandaluese, &brandShortName;-i nuk rikërkon vetvetiu dokumente me spec.</li><li>Që ta rikërkoni dokumentin prej sajtit, klikoni mbi Riprovoni.</li></ul>">
+
+<!ENTITY contentEncodingError.title "Gabim Kodimi Lënde">
+<!ENTITY contentEncodingError.longDesc "
+<ul>
+  <li>Ju lutemi, lidhuni me të zotët e sajtit për t&apos;u bërë të ditur këtë problem.</li>
+</ul>
+">
+
+<!ENTITY unsafeContentType.title "Lloj Jo i Parrezik Kartelash">
+<!ENTITY unsafeContentType.longDesc "
+<ul>
+  <li>Ju lutemi, lidhuni me të zotët e sajtit për t&apos;u bërë të ditur këtë problem.</li>
+</ul>
+">
+
+<!ENTITY netReset.title "Lidhja u rivendos">
+<!ENTITY netReset.longDesc2 "&sharedLongDesc3;">
+
+<!ENTITY netTimeout.title "Lidhjes i përfundoi koha">
+<!ENTITY netTimeout.longDesc2 "&sharedLongDesc3;">
+
+<!ENTITY unknownProtocolFound.title "Adresa nuk u kuptua">
+<!ENTITY unknownProtocolFound.longDesc "
+<ul>
+  <li>Mund t&apos;ju duhet të instaloni tjetër program për të hapur këtë adresë.</li>
+</ul>
+">
+
+<!ENTITY proxyConnectFailure.title "Shërbyesi ndërmjetës po hedh poshtë lidhjet">
+<!ENTITY proxyConnectFailure.longDesc "
+<ul>
+  <li>Kontrolloni rregullimet për ndërmjetësin, për t&apos;u siguruar që janë të sakta.</li>
+  <li>Lidhuni me përgjegjësin e rrjetit, për t&apos;u siguruar që shërbyesi ndërmjetës punon.</li>
+</ul>
+">
+
+<!ENTITY proxyResolveFailure.title "Nuk arrin të gjejë shërbyesin ndërmjetës">
+<!ENTITY proxyResolveFailure.longDesc3 "
+<ul>
+  <li>Kontrolloni rregullimet për ndërmjetësin, për t&apos;u siguruar që janë të sakta.</li>
+  <li>Kontrolloni për t&apos;u siguruar që pajisja juaj ka lidhje funksionale të dhënash ose Wi-Fi.
+    <button id='wifi'>Aktivizoni Wi-Fi-n</button>
+  </li>
+</ul>
+">
+
+<!ENTITY redirectLoop.title "Faqja nuk është ridrejtuar si duhet">
+<!ENTITY redirectLoop.longDesc "
+<ul>
+  <li>Ndonjëherë ky problem mund të shkaktohet nga çaktivizim apo mospranim cookie-sh.</li>
+</ul>
+">
+
+<!ENTITY unknownSocketType.title "Përgjigje e papritur prej shërbyesit">
+<!ENTITY unknownSocketType.longDesc "
+<ul>
+  <li>Kontrolloni për t&apos;u siguruar që sistemi juaj ka të instaluar Përgjegjësin e Sigurisë Vetjake.</li>
+  <li>Kjo mund të vijë nga një formësim jostandard te shërbyesi.</li>
+</ul>
+">
+
+<!ENTITY nssFailure2.title "Dështoi Lidhja e Sigurt">
+<!ENTITY nssFailure2.longDesc2 "
+<ul>
+  <li>Faqja që po provoni të shihni nuk shfaqet dot, ngaqë mirëfilltësia e të dhënave të marra nuk u vërtetua dot.</li>
+  <li>Ju lutemi, lidhuni me të zotët e sajtit për t&apos;u bërë të ditur këtë problem.</li>
+</ul>
+">
+
+<!ENTITY nssBadCert.title "Dështoi Lidhja e Sigurt">
+<!ENTITY nssBadCert.longDesc2 "
+<ul>
+  <li>Mund të jetë problem i formësimit të shërbyesit, ose mundet që dikush të jetë duke imituar shërbyesin.</li>
+  <li>Nëse në të kaluarën jeni lidhur me sukses te ky shërbyes, gabimi mund të jetë i përkohshëm, dhe mund të riprovonit më vonë.</li>
+</ul>
+">
+
+<!ENTITY sharedLongDesc3 "
+<ul>
+  <li>Sajti mund të jetë përkohësisht jashtë pune ose tepër i zënë. Riprovoni pas pak çastesh.</li>
+  <li>Nëse nuk arrini të ngarkoni qoftë edhe një faqe, kontrolloni lidhjen e pajisjes suaj për të dhëna ose lidhjen Wi-Fi.
+    <button id='wifi'>Aktivizoni Wi-Fi-n</button>
+  </li>
+</ul>
+">
+
+<!ENTITY cspBlocked.title "Bllokuar nga Rregullat e Sigurisë për Lëndën">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName;-u e parandaloi ngarkimin e kësaj faqeje në këtë mënyrë, ngaqë për faqen ka rregulla sigurie lënde që nuk e lejojnë këtë.</p>">
+
+<!ENTITY corruptedContentError.title "Gabim nga Lëndë e Dëmtuar">
+<!ENTITY corruptedContentError.longDesc "<p>Faqja që po përpiqeni të shihni nuk mund të shfaqet, ngaqë u kap një gabim në transmetimin e të dhënave.</p><ul><li>Ju lutemi, lidhuni me të zotët e sajtit për t&apos;u njoftuar këtë problem.</li></ul>">
+
+<!ENTITY securityOverride.linkText "Ose mund të shtoni një përjashtim…">
+<!ENTITY securityOverride.getMeOutOfHereButton "Hiqmë prej këtej!">
+<!ENTITY securityOverride.exceptionButtonLabel "Shtoni Përjashtim…">
+
+<!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
+contents of the <xul:button> tags.  The only language content is the label= field,
+which uses strings already defined above. The button is included here (instead of
+netError.xhtml) because it exposes functionality specific to firefox. -->
+
+<!ENTITY securityOverride.warningContent "
+<p>Nuk do të ishte e arsyeshme të shtonit një përjashtim nëse përdorni një lidhje internet të cilën nuk e besoni plotësisht, ose nëse nuk jeni mësuar të shihni sinjalizim për këtë shërbyes.</p>
+
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
+">
+
+<!ENTITY remoteXUL.title "XUL i Largët">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Ju lutemi, lidhuni me të zotët e sajtit që t&apos;i njoftoni për këtë problem.</li></ul></p>">

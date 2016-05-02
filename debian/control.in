@@ -1,0 +1,174 @@
+Source: iceweasel
+Section: web
+Priority: optional
+Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
+Uploaders: Mike Hommey <glandium@debian.org>
+Build-Depends: autotools-dev,
+               debhelper (>= 7.2.3),
+%if BACKPORT == wheezy
+               gcc-4.7,
+               g++-4.7,
+%endif
+               autoconf2.13,
+               libx11-dev,
+               libxt-dev,
+%if GTK3
+               libgtk-3-dev,
+%endif
+               libgtk2.0-dev (>= 2.10),
+               libglib2.0-dev (>= 2.16.0),
+               libstartup-notification0-dev,
+               libgnomevfs2-dev,
+               libgnome2-dev,
+               libgnomeui-dev,
+               libjpeg-dev,
+               zlib1g-dev,
+               libbz2-dev,
+               libreadline-dev | libreadline5-dev,
+               python2.7,
+               python-minimal (>= 2.6.6-13~),
+               python-ply,
+               dpkg-dev (>= 1.16.1.1~),
+%if !LESS_SYSTEM_LIBS
+               libnspr4-dev (>= 2:4.10.10~),
+               libnss3-dev (>= 2:3.19.2.1~),
+               libsqlite3-dev (>= 3.8.9),
+               libvpx-dev (>= 1.3.0),
+%endif
+               libhunspell-dev (>= 1.2),
+               libdbus-glib-1-dev,
+               libasound2-dev [linux-any],
+               libiw-dev [linux-any],
+               libnotify-dev,
+               libffi-dev,
+               libevent-dev (>= 1.4.1),
+               mesa-common-dev,
+%if BACKPORT != wheezy
+               libgstreamer1.0-dev,
+               libgstreamer-plugins-base1.0-dev,
+%else
+               libgstreamer0.10-dev,
+               libgstreamer-plugins-base0.10-dev,
+%endif
+               libpulse-dev,
+               yasm (>= 1.1),
+               zip,
+               unzip,
+               locales,
+               xvfb,
+               xfonts-base,
+               xauth,
+               ttf-bitstream-vera,
+               fonts-freefont-ttf | ttf-freefont,
+               fonts-dejima-mincho | ttf-dejima-mincho,
+               imagemagick,
+               librsvg2-bin,
+               xsltproc,
+               iso-codes,
+               gcc-4.7,
+               g++-4.7
+Build-Conflicts: graphicsmagick-imagemagick-compat,
+                 liboss4-salsa-dev,
+                 libhildonmime-dev,
+                 libosso-dev
+Standards-Version: 3.9.6.0
+Vcs-Git: git://anonscm.debian.org/pkg-mozilla/iceweasel.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-mozilla/iceweasel.git
+
+Package: @browser@
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         fontconfig,
+         procps,
+         debianutils (>= 1.16),
+         libsqlite3-0 (>= 3.7.12-1~)
+Suggests: fonts-stix | otf-stix,
+          fonts-oflb-asana-math,
+          fonts-mathjax,
+          mozplugger,
+          libgssapi-krb5-2 | libkrb53,
+          libgnomeui-0,
+          libcanberra0
+%if BACKPORT != wheezy
+Recommends: gstreamer1.0-libav,
+            gstreamer1.0-plugins-good
+%else
+Recommends: gstreamer0.10-ffmpeg,
+            gstreamer0.10-plugins-good
+%endif
+Conflicts: j2re1.4,
+           pango-graphite (<< 0.9.3)
+Breaks: xul-ext-torbutton
+Provides: www-browser,
+          gnome-www-browser
+%if browser == OFFICIAL_NAME
+%define DESCRIPTION Mozilla Firefox web browser
+%define LONGDESC1 @Browser@ is a powerful, extensible web browser with support for modern
+%define LONGDESC2 web application technologies.
+%else
+%define DESCRIPTION Web browser based on Firefox
+%define LONGDESC1 @Browser@ is Firefox, rebranded. It is a powerful, extensible web browser
+%define LONGDESC2 with support for modern web application technologies.
+%endif
+Description: @DESCRIPTION@
+ @LONGDESC1@
+ @LONGDESC2@
+
+Package: @browser@-dbg
+Architecture: any
+Priority: extra
+Section: debug
+Depends: @browser@ (= ${binary:Version}),
+%if !LESS_SYSTEM_LIBS
+         libnss3-dbg | libnss3-1d-dbg,
+         libnspr4-dbg | libnspr4-0d-dbg,
+%endif
+         ${misc:Depends}
+Description: Debugging symbols for @Browser@
+ @LONGDESC1@
+ @LONGDESC2@
+ .
+ This package contains the debugging symbols for @browser@.
+
+Package: @browser@-dev
+Section: libdevel
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         python-ply,
+%if !LESS_SYSTEM_LIBS
+         libnss3-dev,
+         libnspr4-dev,
+%endif
+         @browser@ (= ${binary:Version})
+Conflicts: xulrunner-dev,
+%if browser != OFFICIAL_NAME
+           firefox-dev
+%endif
+Description: Development files for the Gecko engine library
+ This library provides an  API for XUL applications and Gecko embedders.
+ The Gecko engine is the core of the mozilla.org applications such as
+ Firefox, Thunderbird or SeaMonkey.
+ .
+ Gecko features include XPCOM, networking, DOM editing and transaction
+ support, XBL, XUL, SVG, XSLT, XML Extras (XMLHttpRequest and DOMParser),
+ Web Services (SOAP), accessibility support, IPC services, gtkmozembed, etc.
+ .
+ Install this package if you wish to embed the Gecko engine in your
+ program or want to develop XPCOM components.
+ .
+ This package also provides the Xulrunner Software Development Kit in the
+ same form as the one you may find on mozilla.org in /usr/lib/xulrunner/sdk.
+Homepage: http://wiki.mozilla.org/XUL:Lib_XUL
+
+Package: @browser@-l10n-all
+Architecture: all
+Section: localization
+Depends: ${misc:Depends}, @L10N_PACKAGES_DEPS@
+Description: All language packages for @Browser@ (meta)
+ @LONGDESC1@
+ @LONGDESC2@
+ .
+ This is a metapackage depending on all available localizations of @Browser@.
+%include l10n/browser-l10n.control

@@ -1,0 +1,40 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!--LOCALIZATION NOTE : FILE 'Privacy and Security' prefs settings -->
+<!ENTITY pref.security.title              "Privacy &amp; beveiliging">
+
+<!ENTITY tracking.label                   "Gebruikersanalyse">
+<!ENTITY trackingIntro.label              "Websites kunnen volgen hoe u ze gebruikt en dat heeft effect op uw privacy.">
+
+<!ENTITY doNotTrack.label                 "Vertel websites dat ik niet gevolgd wil worden">
+<!ENTITY doNotTrack.accesskey             "V">
+<!ENTITY trackProtect.label               "Voorkom volgactiviteiten van bekende websites">
+<!ENTITY trackProtect.accesskey           "n">
+<!ENTITY warnTrackContent.label           "Waarschuw me als bekende volgactiviteiten worden gedetecteerd">
+<!ENTITY warnTrackContent.accesskey       "W">
+
+<!ENTITY geoLocation.label                "Locatiebewust navigeren">
+<!ENTITY geoIntro.label                   "Websites kan meer informatie over uw huidige locatie vragen.">
+
+<!ENTITY geoEnabled.label                 "Vraag me om toestemming als er een verzoek wordt gedaan">
+<!ENTITY geoEnabled.accesskey             "m">
+<!ENTITY geoDisabled.label                "Schakel deze functie uit en weiger alle verzoeken">
+<!ENTITY geoDisabled.accesskey            "u">
+
+<!-- LOCALIZATION NOTE (safeBrowsing.label, blockWebForgeries.label, blockAttackSites.label):
+  The methods by which forged (phished) and attack sites will be detected by
+  phishing providers will vary from human review to machine-based heuristics
+  to a combination of both, so it's important that these strings convey the
+  meaning "reported" (and not something like "known").
+-->
+<!ENTITY safeBrowsing.label               "Veilig surfen">
+<!ENTITY safeBrowsingIntro.label          "&brandShortName; kan gerapporteerde websites met kwaadwillende inhoud blokkeren.">
+
+<!ENTITY blockAttackSites.label           "Gerapporteerde aanvalsites blokkeren (malware, virussen)">
+<!ENTITY blockAttackSites.accesskey       "b">
+
+<!ENTITY blockWebForgeries.label          "Gerapporteerde webvervalsingen blokkeren (phishing)">
+<!ENTITY blockWebForgeries.accesskey      "p">
+

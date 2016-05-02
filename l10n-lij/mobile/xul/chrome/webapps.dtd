@@ -1,0 +1,12 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY webapps.title.placeholder "Scrìvi un titòlo">
+<!ENTITY webapps.permissions "Permétti acésso:">
+<!ENTITY webapps.perm.geolocation "Navegaçión aténta a-i indirìssi">
+<!ENTITY webapps.perm.offline "Sarvatàggio di dæti fêua lìnia">
+<!ENTITY webapps.perm.notifications "Notìçie dò-u Computer">
+<!ENTITY webapps.perm.requestedHint "(neçesàio)">
+<!ENTITY webapps.add-homescreen "Azónzi a-o schèrmo câza">
+

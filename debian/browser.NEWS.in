@@ -1,0 +1,15 @@
+iceweasel (31.0-1) unstable; urgency=medium
+
+  * Since version 30.0, NTLMv1 authentication has been disabled because
+    it's known as insecure. Companies and organizations still deploying
+    the older protocol should upgrade to NTLMv2, unfortunately, it's not
+    supported by iceweasel.
+    It is however still possible to toggle the preference to continue using
+    NTLMv1, though the NTLM auth support is considered deprecated, by
+    switching the network.negotiate-auth.allow-insecure-ntlm-v1 preference
+    in about:config.
+
+    See https://developer.mozilla.org/en-US/Firefox/Releases/30/Site_Compatibility#Security
+    for more details.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 23 Jul 2014 07:38:31 +0900

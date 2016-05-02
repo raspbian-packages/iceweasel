@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- These strings are used in the about:newtab page -->
+
+<!ENTITY newtab.pageTitle "Ithebhu entsha">
+<!ENTITY newtab.customize.title "Yenza likulungele iphepha leNew Tab">
+<!ENTITY newtab.customize.enhanced "Ephuculweyo">
+<!ENTITY newtab.customize.classic "Udidi olulodwa">
+<!ENTITY newtab.customize.blank "Ayinanto">
+<!ENTITY newtab.customize.what "Liyintoni eli phepha?">
+<!ENTITY newtab.intro.header "Liyintoni eliphepha">
+<!ENTITY newtab.undo.removedLabel "Umfanekiso omncinane urhoxisiwe.">
+<!ENTITY newtab.undo.undoButton "Qhaqha okwenzileyo.">
+<!ENTITY newtab.undo.restoreButton "Buyisela Konke.">
+<!ENTITY newtab.undo.closeTooltip "Fihla">

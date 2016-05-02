@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "Selain on yksityinen selaus -tilassa">
+<!ENTITY aboutPrivateBrowsing.title.normal     "Avataanko yksityinen selaus -ikkuna?">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "&brandShortName; ei tallenna historiatietoja tälle ikkunalle.">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "&brandShortName; ei tallenna historiatietoja yksityinen selaus -ikkunoille.">
+
+<!ENTITY aboutPrivateBrowsing.description      "Näitä tietoja ovat sivu-, haku- ja lataushistoria, lomakekenttiin syötetyt tiedot, evästeet ja väliaikaistiedostot. Ladatut tiedostot ja kirjanmerkit sivustoille säilyvät normaalilla tavalla.">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "Valittuna ei ole yksityisen selauksen ikkunaa.">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "Vaikka tälle tietokoneelle ei jää jälkiä selatuista sivuista, Internet-palveluntarjoajasi tai esimerkiksi työnantajasi voi edelleen seurata, millä sivuilla on vierailtu.">
+<!ENTITY aboutPrivateBrowsing.learnMore        "Lue lisää.">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "Avaa yksityisen selauksen ikkuna">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "t">

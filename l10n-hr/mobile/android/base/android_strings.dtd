@@ -1,0 +1,505 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY  no_space_to_start_error "Nema dovoljno prostora za pokretanje &brandShortName;.">
+<!ENTITY  error_loading_file "Došlo je do greške prilikom učitavanja datoteka potrebnih za pokretanje &brandShortName;">
+
+
+
+
+<!-- Localization note: These are used as the titles of different pages on the home screen.
+     They are automatically converted to all caps by the Android platform. -->
+
+<!ENTITY  bookmarks_title "Zabilješke">
+<!ENTITY  history_title "Povijest">
+<!ENTITY  reading_list_title "Popis čitanja">
+
+
+<!ENTITY  switch_to_tab "Prebaci na karticu">
+
+<!ENTITY  crash_reporter_title "&brandShortName; izvjestitelj rušenja">
+<!ENTITY  crash_message2 "&brandShortName; je naišao na problem i srušio se. Vaše kartice bi trebale biti izlistane na &brandShortName; početnoj stranici nakon pokretanja.">
+<!ENTITY  crash_send_report_message3 "Obavijestite &vendorShortName; o ovom rušenju, kako bi ga mogli riješiti popraviti">
+<!ENTITY  crash_include_url2 "Uključi adresu stranice na kojoj sam se nalazio">
+<!ENTITY  crash_sorry "Žao nam je">
+<!ENTITY  crash_comment "Dodajte komentar (komentari su javno vidljivi)">
+<!ENTITY  crash_allow_contact2 "Dozvoli &vendorShortName; da me kontaktira oko ovog izvještaja">
+<!ENTITY  crash_email "Vaša adresa e-pošte">
+<!ENTITY  crash_closing_alert "Izađi bez slanja izvještaja o rušenju?">
+<!ENTITY  sending_crash_report "Slanje izvještaja o rušenju\u2026">
+<!ENTITY  crash_close_label "Zatvori">
+<!ENTITY  crash_restart_label "Ponovno pokreni &brandShortName;">
+<!ENTITY  exit_label "Izlaz">
+
+<!ENTITY  launcher_shortcuts_title "&brandShortName; web aplikacije">
+<!ENTITY  launcher_shortcuts_empty "Niti jedna web aplikacija nije pronađena">
+
+<!ENTITY choose_file "Odaberi datoteku">
+
+
+<!ENTITY bookmark_added "Zabilješka dodana">
+<!ENTITY bookmark_removed "Zabilješka uklonjena">
+<!ENTITY bookmark_updated "Zabilješka ažurirana">
+<!ENTITY bookmark_options "Mogućnosti">
+
+<!ENTITY history_today_section "Danas">
+<!ENTITY history_yesterday_section "Jučer">
+
+
+
+<!ENTITY go "Idi">
+<!ENTITY search "Traži">
+<!ENTITY reload "Ponovno učitaj">
+<!ENTITY forward "Naprijed">
+<!ENTITY menu "Izbornik">
+<!ENTITY back "Nazad">
+<!ENTITY stop "Zaustavi">
+<!ENTITY site_security "Sigurnost stranice">
+<!ENTITY edit_mode_cancel "Odustani">
+
+<!ENTITY close_tab "Zatvori karticu">
+<!ENTITY one_tab "1 kartica">
+<!-- Localization note (num_tabs2) : Number of tabs is always more than one.
+     We can't use android plural forms, sadly. See bug #753859. -->
+<!ENTITY num_tabs2 "&formatD; kartica">
+<!ENTITY new_tab_opened "Nova kartica otvorena">
+<!ENTITY new_private_tab_opened "Novi privatni prozor otvoren">
+<!-- Localization note (switch_button_message): This string should be as short
+     as possible because it's shown as a label in a toast.  Ideally, this string
+     is upper-case, to match Google and Android's convention. -->
+<!ENTITY switch_button_message "PREBACI">
+
+<!ENTITY settings "Postavke">
+
+<!ENTITY pref_category_advanced "Napredno">
+<!ENTITY pref_category_customize "Prilagodite">
+
+<!-- Localization note (pref_category_language) : This is the preferences
+     section in which the user picks the locale in which to display Firefox
+     UI. The locale includes both language and region concepts. -->
+
+<!ENTITY pref_category_language "Jezik">
+
+<!ENTITY pref_browser_locale "Jezik preglednika">
+<!-- Localization note (locale_system_default) : This string indicates that
+     Firefox will use the locale currently selected in Android's settings
+     to display browser chrome. -->
+
+<!ENTITY locale_system_default "Zadani sistemski">
+<!-- Localization note (overlay_share_label) : This is the label that appears
+     in Android's intent chooser when sending a link to Firefox to bookmark,
+     send to another device, or add to Reading List. -->
+<!-- Localization note (overlay_share_bookmark_btn_label) : This string is
+     used in the share overlay menu to select an action. It is the verb
+     "to bookmark", not the noun "a bookmark". -->
+<!ENTITY overlay_share_reading_list_btn_label "Dodaj na popis za čitanje">
+
+
+
+<!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
+     share overlay menu to represent the "Send Tab" action when the user
+     either has not set up Sync, or has no other devices to send a tab
+     to. -->
+
+
+
+
+<!ENTITY pref_category_search_summary "Prilagodite svoje pretraživače interneta">
+<!ENTITY pref_category_display "Prikaz">
+
+<!ENTITY pref_category_privacy_short "Privatnost">
+
+<!ENTITY pref_category_vendor "&vendorShortName;">
+
+<!ENTITY pref_category_datareporting "Izbori podataka">
+<!ENTITY pref_learn_more "Saznajte više">
+<!ENTITY pref_category_installed_search_engines "Instalirani pretraživači interneta">
+<!ENTITY pref_category_add_search_providers "Dodajte više pretraživača interneta">
+<!ENTITY pref_category_search_restore_defaults "Obnovi pretraživače interneta">
+<!ENTITY pref_search_restore_defaults "Obnovi zadane postavke">
+
+<!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
+     advisory message on the customise search providers settings page explaining how to add new
+     search providers.
+     The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!ENTITY pref_search_hint "SAVJET: Dodajte bilo koju stranicu na popis pretraživača interneta tako da dugo pritisnete na polje za pretraživanje i onda pritisnete &formatI; ikonu.">
+<!ENTITY pref_category_devtools "Alati za razvijatelje">
+
+
+<!ENTITY pref_developer_remotedebugging "Udaljeno otklanjanje grešaka">
+<!ENTITY pref_remember_signons "Zapamti lozinke">
+
+<!ENTITY pref_category_home "Početak">
+<!ENTITY pref_category_home_summary "Prilagodite početnu stranicu">
+<!ENTITY pref_category_home_panels "Ploče">
+<!ENTITY home_add_panel_title "Dodaj novu ploču">
+<!ENTITY home_add_panel_empty "Nismo mogli pronaći ploče koje biste mogli dodati.">
+<!-- Localization note (home_add_panel_installed):
+     The &formatS; will be replaced with the name of the new panel the user just
+     selected to be added to the home page. -->
+<!ENTITY home_add_panel_installed "&formatS; dodan na početnu stranicu">
+<!ENTITY pref_category_home_content_settings "Postavke sadržaja">
+<!ENTITY pref_home_updates "Automatske dopune">
+<!ENTITY pref_home_updates_enabled "Omogućeno">
+<!ENTITY pref_home_updates_wifi "Samo preko Wi-Fi">
+<!ENTITY pref_home_suggested_sites "Prikaži prijedloge stranica">
+<!ENTITY pref_home_suggested_sites_summary "Na početnoj stranici prikaži poveznice na stranice koje mislimo da će vam biti interesantne">
+<!-- Localization note: These are shown in the left sidebar on tablets -->
+
+
+<!ENTITY pref_header_help "Pomoć">
+
+
+
+
+<!ENTITY pref_cookies_menu "Kolačići">
+
+<!ENTITY pref_cookies_not_accept_foreign "Omogućeno, isključujući treće strane">
+<!ENTITY pref_cookies_disabled "Onemogućeno">
+
+
+
+
+
+<!ENTITY pref_char_encoding "Kodna stranica">
+<!ENTITY pref_char_encoding_on "Prikaži izbornik">
+<!ENTITY pref_char_encoding_off "Ne prikazuj izbornik">
+
+<!ENTITY pref_clear_private_data_category "Očisti privatne podatke">
+
+
+
+<!ENTITY pref_plugins "Priključci">
+
+<!ENTITY pref_plugins_tap_to_play "Dotakni za pokretanje">
+
+<!ENTITY pref_text_size "Veličina teksta">
+
+<!ENTITY pref_restore "Kartice">
+<!ENTITY pref_restore_always "Uvijek vrati">
+<!ENTITY pref_restore_quit "Ne vraćaj nakon izlaza iz &brandShortName;">
+<!ENTITY pref_font_size_tiny "Sićušan">
+<!ENTITY pref_font_size_small "Mali">
+<!ENTITY pref_font_size_medium "Srednji">
+<!ENTITY pref_font_size_large "Veliki">
+<!ENTITY pref_font_size_xlarge "Vrlo veliki">
+<!ENTITY pref_font_size_set "Postavi">
+<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
+(or combination of characters) is used to decrease the preview font size; a larger version of the
+same character/combination is used to increase the preview font size. It should be a concise
+representation of the language it is used in that will help show the text in the preview will change
+size. -->
+<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
+    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+
+
+
+
+
+<!ENTITY pref_use_master_password "Koristi glavnu lozinku">
+<!ENTITY pref_sync "Sync">
+
+<!ENTITY pref_search_suggestions "Prikaži prijedloge pretraživanja">
+<!ENTITY pref_import_android "Uvoz iz Androida">
+
+
+<!ENTITY pref_private_data_formdata "Povijest formi i traženja">
+<!ENTITY pref_private_data_cookies2 "Kolačići i aktivne prijave">
+<!ENTITY pref_private_data_passwords "Spremljene lozinke">
+<!ENTITY pref_private_data_cache "Priručna memorija">
+<!ENTITY pref_private_data_offlineApps "Podaci izvanmreženih stranica">
+<!ENTITY pref_private_data_siteSettings2 "Postavke stranice">
+<!ENTITY pref_private_data_downloadFiles2 "Preuzimanja">
+
+
+<!ENTITY pref_about_firefox "O &brandShortName;">
+<!ENTITY pref_vendor_faqs "Često postavljana pitanja">
+<!ENTITY pref_vendor_feedback "Dajte povratnu informaciju">
+
+<!ENTITY pref_dialog_set_default "Postavi kao zadano">
+<!ENTITY pref_dialog_default "Zadano">
+<!ENTITY pref_dialog_remove "Ukloni">
+
+<!ENTITY pref_search_last_toast "Ne možete ukloniti ili onemogućiti zadnji pretraživač interneta">
+
+<!ENTITY pref_panels_show "Prikaži">
+<!ENTITY pref_panels_hide "Sakrij">
+
+
+
+
+<!ENTITY datareporting_notification_title "&brandShortName; statistika i podaci">
+<!ENTITY datareporting_notification_action_long "Odaberite koje informacije ćete dijeliti">
+<!ENTITY datareporting_notification_action "Odaberite što ćete dijeliti">
+<!ENTITY datareporting_notification_summary "Kako bismo poboljšali vaše iskustvo, &brandShortName; automatski šalje neke informacije &vendorShortName;i.">
+<!ENTITY datareporting_notification_summary_short "Kako bismo poboljšali vaše iskustvo, &brandShortName;…">
+<!ENTITY datareporting_notification_ticker_text "&datareporting_notification_title;: &datareporting_notification_action_long;">
+<!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary2,
+     reporting_telemetry_title, datareporting_telemetry_summary,
+     datareporting_crashreporter_summary) : These match the strings in
+     en-US/chrome/browser/preferences/advanced.dtd (healthReportSection.label,
+     healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
+     crashReporterDesc.label). -->
+
+<!ENTITY datareporting_fhr_title "&brandShortName; izvještaj zdravlja">
+<!ENTITY datareporting_fhr_summary2 "Dijeli podatke sa &vendorShortName;-om o zdravlju vašeg preglednika i pomaže vam da razumijete performanse preglednika.">
+<!ENTITY datareporting_abouthr_title "Prikaži moj izvještaj o zdravlju">
+<!ENTITY datareporting_telemetry_title "Telemetrija">
+<!ENTITY datareporting_telemetry_summary "Dijeli podatke o performansama, korištenju hardvera i prilagodbama vašeg preglednika, kako bi &vendorShortName; mogla unaprijediti &brandShortName;">
+<!ENTITY datareporting_crashreporter_summary "&brandShortName; šalje izvještaje o rušenju kako bi &vendorShortName; mogla vaš preglednik učiniti stabilnijim i sigurnijim">
+<!-- Localization note (datareporting_crashreporter_title_short) : This string matches
+     (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
+<!ENTITY datareporting_crashreporter_title_short "Izvjestitelj rušenja">
+
+
+<!-- Localization note (pref_update_autodownload2) : This should mention downloading
+     specifically, since the pref only prevents automatic downloads and not the
+     actual notification that an update is available. -->
+<!ENTITY pref_update_autodownload2 "Automatski preuzmi nadogradnje">
+
+<!ENTITY pref_update_autodownload_never "Nikada">
+<!ENTITY pref_update_autodownload_always "Uvijek">
+<!-- Localization note (help_menu) : This string is used in the main menu-->
+
+<!ENTITY quit "Izlaz">
+
+<!ENTITY addons "Dodaci">
+
+<!ENTITY apps "Aplikacije">
+<!ENTITY char_encoding "Kodna stranica">
+
+<!ENTITY share "Dijeli">
+<!ENTITY share_title "Dijeli putem">
+<!ENTITY share_image_failed "Nije moguće podijeliti ovu sliku">
+<!ENTITY save_as_pdf "Spremi kao PDF">
+<!ENTITY find_in_page "Pronađi na stranici">
+<!ENTITY desktop_mode "Zahtjevaj desktop stranicu">
+<!ENTITY page "Stranica">
+<!ENTITY tools "Alati">
+<!ENTITY new_tab "Nova kartica">
+<!ENTITY new_private_tab "Nova privatna kartica">
+<!ENTITY close_all_tabs "Zatvori sve kartice">
+
+
+<!ENTITY tabs_private "Privatno">
+<!ENTITY tabs_synced "Sinkronizirano">
+<!ENTITY set_image_fail "Nije moguće postaviti sliku">
+
+<!ENTITY set_image_chooser_title "Postavi sliku kao">
+<!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+<!ENTITY find_prev "Prethodni">
+<!ENTITY find_next "Sljedeći">
+
+<!-- Localization note (media_sending_to, media_play, media_pause, media_stop) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+<!ENTITY media_play "Pokreni">
+<!ENTITY media_pause "Pauziraj">
+
+
+<!ENTITY contextmenu_open_new_tab "Otvori u novoj kartici">
+<!ENTITY contextmenu_open_private_tab "Otvori u privatnoj kartici">
+
+<!ENTITY contextmenu_add_to_launcher "Dodaj na početni ekran">
+
+<!ENTITY contextmenu_pasteandgo "Zalijepi i kreni">
+<!ENTITY contextmenu_paste "Zalijepi">
+<!ENTITY contextmenu_copyurl "Kopiraj adresu">
+<!ENTITY contextmenu_edit_bookmark "Uredi">
+<!ENTITY contextmenu_subscribe "Pretplati se na stranicu">
+<!ENTITY contextmenu_site_settings "Uredi postavke stranice">
+
+<!ENTITY contextmenu_top_sites_pin "Prikači stranicu">
+<!ENTITY contextmenu_top_sites_unpin "Otkači stranicu">
+<!ENTITY contextmenu_add_search_engine "Dodaj pretraživač interneta">
+
+<!ENTITY pref_titlebar_mode "Naslovna traka">
+<!ENTITY pref_titlebar_mode_title "Prikaži naslov stranice">
+<!ENTITY pref_titlebar_mode_url "Prikaži adresu stranice">
+<!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
+     whether or not the dynamic toolbar is enabled. -->
+
+<!-- Localization note (page_removed): This string appears in a toast message when
+     any page is removed frome about:home. This includes pages that are in history,
+     bookmarks, or reading list. -->
+
+<!ENTITY page_removed "Stranica je uklonjena">
+
+<!ENTITY bookmark_edit_title "Uredi zabilješku">
+<!ENTITY bookmark_edit_name "Naziv">
+<!ENTITY bookmark_edit_location "Lokacija">
+<!ENTITY bookmark_edit_keyword "Ključna riječ">
+<!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
+     dialog that appears after selecting the "Edit Site Settings" context menu item. -->
+
+<!ENTITY site_settings_title3       "Postavke stranice">
+
+<!ENTITY site_settings_clear        "Obriši">
+<!ENTITY site_settings_no_settings  "Nema postavki za obrisati.">
+
+<!ENTITY reading_list_added "Stranica dodana na popis za čitanje">
+<!ENTITY reading_list_removed "Stranica uklonjena sa popisa za čitanje">
+<!-- Localization note (reading_list_remove) : Used to remove the currently open page from
+     the user's reading list. The opposite of overlay_share_reading_list_btn_label. -->
+<!ENTITY reading_list_duplicate "Stranica je već na popisu za čitanje">
+<!-- Localization note (reading_list_time_minutes2) : This string is used in the "Reading List"
+     panel on the home page to give the user an estimate of how many minutes it will take to
+     read an article. The word "minute" should be abbreviated if possible. -->
+
+<!-- Localization note : These strings are used as alternate text for accessibility.
+     They are not visible in the UI. -->
+
+<!ENTITY page_action_dropmarker_description "Dodatne radnje">
+
+<!ENTITY masterpassword_create_title "Stvorite glavnu lozinku">
+<!ENTITY masterpassword_remove_title "Uklonite glavnu lozinku">
+<!ENTITY masterpassword_password "Lozinka">
+<!ENTITY masterpassword_confirm "Potvrdite lozinku">
+
+<!ENTITY button_ok "OK">
+
+<!ENTITY button_yes "Da">
+<!ENTITY button_no "Ne">
+<!ENTITY button_clear_data "Obriši podatke">
+
+
+
+<!ENTITY home_top_sites_title "Najpopularnije stranice">
+<!-- Localization note (home_top_sites_add): This string is used as placeholder
+     text underneath empty thumbnails in the Top Sites page on about:home. -->
+<!ENTITY home_top_sites_add "Dodaj stranicu">
+<!-- Localization note (home_title): This string should be kept in sync
+     with the page title defined in aboutHome.dtd -->
+
+
+
+<!ENTITY home_bookmarks_empty "Zabilješke koje spremite se pojave ovdje.">
+
+<!ENTITY home_last_tabs_title "Kartice od zadnji puta">
+<!ENTITY home_last_tabs_empty "Nedavno korištene kartice se pojave ovdje.">
+
+
+<!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
+     The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
+
+<!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
+     as an advisory message on how to add content to the reading list when the reading list empty.
+     The placeholder &formatI; will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!-- Localization note (home_reading_list_hint_accessible): This string is used
+     as alternate text for accessibility. It is not visible in the UI. -->
+<!-- Localization note (home_default_empty): This string is used as the default text when there
+     is no data to show in an about:home panel that was created by an add-on. -->
+<!-- Localization note (home_move_up_to_filter): The variable is replaced by the name of the
+     previous location in the navigation, such as the previous folder -->
+
+
+<!ENTITY home_remote_tabs_unable_to_connect "Povezivanje nije moguće">
+
+
+
+
+
+<!-- Localization note (home_remote_tabs_many_hidden_devices) : The
+     formatD is replaced with the number of hidden devices.  The
+     number of hidden devices is always more than one.  We can't use
+     Android plural forms, sadly. See Bug #753859. -->
+<!-- Localization note (home_remote_tabs_hidden_devices_title) : This is the
+     title of a dialog; we expect more than one device. -->
+<!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
+     the text of a button; we expect more than one device. -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Site identity popup -->
+<!-- Localization note (identity_run_by) : This string appears between a
+domain name (above) and an organization name (below). E.g.
+
+example.com
+which is run by
+Example Enterprises, Inc.
+
+The layout of the identity dialog prevents combining this into a single string with
+substitution variables.  If it is difficult to translate the sense of the string
+with that structure, consider a translation which ignores the preceding domain and
+just addresses the organization to follow, e.g. "This site is run by " -->
+
+
+<!-- Mixed content notifications in site identity popup -->
+
+
+<!-- Tracking content notifications in site identity popup -->
+
+
+
+<!-- Common mixed and tracking content strings in site identity popup -->
+
+<!ENTITY learn_more "Saznajte više">
+
+
+
+
+
+
+
+
+
+
+
+<!-- Localization note (suggestion_for_engine): The placeholder &formatS1; will be
+     replaced with the name of the search engine. The placeholder &formatS2; will be
+     replaced with the search query. -->
+
+
+<!-- Updater notifications -->
+
+
+
+
+
+
+
+<!-- Guest mode -->
+
+
+
+
+
+
+
+
+
+<!-- Miscellaneous -->
+<!-- LOCALIZATION NOTE (ellipsis): This text is appended to a piece of text that does not fit in the
+     designated space. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit
+     traditions in your locale. -->
+
+<!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
+     They are never shown to users -->
+
+<!-- Voice search in the awesome bar -->
+
+
+
+
+<!-- Localization note (remote_tabs_last_synced): the variable is replaced by a
+     "relative time span string" produced by Android.  This string describes the
+     time the tabs were last synced relative to the current time; examples
+     include "42 minutes ago", "4 days ago", "last week", etc. The subject of
+     "Last synced" is one of the user's other Sync clients, typically Firefox on
+     their desktop or laptop.-->
+<!-- Localization note: Used when the sync has not happend yet, showed in place of a date -->
+<!-- Find-In-Page strings -->
+<!-- LOCALIZATION NOTE (find_matchcase): This is meant to appear as an icon that changes color
+     if match-case is activated. i.e. No more than two letters, one uppercase, one lowercase. -->
